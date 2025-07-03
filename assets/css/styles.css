@@ -10,6 +10,16 @@
   src: url(../fonts/Prelo-Bold.ttf) format("truetype");
 }
 
+@font-face {
+  font-family: "Oleo Script";
+  src: url(../fonts/OleoScript-Regular.ttf) format("truetype");
+}
+
+@font-face {
+  font-family: "Roboto";
+  src: url(../fonts/Roboto_Condensed-Bold.ttf) format("truetype");
+}
+
 body,
 header,
 footer {
@@ -28,6 +38,18 @@ footer {
   justify-content: space-evenly;
   background: linear-gradient(#3c1b33, #783566);
   color: white;
+
+  h1 {
+    padding: 66px 66px 0 66px;
+  }
+
+  h2 {
+    padding-left: 66px;
+  }
+
+  .img-fluid {
+    padding: 50px 20px;
+  }
 }
 
 .header-text {
@@ -38,11 +60,13 @@ footer {
   font-size: 48px;
   margin: 0;
   line-height: 1.2;
+  font-family: "Oleo Script" !important;
 }
 
 .header h2 {
   font-size: 24px;
   margin: 10px 0;
+  font-style: italic;
 }
 
 .illustration {
@@ -59,13 +83,16 @@ footer {
   h2 {
     margin-top: 20px !important;
     margin-bottom: 20px !important;
+    font-family: "Roboto";
+    font-style: normal;
+    padding: 0;
   }
 }
 
 .header-shape-left {
   position: absolute;
-  max-height: 60%;
-  max-width: 60%;
+  max-height: 40%;
+  max-width: 40%;
   top: 0;
   left: 0;
 }
@@ -181,19 +208,28 @@ footer {
   text-align: center;
 }
 
+.tituloAula {
+  h2 {
+    margin: 0;
+  }
+  h1 {
+    margin-top: 10px;
+  }
+}
+
 /* Estilização da barra de rolagem */
-::-webkit-scrollbar-track {
+/* ::-webkit-scrollbar-track {
   background-color: #f4f4f4;
 }
 
 ::-webkit-scrollbar {
-  width: 8px;
+  width: 12px;
   background: #f4f4f4;
 }
 
 ::-webkit-scrollbar-thumb {
   background: darkgrey;
-}
+} */
 
 /*Conteúdo*/
 .conteudo {
@@ -556,7 +592,8 @@ small {
 
 /* Smartphone */
 @media (max-width: 480px) {
-  .blocoTexto, .tab-content {
+  .blocoTexto,
+  .tab-content {
     padding: 30px 30px 10px 30px !important;
   }
 
@@ -886,6 +923,11 @@ footer img {
   display: flex;
   align-items: center;
   justify-content: center;
+  gap: 15px;
+
+  b {
+    color: #783566;
+  }
 }
 
 /* Botão anterior - posicionado à esquerda e fora do carousel */
@@ -1100,7 +1142,7 @@ a.tituloItem {
   background-color: #aa1c95;
   border-radius: 0 0 5px 0;
   padding: 0% !important;
-  margin-left: 50%;
+  margin-left: 30%;
   cursor: pointer;
   align-items: center;
   justify-content: center;
@@ -1122,7 +1164,7 @@ a.tituloItem {
 /* Recolhe Sidebar */
 @media (max-width: 980px) {
   nav#menuLateral {
-    width: 50% !important;
+    width: 30% !important;
   }
 
   #sidebarButton {
@@ -1131,14 +1173,14 @@ a.tituloItem {
 
   .esconder {
     display: block;
-    margin-left: -50%;
+    margin-left: -30%;
   }
 }
 
 @media (min-width: 980px) {
   .esconder {
     display: block;
-    margin-left: -16.6667%;
+    margin-left: -16.667%;
   }
 
   #sidebarButton2 {
@@ -1221,6 +1263,26 @@ a.tituloItem {
     -webkit-backface-visibility: hidden;
     -moz-backface-visibility: hidden;
 } */
+.card-container {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 50px;
+  margin-top: 20px;
+}
+
+.carousel-item {
+  .card-content {
+    padding: 0;
+  }
+}
+
+.card-content {
+  border-radius: 8px;
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.1);
+  /* border: 0px solid #707070; */
+  padding: 30px 20px 0 20px;
+  flex-grow: 1;
+}
 
 .cards {
   justify-content: center;
@@ -1503,5 +1565,97 @@ a.tituloItem {
     width: 50px;
     height: 50px;
     font-size: 0.9rem;
+  }
+}
+@media (min-width: 1200px) {
+  #menuLateral {
+    padding-left: 30px;
+  }
+}
+
+@media (max-width: 768px) {
+  .header {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding-left: 0;
+
+    .campusVirtual {
+      max-width: 30%;
+    }
+
+    .img-fluid,
+    h1 {
+      padding: 30px;
+    }
+
+    h2 {
+      padding-left: 0px;
+    }
+  }
+
+  .header-text {
+    padding-left: 0;
+    max-width: none;
+  }
+
+  .header h1 {
+    font-size: 36px;
+    text-align: center;
+  }
+
+  .header h2 {
+    font-size: 18px;
+    text-align: center;
+  }
+
+  .illustration {
+    width: 50%;
+    max-width: 200px;
+    margin-top: 20px;
+  }
+
+  .header-shape-left {
+    max-height: 60%;
+    max-width: 60%;
+  }
+
+  .header-shape-right {
+    max-height: 60%;
+    max-width: 60%;
+  }
+}
+
+@media (max-width: 600px) {
+  .module,
+  .icons {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .module {
+    width: calc(100% - 40px);
+  }
+
+  .header-shape-left {
+    max-height: 40%;
+    max-width: 40%;
+  }
+
+  .header-shape-right {
+    max-height: 40%;
+    max-width: 40%;
+  }
+
+  nav#menuLateral {
+    width: 50% !important;
+  }
+
+  #sidebarButton2 {
+    margin-left: 50%;
+  }
+
+  .esconder {
+    margin-left: -50%;
   }
 }

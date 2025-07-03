@@ -48,7 +48,7 @@
       <img
         src="../assets/images/logos/campuVirtual.png"
         alt="Campus Virtual"
-        class="img-fluid"
+        class="img-fluid campusVirtual"
       />
       <div class="col-md-12 descricaoModulo">
         <h2>
@@ -595,13 +595,15 @@
             class="decorative-flowers"
           />
 
-          <h2>
-            Aula 3 <br />
-            Assistência ao Parto: as práticas baseadas em evidência científica e
-            a realidade brasileira. (parte 3)
-          </h2>
+          <div class="tituloAula">
+            <h2>
+              Aula 3 <br />
+              Assistência ao Parto: as práticas baseadas em evidência científica
+              e a realidade brasileira. (parte 3)
+            </h2>
 
-          <h1>Introdução</h1>
+            <h1 style="color: #444444">Introdução</h1>
+          </div>
 
           <p>
             O período expulsivo é o segundo período do trabalho de parto. Ele se
@@ -625,7 +627,7 @@
             relacionados a esses períodos do parto.
           </p>
 
-          <h2>Assistência ao segundo período</h2>
+          <h1>Assistência ao segundo período</h1>
 
           <p>
             Conforme você viu nas aulas anteriores, as curvas de dilatação de
@@ -688,7 +690,7 @@
             vaginal operatório e à cesariana.
           </p>
 
-          <h2>Posições maternas no segundo período</h2>
+          <h1>Posições maternas no segundo período</h1>
 
           <p>
             Em 2002 foi publicado um estudo que avaliou a pelvimetria obstétrica
@@ -741,136 +743,150 @@
 
           <!-- Img Slider -->
           <div class="row centro">
-            <div class="col-md-10">
-              <div
-                id="imgSlider"
-                class="carousel slide"
-                data-ride="carousel"
-                data-interval="0"
-              >
-                <ol class="carousel-indicators">
-                  <li
-                    data-target="#imgSlider"
-                    data-slide-to="0"
-                    class="active"
-                  ></li>
-                  <li data-target="#imgSlider" data-slide-to="1"></li>
-                  <li data-target="#imgSlider" data-slide-to="2"></li>
-                  <li data-target="#imgSlider" data-slide-to="3"></li>
-                </ol>
-                <div class="carousel-inner">
-                  <!-- Item 1 -->
-                  <div class="carousel-item active">
-                    <div class="card imagem">
-                      <img
-                        class="card-img-top"
-                        src="../assets/images/emDesenvolvimento.png"
-                        alt="Card image cap"
-                      />
-                      <div class="card-body">
-                        <p class="card-text">
-                          Nas posições que promovem hiperflexão do quadril
-                          (cócoras, posição supina ótima), a flexão exagerada
-                          das coxas contra o abdome e das pernas sobre as coxas
-                          propiciam melhora do ângulo de encaixe (drive angle) e
-                          menor pressão intravaginal, aspectos que explicam o
-                          encurtamento do segundo estágio nessas posições.
-                        </p>
+            <div class="col-md-8">
+              <div class="carousel-wrapper">
+                <div
+                  id="imgSlider"
+                  class="carousel slide"
+                  data-ride="carousel"
+                  data-interval="0"
+                >
+                  <div class="carousel-indicators-container">
+                    <ol class="carousel-indicators">
+                      <li
+                        data-target="#imgSlider"
+                        data-slide-to="0"
+                        class="active"
+                      ></li>
+                      <li data-target="#imgSlider" data-slide-to="1"></li>
+                      <li data-target="#imgSlider" data-slide-to="2"></li>
+                      <li data-target="#imgSlider" data-slide-to="3"></li>
+                    </ol>
+                  </div>
+                  <div class="carousel-inner">
+                    <!-- Item 1 -->
+                    <div class="carousel-item active">
+                      <div class="card-content">
+                        <div class="card imagem">
+                          <img
+                            class="card-img-top"
+                            src="../assets/images/emDesenvolvimento.png"
+                            alt="Card image cap"
+                          />
+                          <div class="card-body">
+                            <p class="card-text">
+                              Nas posições que promovem hiperflexão do quadril
+                              (cócoras, posição supina ótima), a flexão
+                              exagerada das coxas contra o abdome e das pernas
+                              sobre as coxas propiciam melhora do ângulo de
+                              encaixe (drive angle) e menor pressão
+                              intravaginal, aspectos que explicam o encurtamento
+                              do segundo estágio nessas posições.
+                            </p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <!-- Item 2 -->
+                    <div class="carousel-item">
+                      <div class="card-content">
+                        <div class="card imagem">
+                          <img
+                            class="card-img-top"
+                            src="../assets/images/emDesenvolvimento.png"
+                            alt="Card image cap"
+                          />
+                          <div class="card-body">
+                            <p class="card-text">
+                              O decúbito lateral esquerdo, também denominado
+                              posição francesa ou de Sims, é facilmente
+                              aplicável, evita a síndrome da hipotensão supina,
+                              sendo indicada para parturientes cardiopatas,
+                              portadoras de varizes em membros inferiores, de
+                              restrição na articulação sacroilíaca e diante de
+                              estado fetal não tranquilizador. Em decorrência da
+                              descompressão da veia cava, a posição propicia
+                              melhora do retorno venoso, do débito cardíaco
+                              materno, da circulação materna sistêmica, do fluxo
+                              sanguíneo uteroplacentário e da oxigenação fetal.
+                            </p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <!-- Item 3 -->
+                    <div class="carousel-item">
+                      <div class="card-content">
+                        <div class="card imagem">
+                          <img
+                            class="card-img-top"
+                            src="../assets/images/emDesenvolvimento.png"
+                            alt="Card image cap"
+                          />
+                          <div class="card-body">
+                            <p class="card-text">
+                              A posição de quatro apoios (Gaskin, posição
+                              inglesa) apresenta como benefícios facilitação da
+                              rotação espontânea nas variedades posteriores e
+                              redução do trauma perineal. A redução do trauma
+                              perineal é explicada pelo fato de, nessa posição,
+                              o períneo materno ficar posicionado superiormente
+                              ao polo cefálico fetal em deflexão. Essa posição
+                              também oferece o benefício gravitacional das
+                              posições verticais, por meio de maior curvatura
+                              pélvica, tendo se mostrado vantajosa para os
+                              partos das apresentações pélvicas e de fetos
+                              grandes, reduzindo o risco de distocia de ombro.
+                            </p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <!-- Item 4 -->
+                    <div class="carousel-item">
+                      <div class="card-content">
+                        <div class="card imagem">
+                          <img
+                            class="card-img-top"
+                            src="../assets/images/emDesenvolvimento.png"
+                            alt="Card image cap"
+                          />
+                          <div class="card-body">
+                            <p class="card-text">
+                              A posição supina ótima (McRoberts) é uma posição
+                              de parto supina biomecanicamente otimizada. A
+                              hiperflexão das coxas parece aproximar-se das
+                              características biomecânicas da posição de cócoras
+                              com os pés planos. De todas as posições, a posição
+                              supina hiperfletida, com correção da lordose, é a
+                              que parece deslocar a coluna mais próxima do eixo
+                              perpendicular do estreito superior. Também é uma
+                              posição que propicia conforto, principalmente
+                              diante de exaustão materna.
+                            </p>
+                          </div>
+                        </div>
                       </div>
                     </div>
                   </div>
-                  <!-- Item 2 -->
-                  <div class="carousel-item">
-                    <div class="card imagem">
-                      <img
-                        class="card-img-top"
-                        src="../assets/images/emDesenvolvimento.png"
-                        alt="Card image cap"
-                      />
-                      <div class="card-body">
-                        <p class="card-text">
-                          O decúbito lateral esquerdo, também denominado posição
-                          francesa ou de Sims, é facilmente aplicável, evita a
-                          síndrome da hipotensão supina, sendo indicada para
-                          parturientes cardiopatas, portadoras de varizes em
-                          membros inferiores, de restrição na articulação
-                          sacroilíaca e diante de estado fetal não
-                          tranquilizador. Em decorrência da descompressão da
-                          veia cava, a posição propicia melhora do retorno
-                          venoso, do débito cardíaco materno, da circulação
-                          materna sistêmica, do fluxo sanguíneo uteroplacentário
-                          e da oxigenação fetal.
-                        </p>
-                      </div>
-                    </div>
-                  </div>
-                  <!-- Item 3 -->
-                  <div class="carousel-item">
-                    <div class="card imagem">
-                      <img
-                        class="card-img-top"
-                        src="../assets/images/emDesenvolvimento.png"
-                        alt="Card image cap"
-                      />
-                      <div class="card-body">
-                        <p class="card-text">
-                          A posição de quatro apoios (Gaskin, posição inglesa)
-                          apresenta como benefícios facilitação da rotação
-                          espontânea nas variedades posteriores e redução do
-                          trauma perineal. A redução do trauma perineal é
-                          explicada pelo fato de, nessa posição, o períneo
-                          materno ficar posicionado superiormente ao polo
-                          cefálico fetal em deflexão. Essa posição também
-                          oferece o benefício gravitacional das posições
-                          verticais, por meio de maior curvatura pélvica, tendo
-                          se mostrado vantajosa para os partos das apresentações
-                          pélvicas e de fetos grandes, reduzindo o risco de
-                          distocia de ombro.
-                        </p>
-                      </div>
-                    </div>
-                  </div>
-                  <!-- Item 4 -->
-                  <div class="carousel-item">
-                    <div class="card imagem">
-                      <img
-                        class="card-img-top"
-                        src="../assets/images/emDesenvolvimento.png"
-                        alt="Card image cap"
-                      />
-                      <div class="card-body">
-                        <p class="card-text">
-                          A posição supina ótima (McRoberts) é uma posição de
-                          parto supina biomecanicamente otimizada. A hiperflexão
-                          das coxas parece aproximar-se das características
-                          biomecânicas da posição de cócoras com os pés planos.
-                          De todas as posições, a posição supina hiperfletida,
-                          com correção da lordose, é a que parece deslocar a
-                          coluna mais próxima do eixo perpendicular do estreito
-                          superior. Também é uma posição que propicia conforto,
-                          principalmente diante de exaustão materna.
-                        </p>
-                      </div>
-                    </div>
-                  </div>
+                  <!-- Botões movidos para fora do carousel e com classes personalizadas -->
+                  <a
+                    class="custom-carousel-control custom-prev"
+                    href="#imgSlider"
+                    role="button"
+                    data-slide="prev"
+                  >
+                    <span class="sr-only">Previous</span>
+                  </a>
+                  <a
+                    class="custom-carousel-control custom-next"
+                    href="#imgSlider"
+                    role="button"
+                    data-slide="next"
+                  >
+                    <span class="sr-only">Next</span>
+                  </a>
                 </div>
-                <!-- Botões movidos para fora do carousel e com classes personalizadas -->
-                <a
-                  class="custom-carousel-control custom-prev"
-                  href="#imgSlider"
-                  role="button"
-                  data-slide="prev"
-                >
-                  <span class="sr-only">Previous</span>
-                </a>
-                <a
-                  class="custom-carousel-control custom-next"
-                  href="#imgSlider"
-                  role="button"
-                  data-slide="next"
-                >
-                  <span class="sr-only">Next</span>
-                </a>
               </div>
             </div>
           </div>
@@ -878,7 +894,7 @@
         </div>
 
         <!-- Bloco Texto -->
-        <div class="row blocoTexto">
+        <div class="row blocoTexto" style="margin-top: 20px !important">
           <div class="col-md-10">
             <p>
               Os benefícios de todas essas posições ao processo de parturição
@@ -893,7 +909,7 @@
         </div>
 
         <div class="conteudo">
-          <h2>Práticas utilizadas no segundo período</h2>
+          <h1>Práticas utilizadas no segundo período</h1>
 
           <p>
             Agora, vamos falar sobre algumas práticas utilizadas durante o
@@ -938,7 +954,38 @@
             comparativos.
           </p>
 
-          <!-- cards lado a lado -->
+          <!-- Cards lado a lado -->
+          <div class="row centro">
+            <div class="card-container">
+              <div class="col-md-4 card-content">
+                <p style="color: #c04caf">
+                  <b>PUXOS VOLUNTÁRIOS (MANOBRA de VALSALVA) </b>
+                </p>
+                <p>
+                  Não ocasionaram melhorias na duração da expulsão fetal, na
+                  taxa de parto vaginal operatório, no pH arterial neonatal <
+                  7,20, e nem no índice de Apgar < 7 no 5’. Em um dos estudos
+                  também houve efeitos negativos sobre fatores urodinâmicos. Foi
+                  concluído que as evidências não suportam o uso de rotina dessa
+                  manobra durante o segundo período do trabalho de parto.
+                </p>
+              </div>
+              <div class="col-md-2 centro">
+                <img src="../assets/images/icones/x.png" alt="x" />
+              </div>
+              <div class="col-md-4 card-content">
+                <p style="color: #c04caf">
+                  <b>PUXOS INVOLUNTÁRIOS </b>
+                </p>
+                <p>
+                  Após estudos, fica sugerido o encorajamento do puxo espontâneo
+                  e a escolha da parturiente sobre seu próprio método de puxo,
+                  que parece ser a melhor prática durante o segundo período do
+                  trabalho de parto.
+                </p>
+              </div>
+            </div>
+          </div>
 
           <h3>> Aspiração oronasofaríngea neonatal</h3>
 
@@ -1167,9 +1214,11 @@
               0,15-0,96; 5 ECR, 1152 infantes).
             </li>
             <li class="icon arrow">
-              Aumento de 60% em recém-nascidos que necessitaram de fototerapia
-              para icterícia (4,36% X 2,74%; RR 1,61, IC 95%: 1,04-2,44; 7 ECR,
-              2324 neonatos).
+              <p>
+                Aumento de 60% em recém-nascidos que necessitaram de fototerapia
+                para icterícia (4,36% X 2,74%; RR 1,61, IC 95%: 1,04-2,44; 7
+                ECR, 2324 neonatos).
+              </p>
             </li>
           </ul>
 
@@ -1206,8 +1255,10 @@
               tratamento de icterícia.
             </li>
             <li class="icon arrow">
-              Facilitação da transição fisiológica da vida fetal para a vida
-              neonatal (hemodinâmica cardiovascular).
+              <p>
+                Facilitação da transição fisiológica da vida fetal para a vida
+                neonatal (hemodinâmica cardiovascular).
+              </p>
             </li>
           </ul>
 
@@ -1418,7 +1469,7 @@
 
           <!-- Slider 2 -->
           <div class="row centro">
-            <div class="col-md-6">
+            <div class="col-md-8">
               <div class="carousel-wrapper">
                 <div
                   id="imgSlider2"
@@ -1557,7 +1608,7 @@
             quando indicado.
           </p>
 
-          <h2>Síndrome do “Sofrimento fetal iatrogênico”</h2>
+          <h1>Síndrome do “Sofrimento fetal iatrogênico”</h1>
 
           <p>
             Diante das evidências científicas aqui descritas relacionadas à
@@ -1593,7 +1644,7 @@
             difundidos entre as equipes assistenciais.
           </p>
 
-          <h2>Fisiologia do terceiro período do parto</h2>
+          <h1>Fisiologia do terceiro período do parto</h1>
 
           <p>
             Você acabou de ver as práticas realizadas no segundo período do
@@ -1673,7 +1724,7 @@
             reduzir essa tolerância ao sangramento.
           </p>
 
-          <h2>Manejo ativo do terceiro período - prevenção da HPP</h2>
+          <h1>Manejo ativo do terceiro período - prevenção da HPP</h1>
 
           <p>
             As principais medidas preventivas para HPP são administração de
@@ -1686,7 +1737,7 @@
           <!-- imagens lado a lado -->
           <div class="row centro">
             <div class="col-md-4">
-              <p>
+              <p style="text-align: right;">
                 Na vigência de cesariana, uma alternativa é a profilaxia
                 endovenosa pela “regra dos três”, segundo a qual três unidades
                 de ocitocina são infundidas lentamente (≥ 30 segundos), podendo
@@ -1822,7 +1873,7 @@
                 proscrição rigorosa da manobra de Kristeller.
               </p>
             </div>
-            <div class="col-md-4 imagem">
+            <div class="col-md-6 imagem">
               <!-- Imagem 10 -->
               <div class="imagemLegenda">
                 <small>Fonte: Xxxxx</small>
@@ -1836,7 +1887,7 @@
             </div>
           </div>
 
-          <h2>Assistência à Expulsão da Placenta</h2>
+          <h1>Assistência à Expulsão da Placenta</h1>
 
           <p>
             À medida que a placenta emerge na vulva, as membranas são também
@@ -1933,7 +1984,7 @@
             no pós-parto imediato.
           </p>
 
-          <h2>Exame do Trajeto e Reparo Cirúrgico de Lacerações</h2>
+          <h1>Exame do Trajeto e Reparo Cirúrgico de Lacerações</h1>
 
           <p>
             Lacerações de trajeto são comuns, podendo ocorrer em qualquer parto.
@@ -1959,9 +2010,9 @@
             adicional à parturiente.
           </p>
 
-          <h2>
+          <h1>
             Outras recomendações na assistência ao terceiro período e puerpério
-          </h2>
+          </h1>
 
           <p>
             Toda puérpera deve ser submetida a monitorização e vigilância nas
@@ -2014,7 +2065,7 @@
             esses métodos.
           </p>
 
-          <h2>Fim da aula</h2>
+          <h1>Fim da aula</h1>
           <p>
             Nesta aula você revisou os principais aspectos relacionados ao
             segundo e terceiro períodos do parto (períodos expulsivo e de
@@ -2032,7 +2083,7 @@
           </p>
 
           <div class="centro">
-            <p style="color: #793767">
+            <p style="color: #793767; margin-top: 20px;">
               <b
                 >Você concluiu esta aula, continue se empenhando nos seus
                 estudos. Siga para a próxima aula!</b

@@ -10,10 +10,28 @@
   src: url(../fonts/Prelo-Bold.ttf) format("truetype");
 }
 
+@font-face {
+  font-family: "Oleo Script";
+  src: url(../fonts/OleoScript-Regular.ttf) format("truetype");
+}
+
+@font-face {
+  font-family: "Roboto";
+  src: url(../fonts/Roboto_Condensed-Bold.ttf);
+}
+
 body {
-  font-family: Arial, sans-serif;
+  font-family: "Prelo Book", sans-serif;
   margin: 0;
   color: #fff;
+  font-size: 18px !important;
+  letter-spacing: 1px;
+}
+
+h1,
+h2,
+h3 {
+  font-family: "Prelo-Bold";
 }
 
 .header {
@@ -58,11 +76,13 @@ body {
   font-size: 48px;
   margin: 0;
   line-height: 1.2;
+  font-family: "Oleo Script" !important;
 }
 
 .header h2 {
   font-size: 24px;
   margin: 10px 0;
+  font-style: italic;
 }
 
 .content {
@@ -191,7 +211,6 @@ body {
   margin: 10px;
 }
 
-
 .modal-content {
   padding: 1rem 3rem;
   color: black;
@@ -201,7 +220,6 @@ body {
   padding: 1rem;
   margin: -2rem -4rem -1rem auto;
 }
-
 
 /* .modal {
   display: none;
@@ -245,7 +263,7 @@ body {
     flex-direction: column;
     align-items: center;
     text-align: center;
-    padding-left: 0;
+    padding: 0;
   }
 
   .header-text {
@@ -278,6 +296,23 @@ body {
     max-height: 60%;
     max-width: 60%;
   }
+
+  .decorative-flowers {
+    margin-top: 50px;
+  }
+}
+
+h1 {
+  font-size: 30px;
+}
+
+h2 {
+  font-size: 24px;
+}
+
+
+h3 {
+  font-size: 18px;
 }
 
 @media (max-width: 600px) {
