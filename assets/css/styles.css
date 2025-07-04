@@ -67,6 +67,7 @@ footer {
   font-size: 24px;
   margin: 10px 0;
   font-style: italic;
+  padding-bottom: 20px;
 }
 
 .illustration {
@@ -109,6 +110,7 @@ footer {
   align-items: center;
   justify-content: center;
   padding-bottom: 65px;
+  font-family: "Prelo Bold";
 }
 
 #botaoConhecer {
@@ -908,7 +910,6 @@ footer img {
   width: 20px;
   height: 20px;
   background-color: transparent;
-  outline: #c04caf;
   border-radius: 50%;
   display: flex;
   align-items: center;
@@ -973,7 +974,7 @@ footer img {
   width: 10px;
   height: 10px;
   border-radius: 25px;
-  border: 1px solid #707070;
+  /* border: 1px solid #707070; */
   background-color: #e4e4e4;
   list-style: none;
 }
@@ -1050,7 +1051,7 @@ nav#menuLateral {
 
 span.tituloLista {
   margin: 0px;
-  font-weight: bold;
+  font-family: "Prelo Bold";
   padding: 22px 0 22px 12px;
   cursor: pointer;
 }
@@ -1058,15 +1059,14 @@ span.tituloLista {
 a.tituloLista {
   padding-top: 22px;
   margin: 0px;
-  font-weight: bold;
+  font-family: "Prelo Bold";
   padding-left: 12px;
 }
 
 a.tituloItem,
 span.tituloItem {
   margin: -4px 0 0 0;
-  font-weight: bold;
-  font-family: "Prelo Bold";
+  font-family: "Prelo Book";
   padding-left: 20px;
 }
 
@@ -1358,6 +1358,10 @@ a.tituloItem {
   margin: -2rem -4rem -1rem auto;
 }
 
+.modal-footer button {
+  background-color: #c04caf;
+}
+
 .tarjaHeader {
   background-color: #d08700;
   color: white;
@@ -1495,7 +1499,7 @@ a.tituloItem {
 
 .timeline-component .timeline-content p {
   color: #555;
-  text-align: justify;
+  /* text-align: justify; */
   margin-bottom: 8px;
   line-height: 1.6;
   font-size: 0.95rem;
@@ -1567,9 +1571,26 @@ a.tituloItem {
     font-size: 0.9rem;
   }
 }
-@media (min-width: 1200px) {
+@media (min-width: 980px) {
   #menuLateral {
     padding-left: 30px;
+  }
+
+  .header {
+    .img-fluid {
+      max-width: 50%;
+    }
+    .campusVirtual {
+      max-width: 10% !important;
+    }
+  }
+}
+
+@media (max-width: 980px) {
+  .header {
+    .img-fluid {
+      padding: 20px 80px;
+    }
   }
 }
 
@@ -1616,8 +1637,8 @@ a.tituloItem {
   }
 
   .header-shape-left {
-    max-height: 60%;
-    max-width: 60%;
+    max-height: 40%;
+    max-width: 40%;
   }
 
   .header-shape-right {
