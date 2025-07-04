@@ -900,6 +900,10 @@ footer img {
   content: "\f067";
 }
 
+.imagem .accordion .collapsed i::before {
+  content: "\f078";
+}
+
 /*Carousel*/
 
 /* Estilos comuns para os controles */
