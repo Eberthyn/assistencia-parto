@@ -274,6 +274,11 @@ $(".toggle-sidebar").click(function () {
     pause: true,
   });
 
+  /*Flip Card */
+  $(".flipCard").on("click", function () {
+    $(this).toggleClass("flipped");
+  });
+
   $(".carousel .carousel-inner").on("dragstart", "a", function () {
     return false;
   });
@@ -297,5 +302,4 @@ $(function () {
 
 $("#example").popover(options);
 
-$('#element').popover('show')
-
+$("#element").popover("show");

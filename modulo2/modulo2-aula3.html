@@ -168,7 +168,9 @@
                     </div>
                     <div class="sectionTitle">
                       <span class="tituloItem"
-                        ><a href="../modulo1/modulo1-atividade.html">Atividade</a></span
+                        ><a href="../modulo1/modulo1-atividade.html"
+                          >Atividade</a
+                        ></span
                       >
                     </div>
                   </div>
@@ -595,13 +597,20 @@
           <h1>Fisiopatologia da DO</h1>
 
           <p>
-            A DO ocorre por falha da rotação normal dos ombros para o diâmetro
-            oblíquo, no momento da entrada do diâmetro biparietal na pelve.
-            Sendo assim, os ombros anterior e posterior permanecem no diâmetro
-            anteroposterior da pelve materna durante a descida e/ou descem
-            simultaneamente, alterando o processo fisiológico em que o ombro
-            posterior, em um diâmetro oblíquo, desce na frente do ombro
-            anterior.
+            A DO ocorre por
+            <a
+              data-toggle="modal"
+              data-target="#modal1"
+              style="cursor: pointer; color: #aa1c95"
+            >
+              <b><u>falha da rotação</u></b></a
+            >
+            normal dos ombros para o diâmetro oblíquo, no momento da entrada do
+            diâmetro biparietal na pelve. Sendo assim, os ombros anterior e
+            posterior permanecem no diâmetro anteroposterior da pelve materna
+            durante a descida e/ou descem simultaneamente, alterando o processo
+            fisiológico em que o ombro posterior, em um diâmetro oblíquo, desce
+            na frente do ombro anterior.
           </p>
 
           <p>
@@ -665,7 +674,86 @@
             Veja agora maiores detalhes sobre alguns de seus fatores de risco:
           </p>
 
-          <!-- CARDS -->
+          <!-- FLIP CARDS 1 -->
+          <!-- Flip Card 1 -->
+          <div class="row rowFlipCards">
+            <div class="card flipCard col-md-6" onclick="flip()">
+              <div class="front text-center">
+                <p>
+                  <b>Macrossomia<br />fetal</b>
+                </p>
+              </div>
+              <div class="back text-center">
+                <p>
+                  A ocorrência concomitante de macrossomia fetal é frequente,
+                  mas a maioria dos fetos macrossômicos não evoluem com DO.
+                  Aproximadamente metade das DO ocorrem em recém-natos com peso
+                  ao nascer inferior a 4 kg, e tanto a ultrassonografia quanto a
+                  avalia-ção clínica (manobras de Leopold, regra de Jonhson)
+                  possuem baixa sensibilidade para estimar o peso ao nascer.
+                </p>
+              </div>
+            </div>
+            <!-- Flip Card 2 -->
+            <div class="card flipCard col-md-6" onclick="flip()">
+              <div class="front text-center">
+                <p>
+                  <b>Diabetes<br />mellitus</b>
+                </p>
+              </div>
+              <div class="back text-center">
+                <p>
+                  Com relação ao diabetes mellitus, além de sua associação com
+                  macrossomia fetal, as medidas antropométricas dos fetos de
+                  mães diabéticas favorecem a ocorrência de DO. Fetos de mães
+                  diabéticas com mau controle glicêmico, além de grandes são
+                  desproporcionais devido ao depósito centrípeto de gordura
+                  corporal. Sendo assim, suas relações tórax-cabeça e
+                  ombro-cabeça se encontram aumentadas, elevando-se o risco para
+                  DO, mesmo naqueles com peso inferior a 4 kg.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="row rowFlipCards">
+            <!-- Flip Card 3-->
+            <div class="card flipCard col-md-6" onclick="flip()">
+              <div class="front text-center">
+                <p>
+                  <b>Gestação pós-termo<br />e sexo fetal</b>
+                </p>
+              </div>
+              <div class="back text-center">
+                <p>
+                  O ganho de peso ao nascer secundário ao avanço da gestação
+                  explica o risco de DO inerente às gestações pós-termo. O sexo
+                  masculino como fator de risco para DO parece ser explicado
+                  pelas medidas antropométricas e maior prevalência de
+                  macrossomia entre os homens.
+                </p>
+              </div>
+            </div>
+            <!-- Flip Card 4-->
+            <div class="card flipCard col-md-6" onclick="flip()">
+              <div class="front text-center">
+                <p>
+                  <b>Outros fatores<br />de risco</b>
+                </p>
+              </div>
+              <div class="back text-center">
+                <p>
+                  Outros fatores de risco favorecedores à macrossomia e ao
+                  diabetes, e consequentemente à DO, são obesidade e ganho
+                  excessivo de peso materno. A demografia materna contemporânea,
+                  com maior prevalência de gestantes em idade acima de 35 anos,
+                  configura risco para DO, associado a maior prevalência de
+                  diabetes, excesso de peso e multiparidade entre essas
+                  pacientes.
+                </p>
+              </div>
+            </div>
+          </div>
+          <!-- Fim Flip Cards 1 -->
 
           <h3>> Fatores de risco intraparto</h3>
 
@@ -685,7 +773,7 @@
               <p>
                 <a
                   data-toggle="modal"
-                  data-target="#modal1"
+                  data-target="#modal2"
                   style="cursor: pointer"
                 >
                   <u>Clique aqui</u></a
@@ -831,7 +919,101 @@
             imprescindíveis:
           </p>
 
-          <!-- slider texto -->
+          <!-- Slider 1 -->
+          <div class="row centro">
+            <div class="col-md-8">
+              <div class="carousel-wrapper">
+                <div
+                  id="slider1"
+                  class="carousel slide"
+                  data-ride="carousel"
+                  data-interval="0"
+                >
+                  <div class="carousel-indicators-container">
+                    <ol class="carousel-indicators">
+                      <li
+                        data-target="#slider1"
+                        data-slide-to="0"
+                        class="active"
+                      ></li>
+                      <li data-target="#slider1" data-slide-to="1"></li>
+                      <li data-target="#slider1" data-slide-to="2"></li>
+                      <li data-target="#slider1" data-slide-to="3"></li>
+                    </ol>
+                  </div>
+                  <div class="carousel-inner">
+                    <!-- Item 1 -->
+                    <div class="carousel-item active">
+                      <div class="slide-content">
+                        <div class="col-md-12">
+                          Não exercer tração excessiva para liberação dos ombros
+                          e não pressionar o fundo uterino, uma vez que essas
+                          ações se associam ao estiramento do plexo braquial,
+                          agravamento da impactação e rotura uterina.
+                        </div>
+                      </div>
+                    </div>
+                    <!-- Item 2 -->
+                    <div class="carousel-item">
+                      <div class="slide-content">
+                        <div class="col-md-12">
+                          Não seccionar o cordão umbilical antes da liberação
+                          dos ombros, pois essa ação não contribui para a
+                          resolução da DO e reduz ainda mais a oxigenação do
+                          feto. Se estão presentes, as circulares de cordão
+                          devem ser liberadas sem secção.
+                        </div>
+                      </div>
+                    </div>
+                    <!-- Item 3 -->
+                    <div class="carousel-item">
+                      <div class="slide-content">
+                        <div class="col-md-12">
+                          Evitar a realização de episiotomia, uma vez que o
+                          procedimento não resolve a DO, que é resultante de
+                          impactação óssea. Porém, diante da necessidade de
+                          manobras internas, a episiotomia pode ser necessária
+                          nos casos em que a resistência perineal dificulta a
+                          execução das manobras. A sondagem vesical também pode
+                          ser necessária nesse caso.
+                        </div>
+                      </div>
+                    </div>
+                    <!-- Item 4 -->
+                    <div class="carousel-item">
+                      <div class="slide-content">
+                        <div class="col-md-12">
+                          Promover comunicação eficiente dos membros da equipe
+                          assistencial, que devem receber informações claras e
+                          objetivas sobre as ações realizadas e os desfechos,
+                          evitando repetição desnecessária de manobras e
+                          otimizando o manejo em tempo hábil.
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <!-- Botões movidos para fora do carousel e com classes personalizadas -->
+                  <a
+                    class="custom-carousel-control custom-prev"
+                    data-target="#slider1"
+                    role="button"
+                    data-slide="prev"
+                  >
+                    <span class="sr-only">Previous</span>
+                  </a>
+                  <a
+                    class="custom-carousel-control custom-next"
+                    data-target="#slider1"
+                    role="button"
+                    data-slide="next"
+                  >
+                    <span class="sr-only">Next</span>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- Fim Slider -->
 
           <p>
             As evidências sobre a eficácia e o sequenciamento das diversas
@@ -1158,9 +1340,15 @@
 
           <p>
             Diante da falha na abordagem inicial, manobras secundárias devem ser
-            instituídas. As principais são a manobra de Gaskin, que você viu na
-            primeira aula deste módulo, e as manobras rotatórias internas (Rubin
-            II, parafuso de Woods e Woods reversa).
+            instituídas. As principais são a
+            <a
+              data-toggle="modal"
+              data-target="#modal3"
+              style="cursor: pointer; color: #aa1c95"
+            >
+              <b><u>manobra de Gaskin</u></b></a
+            >, que você viu na primeira aula deste módulo, e as manobras
+            rotatórias internas (Rubin II, parafuso de Woods e Woods reversa).
           </p>
 
           <p>
@@ -1319,7 +1507,111 @@
             ALEERTA.
           </p>
 
-          <!-- timeline horizontal -->
+          <!-- Timeline Horizontal 1 -->
+          <div class="container py-5">
+            <div
+              class="d-flex justify-content-center align-items-center"
+              style="gap: 20px"
+            >
+              <!-- Step 1 -->
+              <div class="step-horizontal">
+                <div class="step-circle active">A</div>
+                <div class="step-label">
+                  <a
+                    data-toggle="modal"
+                    data-target="#modalAjuda1"
+                    style="cursor: pointer"
+                  >
+                    Ajuda</a
+                  >
+                </div>
+              </div>
+
+              <!-- Step 2 -->
+              <div class="step-horizontal">
+                <div class="step-circle">L</div>
+                <div class="step-label">
+                  <a
+                    data-toggle="modal"
+                    data-target="#modalLevantar"
+                    style="cursor: pointer"
+                  >
+                    Levantar</a
+                  >
+                </div>
+              </div>
+
+              <!-- Step 3 -->
+              <div class="step-horizontal">
+                <div class="step-circle active">E</div>
+                <div class="step-label">
+                  <a
+                    data-toggle="modal"
+                    data-target="#modalExterna"
+                    style="cursor: pointer"
+                  >
+                    Externa</a
+                  >
+                </div>
+              </div>
+
+              <!-- Step 4 -->
+              <div class="step-horizontal">
+                <div class="step-circle">E</div>
+                <div class="step-label">
+                  <a
+                    data-toggle="modal"
+                    data-target="#modalEpisiotomia"
+                    style="cursor: pointer"
+                  >
+                    Episiotomia</a
+                  >
+                </div>
+              </div>
+
+              <!-- Step 5 -->
+              <div class="step-horizontal">
+                <div class="step-circle active">R</div>
+                <div class="step-label">
+                  <a
+                    data-toggle="modal"
+                    data-target="#modalRemover"
+                    style="cursor: pointer"
+                  >
+                    Remover</a
+                  >
+                </div>
+              </div>
+
+              <!-- Step 6 -->
+              <div class="step-horizontal">
+                <div class="step-circle active">T</div>
+                <div class="step-label">
+                  <a
+                    data-toggle="modal"
+                    data-target="#modalToque"
+                    style="cursor: pointer"
+                  >
+                    Toque</a
+                  >
+                </div>
+              </div>
+
+              <!-- Step 7 -->
+              <div class="step-horizontal">
+                <div class="step-circle active">A</div>
+                <div class="step-label">
+                  <a
+                    data-toggle="modal"
+                    data-target="#modalAlterar"
+                    style="cursor: pointer"
+                  >
+                    Alterar</a
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
 
           <p>
             Caso a DO não seja resolvida após as tentativas das manobras
@@ -1345,7 +1637,97 @@
             ou mesa cirúrgica. Veja:
           </p>
 
-          <!-- timeline horizontal -->
+          <!-- Timeline Horizontal 2 -->
+          <div class="container py-5">
+            <div
+              class="d-flex justify-content-center align-items-center"
+              style="gap: 20px"
+            >
+              <!-- Step 1 -->
+              <div class="step-horizontal">
+                <div class="step-circle active">A</div>
+                <div class="step-label">
+                  <a
+                    data-toggle="modal"
+                    data-target="#modalAjuda2"
+                    style="cursor: pointer"
+                  >
+                    Ajuda</a
+                  >
+                </div>
+              </div>
+
+              <!-- Step 2 -->
+              <div class="step-horizontal">
+                <div class="step-circle">S</div>
+                <div class="step-label">
+                  <a
+                    data-toggle="modal"
+                    data-target="#modalSuprapubica"
+                    style="cursor: pointer"
+                  >
+                    Suprapúbica</a
+                  >
+                </div>
+              </div>
+
+              <!-- Step 3 -->
+              <div class="step-horizontal">
+                <div class="step-circle active">A</div>
+                <div class="step-label">
+                  <a
+                    data-toggle="modal"
+                    data-target="#modalAlterar"
+                    style="cursor: pointer"
+                  >
+                    Alterar</a
+                  >
+                </div>
+              </div>
+
+              <!-- Step 4 -->
+              <div class="step-horizontal">
+                <div class="step-circle">I</div>
+                <div class="step-label">
+                  <a
+                    data-toggle="modal"
+                    data-target="#modalInternas"
+                    style="cursor: pointer"
+                  >
+                    Internas</a
+                  >
+                </div>
+              </div>
+
+              <!-- Step 5 -->
+              <div class="step-horizontal">
+                <div class="step-circle active">D</div>
+                <div class="step-label">
+                  <a
+                    data-toggle="modal"
+                    data-target="#modalDesprender"
+                    style="cursor: pointer"
+                  >
+                    Desprender</a
+                  >
+                </div>
+              </div>
+
+              <!-- Step 6 -->
+              <div class="step-horizontal">
+                <div class="step-circle">A</div>
+                <div class="step-label">
+                  <a
+                    data-toggle="modal"
+                    data-target="#modalAvaliar"
+                    style="cursor: pointer"
+                  >
+                    Avaliar</a
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
 
           <p>
             Caso não ocorra a resolução, a parturiente será mantida em quatro
@@ -1845,23 +2227,10 @@
             <div class="modal-content">
               <div class="modal-body">
                 <p>
-                  A deflexão de um ou ambos os braços fetais somam volumes
-                  indesejáveis aos diâmetros do polo cefálico, também
-                  propiciando dificuldades para o desprendimento da cabeça
-                  derradeira. Habitualmente, é resultante de trações
-                  intempestivas e incorretas, realizadas na ausência de
-                  contrações uterinas, ocasionando reflexos fetais que resultam
-                  em elevação e estiramento dos braços fetais e deflexão precoce
-                  do polo cefálico.
-                </p>
-                <p>
-                  No PPV, o prolapso de cordão umbilical é a complicação mais
-                  frequentemente associada ao desprendimento antecipado dos
-                  membros inferiores e à amniorrexe, ocorrendo precocemente ao
-                  desprendimento fetal. Quando associada a dificuldades de
-                  desprendimento do tronco e/ou da cabeça fetal, o agravamento
-                  da situação de hipóxia já estabelecida é significativamente
-                  ameaçador.
+                  A falha rotacional pode ocorrer por resistência entre a pele
+                  fetal e as paredes vaginais, por um parto precipitado ou pela
+                  resistência de um tórax de dimensões proporcionalmente maiores
+                  em relação ao diâmetro biparietal.
                 </p>
               </div>
               <div class="modal-footer">
@@ -1891,28 +2260,16 @@
               <div class="modal-body">
                 <!-- Imagem 2 -->
                 <div class="row centro">
-                  <div class="imagem">
-                    <img
-                      src="../assets/images/modulo1/aula4/img-modal1.png"
-                      alt="Períneo e diafragma urogenital feminino"
-                      class="img-fluid"
-                    />
-                    <p style="margin-top: 30px">
-                      O Epi-No é um balão inflável de silicone utilizado para
-                      distensão vaginal que também tem sido recomendado para uso
-                      antenatal na intenção de reduzir complicações relacionadas
-                      a trauma perineal. A recomendação a partir de 34 semanas
-                      de gestação é usar diariamente, entre 1 e 2 vezes. Para
-                      seu uso, o dispositivo e a vagina devem ser previamente
-                      lubrificados com lubrificantes à base de água. O Epi-No
-                      deve ser insuflado o suficiente para sua introdução
-                      vaginal. Após introdução, o dispositivo deve ser
-                      progressivamente insuflado, visando a expansão das paredes
-                      vaginais e o alongamento do canal vaginal. Sua eficácia em
-                      prevenir episiotomias e lacerações perineais ainda
-                      permanece incerta.
-                    </p>
-                  </div>
+                  <p style="margin-top: 30px">
+                    Como você viu anteriormente, o parto vaginal operatório se
+                    relaciona à DO. Porém, não existe evidência comprovando que
+                    a tração fetal executada por fórcipe ou vácuo-extrator
+                    aumenta o risco de impactação do ombro ou se o mau
+                    posicionamento prévio do ombro inibe a descida fetal,
+                    resultando na necessidade da instrumentação do parto.
+                    Aparentemente, os riscos para DO são semelhantes para o
+                    fórcipe e o vácuo-extrator.
+                  </p>
                 </div>
               </div>
               <div class="modal-footer">
@@ -1943,31 +2300,419 @@
                 <!-- Imagem 2 -->
                 <div class="row centro">
                   <div class="imagem">
+                    <p>Vamos relembrar a manobra de Gaskin?</p>
+                    <p style="margin-top: 30px">
+                      Nessa manobra, a parturiente é posicionada em “apoio nos
+                      quatro membros” (mãos e joelhos). Alternativamente,
+                      pode-se adotar a posição de “largada de corrida”, em que o
+                      membro inferior homolateral ao dorso fetal será flexionado
+                      e deslocado anteriormente à pelve materna, enquanto a
+                      outra perna permanece estendida posteriormente. Essas
+                      posições ampliam o espaço na concavidade do sacro e são
+                      beneficiadas pela gravidade (verticalização do tronco
+                      materno). A tração pode ser efetuada em direção inferior
+                      (liberação do ombro posterior) ou superior (liberação do
+                      ombro anterior). Essas manobras são opções interessantes
+                      devido à sua alta eficácia e baixa morbidade,
+                      principalmente para parturientes sem analgesia e/ou
+                      assistidas em camas de parto. Também podem, opcionalmente,
+                      anteceder a tentativa de remoção do braço ou ombro
+                      posterior, manobras tecnicamente mais difíceis.
+                    </p>
+                    <h3>Manobra de Gaskin</h3>
                     <img
-                      src="../assets/images/modulo1/aula4/img-modal2.png"
-                      alt="Períneo e diafragma urogenital feminino"
+                      src="../assets/images/modulo2/aula3/imgModal3.png"
+                      alt="Manobra de Gaskin"
                       class="img-fluid"
                     />
-                    <p style="margin-top: 30px">
-                      Para infiltração anestésica no bloqueio bilateral do nervo
-                      pudendo recomenda-se o uso de uma agulha de raquianestesia
-                      calibre 20G. Devem ser utilizados 20ml de lidoca-ína (1
-                      frasco) diluídos em 20ml de água bidestilada. Dois dedos
-                      de uma das mãos são introduzidos na vagina e posicionados
-                      na espinha isquiática, guiando a introdução da agulha. A
-                      outra mão irá introduzir a agulha por dentro da vagina,
-                      posicionando sua ex-tremidade imediatamente abaixo da
-                      espinha isquiática, local do trajeto do nervo e vasos
-                      pudendos internos. O procedimento é bilateralmente
-                      realizado. São infiltrados 20ml da diluição imediatamente
-                      abaixo de cada espinha isquiática. Aspiração intermitente
-                      deve ser realizada durante todo o processo de infiltração
-                      anestésica, com a finalidade de pre-venir a administração
-                      inadvertida de anestésico na artéria e/ou veias pudendas
-                      internas.
-                    </p>
+                    <div class="imagemLegenda">
+                      <small>Fonte: Felipe Starling (2025)</small>
+                    </div>
                   </div>
                 </div>
+              </div>
+              <div class="modal-footer">
+                <button
+                  type="button"
+                  class="btn btn-secondary"
+                  data-dismiss="modal"
+                >
+                  Fechar
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Modal Ajuda 1 -->
+        <div
+          class="modal fade"
+          id="modalAjuda1"
+          tabindex="-1"
+          role="dialog"
+          aria-labelledby="modalAjuda1"
+          aria-hidden="true"
+        >
+          <div class="modal-dialog modal-dialog-centered" role="document">
+            <div class="modal-content">
+              <div class="modal-body">
+                <p>
+                  A - Ajuda: chamar ajuda, avisar a parturiente e garantir
+                  anestesia adequada.
+                </p>
+              </div>
+              <div class="modal-footer">
+                <button
+                  type="button"
+                  class="btn btn-secondary"
+                  data-dismiss="modal"
+                >
+                  Fechar
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Modal Levantar -->
+        <div
+          class="modal fade"
+          id="modalLevantar"
+          tabindex="-1"
+          role="dialog"
+          aria-labelledby="modalLevantar"
+          aria-hidden="true"
+        >
+          <div class="modal-dialog modal-dialog-centered" role="document">
+            <div class="modal-content">
+              <div class="modal-body">
+                <p>
+                  L - Levantar: levantar os membros inferiores em hiperflexão
+                  (manobra de McRoberts).
+                </p>
+              </div>
+              <div class="modal-footer">
+                <button
+                  type="button"
+                  class="btn btn-secondary"
+                  data-dismiss="modal"
+                >
+                  Fechar
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Modal Externa -->
+        <div
+          class="modal fade"
+          id="modalExterna"
+          tabindex="-1"
+          role="dialog"
+          aria-labelledby="modalExterna"
+          aria-hidden="true"
+        >
+          <div class="modal-dialog modal-dialog-centered" role="document">
+            <div class="modal-content">
+              <div class="modal-body">
+                <p>
+                  E - Externa: pressão suprapúbica externa (manobra de Rubin I).
+                </p>
+              </div>
+              <div class="modal-footer">
+                <button
+                  type="button"
+                  class="btn btn-secondary"
+                  data-dismiss="modal"
+                >
+                  Fechar
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Modal Episiotomia -->
+        <div
+          class="modal fade"
+          id="modalEpisiotomia"
+          tabindex="-1"
+          role="dialog"
+          aria-labelledby="modalEpisiotomia"
+          aria-hidden="true"
+        >
+          <div class="modal-dialog modal-dialog-centered" role="document">
+            <div class="modal-content">
+              <div class="modal-body">
+                <p>E - Episiotomia: avaliação da necessidade de episiotomia.</p>
+              </div>
+              <div class="modal-footer">
+                <button
+                  type="button"
+                  class="btn btn-secondary"
+                  data-dismiss="modal"
+                >
+                  Fechar
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Modal Remover -->
+        <div
+          class="modal fade"
+          id="modalRemover"
+          tabindex="-1"
+          role="dialog"
+          aria-labelledby="modalRemover"
+          aria-hidden="true"
+        >
+          <div class="modal-dialog modal-dialog-centered" role="document">
+            <div class="modal-content">
+              <div class="modal-body">
+                <p>R - Remover: remoção do braço posterior.</p>
+              </div>
+              <div class="modal-footer">
+                <button
+                  type="button"
+                  class="btn btn-secondary"
+                  data-dismiss="modal"
+                >
+                  Fechar
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Modal Toque -->
+        <div
+          class="modal fade"
+          id="modalToque"
+          tabindex="-1"
+          role="dialog"
+          aria-labelledby="modalToque"
+          aria-hidden="true"
+        >
+          <div class="modal-dialog modal-dialog-centered" role="document">
+            <div class="modal-content">
+              <div class="modal-body">
+                <p>
+                  T - Toque: toque para manobras internas ( Rubin II, parafuso
+                  de Woods e Woods reversa).
+                </p>
+              </div>
+              <div class="modal-footer">
+                <button
+                  type="button"
+                  class="btn btn-secondary"
+                  data-dismiss="modal"
+                >
+                  Fechar
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Modal Alterar -->
+        <div
+          class="modal fade"
+          id="modalAlterar"
+          tabindex="-1"
+          role="dialog"
+          aria-labelledby="modalAlterar"
+          aria-hidden="true"
+        >
+          <div class="modal-dialog modal-dialog-centered" role="document">
+            <div class="modal-content">
+              <div class="modal-body">
+                <p>
+                  A - Alterar: alteração da posição para quatro apoios (manobra
+                  de Gaskin).
+                </p>
+              </div>
+              <div class="modal-footer">
+                <button
+                  type="button"
+                  class="btn btn-secondary"
+                  data-dismiss="modal"
+                >
+                  Fechar
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Modal Ajuda2 -->
+        <div
+          class="modal fade"
+          id="modalAjuda2"
+          tabindex="-1"
+          role="dialog"
+          aria-labelledby="modalAjuda2"
+          aria-hidden="true"
+        >
+          <div class="modal-dialog modal-dialog-centered" role="document">
+            <div class="modal-content">
+              <div class="modal-body">
+                <p>
+                  A - Ajuda: chamar ajuda, avisar a parturiente e garantir
+                  aumento do agachamento materno, que promoverá a hiperflexão
+                  dos membros inferiores, ampliando o diâmetro funcional da
+                  pelve, similarmente à manobra de McRoberts (manobra de
+                  McRoberts modificada).
+                </p>
+              </div>
+              <div class="modal-footer">
+                <button
+                  type="button"
+                  class="btn btn-secondary"
+                  data-dismiss="modal"
+                >
+                  Fechar
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Modal Suprapúbica -->
+        <div
+          class="modal fade"
+          id="modalSuprapubica"
+          tabindex="-1"
+          role="dialog"
+          aria-labelledby="modalSuprapubica"
+          aria-hidden="true"
+        >
+          <div class="modal-dialog modal-dialog-centered" role="document">
+            <div class="modal-content">
+              <div class="modal-body">
+                <p>
+                  S - Suprapúbica: pressão suprapúbica externa (manobra de Rubin
+                  I).
+                </p>
+              </div>
+              <div class="modal-footer">
+                <button
+                  type="button"
+                  class="btn btn-secondary"
+                  data-dismiss="modal"
+                >
+                  Fechar
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Modal Alterar -->
+        <div
+          class="modal fade"
+          id="modalAlterar"
+          tabindex="-1"
+          role="dialog"
+          aria-labelledby="modalAlterar"
+          aria-hidden="true"
+        >
+          <div class="modal-dialog modal-dialog-centered" role="document">
+            <div class="modal-content">
+              <div class="modal-body">
+                <p>
+                  A - Alterar: alteração da posição para quatro apoios (manobra
+                  de Gaskin ou de “largada de corrida”).
+                </p>
+              </div>
+              <div class="modal-footer">
+                <button
+                  type="button"
+                  class="btn btn-secondary"
+                  data-dismiss="modal"
+                >
+                  Fechar
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Modal Internas -->
+        <div
+          class="modal fade"
+          id="modalInternas"
+          tabindex="-1"
+          role="dialog"
+          aria-labelledby="modalInternas"
+          aria-hidden="true"
+        >
+          <div class="modal-dialog modal-dialog-centered" role="document">
+            <div class="modal-content">
+              <div class="modal-body">
+                <p>
+                  I - Internas: manobras internas (Rubin II, parafuso de Woods e
+                  Woods reversa).
+                </p>
+              </div>
+              <div class="modal-footer">
+                <button
+                  type="button"
+                  class="btn btn-secondary"
+                  data-dismiss="modal"
+                >
+                  Fechar
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Modal Desprender -->
+        <div
+          class="modal fade"
+          id="modalDesprender"
+          tabindex="-1"
+          role="dialog"
+          aria-labelledby="modalDesprender"
+          aria-hidden="true"
+        >
+          <div class="modal-dialog modal-dialog-centered" role="document">
+            <div class="modal-content">
+              <div class="modal-body">
+                <p>D - Desprender ombro posterior.</p>
+              </div>
+              <div class="modal-footer">
+                <button
+                  type="button"
+                  class="btn btn-secondary"
+                  data-dismiss="modal"
+                >
+                  Fechar
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Modal Avaliar -->
+        <div
+          class="modal fade"
+          id="modalAvaliar"
+          tabindex="-1"
+          role="dialog"
+          aria-labelledby="modalAvaliar"
+          aria-hidden="true"
+        >
+          <div class="modal-dialog modal-dialog-centered" role="document">
+            <div class="modal-content">
+              <div class="modal-body">
+                <p>
+                  A - Avaliar: avaliar a necessidade das manobras de resgate (se
+                  necessário).
+                </p>
               </div>
               <div class="modal-footer">
                 <button
