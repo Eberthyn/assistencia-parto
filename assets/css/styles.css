@@ -888,9 +888,9 @@ footer img {
   list-style: none;
 }
 
-.card-body p {
+/* .card-body p {
   margin-bottom: 0 !important;
-}
+} */
 
 .accordionMenu .collapsed i:before {
   content: "\f0d7";
@@ -1872,4 +1872,106 @@ a.tituloItem {
   .arrow-horizontal {
     margin-bottom: 18px;
   }
+}
+
+
+
+
+/* Container principal */
+.imagem-container {
+  position: relative;
+  margin-bottom: 120px !important; /* Espaço para accordion expandido */
+  display: flex;
+  flex-direction: column;
+}
+
+/* Accordion posicionado absolutamente */
+.accordion-overlay {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  right: 0;
+  z-index: 1000;
+  background: white;
+  margin-top: 10px;
+}
+
+/* Conteúdo da imagem */
+.imagem-content {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+/* Container da imagem com tamanho fixo */
+.imagem-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.imagem-wrapper h3 {
+  min-height: 43px; /* Altura mínima para o título */
+}
+
+/* Container da imagem com dimensões fixas */
+.imagem-fixed-container {
+  width: 100%;
+  height: 490px; /* Altura fixa */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+  margin-bottom: 10px;
+}
+
+.imagem-fixed-container img {
+  max-width: 100%;
+  max-height: 100%;
+  width: auto;
+  height: auto;
+  object-fit: contain; /* Mantém a imagem completa visível */
+  object-position: center; /* Centraliza a imagem */
+}
+
+/* Responsividade */
+@media (max-width: 768px) {
+
+  
+  .imagem-container {
+    margin-bottom: 80px;
+  }
+  
+  .imagem-fixed-container {
+    height: 250px; /* Altura menor em tablets */
+  }
+  
+  .imagem-wrapper h3 {
+    min-height: 50px;
+  }
+}
+
+@media (max-width: 576px) {
+  .imagem-container {
+    margin-bottom: 60px;
+  }
+  
+  .imagem-fixed-container {
+    height: 200px; /* Altura menor em mobile */
+  }
+  
+  .imagem-wrapper h3 {
+    min-height: 40px;
+    font-size: 1.1rem;
+  }
+  
+  .accordion-overlay {
+    margin-top: 5px;
+  }
+}
+
+/* Opcional: Remover cor de fundo se preferir transparente */
+.imagem-fixed-container.transparent {
+  background-color: transparent;
+  border: none;
 }
