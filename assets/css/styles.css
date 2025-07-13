@@ -20,6 +20,10 @@
   src: url(../fonts/Roboto_Condensed-Bold.ttf) format("truetype");
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 body,
 header,
 footer {
