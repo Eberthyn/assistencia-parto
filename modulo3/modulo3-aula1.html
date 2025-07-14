@@ -179,7 +179,7 @@
               <div class="row">
                 <div class="sectionTitle">
                   <span
-                    class="tituloLista"
+                    class="tituloLista collapsed"
                     data-toggle="collapse"
                     data-target="#collapseModulo2"
                     aria-expanded="false"
@@ -270,7 +270,7 @@
               <div class="row">
                 <div class="sectionTitle">
                   <span
-                    class="tituloLista collapsed"
+                    class="tituloLista"
                     data-toggle="collapse"
                     data-target="#collapseModulo3"
                     aria-expanded="false"
@@ -1474,152 +1474,61 @@
           <div class="row tabela centro">
             <div class="tabela-igual">
               <div class="col-md-10">
-                <table>
-                  <tr>
-                    <th
-                      style="
-                        border-right: 1px solid white;
-                        background-color: #aa1c95;
-                      "
-                    >
-                      Estimativa da Perda Sanguínea
-                    </th>
-                    <th
-                      style="
-                        border-left: 1px solid white;
-                        background-color: #aa1c95;
-                      "
-                    >
-                      Nível de Consciência
-                    </th>
-                    <th
-                      style="
-                        border-left: 1px solid white;
-                        background-color: #aa1c95;
-                      "
-                    >
-                      Perfusão
-                    </th>
-                    <th
-                      style="
-                        border-left: 1px solid white;
-                        background-color: #aa1c95;
-                      "
-                    >
-                      Pulso
-                    </th>
-                    <th
-                      style="
-                        border-left: 1px solid white;
-                        background-color: #aa1c95;
-                      "
-                    >
-                      Pressão Arterial Sistólica (mmHg)
-                    </th>
-                    <th
-                      style="
-                        border-left: 1px solid white;
-                        background-color: #aa1c95;
-                      "
-                    >
-                      Grau do Choque
-                    </th>
-                    <th
-                      style="
-                        border-left: 1px solid white;
-                        background-color: #aa1c95;
-                      "
-                    >
-                      Transfusão
-                    </th>
-                  </tr>
-                  <tr>
-                    <td>
-                      <p>10-15% 500-1000 mL</p>
-                    </td>
-                    <td>
-                      <p>Normal</p>
-                    </td>
-                    <td>
-                      <p>Normal</p>
-                    </td>
-                    <td>
-                      <p>60-90</p>
-                    </td>
-                    <td>
-                      <p>>90</p>
-                    </td>
-                    <td>
-                      <p>Compensado</p>
-                    </td>
-                    <td>Usualmente não</td>
-                  </tr>
-                  <tr>
-                    <td>
-                      <p>16-25% 1000-1500 mL</p>
-                    </td>
-                    <td>
-                      <p>Normal ou agitada</p>
-                    </td>
-                    <td>
-                      <p>Palidez, frieza</p>
-                    </td>
-                    <td>
-                      <p>91-100</p>
-                    </td>
-                    <td>
-                      <p>80-90</p>
-                    </td>
-                    <td>
-                      <p>Leve</p>
-                    </td>
-                    <td>Possível</td>
-                  </tr>
-                  <tr>
-                    <td>
-                      <p>26-35% 1500-2000 mL</p>
-                    </td>
-                    <td>
-                      <p>Agitada</p>
-                    </td>
-                    <td>
-                      <p>Palidez, frieza e sudorese</p>
-                    </td>
-                    <td>
-                      <p>101-120</p>
-                    </td>
-                    <td>
-                      <p>70-79</p>
-                    </td>
-                    <td>
-                      <p>Moderado</p>
-                    </td>
-                    <td>Usualmente requerida</td>
-                  </tr>
-                  <tr>
-                    <td>
-                      <p>>35% >2000 mL</p>
-                    </td>
-                    <td>
-                      <p>Letárgica ou inconsciente</p>
-                    </td>
-                    <td>
-                      <p>
-                        Palidez, frieza, sudorese e perfusão capilar > 3 seg
-                      </p>
-                    </td>
-                    <td>
-                      <p>>120</p>
-                    </td>
-                    <td>
-                      <p><70</p>
-                    </td>
-                    <td>
-                      <p>Grave</p>
-                    </td>
-                    <td>Possível transfusão maciça</td>
-                  </tr>
+                <h3 style="color: #793767">Transfusão maciça</h3>
+                <table class="tabela-avaliacao">
+                  <thead>
+                    <tr>
+                      <th>Estimativa da Perda</th>
+                      <th>Nível de Consciência</th>
+                      <th>Perfusão</th>
+                      <th>Pulso</th>
+                      <th>Pressão Arterial</th>
+                      <th>Grau do Choque</th>
+                      <th>Transfusão</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr>
+                      <td>10-15%<br />500-1000 mL</td>
+                      <td>Normal</td>
+                      <td>Normal</td>
+                      <td>60-90</td>
+                      <td>&gt; 90</td>
+                      <td>Compensado</td>
+                      <td>Usualmente não</td>
+                    </tr>
+                    <tr>
+                      <td>16-25%<br />1000-1500 mL</td>
+                      <td>Normal ou<br />agitada</td>
+                      <td>Palidez, frieza</td>
+                      <td>91-100</td>
+                      <td>80-90</td>
+                      <td>Leve</td>
+                      <td>Possível</td>
+                    </tr>
+                    <tr>
+                      <td>26-35%<br />1500-2000 mL</td>
+                      <td>Agitada</td>
+                      <td>Palidez, frieza<br />e sudorese</td>
+                      <td>101-120</td>
+                      <td>70-79</td>
+                      <td>Moderado</td>
+                      <td>Usualmente requerida</td>
+                    </tr>
+                    <tr>
+                      <td>&gt; 35%<br />&gt; 2000 mL</td>
+                      <td>Letárgica ou<br />inconsciente</td>
+                      <td>Palidez, frieza,<br />sudorese e perfusão</td>
+                      <td>&gt; 120</td>
+                      <td>&lt; 70</td>
+                      <td>Grave</td>
+                      <td>Possível transfusão maciça</td>
+                    </tr>
+                  </tbody>
                 </table>
+                <div class="imagemLegenda">
+                  <small>Fonte: Campus Virtual Fiocruz (2025)</small>
+                </div>
               </div>
             </div>
           </div>

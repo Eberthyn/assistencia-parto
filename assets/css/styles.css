@@ -923,6 +923,7 @@ footer img {
   align-items: center;
   justify-content: center;
   z-index: 10;
+  cursor: pointer;
 }
 
 .slide-content {
@@ -1981,4 +1982,52 @@ a.tituloItem {
 
 #accordionExterno {
   transition: margin-top 0.4s ease;
+}
+
+.card-roxo-center {
+  display: flex;
+  justify-content: center;
+  margin: 20px 0;
+}
+
+.card-roxo {
+  background: #c04caf;
+  padding: 10px 30px;
+  border-radius: 2px;
+  min-width: 320px;
+  text-align: center;
+  color: white;
+}
+
+.card-roxo-link {
+  color: #fff;
+  text-decoration: underline;
+  font-weight: bold;
+  font-size: 1rem;
+}
+
+.tabela-avaliacao {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+  text-align: center;
+  
+}
+
+.tabela-avaliacao th,
+.tabela-avaliacao td {
+  border: 1px solid #ddd;
+  padding: 8px 5px;
+  font-size: 0.98rem;
+}
+
+.tabela-avaliacao thead th {
+  background: #aa1c95;
+  color: #fff;
+  font-weight: bold;
+}
+
+.tabela-avaliacao tbody td {
+  background: #fff;
+  color: #333;
 }
