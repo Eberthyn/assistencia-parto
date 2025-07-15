@@ -1209,54 +1209,63 @@ a.tituloItem {
 
 /* ATIVIDADES */
 .pergunta {
-  font-weight: 600;
+    font-weight: 600;
 }
 
 .alternativas label {
-  /*color: #9A7265;*/
-  font-weight: 300;
+    /*color: #9A7265;*/
+    font-weight: 300;
+}
+
+input[type="radio"] {
+    appearance: none;
 }
 
 .input-radio input {
-  min-height: 20px !important;
-  min-width: 20px !important;
-  border-radius: 100px;
-  border: 1px solid;
-  margin-right: 1rem;
-  margin-top: 2px;
+    min-height: 20px !important;
+    min-width: 20px !important;
+    border-radius: 100px;
+    border: 1px solid;
+    margin-right: 1rem;
+    margin-top: 2px;
+    cursor: pointer;
+}
+
+.input-radio input:focus {
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
 }
 
 .input-radio {
-  display: flex;
-  align-items: flex-start;
-  margin-top: 8px;
+    display: flex;
+    align-items: flex-start;
+    margin-top: 8px;
 }
 
 .feedback {
-  border: 2px solid;
-  margin-bottom: 30px;
+    border: 2px solid;
+    margin-bottom: 30px;
 }
 
 .feedback p {
-  margin: 0;
-  padding: 10px 20px;
-  color: black !important;
+    margin: 0;
+    padding: 10px 20px;
+    color: black !important;
 }
 
 .escondeFeedback {
-  display: none;
+    display: none;
 }
 
 .resposta-correta {
-  color: #0abc3a !important;
+    color: #0ABC3A !important;
 }
 
 .resposta-incorreta {
-  color: #f8062c !important;
+    color: #F8062C !important;
 }
 
 .alternativas {
-  margin-top: 14px;
+    margin-top: 14px;
 }
 
 /* Card */

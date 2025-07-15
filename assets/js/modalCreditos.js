@@ -1,8 +1,8 @@
 class ModalCreditos extends HTMLElement {
-    constructor() {
-        super();
-        this.attachShadow({ mode: 'open' });
-		this.shadowRoot.innerHTML  = `
+  constructor() {
+    super();
+    this.attachShadow({ mode: "open" });
+    this.shadowRoot.innerHTML = `
         <style type="text/css">
             p {
                 margin-bottom: 0px !important;
@@ -18,24 +18,15 @@ class ModalCreditos extends HTMLElement {
 
         <h2>Ministério da Saúde</h2>
 
-        <p>Nísia Trindade Lima</p>
-        <i>Ministra</i>
-
-        <p>Ethel Leonor Noia Maciel</p>
-        <i>Secretária de Vigilância em Saúde</i>
-
-        <p>Draurio Barreira Cravo Neto</p>
-        <i>Diretor do Departamento de HIV/AIDS, Tuberculose, Hepatites Virais e Infecções Sexualmente Transmissíveis - DATHI</i>
-
-        <p>Artur Olhovetchi Kalichman</p>
-        <i>Coordenador Geral de Vigilância do HIV/AIDS e das Hepatites Virais</i>
+        <p>Alexandre Padilha</p>
+        <i>Ministro</i>
 
         <h2>Fundação Oswaldo Cruz – Fiocruz</h2>
 
         <p>Mario Moreira</p>
         <i>Presidente</i>
 
-        <p>Cristiani Vieira Machado</p>
+        <p>Marly Cruz</p>
         <i>Vice-Presidência de Educação, Informação e Comunicação (VPEIC)</i>
 
         <h2>Campus Virtual Fiocruz</h2>
@@ -44,18 +35,21 @@ class ModalCreditos extends HTMLElement {
         <i>Coordenadora Geral</i>
 
         <p>Rosane Mendes</p>
-        <i>Coordenadora Adjunta, Coordenadora da Plataforma Educare</i>
+        <i>Coordenadora Adjunta</i>
 
         <p>Renata Bernardes David</p>
         <i>Coordenadora de Produção</i>
 
         <p>Juliana Dutra</p>
-        <i>Revisora Técnica de Conteúdo</i>
+        <i>Gerente de Produção</i>
+
+        <p>Claúdia Reis</p>
+        <i>Assessora Pedagógica</i>
 
         <p>Isabela Schincariol</p>
         <i>Assessora de Comunicação</i>
 
-        <p>Roberta Saboya</p>
+        <p>Fernanda Sousa</p>
         <i>Designer Educacional</i>
 
         <p>Daniela Botelho</p>
@@ -77,7 +71,7 @@ class ModalCreditos extends HTMLElement {
         <p>Natália Rasina</p>
         <i>Audiodescrição</i>
 
-        <p>Maria Angélica Marcondes Drska</p>
+        <p>Janaina Vieira</p>
         <i>Revisão de Português</i>
 
         <p><b>Suporte Técnico de Tecnologia da Informação</b></p>
@@ -94,63 +88,35 @@ class ModalCreditos extends HTMLElement {
         <p>Orlando Terra</p>
         <i>Analista de Suporte</i>
 
+        <p>Fábio Carneiro</p>
+        <i>Designer Gráfico e Web Designer</i>
+
         <h2>Coordenação Acadêmica</h2>
 
-        <p>Marly Marques da Cruz</p>
-        <i>Pesquisadora em Saúde Pública. Departamento de Endemias Samuel Pessoa (DENSP/ENSP/Fiocruz)<br>
-        Diretora do Acordo de Cooperação entre a ENSP/Fiocruz e os Centros de Controle e Prevenção de Doenças dos Estados Unidos (CDC)</i>
+        <p>Maria do Carmo Leal</p>
+        <i>Escola Nacional de Saúde Pública Sérgio Arouca – ENSP/FIOCRUZ</i>
 
-        <p>Vanda Lúcia Cota</p>
-        <i>Vice-Diretora do Acordo de Cooperação entre a ENSP/Fiocruz e o CDC</i>
+        <h2>Coordenação do Projeto</h2>
 
-        <h2>Coordenação Técnica</h2>
+        <p>Michele Rocha de Araújo El Kadri</p>
+        <i>Instituto Leônidas e Maria Deane – ILMD/Fiocruz Amazônia</i>
 
-        <p>Tatianna Meireles Dantas de Alencar</p>
-        <i>Analista Técnica de Políticas Sociais - Departamento de HIV/AIDS, Tuberculose, Hepatites Virais e Infecções Sexualmente Transmissíveis - DATHI do Ministério da Saúde</i>
+        <h2>Equipe ILMD/Fiocruz Amazônia</h2>
 
-        <h2>Coordenação Pedagógica</h2>
+        <p>Letícia Santos de Souza</p>
+        <p>Rosinete Lacerda Alves</p>
+        <p>Tatiane Figueiredo</p>
 
-        <p>Ana Luisa Nepomuceno Silva</p>
-        <i>Consultora técnica - Departamento de HIV/AIDS, Tuberculose, Hepatites Virais e Infecções Sexualmente Transmissíveis - DATHI do Ministério da Saúde</i>
+        <h2>Conteudista</h2>
+        <p>Álvaro Luiz Lage Alves</p>
+        <i>Hospital das Clínicas da Universidade Federal de Minas Gerais – Belo Horizonte / MG</i>
 
-        <h2>Conteudistas</h2>
+        <h2>Ilustração</h2>
+        
+        <p>Felipe Starling</p>
 
-        <p>Thiago Cherem Morelli</p>
-        <i>Consultor Técnico</i>
-
-        <p>Marihá Camelo de Moura Vasconcelos</p>
-        <i>Analista Técnica de Políticas Sociais</i>
-
-        <p>Tatianna Meireles Dantas de Alencar</p>
-        <i>Analista Técnica de Políticas Sociais</i>
-
-        <h2>Revisão Técnica</h2>
-
-        <p>Thiago Cherem Morelli</p>
-        <i>Consultor Técnico</i>
-
-        <p>Marihá Camelo de Moura Vasconcelos</p>
-        <i>Analista Técnica de Políticas Sociais</i>
-
-        <p>Tatianna Meireles Dantas de Alencar</p>
-        <i>Analista Técnica de Políticas Sociais</i>
-
-        <p>Ana Luisa Nepomuceno Silva</p>
-        <i>Consultora Técnica</i>
-
-        <p>Francisco Álisson Paula de França</p>
-        <i>Consultor Técnico</i>
-
-        <p>Beatriz Brittes Kamiensk</p>
-        <i>Consultora Técnica</i>
-
-        <p>Maria Clara Gianna Garcia Ribeiro</p>
-        <i>Consultora Técnica</i>
-
-        <p>Aranaí Guarabyra</p>
-        <i>Consultora Nacional IST/OPAS</i>
-`
-    }
+`;
+  }
 }
 
-customElements.define('modal-creditos', ModalCreditos);
+customElements.define("modal-creditos", ModalCreditos);

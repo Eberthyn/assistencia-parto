@@ -338,3 +338,49 @@ a.tituloLista {
 .sectionTitle i {
   margin: 5px;
 }
+
+/* Accordions */
+.card {
+  border: 0px;
+  position: relative;
+}
+
+.card-header a:hover {
+  cursor: pointer;
+  text-decoration: none !important;
+}
+
+.card-header {
+  border-width: 1px;
+  border-color: #c4c4c4;
+  background-color: white;
+}
+
+.card-header p {
+  color: #c04caf;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+
+.accordion {
+  padding: 1rem 3rem;
+  margin-bottom: 30px;
+}
+
+.card-body ul li {
+  list-style: none;
+}
+
+.accordionMenu .collapsed i:before {
+  content: "\f0d7";
+}
+
+.accordion .collapsed i::before {
+  content: "\f067";
+}
+
+.imagem .accordion .collapsed i::before {
+  content: "\f078";
+}
