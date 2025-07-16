@@ -1,334 +1,228 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-  <head>
-    <meta charset="utf-8" />
-    <title>Assistência ao Parto</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <link rel="icon" type="image/x-icon" href="../assets/images/favicon.ico" />
 
-    <link href="../assets/css/normalize.css" rel="stylesheet" />
-    <link
-      rel="stylesheet"
-      href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
-    />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display=swap"
-      rel="stylesheet"
-    />
-    <link
-      rel="stylesheet"
-      href="https://use.fontawesome.com/releases/v5.15.1/css/all.css"
-    />
-    <link href="../assets/css/styles.css" rel="stylesheet" />
-  </head>
+<head>
+  <meta charset="utf-8" />
+  <title>Assistência ao Parto</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link rel="icon" type="image/x-icon" href="../assets/images/favicon.ico" />
 
-  <body>
-    <!-- Toolbar -->
-    <div class="row header">
-      <img
-        src="../assets/images/home/top-wave-left.png"
-        alt="Decorative shape left"
-        class="header-shape-left"
-      />
-      <div class="header-text">
-        <h1>
-          Assistência <br />
-          ao parto:
-        </h1>
-        <h2>
-          ênfase nas distocias e <br />principais causas de
-          <br />morbimortalidade materna
-        </h2>
-      </div>
-      <img
-        class="img-fluid"
-        src="../assets/images/logos/header.png"
-        alt="Capa das páginas do curso"
-      />
-      <img
-        src="../assets/images/logos/campuVirtual.png"
-        alt="Campus Virtual"
-        class="img-fluid campusVirtual"
-      />
-      <div class="col-md-12 descricaoModulo">
-        <h2>
-          Módulo 1 | Evolução da obstetrícia e as etapas de assistência ao parto
-        </h2>
-      </div>
+  <link href="../assets/css/normalize.css" rel="stylesheet" />
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.1/css/all.css" />
+  <link href="../assets/css/styles.css" rel="stylesheet" />
+</head>
+
+<body>
+  <!-- Toolbar -->
+  <div class="row header">
+    <img src="../assets/images/home/top-wave-left.png" alt="Decorative shape left" class="header-shape-left" />
+    <div class="header-text">
+      <h1>
+        Assistência <br />
+        ao parto:
+      </h1>
+      <h2>
+        ênfase nas distocias e <br />principais causas de
+        <br />morbimortalidade materna
+      </h2>
     </div>
+    <img class="img-fluid" src="../assets/images/logos/header.png" alt="Capa das páginas do curso" />
+    <img src="../assets/images/logos/campuVirtual.png" alt="Campus Virtual" class="img-fluid campusVirtual" />
+    <div class="col-md-12 descricaoModulo">
+      <h2>
+        Módulo 1 | Evolução da obstetrícia e as etapas de assistência ao parto
+      </h2>
+    </div>
+  </div>
 
-    <div class="row" id="row-main">
-      <!-- Sidebar -->
-      <div class="col-md-2" id="sidebar">
-        <!-- Botão p/ Recolher Sidebar-->
-        <span class="toggle-sidebar" id="sidebarButton"
-          ><i class="fas fa-chevron-left"></i
-        ></span>
+  <div class="row" id="row-main">
+    <!-- Sidebar -->
+    <div class="col-md-2" id="sidebar">
+      <!-- Botão p/ Recolher Sidebar-->
+      <span class="toggle-sidebar" id="sidebarButton"><i class="fas fa-chevron-left"></i></span>
 
-        <!-- Botão Secundário p/ Recolher Sidebar -->
-        <span class="toggle-sidebar" id="sidebarButton2"
-          ><i class="fas fa-bars"></i
-        ></span>
+      <!-- Botão Secundário p/ Recolher Sidebar -->
+      <span class="toggle-sidebar" id="sidebarButton2"><i class="fas fa-bars"></i></span>
 
-        <nav id="menuLateral">
-          <ul class="listaMenu">
-            <li>
-              <div class="row">
-                <div class="sectionTitle">
-                  <a
-                    href="../index.html"
-                    class="tituloLista"
-                    style="padding-top: 0 !important"
-                    ><i class="fas fa-home"></i>Página Inicial</a
-                  >
-                </div>
+      <nav id="menuLateral">
+        <ul class="listaMenu">
+          <li>
+            <div class="row">
+              <div class="sectionTitle">
+                <a href="../index.html" class="tituloLista" style="padding-top: 0 !important"><i
+                    class="fas fa-home"></i>Página Inicial</a>
               </div>
-            </li>
+            </div>
+          </li>
 
-            <div class="accordionMenu" id="headingModulo1">
-              <div class="row">
-                <div class="sectionTitle">
-                  <span
-                    class="tituloLista"
-                    data-toggle="collapse"
-                    data-target="#collapseModulo1"
-                    aria-expanded="false"
-                    aria-controls="collapseModulo1"
-                    >Módulo 1<i class="fas fa-caret-up caretDown"></i
-                  ></span>
-                </div>
-              </div>
-
-              <div
-                id="collapseModulo1"
-                class="collapse show"
-                aria-labelledby="headingModulo1"
-              >
-                <li>
-                  <div class="row">
-                    <div class="barraStepper">
-                      <div class="item active"></div>
-                    </div>
-                    <div class="sectionTitle">
-                      <span class="tituloItem"
-                        ><a href="modulo1-aula1-introducao.html"
-                          >Aula 1</a
-                        ></span
-                      >
-                    </div>
-                  </div>
-                </li>
-                <li>
-                  <div class="row">
-                    <div class="barraStepper">
-                      <div class="item"></div>
-                    </div>
-                    <div class="sectionTitle">
-                      <span class="tituloItem"
-                        ><a href="modulo1-aula2-introducao.html"
-                          >Aula 2</a
-                        ></span
-                      >
-                    </div>
-                  </div>
-                </li>
-                <li>
-                  <div class="row">
-                    <div class="barraStepper">
-                      <div class="item"></div>
-                    </div>
-                    <div class="sectionTitle">
-                      <span class="tituloItem"
-                        ><a href="modulo1-aula3-introducao.html"
-                          >Aula 3</a
-                        ></span
-                      >
-                    </div>
-                  </div>
-                </li>
-                <li>
-                  <div class="row">
-                    <div class="barraStepper">
-                      <div class="item"></div>
-                    </div>
-                    <div class="sectionTitle">
-                      <span class="tituloItem"
-                        ><a href="modulo1-aula4-introducao.html"
-                          >Aula 4</a
-                        ></span
-                      >
-                    </div>
-                  </div>
-                </li>
-                <li>
-                  <div class="row">
-                    <div class="barraStepper" style="background-color: #aa1c95">
-                      <div class="item"></div>
-                    </div>
-                    <div class="sectionTitle">
-                      <span class="tituloItem"
-                        ><a href="modulo1-atividade.html">Atividade</a></span
-                      >
-                    </div>
-                  </div>
-                </li>
+          <div class="accordionMenu" id="headingModulo1">
+            <div class="row">
+              <div class="sectionTitle">
+                <span class="tituloLista" data-toggle="collapse" data-target="#collapseModulo1" aria-expanded="false"
+                  aria-controls="collapseModulo1">Módulo 1<i class="fas fa-caret-up caretDown"></i></span>
               </div>
             </div>
 
-            <div class="accordionMenu" id="headingModulo2">
-              <div class="row">
-                <div class="sectionTitle">
-                  <span
-                    class="tituloLista collapsed"
-                    data-toggle="collapse"
-                    data-target="#collapseModulo2"
-                    aria-expanded="false"
-                    aria-controls="collapseModulo2"
-                    >Módulo 2<i class="fas fa-caret-up caretDown"></i
-                  ></span>
+            <div id="collapseModulo1" class="collapse show" aria-labelledby="headingModulo1">
+              <li>
+                <div class="row">
+                  <div class="barraStepper">
+                    <div class="item active"></div>
+                  </div>
+                  <div class="sectionTitle">
+                    <span class="tituloItem"><a href="modulo1-aula1-introducao.html">Aula 1</a></span>
+                  </div>
                 </div>
-              </div>
-              <div
-                id="collapseModulo2"
-                class="collapse"
-                aria-labelledby="headingModulo2"
-              >
-                <li>
-                  <div class="row">
-                    <div class="barraStepper">
-                      <div class="item"></div>
-                    </div>
-                    <div class="sectionTitle">
-                      <span class="tituloItem"
-                        ><a href="../modulo2/modulo2-aula1-introducao.html"
-                          >Aula 1</a
-                        ></span
-                      >
-                    </div>
+              </li>
+              <li>
+                <div class="row">
+                  <div class="barraStepper">
+                    <div class="item"></div>
                   </div>
-                </li>
-                <li>
-                  <div class="row">
-                    <div class="barraStepper">
-                      <div class="item"></div>
-                    </div>
-                    <div class="sectionTitle">
-                      <span class="tituloItem"
-                        ><a href="../modulo2/modulo2-aula2-introducao.html"
-                          >Aula 2</a
-                        ></span
-                      >
-                    </div>
+                  <div class="sectionTitle">
+                    <span class="tituloItem"><a href="modulo1-aula2-introducao.html">Aula 2</a></span>
                   </div>
-                </li>
-                <li>
-                  <div class="row">
-                    <div class="barraStepper">
-                      <div class="item"></div>
-                    </div>
-                    <div class="sectionTitle">
-                      <span class="tituloItem"
-                        ><a href="../modulo2/modulo2-aula3-introducao.html"
-                          >Aula 3</a
-                        ></span
-                      >
-                    </div>
+                </div>
+              </li>
+              <li>
+                <div class="row">
+                  <div class="barraStepper">
+                    <div class="item"></div>
                   </div>
-                </li>
-                <li>
-                  <div class="row">
-                    <div class="barraStepper">
-                      <div class="item"></div>
-                    </div>
-                    <div class="sectionTitle">
-                      <span class="tituloItem"
-                        ><a href="../modulo2/modulo2-aula4-introducao.html"
-                          >Aula 4</a
-                        ></span
-                      >
-                    </div>
+                  <div class="sectionTitle">
+                    <span class="tituloItem"><a href="modulo1-aula3-introducao.html">Aula 3</a></span>
                   </div>
-                </li>
-                <li>
-                  <div class="row">
-                    <div class="barraStepper" style="background-color: #aa1c95">
-                      <div class="item"></div>
-                    </div>
-                    <div class="sectionTitle">
-                      <span class="tituloItem"
-                        ><a href="../modulo2/modulo2-atividade.html"
-                          >Atividade</a
-                        ></span
-                      >
-                    </div>
+                </div>
+              </li>
+              <li>
+                <div class="row">
+                  <div class="barraStepper">
+                    <div class="item"></div>
                   </div>
-                </li>
+                  <div class="sectionTitle">
+                    <span class="tituloItem"><a href="modulo1-aula4-introducao.html">Aula 4</a></span>
+                  </div>
+                </div>
+              </li>
+              <li>
+                <div class="row">
+                  <div class="barraStepper" style="background-color: #aa1c95">
+                    <div class="item"></div>
+                  </div>
+                  <div class="sectionTitle">
+                    <span class="tituloItem"><a href="modulo1-atividade.html">Atividade</a></span>
+                  </div>
+                </div>
+              </li>
+            </div>
+          </div>
+
+          <div class="accordionMenu" id="headingModulo2">
+            <div class="row">
+              <div class="sectionTitle">
+                <span class="tituloLista collapsed" data-toggle="collapse" data-target="#collapseModulo2"
+                  aria-expanded="false" aria-controls="collapseModulo2">Módulo 2<i
+                    class="fas fa-caret-up caretDown"></i></span>
               </div>
             </div>
-
-            <div class="accordionMenu" id="headingModulo3">
-              <div class="row">
-                <div class="sectionTitle">
-                  <span
-                    class="tituloLista collapsed"
-                    data-toggle="collapse"
-                    data-target="#collapseModulo3"
-                    aria-expanded="false"
-                    aria-controls="collapseModulo3"
-                    >Módulo 3<i class="fas fa-caret-up caretDown"></i
-                  ></span>
+            <div id="collapseModulo2" class="collapse" aria-labelledby="headingModulo2">
+              <li>
+                <div class="row">
+                  <div class="barraStepper">
+                    <div class="item"></div>
+                  </div>
+                  <div class="sectionTitle">
+                    <span class="tituloItem"><a href="../modulo2/modulo2-aula1-introducao.html">Aula 1</a></span>
+                  </div>
                 </div>
-              </div>
-              <div
-                id="collapseModulo3"
-                class="collapse"
-                aria-labelledby="headingModulo3"
-              >
-                <li>
-                  <div class="row">
-                    <div class="barraStepper">
-                      <div class="item"></div>
-                    </div>
-                    <div class="sectionTitle">
-                      <span class="tituloItem"
-                        ><a href="../modulo3/modulo3-aula1-introducao.html"
-                          >Aula 1</a
-                        ></span
-                      >
-                    </div>
+              </li>
+              <li>
+                <div class="row">
+                  <div class="barraStepper">
+                    <div class="item"></div>
                   </div>
-                </li>
-                <li>
-                  <div class="row">
-                    <div class="barraStepper">
-                      <div class="item"></div>
-                    </div>
-                    <div class="sectionTitle">
-                      <span class="tituloItem"
-                        ><a href="../modulo3/modulo3-aula2-introducao.html"
-                          >Aula 2</a
-                        ></span
-                      >
-                    </div>
+                  <div class="sectionTitle">
+                    <span class="tituloItem"><a href="../modulo2/modulo2-aula2-introducao.html">Aula 2</a></span>
                   </div>
-                </li>
-                <li>
-                  <div class="row">
-                    <div class="barraStepper" style="background-color: #aa1c95">
-                      <div class="item"></div>
-                    </div>
-                    <div class="sectionTitle">
-                      <span class="tituloItem"
-                        ><a href="../modulo3/modulo3-atividade.html"
-                          >Atividade</a
-                        ></span
-                      >
-                    </div>
+                </div>
+              </li>
+              <li>
+                <div class="row">
+                  <div class="barraStepper">
+                    <div class="item"></div>
                   </div>
-                </li>
+                  <div class="sectionTitle">
+                    <span class="tituloItem"><a href="../modulo2/modulo2-aula3-introducao.html">Aula 3</a></span>
+                  </div>
+                </div>
+              </li>
+              <li>
+                <div class="row">
+                  <div class="barraStepper">
+                    <div class="item"></div>
+                  </div>
+                  <div class="sectionTitle">
+                    <span class="tituloItem"><a href="../modulo2/modulo2-aula4-introducao.html">Aula 4</a></span>
+                  </div>
+                </div>
+              </li>
+              <li>
+                <div class="row">
+                  <div class="barraStepper" style="background-color: #aa1c95">
+                    <div class="item"></div>
+                  </div>
+                  <div class="sectionTitle">
+                    <span class="tituloItem"><a href="../modulo2/modulo2-atividade.html">Atividade</a></span>
+                  </div>
+                </div>
+              </li>
+            </div>
+          </div>
+
+          <div class="accordionMenu" id="headingModulo3">
+            <div class="row">
+              <div class="sectionTitle">
+                <span class="tituloLista collapsed" data-toggle="collapse" data-target="#collapseModulo3"
+                  aria-expanded="false" aria-controls="collapseModulo3">Módulo 3<i
+                    class="fas fa-caret-up caretDown"></i></span>
               </div>
             </div>
-
+            <div id="collapseModulo3" class="collapse" aria-labelledby="headingModulo3">
+              <li>
+                <div class="row">
+                  <div class="barraStepper">
+                    <div class="item"></div>
+                  </div>
+                  <div class="sectionTitle">
+                    <span class="tituloItem"><a href="../modulo3/modulo3-aula1-introducao.html">Aula 1</a></span>
+                  </div>
+                </div>
+              </li>
+              <li>
+                <div class="row">
+                  <div class="barraStepper">
+                    <div class="item"></div>
+                  </div>
+                  <div class="sectionTitle">
+                    <span class="tituloItem"><a href="../modulo3/modulo3-aula2-introducao.html">Aula 2</a></span>
+                  </div>
+                </div>
+              </li>
+              <li>
+                <div class="row">
+                  <div class="barraStepper" style="background-color: #aa1c95">
+                    <div class="item"></div>
+                  </div>
+                  <div class="sectionTitle">
+                    <span class="tituloItem"><a href="../modulo3/modulo3-atividade.html">Atividade</a></span>
+                  </div>
+                </div>
+              </li>
+            </div>
+          </div>
+          <!-- 
             <div class="accordionMenu" id="headingModulo4">
               <div class="row">
                 <div class="sectionTitle">
@@ -508,1274 +402,1081 @@
                   >
                 </div>
               </div>
-            </li>
-            <li>
-              <div class="row">
-                <div class="sectionTitle">
-                  <a class="tituloLista" role="button" href="../creditos.html"
-                    ><i class="fas fa-list"></i>Créditos</a
-                  >
-                </div>
-              </div>
-            </li>
-          </ul>
-        </nav>
-      </div>
-
-      <!-- Conteúdo principal -->
-      <div class="col-md-10" id="content">
-        <div class="conteudo">
-          <img
-            src="../assets/images/logos/floresAulas.png"
-            alt="Decorative flowers"
-            class="decorative-flowers"
-          />
-
-          <div class="tituloAula">
-            <h2>Aula 1</h2>
-
-            <h1>Introdução</h1>
-          </div>
-
-          <p>
-            A evolução das espécies impôs modificações ao esqueleto humano, e,
-            por meio do
-            <a
-              style="color: #c04caf"
-              data-toggle="tooltip"
-              class="nobr"
-              data-original-title="Bipedalismo é a carga atribuída por um peso corporal suportado exclusivamente pelos membros inferiores."
-              ><u>bipedalismo</u></a
-            >
-            e da
-            <a
-              style="color: #c04caf"
-              data-toggle="tooltip"
-              class="nobr"
-              data-original-title="Encefalização é o aumento das dimensões e do peso do encéfalo humano."
-              ><u>encefalização</u></a
-            >, determinaram:
-          </p>
-          <ul>
-            <li class="icon arrow">
-              Intensificação das curvaturas da coluna vertebral.
-            </li>
-            <li class="icon arrow">
-              Surgimento do promontório sacral (primeiro obstáculo para a
-              passagem do feto pelo trajeto pélvico).
-            </li>
-            <li class="icon arrow">
-              Aumento do diâmetro transverso do estreito superior, que favorece
-              as insinuações em variedades de posição não diretas.
-            </li>
-            <li class="icon arrow">
-              <p>
-                Proeminência das espinhas isquiáticas (segundo obstáculo para a
-                passagem do fe-to pelo trajeto pélvico).
-              </p>
-            </li>
-          </ul>
-
-          <p>
-            Essas modificações anatômicas trouxeram dificuldades para o
-            nascimento e o surgimento dos tempos acessórios no mecanismo de
-            parto dos humanos (flexão, rotação interna e rotação externa).
-          </p>
-
-          <!-- Imagem 1 -->
-          <div class="row centro">
-            <div class="col-md-8 imagem">
-              <h3>Mulher no momento do parto</h3>
-              <img
-                src="../assets/images/modulo1/aula1/img1.png"
-                alt="Mulher no momento do parto"
-                class="img-fluid"
-              />
-              <div class="imagemLegenda">
-                <small>Fonte: Freepik (2025)</small>
+            </li> -->
+          <li>
+            <div class="row">
+              <div class="sectionTitle">
+                <a class="tituloLista" role="button" alt="Créditos" data-toggle="modal" data-target="#modalCreditos"><i
+                    class="fas fa-list"></i>Créditos</a>
               </div>
             </div>
-          </div>
-
-          <p>
-            Ao contrário dos primatas, para os quais o processo de insinuação
-            não exige o tempo acessório da flexão e ocorre em variedades de
-            posição diretas (habitualmente em occipitossacra), nos fetos humanos
-            a termo a insinuação ocorre comumente pelos diâmetros oblíquos e
-            transversos do estreito superior.
-          </p>
-
-          <p>
-            Por isso, o trajeto mais angustiado da pelve humana faz com que o
-            polo cefálico fetal necessite da flexão como um movimento acessório
-            à insinuação, que, por sua vez, ocorre frequentemente em variedades
-            de posição oblíquas e transversas, tornando necessária a rotação
-            interna como um movimento acessório ao processo subsequente de
-            descida pelo trajeto pélvico. Após alcançar o estreito inferior e
-            defletir por baixo da sínfise púbica, o polo cefálico, posicionado
-            externamente ao corpo materno, restitui por meio de nova rotação
-            (externa), permitindo a insinuação, descida e desprendimento dos
-            ombros. Expulsos os diâmetros biparietal e biacromial, o
-            desprendimento do feto é completado com a saída do seu diâmetro
-            bitrocantérico. Veja esse passo a passo ilustrado na imagem a
-            seguir.
-          </p>
-
-          <!-- Imagem 2 -->
-          <div class="row centro">
-            <div class="col-md-8 imagem">
-              <h3>Mecanismo do parto em OEA em 45º</h3>
-              <img
-                src="../assets/images/modulo1/aula1/img2.png"
-                alt="Mecanismo do parto em OEA em 45º"
-                class="img-fluid"
-              />
-              <div class="imagemLegenda">
-                <small>Fonte: Felipe Starling (2025)</small>
-              </div>
-            </div>
-          </div>
-
-          <p>
-            Além das modificações evolucionárias ocorridas no trajeto pélvico,
-            as mudanças no estilo de vida também trouxeram dificuldades no
-            momento do parto. Veja a seguir como o modo de viver das pessoas
-            mudou ao longo do tempo, e os impactos que surgiram nos partos
-            humanos.
-          </p>
-
-          <!-- ACCORDION -->
-          <!-- Accordion 1 -->
-          <div class="accordion">
-            <!-- Accordion card 1-->
-            <div class="card">
-              <!-- Card header -->
-              <div class="card-header" id="headingOne1">
-                <a
-                  class="collapsed"
-                  data-toggle="collapse"
-                  data-target="#collapseOne1"
-                  aria-expanded="false"
-                  aria-controls="collapseOne1"
-                >
-                  <p>
-                    <b>Antiguidade remota</b
-                    ><i class="fas fa-window-minimize"></i>
-                  </p>
-                </a>
-              </div>
-
-              <!-- Card body -->
-              <div
-                id="collapseOne1"
-                class="collapse"
-                aria-labelledby="headingOne1"
-              >
-                <div class="card-body">
-                  <p>
-                    Marcada pelo modo de vida nômade, atividades caçadoras e
-                    coletoras, e pouca miscigenação, o parto obstruído era um
-                    fenômeno raro.
-                  </p>
-                </div>
-              </div>
-            </div>
-
-            <!-- Accordion card 2 -->
-            <div class="card">
-              <!-- Card header -->
-              <div class="card-header" id="headingTwo2">
-                <a
-                  class="collapsed"
-                  data-toggle="collapse"
-                  data-target="#collapseTwo2"
-                  aria-expanded="false"
-                  aria-controls="collapseTwo2"
-                >
-                  <p><b>Atualidade</b><i class="fas fa-window-minimize"></i></p>
-                </a>
-              </div>
-
-              <!-- Card body -->
-              <div
-                id="collapseTwo2"
-                class="collapse"
-                aria-labelledby="headingTwo2"
-              >
-                <div class="card-body">
-                  <p>
-                    A evolução até a atualidade (10 mil anos) foi marcada pelo
-                    desenvolvimento da agricultura, aumento das densidades
-                    populacionais, maior miscigenação racial e aumento da
-                    ocorrência do sedentarismo. Além disso, a globalização da
-                    dieta hipercalórica norte-americana vem contribuindo para a
-                    progressão da obesidade no mundo, aumentando as taxas de
-                    distocia e a incidência de cesarianas.
-                  </p>
-                  <p>
-                    De acordo com o Ministério da Saúde (MS), em 2019 a
-                    prevalência de sobrepeso entre as mulheres brasileiras já
-                    alcançava 53,9%, enquanto a de obesidade já era de 20,7%.
-                  </p>
-                  <p>
-                    A projeção da Organização Mundial de Saúde (OMS) para o ano
-                    de 2025 é de que aproximadamente 2,3 bilhões de adultos
-                    estarão com sobrepeso e 700 milhões de pessoas com obesidade
-                    viverão no mundo.
-                  </p>
-                </div>
-              </div>
-            </div>
-          </div>
-          <!-- Fim Accordion 1 -->
-
-          <!-- Card Pontilhado -->
-          <div class="centro">
-            <div class="col-md-8 saibaMais">
-              <p>
-                <a
-                  data-toggle="modal"
-                  data-target="#modal1"
-                  style="cursor: pointer"
-                >
-                  <u>Clique aqui</u></a
-                >
-
-                e saiba mais sobre como essas mudanças impactam nas populações
-                que vivem em situação de isolamento.
-              </p>
-            </div>
-          </div>
-
-          <h1>Obesidade e obstetrícia</h1>
-
-          <p>
-            Estudos investigaram a associação entre peso corporal e complicações
-            relacionadas a hipocontratilidade uterina, e revelaram que a
-            obesidade prejudica a habilidade contrátil do útero no trabalho de
-            parto. Adicionalmente, o estudo da habilidade contrátil do
-            miométrio, realizado por meio da avaliação da força e frequência
-            contrátil, e do fluxo intracelular de Ca2+, também mostrou
-            comprometimento da contratilidade uterina em gestantes com índice de
-            massa corporal elevado.
-          </p>
-          <p>
-            Outras pesquisas que investigam a relação entre obesidade e
-            resultados maternos e neonatais revelam maior incidência de eventos
-            adversos em gestantes obesas. Veja a seguir as principais
-            preocupações com mulheres obesas durante a gestação, no parto e no
-            pós-parto.
-          </p>
-
-          <!-- Slider -->
-          <div class="row centro">
-            <div class="col-md-6">
-              <div class="carousel-wrapper">
-                <div
-                  id="carouselExampleIndicators"
-                  class="carousel slide"
-                  data-ride="carousel"
-                  data-interval="0"
-                >
-                  <div class="carousel-indicators-container">
-                    <ol class="carousel-indicators">
-                      <li
-                        data-target="#carouselExampleIndicators"
-                        data-slide-to="0"
-                        class="active"
-                      ></li>
-                      <li
-                        data-target="#carouselExampleIndicators"
-                        data-slide-to="1"
-                      ></li>
-                      <li
-                        data-target="#carouselExampleIndicators"
-                        data-slide-to="2"
-                      ></li>
-                      <li
-                        data-target="#carouselExampleIndicators"
-                        data-slide-to="3"
-                      ></li>
-                      <li
-                        data-target="#carouselExampleIndicators"
-                        data-slide-to="4"
-                      ></li>
-                    </ol>
-                  </div>
-                  <div class="carousel-inner">
-                    <!-- Item 1 -->
-                    <div class="carousel-item active">
-                      <div class="slide-content">
-                        <p>
-                          Desordens hipertensivas e diabetes mellitus
-                          gestacional.
-                        </p>
-                      </div>
-                    </div>
-                    <!-- Item 2 -->
-                    <div class="carousel-item">
-                      <div class="slide-content">
-                        <p>
-                          Amniorrexe prematura, maior ocorrência de partos
-                          obstruídos, de estado fetal não tranquilizador, parto
-                          vaginal operatório, maiores taxas de cesárea e
-                          hemorragia pós-parto.
-                        </p>
-                      </div>
-                    </div>
-                    <!-- Item 3 -->
-                    <div class="carousel-item">
-                      <div class="slide-content">
-                        <p>
-                          Prematuridade, macrossomia neonatal e baixo peso ao
-                          nascer.
-                        </p>
-                      </div>
-                    </div>
-                    <!-- Item 4 -->
-                    <div class="carousel-item">
-                      <div class="slide-content">
-                        <p>
-                          Atraso na lactogênese, menor probabilidade de iniciar
-                          lactação e suspensão precoce do aleitamento materno
-                          exclusivo.
-                        </p>
-                      </div>
-                    </div>
-                    <!-- Item 5 -->
-                    <div class="carousel-item">
-                      <div class="slide-content">
-                        <p>
-                          Efeito “sanfona” no peso corporal, decréscimo
-                          progressivo da lactação a cada gestação e desfecho em
-                          realização de cirurgia bariátrica.
-                        </p>
-                      </div>
-                    </div>
-                  </div>
-                  <!-- Botões movidos para fora do carousel e com classes personalizadas -->
-                  <a
-                    class="custom-carousel-control custom-prev"
-                    data-target="#carouselExampleIndicators"
-                    role="button"
-                    data-slide="prev"
-                  >
-                    <span class="sr-only">Previous</span>
-                  </a>
-                  <a
-                    class="custom-carousel-control custom-next"
-                    data-target="#carouselExampleIndicators"
-                    role="button"
-                    data-slide="next"
-                  >
-                    <span class="sr-only">Next</span>
-                  </a>
-                </div>
-              </div>
-            </div>
-          </div>
-          <!-- Fim Slider -->
-
-          <h1>Obstetrícia no Brasil</h1>
-          <p>
-            Como você viu até aqui, com o passar do tempo as questões
-            obstétricas mudaram devido à transformação do estilo de vida das
-            pessoas e com o avanço de pesquisas e da medicina. Veja algumas
-            informações sobre a obstetrícia em nosso país ao longo dos anos.
-          </p>
-
-          <!-- Timeline -->
-          <div class="timeline-component">
-            <div class="timeline">
-              <!-- Século XX -->
-              <div class="timeline-item">
-                <div class="timeline-marker">Séc.<br />XX</div>
-                <div class="timeline-content">
-                  <p>
-                    Na segunda metade do século XX, a assistência obstétrica
-                    passou a ser marcada por uma intensa medicalização. Em
-                    vários países, e em particular no Brasil, ficou notório o
-                    uso mais seguro, porém mal regulado, da cesariana nos
-                    serviços públicos, e sua realização não regulada no setor
-                    privado. Essa mudança evoluiu de forma drástica,
-                    transpassando a virada do século.
-                  </p>
-                </div>
-              </div>
-
-              <!-- 2012 -->
-              <div class="timeline-item">
-                <div class="timeline-marker">2012</div>
-                <div class="timeline-content">
-                  <p>
-                    O Inquérito Nacional Nascer no Brasil, em sua primeira
-                    etapa, revelou taxas de cesariana superiores a 30% no setor
-                    público, e no setor privado atingiu percentuais superiores a
-                    70%. Em consequência da marcante elevação das taxas de
-                    cesarianas no Brasil e no mundo, tão bem documentadas na
-                    virada do século, da modificação dos fatores de risco
-                    maternos, e da evolução na assistência obstétrica, a meta
-                    previamente estabelecida pela OMS de percentuais de cesárea
-                    entre 10 e 15% passaram a ter sua justificativa questionada.
-                  </p>
-                </div>
-              </div>
-
-              <!-- 2014 -->
-              <div class="timeline-item">
-                <div class="timeline-marker">2014</div>
-                <div class="timeline-content">
-                  <p>
-                    Uma compilação de taxas de cesárea, indicadores
-                    socioeconômicos e resultados de saúde, publicada em 2014,
-                    respondeu bem a esses questionamentos. Essa investigação foi
-                    realizada em 19 países durante três décadas e utilizou como
-                    indicadores o índice de desenvolvimento humano (IDH), o
-                    produto interno bruto (PIB) e as taxas de mortalidades
-                    materna, neonatal e infantil. O estudo revelou que, após
-                    alcance de 10% ajustado pelo PIB e pelo IDH, elevações nesse
-                    percentual de 10% não produziram impacto em nenhuma das três
-                    taxas de mortalidade, concluindo que taxas superiores a
-                    10-15% são dificilmente justificadas na perspectiva médica.
-                  </p>
-
-                  <p>
-                    Ainda em 2014, corroborando essa realidade, foram publicados
-                    dados referentes ao Inquérito Nacional Nascer no Brasil
-                    revelando incidência de
-                    <a
-                      style="color: #c04caf"
-                      data-toggle="tooltip"
-                      class="nobr"
-                      data-original-title="Esse indicador desvela as consequências mórbidas maternas do excesso de cesarianas no país, uma vez que representa a morbidade materna grave expressa pelo número de parturientes que estiveram sob alto risco de morte materna durante a assistência à gestação, parto e puerpério."
-                      ><u>Near Miss Materno (NMM)</u></a
-                    >
-                    no Brasil de 10,21 por 1000 nascidos vivos.
-                  </p>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <h1>Mortalidade materna no mundo e no Brasil</h1>
-          <p>
-            A evolução do cenário da mortalidade materna (MM) revelou, em 2018,
-            uma razão de mortalidade materna (RMM) no Brasil de 59,1 óbitos para
-            cada 100.000 nascidos vivos, número bem acima das metas firmadas com
-            a Organização das Nações Unidas (ONU). Portanto, a Meta 5 do
-            Milênio, de redução a 75% na mortalidade materna e neonatal entre os
-            anos 1990 e 2015, visando atingir 30 a 35 mortes por 100.000
-            nascidos vivos, não foi atingida, sendo atualmente prorrogada para
-            2030.
-          </p>
-          <p>
-            Entre 1996 e 2018 foram registrados 38.919 óbitos maternos no
-            Sistema de Informação de Mortalidade do DATASUS (SIM-DATASUS), sendo
-            a maioria por causas obstétricas diretas, ou seja, por complicações
-            obstétricas que ocorrem durante a gravidez, parto ou puerpério
-            devido a intervenções, omissões, tratamento incorreto ou a uma
-            cadeia de eventos resultantes de qualquer uma dessas causas. As
-            principais causas obstétricas diretas de MM vêm se mantendo ao longo
-            dos anos no Brasil, divergindo apenas na ordem de suas incidências
-            em relação ao mundo.
-          </p>
-          <p>
-            Em nível global, o principal grupo de causa de MM é hemorragia,
-            seguida por hipertensão e depois por infecção. No Brasil, a
-            hipertensão ainda permanece como principal causa, seguida por
-            hemorragia e infecção.
-          </p>
-
-          <!-- Imagem 3 -->
-          <div class="row centro">
-            <div class="col-md-8 imagem">
-              <h3>
-                Principais causas obstétricas diretas de MM entre 1996 e 2018
-              </h3>
-              <img
-                src="../assets/images/modulo1/aula1/img3.png"
-                alt="Principais causas obstétricas diretas de MM entre 1996 e 2018"
-                class="img-fluid"
-              />
-              <div>
-                <small
-                  >Fonte: Adaptado de Mortalidade Materna no Brasil. Boletim
-                  Epidemiológico n° 20 do Ministério da Saúde (2025)</small
-                >
-              </div>
-            </div>
-          </div>
-
-          <p>
-            Já as causas obstétricas indiretas são aquelas que resultam de
-            doenças preexistentes à gestação ou que se desenvolveram durante
-            esse período, não provocadas por causas obstétricas diretas, mas
-            agravadas pelos efeitos fisiológicos da gravidez. Elas ocorrem em
-            menor incidência em relação às causas diretas.
-          </p>
-
-          <!-- Imagem 4 -->
-          <div class="row centro">
-            <div class="col-md-8 imagem">
-              <h3>
-                Principais causas obstétricas indiretas de MM entre 1996 e 2018
-              </h3>
-              <img
-                src="../assets/images/modulo1/aula1/img4.png"
-                alt="Principais causas obstétricas indiretas de MM entre 1996 e 2018"
-                class="img-fluid"
-              />
-              <div>
-                <small
-                  >Adaptado de Mortalidade Materna no Brasil. Boletim
-                  Epidemiológico n° 20 do Ministério da Saúde (2025)</small
-                >
-              </div>
-            </div>
-          </div>
-
-          <p>Veja agora alguns dados de RMM:</p>
-
-          <!-- Timeline -->
-          <div class="timeline-component">
-            <div class="timeline">
-              <!-- 2015 -->
-              <div class="timeline-item">
-                <div class="timeline-marker">2015</div>
-                <div class="timeline-content">
-                  <p>
-                    A RMM no Brasil foi superior à de outros países da América,
-                    a exemplo de Cuba, Argentina, Uruguai e Chile.
-                  </p>
-                </div>
-              </div>
-
-              <!-- 2020 -->
-              <div class="timeline-item">
-                <div class="timeline-marker">2020</div>
-                <div class="timeline-content">
-                  <p>
-                    As estimativas da OMS apontaram o Brasil para a faixa de 20
-                    a 99 por 100.000 nascidos vivos (NV) — a despeito da razão
-                    em 2020 realmente ter apresentado registro nessa faixa (RMM
-                    Brasil 2020 = 74,7/100.000 NV).
-                  </p>
-                </div>
-              </div>
-
-              <!-- 2021 -->
-              <div class="timeline-item">
-                <div class="timeline-marker">2021</div>
-                <div class="timeline-content">
-                  <p>
-                    A pandemia de Covid-19 impactou marcantemente os números
-                    nesse ano, com a RMM atingindo 117,4 mortes maternas /
-                    100.000 NV.
-                  </p>
-                </div>
-              </div>
-
-              <!-- 2022 -->
-              <div class="timeline-item">
-                <div class="timeline-marker">2022</div>
-                <div class="timeline-content">
-                  <p>
-                    O ápice da RMM da pandemia registrado em 2021 foi seguido de
-                    queda para 54,5 óbitos/100.000 NV em 2022.
-                  </p>
-                </div>
-              </div>
-
-              <!-- 2023 -->
-              <div class="timeline-item">
-                <div class="timeline-marker">2023</div>
-                <div class="timeline-content">
-                  <p>
-                    Nesse ano, a RMM registrou uma nova queda para 49,64
-                    óbitos/100.000 NV em 2023 (dados preliminares).
-                  </p>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <p>
-            Entre 2010 e 2023 a MM predominou em mulheres na faixa etária de 30
-            a 34 anos, raça/cor parda, escolaridade entre 8 e 11 anos completos
-            de estudo e solteiras. Nesse período, os grupos de causa de MM
-            mantiveram a ordem de suas incidências, com hipertensão seguida por
-            hemorragia e infecção, e com maior declínio observado na curva de MM
-            por hipertensão após o ápice de 2021.
-          </p>
-          <p>
-            Em 2015 a ONU lançou os 17 objetivos de desenvolvimento sustentável
-            (ODS 2030) para uma agenda de ações até 2030. A redução da MM
-            integra o Objetivo 3 - Saúde e Bem-estar, que tem como diretriz a
-            garantia do acesso à saúde de qualidade e a promoção do bem-estar
-            para todos, em todas as idades. A meta estabelecida, que deverá ser
-            atingida até 2030 em nível mundial, é a redução da RMM para menos de
-            70 mortes /100.000 NV. A meta estabelecida para o Brasil, e acordada
-            em 28/05/2018 pelo MS, foi de 30 mortes/100.000 NV.
-          </p>
-          <p>
-            Podemos afirmar que a evolução da RMM entre 1990 e 2015 foi de
-            queda, porém inferior ao objetivo anteriormente estabelecido pela
-            ONU, de redução de 75% nas mortalidades materna e neonatal, com meta
-            para MM de 30 a 35 óbitos/100.000 NV. Essa melhora abaixo dos
-            números desejados foi seguida por estabilização, que se manteve até
-            a pandemia de Covid-19. Uma vez que a meta definida pela ODS 2030
-            impõe o desafio de conseguir uma redução média anual de 3,5% na MM a
-            partir de 2015, ficam evidentes os desafios que atualmente temos
-            para conseguir atingir a meta de menos de 30 óbitos maternos/100.000
-            em 2030.
-          </p>
-
-          <h1>Atualidade da assistência obstétrica no Brasil</h1>
-
-          <p>
-            Atualmente, a assistência obstétrica no Brasil é caracterizada pelo
-            convívio com o pior dos dois “mundos”, uma vez que adoecimento e
-            morte ocorrem tanto por falta quanto por excesso de tecnologia
-            apropriada.
-          </p>
-          <p>
-            Vivenciamos um paradoxo perinatal e o modelo dos três atrasos,
-            caracterizado por fatores culturais e socioeconômicos dos pacientes
-            (influenciando as decisões por procura pela assistência médica),
-            pela acessibilidade aos serviços de saúde (identificação e acesso) e
-            ainda pelo cuidado assistencial pautado na qualidade das ações
-            oferecidas por meio de tratamentos adequados e apropriados, é
-            bastante aplicável ao se considerar as especificidades da
-            assistência obstétrica brasileira na atualidade.
-          </p>
-          <p>
-            No país, os números de mortalidade infantil e materna seguem
-            elevados e caracterizados por causas que podem ser evitadas por meio
-            de ações de saúde. De acordo com Diniz (2009), a asfixia intraparto
-            por deficiência na monitorização intraparto se faz presente, com 25%
-            dos óbitos infantis ocorrendo no primeiro dia de vida. A intensa
-            medicalização do nascimento é exemplificada pelo percentual de 98%
-            dos partos ocorrendo em ambiente hospitalar, por 88% de assistência
-            prestada por médicos e por taxas de cesariana próximas de 60%.
-          </p>
-          <p>
-            Os avanços tecnológicos vêm sendo assimilados, mas alguns
-            profissionais seguem adotando práticas sem respaldo científico.
-            Entre os aspectos comprometedores da qualidade da assistência
-            atualmente oferecida destacam-se:
-          </p>
-
-          <ul>
-            <li class="icon arrow">Banalização das cesarianas.</li>
-            <li class="icon arrow">Falta de institucionalização do parto.</li>
-            <li class="icon arrow">
-              Não adoção de protocolos assistenciais baseados em evidências
-              científicas (“depende do plantão”).
-            </li>
-            <li class="icon arrow">
-              Falta de privacidade nas maternidades e dificuldade de acesso à
-              analgesia do parto.
-            </li>
-            <li class="icon arrow">
-              Ocorrência persistente de partos com intervenções desnecessárias e
-              comprometedoras de sua fisiologia.
-            </li>
-            <li class="icon arrow">
-              Desrespeito aos direitos das mulheres e das crianças..
-            </li>
-            <li class="icon arrow">Judicialização da saúde.</li>
-            <li class="icon arrow">
-              Mercantilização das práticas médicas, com destaque contemporâneo
-              para a mercantilização da assistência humanizada ao nascimento.
-            </li>
-          </ul>
-
-          <h1>O dilema da Obstetrícia no século XXI e a cesariana a pedido</h1>
-          <p>
-            A evolução para um modelo de assistência obstétrica paradoxal e a
-            progressiva judicialização das práticas médicas vinculadas à
-            assistência ao parto resultaram em um dilema, que define com
-            precisão o momento obstétrico no século XXI: o parto normal
-            planejado versus a cesariana a pedido.
-          </p>
-
-          <!-- Imagem 5 -->
-          <div class="row centro">
-            <div class="col-md-8 imagem">
-              <h3>Gestante em consulta</h3>
-              <img
-                src="../assets/images/modulo1/aula1/img5.png"
-                alt="Gestante em consulta"
-                class="img-fluid"
-              />
-              <div>
-                <small>Fonte: Freepik (2025)</small>
-              </div>
-            </div>
-          </div>
-
-          <p>
-            Com prevalência de 2,5% nos Estados Unidos da América, as cesarianas
-            a pedido vêm progressivamente sendo adotadas em todo o mundo, e em
-            particular no território brasileiro. Além do medo do parto vaginal,
-            as principais razões para cesarianas a pedido incluem os seguintes
-            desejos:
-          </p>
-          <ul>
-            <li class="icon arrow">
-              Evitar dor e trauma perineal vinculados ao parto vaginal.
-            </li>
-            <li class="icon arrow">
-              Planejar o parto e evitar cesárea não planejada.
-            </li>
-            <li class="icon arrow">
-              Evitar morbidades como incontinências e prolapsos dos órgãos
-              pélvicos.
-            </li>
-            <li class="icon arrow">
-              Evitar resultados neonatais adversos raros (decessos fetais
-              intrauterino e intraparto, encefalopatia hipóxico-isquêmica,
-              traumas e infecções neonatais).
-            </li>
-          </ul>
-
-          <p>Possíveis objeções à cesariana a pedido incluem:</p>
-          <ul>
-            <li class="icon arrow">
-              Potencial aumento de morbimortalidade materna (complicações
-              anestésicas, infecções, lesão corporal, dor, atraso no retorno à
-              atividade sexual).
-            </li>
-            <li class="icon arrow">
-              Morbidade neonatal de curto prazo (principalmente respiratória).
-            </li>
-            <li class="icon arrow">Prematuridade iatrogênica.</li>
-            <li class="icon arrow">
-              Efeitos deletérios na amamentação (iniciação e duração
-              diminuídas).
-            </li>
-            <li class="icon arrow">
-              Os riscos impostos às gestações subsequentes (acretismo
-              placentário, cesárea de repetição difícil) e intenção de minimizar
-              o uso dos recursos (tempo de permanência hospitalar, custos
-              financeiros).
-            </li>
-          </ul>
-
-          <p>
-            A Federação Internacional de Ginecologia e Obstetrícia (FIGO)
-            considera a cesariana um procedimento cirúrgico associado a riscos
-            potenciais para mãe e recém-nato, e de maior custo. Portanto, afirma
-            que sua realização sem indicação médica não é eticamente
-            justificável, pois fere o princípio da beneficência e não
-            maleficência. No Brasil, a má qualidade da assistência obstétrica,
-            com elevada taxa de asfixia neonatal intraparto, favorece a
-            tocofobia materna e a normalização da cesariana a pedido. Veja agora
-            algumas questões importantes sobre a realização do parto via
-            cesárea:
-          </p>
-
-          <!-- ImgSlider 1 -->
-          <div class="row centro">
-            <div class="col-md-8">
-              <div class="carousel-wrapper">
-                <div
-                  id="imgSlider"
-                  class="carousel slide"
-                  data-ride="carousel"
-                  data-interval="0"
-                >
-                  <div class="carousel-indicators-container">
-                    <ol class="carousel-indicators">
-                      <li
-                        data-target="#imgSlider"
-                        data-slide-to="0"
-                        class="active"
-                      ></li>
-                      <li data-target="#imgSlider" data-slide-to="1"></li>
-                    </ol>
-                  </div>
-                  <div class="carousel-inner">
-                    <!-- Item 1 -->
-                    <div class="carousel-item active">
-                      <div class="slide-content">
-                        <div class="card imagem">
-                          <img
-                            class="card-img-top"
-                            src="../assets/images/modulo1/aula1/img1Accordeon.png"
-                            alt="Card image cap"
-                          />
-                          <div class="card-body">
-                            <p class="card-text">
-                              A cesárea planejada a pedido não deve ser
-                              realizada antes de 39 semanas gestacionais,
-                              conforme a orientação contrária a interrupções de
-                              gestações antes dessa idade gestacional na
-                              ausência de razões médicas (maternas e/ou fetais).
-                            </p>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                    <!-- Item 2 -->
-                    <div class="carousel-item">
-                      <div class="slide-content">
-                        <div class="card imagem">
-                          <img
-                            class="card-img-top"
-                            src="../assets/images/modulo1/aula1/img2Accordeon.png"
-                            alt="Card image cap"
-                          />
-                          <div class="card-body">
-                            <p class="card-text">
-                              O médico obstetra atendente que não deseja
-                              realizar uma cesárea a pedido deve encaminhar a
-                              gestante a um profissional que concorde em
-                              realizar o procedimento. Ressalta-se que o direito
-                              à autonomia não garante a oferta rotineira de
-                              cesariana, pois isso não é apoiado no julgamento
-                              clínico baseado em beneficência.
-                            </p>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                  <!-- Botões movidos para fora do carousel e com classes personalizadas -->
-                  <a
-                    class="custom-carousel-control custom-prev"
-                    data-target="#imgSlider"
-                    role="button"
-                    data-slide="prev"
-                  >
-                    <span class="sr-only">Previous</span>
-                  </a>
-                  <a
-                    class="custom-carousel-control custom-next"
-                    data-target="#imgSlider"
-                    role="button"
-                    data-slide="next"
-                  >
-                    <span class="sr-only">Next</span>
-                  </a>
-                </div>
-              </div>
-            </div>
-          </div>
-          <!-- Fim Slider -->
-
-          <h1>
-            Iniciativas para qualificação da assistência obstétrica no Brasil e
-            no mundo
-          </h1>
-          <p>
-            Diante do cenário epidemiológico e da nova meta acordada de redução
-            da MM, iniciativas visando a qualificação da assistência obstétrica
-            no país vêm sendo implementadas, envolvendo diversas entidades.
-            Conheça algumas delas:
-          </p>
-          <!-- ACCORDION -->
-          <!-- Accordion 2 -->
-          <div class="accordion">
-            <!-- Accordion card 1-->
-            <div class="card">
-              <!-- Card header -->
-              <div class="card-header" id="headingThree3">
-                <a
-                  class="collapsed"
-                  data-toggle="collapse"
-                  data-target="#collapseThree3"
-                  aria-expanded="false"
-                  aria-controls="collapseThree3"
-                >
-                  <p>
-                    <b>Parto Adequado</b><i class="fas fa-window-minimize"></i>
-                  </p>
-                </a>
-              </div>
-
-              <!-- Card body -->
-              <div
-                id="collapseThree3"
-                class="collapse"
-                aria-labelledby="headingThree3"
-              >
-                <div class="card-body">
-                  <p>
-                    Essa iniciativa vem sendo desenvolvida desde 2015 pela
-                    Agência Nacional de Saúde Suplementar (ANS). Conta com o
-                    apoio do Ministério da Saúde, Institute for Healthcare
-                    Improvement, Hospital Albert Einstein, Associação Brasileira
-                    de Obstetrizes e Enfermeiros Obstetras (ABENFO) e Federação
-                    Brasileira das Associações de Ginecologia e Obstetrícia
-                    (Febrasgo).
-                  </p>
-                  <p>
-                    O projeto pretende melhorar a atenção ao parto e nascimento,
-                    valorizando o parto normal, a redução de cesáreas
-                    desnecessárias, a melhoria da segurança do paciente e a
-                    experiência do cuidado para as mães e seus filhos. Por meio
-                    de uma política de indução regulatória, a iniciativa visa o
-                    desenvolvimento e a aplicação de boas práticas e a melhoria
-                    da qualidade da atenção na Linha de Cuidados Materno e
-                    Neonatal oferecida pelas operadoras. Tal política propicia a
-                    adoção de boas práticas (baseadas em evidências
-                    científicas), de modo a estimular maior resolutividade da
-                    atenção ao pré-natal, parto e puerpério, melhorando a
-                    segurança de mães e recém-natos a fim de garantir uma melhor
-                    experiência à mulher durante o ciclo grávido-puerperal.
-                  </p>
-                </div>
-              </div>
-            </div>
-
-            <!-- Accordion card 2 -->
-            <div class="card">
-              <!-- Card header -->
-              <div class="card-header" id="headingFour4">
-                <a
-                  class="collapsed"
-                  data-toggle="collapse"
-                  data-target="#collapseFour4"
-                  aria-expanded="false"
-                  aria-controls="collapseFour4"
-                >
-                  <p>
-                    <b>Aliança Nacional para o Parto Seguro e Respeitoso</b
-                    ><i class="fas fa-window-minimize"></i>
-                  </p>
-                </a>
-              </div>
-
-              <!-- Card body -->
-              <div
-                id="collapseFour4"
-                class="collapse"
-                aria-labelledby="headingFour4"
-              >
-                <div class="card-body">
-                  <p>
-                    Iniciativa criada para atuar em prol da redução da
-                    mortalidade materna e neonatal e da garantia de direitos
-                    básicos para o parto e nascimento seguros em nosso país. A
-                    aliança foi criada em resposta ao chamado da OMS, que
-                    escolheu o “Cuidado materno e neonatal seguro” como tema do
-                    Dia Mundial da Segurança do Paciente em 2021. Uma das
-                    entidades que faz parte dessa aliança é o Portal de Boas
-                    Práticas em Saúde da Mulher, da Criança e do Adolescente do
-                    Instituto Fernandes Figueira/Fundação Oswaldo Cruz
-                    (IFF/FIOCRUZ). As principais diretrizes da Aliança Nacional
-                    são Equidade, Respeito, Redes de Atenção e Parto Adequado.
-                  </p>
-                </div>
-              </div>
-            </div>
-
-            <!-- Accordion card 3 -->
-            <div class="card">
-              <!-- Card header -->
-              <div class="card-header" id="headingFive5">
-                <a
-                  class="collapsed"
-                  data-toggle="collapse"
-                  data-target="#collapseFive5"
-                  aria-expanded="false"
-                  aria-controls="collapseFive5"
-                >
-                  <p>
-                    <b>Classificação de Robson</b
-                    ><i class="fas fa-window-minimize"></i>
-                  </p>
-                </a>
-              </div>
-
-              <!-- Card body -->
-              <div
-                id="collapseFive5"
-                class="collapse"
-                aria-labelledby="headingFive5"
-              >
-                <div class="card-body">
-                  <p>
-                    É um sistema utilizado para monitorar e comparar as taxas de
-                    cesárea ao nível das instalações de forma padronizada,
-                    confiável, consistente e orientada para a ação. Destina-se a
-                    todas as mulheres com partos assistidos em um ambiente
-                    específico (por exemplo, uma maternidade ou uma região) e
-                    não apenas às mulheres submetidas a cesarianas. É uma
-                    classificação perinatal completa, simples, robusta,
-                    reprodutível, clinicamente relevante e prospectiva, que
-                    permite a comparação e a análise das taxas de cesáreas
-                    dentro e entre os
-                    <a
-                      data-toggle="modal"
-                      data-target="#modal3"
-                      style="cursor: pointer; color: #c04caf"
-                      ><u><b>grupos de mulheres</b></u></a
-                    >.
-                  </p>
-                </div>
-              </div>
-            </div>
-          </div>
-          <!-- Fim Accordion 2 -->
-
-          <p>
-            O sistema classifica todas as mulheres admitidas para assistência ao
-            parto em um dos 10 grupos que são mutuamente exclusivos e totalmente
-            inclusivos. Isso significa que, com base em algumas variáveis
-            obstétricas básicas, toda mulher admitida para parto em qualquer
-            unidade de saúde pode ser classificada em um, e apenas um dos 10
-            grupos, e que nenhuma mulher ficará de fora da classificação.
-          </p>
-
-          <!-- Card Pontilhado -->
-          <div class="centro">
-            <div class="col-md-8 saibaMais">
-              <p>
-                <a
-                  data-toggle="modal"
-                  data-target="#modal2"
-                  style="cursor: pointer"
-                  ><u>Clique aqui</u></a
-                >
-                e saiba mais sobre o uso da Classificação Robson.
-              </p>
-            </div>
-          </div>
-
-          <h1>Fim da aula</h1>
-          <p>
-            Nesta aula você revisou as modificações evolucionárias que impuseram
-            dificuldades para o nascimento e surgimento dos tempos acessórios no
-            mecanismo de parto dos humanos. Além disso, você também viu:
-          </p>
-          <ul>
-            <li class="icon arrow">
-              O impacto atual da obesidade na contratilidade uterina e sua
-              relação com eventos adversos na gravidez e no parto.
-            </li>
-            <li class="icon arrow">
-              A evolução da assistência obstétrica do Brasil, destacando a
-              progressão da medicalização e a banalização da cesariana e suas
-              consequências mórbidas.
-            </li>
-            <li class="icon arrow">
-              Análises sobre a evolução da mortalidade materna e da morbidade
-              materna grave no mundo e no Brasil.
-            </li>
-            <li class="icon arrow">
-              Os aspectos atuais da assistência obstétrica.
-            </li>
-            <li class="icon arrow">O dilema vinculado à cesariana a pedido.</li>
-            <li class="icon arrow">
-              <p>
-                As principais iniciativas para qualificação da assistência
-                obstétrica vigentes no nosso país e no mundo.
-              </p>
-            </li>
-          </ul>
-
-          <div class="centro">
-            <p style="color: #793767">
-              <b
-                >Você concluiu esta aula, continue se empenhando nos seus
-                estudos. Siga para a próxima aula!</b
-              >
-            </p>
-          </div>
-
-          <!-- Modal 1 -->
-          <div
-            class="modal fade"
-            id="modal1"
-            tabindex="-1"
-            role="dialog"
-            aria-labelledby="modal1"
-            aria-hidden="true"
-          >
-            <div class="modal-dialog modal-dialog-centered" role="document">
-              <div class="modal-content">
-                <div class="modal-body">
-                  <p>
-                    Atualmente, essas mudanças marcantes não se refletem em
-                    algumas populações, que ainda vivem em situações de
-                    isolamento, tais como os inuítes do ártico canadense, os
-                    aborígenes australianos, tribos africanas, indígenas
-                    sul-americanos (yanomamis), entre outras. Entre esses povos
-                    ainda há pouca miscigenação e baixa prevalência de obesidade
-                    e de partos obstruídos.
-                  </p>
-                  <p>
-                    Simultaneamente, a força da mudança no estilo de vida em
-                    direção ao sedentarismo e à assimilação da dieta
-                    norte-americana, com consequente associação a maus
-                    resultados obstétricos, pode ser exemplificada pelas taxas
-                    elevadas de cesárea entre os filipinos e vietnamitas,
-                    populações com a mesma herança genética asiática dos
-                    inuítes.
-                  </p>
-                </div>
-                <div class="modal-footer">
-                  <button
-                    type="button"
-                    class="btn btn-secondary"
-                    data-dismiss="modal"
-                  >
-                    Fechar
-                  </button>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <!-- Modal 2 -->
-          <div
-            class="modal fade"
-            id="modal2"
-            tabindex="-1"
-            role="dialog"
-            aria-labelledby="modal2"
-            aria-hidden="true"
-          >
-            <div class="modal-dialog modal-dialog-centered" role="document">
-              <div class="modal-content">
-                <div class="modal-body">
-                  <p>
-                    Em 2014 a OMS propôs o uso da Classificação Robson como um
-                    padrão global para avaliar, monitorar e comparar as taxas de
-                    cesarianas dentro das unidades de saúde ao longo do tempo e
-                    entre as instalações. O uso adequado da Classificação de
-                    Robson propicia às unidades de saúde a identificação e a
-                    análise dos grupos de mulheres que contribuem mais ou menos
-                    para as taxas globais de cesárea, permitindo comparar a
-                    assistência nesses grupos com outras unidades que tenham
-                    resultados mais desejáveis, assim como considerar mudanças
-                    nas práticas. Permite também a avaliação da eficácia de
-                    estratégias ou de intervenções destinadas a otimizar a
-                    utilização da cesárea e a avaliação da qualidade dos
-                    cuidados e das práticas, analisando os resultados por grupos
-                    de mulheres. Também permite avaliar a qualidade dos dados
-                    recolhidos e sensibilizar as equipes sobre a importância dos
-                    dados, sua interpretação e utilização.
-                  </p>
-                </div>
-                <div class="modal-footer">
-                  <button
-                    type="button"
-                    class="btn btn-secondary"
-                    data-dismiss="modal"
-                  >
-                    Fechar
-                  </button>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <!-- Modal 3 -->
-          <div
-            class="modal fade"
-            id="modal3"
-            tabindex="-1"
-            role="dialog"
-            aria-labelledby="modal3"
-            aria-hidden="true"
-          >
-            <div class="modal-dialog modal-dialog-centered" role="document">
-              <div class="modal-content">
-                <div class="modal-body">
-                  <p>Os grupos que compõem a Classificação de Robson são:</p>
-                  <p>
-                    • Grupo 1 - Nulípara, feto único, cefálico, ≥ 37 semanas,
-                    trabalho de parto espontâneo. <br />
-                    • Grupo 2 - Nulípara, feto único, cefálico, ≥ 37 semanas,
-                    trabalho de parto induzido ou cesárea antes do trabalho de
-                    parto. <br />• Grupo 3 - Multípara sem cesárea anterior,
-                    feto único, cefálico, ≥ 37 semanas, trabalho de parto
-                    espontâneo. <br />
-                    • Grupo 4 - Multípara sem cesárea anterior, feto único,
-                    cefálico, ≥ 37 semanas, trabalho de parto induzido ou
-                    cesárea antes do trabalho de parto. <br />• Grupo 5 -
-                    Multípara com uma ou mais cesárea anterior, feto único,
-                    cefálico, ≥ 37 semanas. <br />• Grupo 6 - Todas nulíparas
-                    com apresentação pélvica. <br />• Grupo 7 - Todas multíparas
-                    com apresentação pélvica, inclusive com cesárea(s)
-                    anterior(es). <br />• Grupo 8 - Todas as gestações
-                    múltiplas, inclusive com cesárea(s) anterior(es). • Grupo 9
-                    - Todas as gestações com apresentações córmicas ou oblíquas,
-                    inclusive com cesárea(s) anterior(es). • Grupo 10 - Todas as
-                    gestações de feto único, cefálico, < 37 semanas, in-clusive
-                    com cesárea(s) anterior(es).
-                  </p>
-                </div>
-                <div class="modal-footer">
-                  <button
-                    type="button"
-                    class="btn btn-secondary"
-                    data-dismiss="modal"
-                  >
-                    Fechar
-                  </button>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <!-- Botões de navegação -->
-          <div class="row botao">
-            <a
-              href="modulo1-aula1-introducao.html"
-              class="btn btn-sm"
-              id="botaoVoltar"
-              role="button"
-              alt="Voltar"
-            >
-              <strong
-                ><i class="fas fa-chevron-left"></i>Introdução Módulo 1 Aula
-                1</strong
-              ></a
-            >
-            <a
-              href="modulo1-aula2-introducao.html"
-              class="btn btn-sm"
-              id="botaoAvancar"
-              role="button"
-              alt="Avançar"
-            >
-              <strong
-                >Introdução Módulo 1 Aula 2<i
-                  class="fas fa-chevron-right"
-                ></i></strong
-            ></a>
-          </div>
-
-          <img
-            src="../assets/images/logos/floresAulas.png"
-            alt="Decorative flowers"
-            class="decorative-flowers"
-          />
-        </div>
-
-        <!-- Rodapé -->
-        <footer id="rodape">
-          <div class="row-main">
-            <div class="col-md-12 centro">
-              <img
-                class="img-fluid centro"
-                src="../assets/images/rodape/logos.png"
-                alt="Rodapé"
-              />
-            </div>
-          </div>
-        </footer>
-      </div>
+          </li>
+        </ul>
+      </nav>
     </div>
 
-    <!-- Arquivos JS -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
-    <script src="../assets/js/main.js"></script>
-  </body>
+    <!-- Conteúdo principal -->
+    <div class="col-md-10" id="content">
+      <div class="conteudo">
+        <img src="../assets/images/logos/floresAulas.png" alt="Decorative flowers" class="decorative-flowers" />
+
+        <div class="tituloAula">
+          <h2>Aula 1</h2>
+
+          <h1>Introdução</h1>
+        </div>
+
+        <p>
+          A evolução das espécies impôs modificações ao esqueleto humano, e,
+          por meio do
+          <a style="color: #c04caf" data-toggle="tooltip" class="nobr"
+            data-original-title="Bipedalismo é a carga atribuída por um peso corporal suportado exclusivamente pelos membros inferiores."><u>bipedalismo</u></a>
+          e da
+          <a style="color: #c04caf" data-toggle="tooltip" class="nobr"
+            data-original-title="Encefalização é o aumento das dimensões e do peso do encéfalo humano."><u>encefalização</u></a>,
+          determinaram:
+        </p>
+        <ul>
+          <li class="icon arrow">
+            Intensificação das curvaturas da coluna vertebral.
+          </li>
+          <li class="icon arrow">
+            Surgimento do promontório sacral (primeiro obstáculo para a
+            passagem do feto pelo trajeto pélvico).
+          </li>
+          <li class="icon arrow">
+            Aumento do diâmetro transverso do estreito superior, que favorece
+            as insinuações em variedades de posição não diretas.
+          </li>
+          <li class="icon arrow">
+            <p>
+              Proeminência das espinhas isquiáticas (segundo obstáculo para a
+              passagem do fe-to pelo trajeto pélvico).
+            </p>
+          </li>
+        </ul>
+
+        <p>
+          Essas modificações anatômicas trouxeram dificuldades para o
+          nascimento e o surgimento dos tempos acessórios no mecanismo de
+          parto dos humanos (flexão, rotação interna e rotação externa).
+        </p>
+
+        <!-- Imagem 1 -->
+        <div class="row centro">
+          <div class="col-md-8 imagem">
+            <h3>Mulher no momento do parto</h3>
+            <img src="../assets/images/modulo1/aula1/img1.png" alt="Mulher no momento do parto" class="img-fluid" />
+            <div class="imagemLegenda">
+              <small>Fonte: Freepik (2025)</small>
+            </div>
+          </div>
+        </div>
+
+        <p>
+          Ao contrário dos primatas, para os quais o processo de insinuação
+          não exige o tempo acessório da flexão e ocorre em variedades de
+          posição diretas (habitualmente em occipitossacra), nos fetos humanos
+          a termo a insinuação ocorre comumente pelos diâmetros oblíquos e
+          transversos do estreito superior.
+        </p>
+
+        <p>
+          Por isso, o trajeto mais angustiado da pelve humana faz com que o
+          polo cefálico fetal necessite da flexão como um movimento acessório
+          à insinuação, que, por sua vez, ocorre frequentemente em variedades
+          de posição oblíquas e transversas, tornando necessária a rotação
+          interna como um movimento acessório ao processo subsequente de
+          descida pelo trajeto pélvico. Após alcançar o estreito inferior e
+          defletir por baixo da sínfise púbica, o polo cefálico, posicionado
+          externamente ao corpo materno, restitui por meio de nova rotação
+          (externa), permitindo a insinuação, descida e desprendimento dos
+          ombros. Expulsos os diâmetros biparietal e biacromial, o
+          desprendimento do feto é completado com a saída do seu diâmetro
+          bitrocantérico. Veja esse passo a passo ilustrado na imagem a
+          seguir.
+        </p>
+
+        <!-- Imagem 2 -->
+        <div class="row centro">
+          <div class="col-md-8 imagem">
+            <h3>Mecanismo do parto em OEA em 45º</h3>
+            <img src="../assets/images/modulo1/aula1/img2.png" alt="Mecanismo do parto em OEA em 45º"
+              class="img-fluid" />
+            <div class="imagemLegenda">
+              <small>Fonte: Felipe Starling (2025)</small>
+            </div>
+          </div>
+        </div>
+
+        <p>
+          Além das modificações evolucionárias ocorridas no trajeto pélvico,
+          as mudanças no estilo de vida também trouxeram dificuldades no
+          momento do parto. Veja a seguir como o modo de viver das pessoas
+          mudou ao longo do tempo, e os impactos que surgiram nos partos
+          humanos.
+        </p>
+
+        <!-- ACCORDION -->
+        <!-- Accordion 1 -->
+        <div class="accordion">
+          <!-- Accordion card 1-->
+          <div class="card">
+            <!-- Card header -->
+            <div class="card-header" id="headingOne1">
+              <a class="collapsed" data-toggle="collapse" data-target="#collapseOne1" aria-expanded="false"
+                aria-controls="collapseOne1">
+                <p>
+                  <b>Antiguidade remota</b><i class="fas fa-window-minimize"></i>
+                </p>
+              </a>
+            </div>
+
+            <!-- Card body -->
+            <div id="collapseOne1" class="collapse" aria-labelledby="headingOne1">
+              <div class="card-body">
+                <p>
+                  Marcada pelo modo de vida nômade, atividades caçadoras e
+                  coletoras, e pouca miscigenação, o parto obstruído era um
+                  fenômeno raro.
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <!-- Accordion card 2 -->
+          <div class="card">
+            <!-- Card header -->
+            <div class="card-header" id="headingTwo2">
+              <a class="collapsed" data-toggle="collapse" data-target="#collapseTwo2" aria-expanded="false"
+                aria-controls="collapseTwo2">
+                <p><b>Atualidade</b><i class="fas fa-window-minimize"></i></p>
+              </a>
+            </div>
+
+            <!-- Card body -->
+            <div id="collapseTwo2" class="collapse" aria-labelledby="headingTwo2">
+              <div class="card-body">
+                <p>
+                  A evolução até a atualidade (10 mil anos) foi marcada pelo
+                  desenvolvimento da agricultura, aumento das densidades
+                  populacionais, maior miscigenação racial e aumento da
+                  ocorrência do sedentarismo. Além disso, a globalização da
+                  dieta hipercalórica norte-americana vem contribuindo para a
+                  progressão da obesidade no mundo, aumentando as taxas de
+                  distocia e a incidência de cesarianas.
+                </p>
+                <p>
+                  De acordo com o Ministério da Saúde (MS), em 2019 a
+                  prevalência de sobrepeso entre as mulheres brasileiras já
+                  alcançava 53,9%, enquanto a de obesidade já era de 20,7%.
+                </p>
+                <p>
+                  A projeção da Organização Mundial de Saúde (OMS) para o ano
+                  de 2025 é de que aproximadamente 2,3 bilhões de adultos
+                  estarão com sobrepeso e 700 milhões de pessoas com obesidade
+                  viverão no mundo.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- Fim Accordion 1 -->
+
+        <!-- Card Pontilhado -->
+        <div class="centro">
+          <div class="col-md-8 saibaMais">
+            <p>
+              <a data-toggle="modal" data-target="#modal1" style="cursor: pointer">
+                <u>Clique aqui</u></a>
+
+              e saiba mais sobre como essas mudanças impactam nas populações
+              que vivem em situação de isolamento.
+            </p>
+          </div>
+        </div>
+
+        <h1>Obesidade e obstetrícia</h1>
+
+        <p>
+          Estudos investigaram a associação entre peso corporal e complicações
+          relacionadas a hipocontratilidade uterina, e revelaram que a
+          obesidade prejudica a habilidade contrátil do útero no trabalho de
+          parto. Adicionalmente, o estudo da habilidade contrátil do
+          miométrio, realizado por meio da avaliação da força e frequência
+          contrátil, e do fluxo intracelular de Ca2+, também mostrou
+          comprometimento da contratilidade uterina em gestantes com índice de
+          massa corporal elevado.
+        </p>
+        <p>
+          Outras pesquisas que investigam a relação entre obesidade e
+          resultados maternos e neonatais revelam maior incidência de eventos
+          adversos em gestantes obesas. Veja a seguir as principais
+          preocupações com mulheres obesas durante a gestação, no parto e no
+          pós-parto.
+        </p>
+
+        <!-- Slider -->
+        <div class="row centro">
+          <div class="col-md-6">
+            <div class="carousel-wrapper">
+              <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel" data-interval="0">
+                <div class="carousel-indicators-container">
+                  <ol class="carousel-indicators">
+                    <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                    <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                    <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+                    <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
+                    <li data-target="#carouselExampleIndicators" data-slide-to="4"></li>
+                  </ol>
+                </div>
+                <div class="carousel-inner">
+                  <!-- Item 1 -->
+                  <div class="carousel-item active">
+                    <div class="slide-content">
+                      <p>
+                        Desordens hipertensivas e diabetes mellitus
+                        gestacional.
+                      </p>
+                    </div>
+                  </div>
+                  <!-- Item 2 -->
+                  <div class="carousel-item">
+                    <div class="slide-content">
+                      <p>
+                        Amniorrexe prematura, maior ocorrência de partos
+                        obstruídos, de estado fetal não tranquilizador, parto
+                        vaginal operatório, maiores taxas de cesárea e
+                        hemorragia pós-parto.
+                      </p>
+                    </div>
+                  </div>
+                  <!-- Item 3 -->
+                  <div class="carousel-item">
+                    <div class="slide-content">
+                      <p>
+                        Prematuridade, macrossomia neonatal e baixo peso ao
+                        nascer.
+                      </p>
+                    </div>
+                  </div>
+                  <!-- Item 4 -->
+                  <div class="carousel-item">
+                    <div class="slide-content">
+                      <p>
+                        Atraso na lactogênese, menor probabilidade de iniciar
+                        lactação e suspensão precoce do aleitamento materno
+                        exclusivo.
+                      </p>
+                    </div>
+                  </div>
+                  <!-- Item 5 -->
+                  <div class="carousel-item">
+                    <div class="slide-content">
+                      <p>
+                        Efeito “sanfona” no peso corporal, decréscimo
+                        progressivo da lactação a cada gestação e desfecho em
+                        realização de cirurgia bariátrica.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+                <!-- Botões movidos para fora do carousel e com classes personalizadas -->
+                <a class="custom-carousel-control custom-prev" data-target="#carouselExampleIndicators" role="button"
+                  data-slide="prev">
+                  <span class="sr-only">Previous</span>
+                </a>
+                <a class="custom-carousel-control custom-next" data-target="#carouselExampleIndicators" role="button"
+                  data-slide="next">
+                  <span class="sr-only">Next</span>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- Fim Slider -->
+
+        <h1>Obstetrícia no Brasil</h1>
+        <p>
+          Como você viu até aqui, com o passar do tempo as questões
+          obstétricas mudaram devido à transformação do estilo de vida das
+          pessoas e com o avanço de pesquisas e da medicina. Veja algumas
+          informações sobre a obstetrícia em nosso país ao longo dos anos.
+        </p>
+
+        <!-- Timeline -->
+        <div class="timeline-component">
+          <div class="timeline">
+            <!-- Século XX -->
+            <div class="timeline-item">
+              <div class="timeline-marker">Séc.<br />XX</div>
+              <div class="timeline-content">
+                <p>
+                  Na segunda metade do século XX, a assistência obstétrica
+                  passou a ser marcada por uma intensa medicalização. Em
+                  vários países, e em particular no Brasil, ficou notório o
+                  uso mais seguro, porém mal regulado, da cesariana nos
+                  serviços públicos, e sua realização não regulada no setor
+                  privado. Essa mudança evoluiu de forma drástica,
+                  transpassando a virada do século.
+                </p>
+              </div>
+            </div>
+
+            <!-- 2012 -->
+            <div class="timeline-item">
+              <div class="timeline-marker">2012</div>
+              <div class="timeline-content">
+                <p>
+                  O Inquérito Nacional Nascer no Brasil, em sua primeira
+                  etapa, revelou taxas de cesariana superiores a 30% no setor
+                  público, e no setor privado atingiu percentuais superiores a
+                  70%. Em consequência da marcante elevação das taxas de
+                  cesarianas no Brasil e no mundo, tão bem documentadas na
+                  virada do século, da modificação dos fatores de risco
+                  maternos, e da evolução na assistência obstétrica, a meta
+                  previamente estabelecida pela OMS de percentuais de cesárea
+                  entre 10 e 15% passaram a ter sua justificativa questionada.
+                </p>
+              </div>
+            </div>
+
+            <!-- 2014 -->
+            <div class="timeline-item">
+              <div class="timeline-marker">2014</div>
+              <div class="timeline-content">
+                <p>
+                  Uma compilação de taxas de cesárea, indicadores
+                  socioeconômicos e resultados de saúde, publicada em 2014,
+                  respondeu bem a esses questionamentos. Essa investigação foi
+                  realizada em 19 países durante três décadas e utilizou como
+                  indicadores o índice de desenvolvimento humano (IDH), o
+                  produto interno bruto (PIB) e as taxas de mortalidades
+                  materna, neonatal e infantil. O estudo revelou que, após
+                  alcance de 10% ajustado pelo PIB e pelo IDH, elevações nesse
+                  percentual de 10% não produziram impacto em nenhuma das três
+                  taxas de mortalidade, concluindo que taxas superiores a
+                  10-15% são dificilmente justificadas na perspectiva médica.
+                </p>
+
+                <p>
+                  Ainda em 2014, corroborando essa realidade, foram publicados
+                  dados referentes ao Inquérito Nacional Nascer no Brasil
+                  revelando incidência de
+                  <a style="color: #c04caf" data-toggle="tooltip" class="nobr"
+                    data-original-title="Esse indicador desvela as consequências mórbidas maternas do excesso de cesarianas no país, uma vez que representa a morbidade materna grave expressa pelo número de parturientes que estiveram sob alto risco de morte materna durante a assistência à gestação, parto e puerpério."><u>Near
+                      Miss Materno (NMM)</u></a>
+                  no Brasil de 10,21 por 1000 nascidos vivos.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <h1>Mortalidade materna no mundo e no Brasil</h1>
+        <p>
+          A evolução do cenário da mortalidade materna (MM) revelou, em 2018,
+          uma razão de mortalidade materna (RMM) no Brasil de 59,1 óbitos para
+          cada 100.000 nascidos vivos, número bem acima das metas firmadas com
+          a Organização das Nações Unidas (ONU). Portanto, a Meta 5 do
+          Milênio, de redução a 75% na mortalidade materna e neonatal entre os
+          anos 1990 e 2015, visando atingir 30 a 35 mortes por 100.000
+          nascidos vivos, não foi atingida, sendo atualmente prorrogada para
+          2030.
+        </p>
+        <p>
+          Entre 1996 e 2018 foram registrados 38.919 óbitos maternos no
+          Sistema de Informação de Mortalidade do DATASUS (SIM-DATASUS), sendo
+          a maioria por causas obstétricas diretas, ou seja, por complicações
+          obstétricas que ocorrem durante a gravidez, parto ou puerpério
+          devido a intervenções, omissões, tratamento incorreto ou a uma
+          cadeia de eventos resultantes de qualquer uma dessas causas. As
+          principais causas obstétricas diretas de MM vêm se mantendo ao longo
+          dos anos no Brasil, divergindo apenas na ordem de suas incidências
+          em relação ao mundo.
+        </p>
+        <p>
+          Em nível global, o principal grupo de causa de MM é hemorragia,
+          seguida por hipertensão e depois por infecção. No Brasil, a
+          hipertensão ainda permanece como principal causa, seguida por
+          hemorragia e infecção.
+        </p>
+
+        <!-- Imagem 3 -->
+        <div class="row centro">
+          <div class="col-md-8 imagem">
+            <h3>
+              Principais causas obstétricas diretas de MM entre 1996 e 2018
+            </h3>
+            <img src="../assets/images/modulo1/aula1/img3.png"
+              alt="Principais causas obstétricas diretas de MM entre 1996 e 2018" class="img-fluid" />
+            <div>
+              <small>Fonte: Adaptado de Mortalidade Materna no Brasil. Boletim
+                Epidemiológico n° 20 do Ministério da Saúde (2025)</small>
+            </div>
+          </div>
+        </div>
+
+        <p>
+          Já as causas obstétricas indiretas são aquelas que resultam de
+          doenças preexistentes à gestação ou que se desenvolveram durante
+          esse período, não provocadas por causas obstétricas diretas, mas
+          agravadas pelos efeitos fisiológicos da gravidez. Elas ocorrem em
+          menor incidência em relação às causas diretas.
+        </p>
+
+        <!-- Imagem 4 -->
+        <div class="row centro">
+          <div class="col-md-8 imagem">
+            <h3>
+              Principais causas obstétricas indiretas de MM entre 1996 e 2018
+            </h3>
+            <img src="../assets/images/modulo1/aula1/img4.png"
+              alt="Principais causas obstétricas indiretas de MM entre 1996 e 2018" class="img-fluid" />
+            <div>
+              <small>Adaptado de Mortalidade Materna no Brasil. Boletim
+                Epidemiológico n° 20 do Ministério da Saúde (2025)</small>
+            </div>
+          </div>
+        </div>
+
+        <p>Veja agora alguns dados de RMM:</p>
+
+        <!-- Timeline -->
+        <div class="timeline-component">
+          <div class="timeline">
+            <!-- 2015 -->
+            <div class="timeline-item">
+              <div class="timeline-marker">2015</div>
+              <div class="timeline-content">
+                <p>
+                  A RMM no Brasil foi superior à de outros países da América,
+                  a exemplo de Cuba, Argentina, Uruguai e Chile.
+                </p>
+              </div>
+            </div>
+
+            <!-- 2020 -->
+            <div class="timeline-item">
+              <div class="timeline-marker">2020</div>
+              <div class="timeline-content">
+                <p>
+                  As estimativas da OMS apontaram o Brasil para a faixa de 20
+                  a 99 por 100.000 nascidos vivos (NV) — a despeito da razão
+                  em 2020 realmente ter apresentado registro nessa faixa (RMM
+                  Brasil 2020 = 74,7/100.000 NV).
+                </p>
+              </div>
+            </div>
+
+            <!-- 2021 -->
+            <div class="timeline-item">
+              <div class="timeline-marker">2021</div>
+              <div class="timeline-content">
+                <p>
+                  A pandemia de Covid-19 impactou marcantemente os números
+                  nesse ano, com a RMM atingindo 117,4 mortes maternas /
+                  100.000 NV.
+                </p>
+              </div>
+            </div>
+
+            <!-- 2022 -->
+            <div class="timeline-item">
+              <div class="timeline-marker">2022</div>
+              <div class="timeline-content">
+                <p>
+                  O ápice da RMM da pandemia registrado em 2021 foi seguido de
+                  queda para 54,5 óbitos/100.000 NV em 2022.
+                </p>
+              </div>
+            </div>
+
+            <!-- 2023 -->
+            <div class="timeline-item">
+              <div class="timeline-marker">2023</div>
+              <div class="timeline-content">
+                <p>
+                  Nesse ano, a RMM registrou uma nova queda para 49,64
+                  óbitos/100.000 NV em 2023 (dados preliminares).
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <p>
+          Entre 2010 e 2023 a MM predominou em mulheres na faixa etária de 30
+          a 34 anos, raça/cor parda, escolaridade entre 8 e 11 anos completos
+          de estudo e solteiras. Nesse período, os grupos de causa de MM
+          mantiveram a ordem de suas incidências, com hipertensão seguida por
+          hemorragia e infecção, e com maior declínio observado na curva de MM
+          por hipertensão após o ápice de 2021.
+        </p>
+        <p>
+          Em 2015 a ONU lançou os 17 objetivos de desenvolvimento sustentável
+          (ODS 2030) para uma agenda de ações até 2030. A redução da MM
+          integra o Objetivo 3 - Saúde e Bem-estar, que tem como diretriz a
+          garantia do acesso à saúde de qualidade e a promoção do bem-estar
+          para todos, em todas as idades. A meta estabelecida, que deverá ser
+          atingida até 2030 em nível mundial, é a redução da RMM para menos de
+          70 mortes /100.000 NV. A meta estabelecida para o Brasil, e acordada
+          em 28/05/2018 pelo MS, foi de 30 mortes/100.000 NV.
+        </p>
+        <p>
+          Podemos afirmar que a evolução da RMM entre 1990 e 2015 foi de
+          queda, porém inferior ao objetivo anteriormente estabelecido pela
+          ONU, de redução de 75% nas mortalidades materna e neonatal, com meta
+          para MM de 30 a 35 óbitos/100.000 NV. Essa melhora abaixo dos
+          números desejados foi seguida por estabilização, que se manteve até
+          a pandemia de Covid-19. Uma vez que a meta definida pela ODS 2030
+          impõe o desafio de conseguir uma redução média anual de 3,5% na MM a
+          partir de 2015, ficam evidentes os desafios que atualmente temos
+          para conseguir atingir a meta de menos de 30 óbitos maternos/100.000
+          em 2030.
+        </p>
+
+        <h1>Atualidade da assistência obstétrica no Brasil</h1>
+
+        <p>
+          Atualmente, a assistência obstétrica no Brasil é caracterizada pelo
+          convívio com o pior dos dois “mundos”, uma vez que adoecimento e
+          morte ocorrem tanto por falta quanto por excesso de tecnologia
+          apropriada.
+        </p>
+        <p>
+          Vivenciamos um paradoxo perinatal e o modelo dos três atrasos,
+          caracterizado por fatores culturais e socioeconômicos dos pacientes
+          (influenciando as decisões por procura pela assistência médica),
+          pela acessibilidade aos serviços de saúde (identificação e acesso) e
+          ainda pelo cuidado assistencial pautado na qualidade das ações
+          oferecidas por meio de tratamentos adequados e apropriados, é
+          bastante aplicável ao se considerar as especificidades da
+          assistência obstétrica brasileira na atualidade.
+        </p>
+        <p>
+          No país, os números de mortalidade infantil e materna seguem
+          elevados e caracterizados por causas que podem ser evitadas por meio
+          de ações de saúde. De acordo com Diniz (2009), a asfixia intraparto
+          por deficiência na monitorização intraparto se faz presente, com 25%
+          dos óbitos infantis ocorrendo no primeiro dia de vida. A intensa
+          medicalização do nascimento é exemplificada pelo percentual de 98%
+          dos partos ocorrendo em ambiente hospitalar, por 88% de assistência
+          prestada por médicos e por taxas de cesariana próximas de 60%.
+        </p>
+        <p>
+          Os avanços tecnológicos vêm sendo assimilados, mas alguns
+          profissionais seguem adotando práticas sem respaldo científico.
+          Entre os aspectos comprometedores da qualidade da assistência
+          atualmente oferecida destacam-se:
+        </p>
+
+        <ul>
+          <li class="icon arrow">Banalização das cesarianas.</li>
+          <li class="icon arrow">Falta de institucionalização do parto.</li>
+          <li class="icon arrow">
+            Não adoção de protocolos assistenciais baseados em evidências
+            científicas (“depende do plantão”).
+          </li>
+          <li class="icon arrow">
+            Falta de privacidade nas maternidades e dificuldade de acesso à
+            analgesia do parto.
+          </li>
+          <li class="icon arrow">
+            Ocorrência persistente de partos com intervenções desnecessárias e
+            comprometedoras de sua fisiologia.
+          </li>
+          <li class="icon arrow">
+            Desrespeito aos direitos das mulheres e das crianças..
+          </li>
+          <li class="icon arrow">Judicialização da saúde.</li>
+          <li class="icon arrow">
+            Mercantilização das práticas médicas, com destaque contemporâneo
+            para a mercantilização da assistência humanizada ao nascimento.
+          </li>
+        </ul>
+
+        <h1>O dilema da Obstetrícia no século XXI e a cesariana a pedido</h1>
+        <p>
+          A evolução para um modelo de assistência obstétrica paradoxal e a
+          progressiva judicialização das práticas médicas vinculadas à
+          assistência ao parto resultaram em um dilema, que define com
+          precisão o momento obstétrico no século XXI: o parto normal
+          planejado versus a cesariana a pedido.
+        </p>
+
+        <!-- Imagem 5 -->
+        <div class="row centro">
+          <div class="col-md-8 imagem">
+            <h3>Gestante em consulta</h3>
+            <img src="../assets/images/modulo1/aula1/img5.png" alt="Gestante em consulta" class="img-fluid" />
+            <div>
+              <small>Fonte: Freepik (2025)</small>
+            </div>
+          </div>
+        </div>
+
+        <p>
+          Com prevalência de 2,5% nos Estados Unidos da América, as cesarianas
+          a pedido vêm progressivamente sendo adotadas em todo o mundo, e em
+          particular no território brasileiro. Além do medo do parto vaginal,
+          as principais razões para cesarianas a pedido incluem os seguintes
+          desejos:
+        </p>
+        <ul>
+          <li class="icon arrow">
+            Evitar dor e trauma perineal vinculados ao parto vaginal.
+          </li>
+          <li class="icon arrow">
+            Planejar o parto e evitar cesárea não planejada.
+          </li>
+          <li class="icon arrow">
+            Evitar morbidades como incontinências e prolapsos dos órgãos
+            pélvicos.
+          </li>
+          <li class="icon arrow">
+            Evitar resultados neonatais adversos raros (decessos fetais
+            intrauterino e intraparto, encefalopatia hipóxico-isquêmica,
+            traumas e infecções neonatais).
+          </li>
+        </ul>
+
+        <p>Possíveis objeções à cesariana a pedido incluem:</p>
+        <ul>
+          <li class="icon arrow">
+            Potencial aumento de morbimortalidade materna (complicações
+            anestésicas, infecções, lesão corporal, dor, atraso no retorno à
+            atividade sexual).
+          </li>
+          <li class="icon arrow">
+            Morbidade neonatal de curto prazo (principalmente respiratória).
+          </li>
+          <li class="icon arrow">Prematuridade iatrogênica.</li>
+          <li class="icon arrow">
+            Efeitos deletérios na amamentação (iniciação e duração
+            diminuídas).
+          </li>
+          <li class="icon arrow">
+            Os riscos impostos às gestações subsequentes (acretismo
+            placentário, cesárea de repetição difícil) e intenção de minimizar
+            o uso dos recursos (tempo de permanência hospitalar, custos
+            financeiros).
+          </li>
+        </ul>
+
+        <p>
+          A Federação Internacional de Ginecologia e Obstetrícia (FIGO)
+          considera a cesariana um procedimento cirúrgico associado a riscos
+          potenciais para mãe e recém-nato, e de maior custo. Portanto, afirma
+          que sua realização sem indicação médica não é eticamente
+          justificável, pois fere o princípio da beneficência e não
+          maleficência. No Brasil, a má qualidade da assistência obstétrica,
+          com elevada taxa de asfixia neonatal intraparto, favorece a
+          tocofobia materna e a normalização da cesariana a pedido. Veja agora
+          algumas questões importantes sobre a realização do parto via
+          cesárea:
+        </p>
+
+        <!-- ImgSlider 1 -->
+        <div class="row centro">
+          <div class="col-md-8">
+            <div class="carousel-wrapper">
+              <div id="imgSlider" class="carousel slide" data-ride="carousel" data-interval="0">
+                <div class="carousel-indicators-container">
+                  <ol class="carousel-indicators">
+                    <li data-target="#imgSlider" data-slide-to="0" class="active"></li>
+                    <li data-target="#imgSlider" data-slide-to="1"></li>
+                  </ol>
+                </div>
+                <div class="carousel-inner">
+                  <!-- Item 1 -->
+                  <div class="carousel-item active">
+                    <div class="slide-content">
+                      <div class="card imagem">
+                        <img class="card-img-top" src="../assets/images/modulo1/aula1/img1Accordeon.png"
+                          alt="Card image cap" />
+                        <div class="card-body">
+                          <p class="card-text">
+                            A cesárea planejada a pedido não deve ser
+                            realizada antes de 39 semanas gestacionais,
+                            conforme a orientação contrária a interrupções de
+                            gestações antes dessa idade gestacional na
+                            ausência de razões médicas (maternas e/ou fetais).
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <!-- Item 2 -->
+                  <div class="carousel-item">
+                    <div class="slide-content">
+                      <div class="card imagem">
+                        <img class="card-img-top" src="../assets/images/modulo1/aula1/img2Accordeon.png"
+                          alt="Card image cap" />
+                        <div class="card-body">
+                          <p class="card-text">
+                            O médico obstetra atendente que não deseja
+                            realizar uma cesárea a pedido deve encaminhar a
+                            gestante a um profissional que concorde em
+                            realizar o procedimento. Ressalta-se que o direito
+                            à autonomia não garante a oferta rotineira de
+                            cesariana, pois isso não é apoiado no julgamento
+                            clínico baseado em beneficência.
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <!-- Botões movidos para fora do carousel e com classes personalizadas -->
+                <a class="custom-carousel-control custom-prev" data-target="#imgSlider" role="button" data-slide="prev">
+                  <span class="sr-only">Previous</span>
+                </a>
+                <a class="custom-carousel-control custom-next" data-target="#imgSlider" role="button" data-slide="next">
+                  <span class="sr-only">Next</span>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- Fim Slider -->
+
+        <h1>
+          Iniciativas para qualificação da assistência obstétrica no Brasil e
+          no mundo
+        </h1>
+        <p>
+          Diante do cenário epidemiológico e da nova meta acordada de redução
+          da MM, iniciativas visando a qualificação da assistência obstétrica
+          no país vêm sendo implementadas, envolvendo diversas entidades.
+          Conheça algumas delas:
+        </p>
+        <!-- ACCORDION -->
+        <!-- Accordion 2 -->
+        <div class="accordion">
+          <!-- Accordion card 1-->
+          <div class="card">
+            <!-- Card header -->
+            <div class="card-header" id="headingThree3">
+              <a class="collapsed" data-toggle="collapse" data-target="#collapseThree3" aria-expanded="false"
+                aria-controls="collapseThree3">
+                <p>
+                  <b>Parto Adequado</b><i class="fas fa-window-minimize"></i>
+                </p>
+              </a>
+            </div>
+
+            <!-- Card body -->
+            <div id="collapseThree3" class="collapse" aria-labelledby="headingThree3">
+              <div class="card-body">
+                <p>
+                  Essa iniciativa vem sendo desenvolvida desde 2015 pela
+                  Agência Nacional de Saúde Suplementar (ANS). Conta com o
+                  apoio do Ministério da Saúde, Institute for Healthcare
+                  Improvement, Hospital Albert Einstein, Associação Brasileira
+                  de Obstetrizes e Enfermeiros Obstetras (ABENFO) e Federação
+                  Brasileira das Associações de Ginecologia e Obstetrícia
+                  (Febrasgo).
+                </p>
+                <p>
+                  O projeto pretende melhorar a atenção ao parto e nascimento,
+                  valorizando o parto normal, a redução de cesáreas
+                  desnecessárias, a melhoria da segurança do paciente e a
+                  experiência do cuidado para as mães e seus filhos. Por meio
+                  de uma política de indução regulatória, a iniciativa visa o
+                  desenvolvimento e a aplicação de boas práticas e a melhoria
+                  da qualidade da atenção na Linha de Cuidados Materno e
+                  Neonatal oferecida pelas operadoras. Tal política propicia a
+                  adoção de boas práticas (baseadas em evidências
+                  científicas), de modo a estimular maior resolutividade da
+                  atenção ao pré-natal, parto e puerpério, melhorando a
+                  segurança de mães e recém-natos a fim de garantir uma melhor
+                  experiência à mulher durante o ciclo grávido-puerperal.
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <!-- Accordion card 2 -->
+          <div class="card">
+            <!-- Card header -->
+            <div class="card-header" id="headingFour4">
+              <a class="collapsed" data-toggle="collapse" data-target="#collapseFour4" aria-expanded="false"
+                aria-controls="collapseFour4">
+                <p>
+                  <b>Aliança Nacional para o Parto Seguro e Respeitoso</b><i class="fas fa-window-minimize"></i>
+                </p>
+              </a>
+            </div>
+
+            <!-- Card body -->
+            <div id="collapseFour4" class="collapse" aria-labelledby="headingFour4">
+              <div class="card-body">
+                <p>
+                  Iniciativa criada para atuar em prol da redução da
+                  mortalidade materna e neonatal e da garantia de direitos
+                  básicos para o parto e nascimento seguros em nosso país. A
+                  aliança foi criada em resposta ao chamado da OMS, que
+                  escolheu o “Cuidado materno e neonatal seguro” como tema do
+                  Dia Mundial da Segurança do Paciente em 2021. Uma das
+                  entidades que faz parte dessa aliança é o Portal de Boas
+                  Práticas em Saúde da Mulher, da Criança e do Adolescente do
+                  Instituto Fernandes Figueira/Fundação Oswaldo Cruz
+                  (IFF/FIOCRUZ). As principais diretrizes da Aliança Nacional
+                  são Equidade, Respeito, Redes de Atenção e Parto Adequado.
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <!-- Accordion card 3 -->
+          <div class="card">
+            <!-- Card header -->
+            <div class="card-header" id="headingFive5">
+              <a class="collapsed" data-toggle="collapse" data-target="#collapseFive5" aria-expanded="false"
+                aria-controls="collapseFive5">
+                <p>
+                  <b>Classificação de Robson</b><i class="fas fa-window-minimize"></i>
+                </p>
+              </a>
+            </div>
+
+            <!-- Card body -->
+            <div id="collapseFive5" class="collapse" aria-labelledby="headingFive5">
+              <div class="card-body">
+                <p>
+                  É um sistema utilizado para monitorar e comparar as taxas de
+                  cesárea ao nível das instalações de forma padronizada,
+                  confiável, consistente e orientada para a ação. Destina-se a
+                  todas as mulheres com partos assistidos em um ambiente
+                  específico (por exemplo, uma maternidade ou uma região) e
+                  não apenas às mulheres submetidas a cesarianas. É uma
+                  classificação perinatal completa, simples, robusta,
+                  reprodutível, clinicamente relevante e prospectiva, que
+                  permite a comparação e a análise das taxas de cesáreas
+                  dentro e entre os
+                  <a data-toggle="modal" data-target="#modal3" style="cursor: pointer; color: #c04caf"><u><b>grupos de
+                        mulheres</b></u></a>.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- Fim Accordion 2 -->
+
+        <p>
+          O sistema classifica todas as mulheres admitidas para assistência ao
+          parto em um dos 10 grupos que são mutuamente exclusivos e totalmente
+          inclusivos. Isso significa que, com base em algumas variáveis
+          obstétricas básicas, toda mulher admitida para parto em qualquer
+          unidade de saúde pode ser classificada em um, e apenas um dos 10
+          grupos, e que nenhuma mulher ficará de fora da classificação.
+        </p>
+
+        <!-- Card Pontilhado -->
+        <div class="centro">
+          <div class="col-md-8 saibaMais">
+            <p>
+              <a data-toggle="modal" data-target="#modal2" style="cursor: pointer"><u>Clique aqui</u></a>
+              e saiba mais sobre o uso da Classificação Robson.
+            </p>
+          </div>
+        </div>
+
+        <h1>Fim da aula</h1>
+        <p>
+          Nesta aula você revisou as modificações evolucionárias que impuseram
+          dificuldades para o nascimento e surgimento dos tempos acessórios no
+          mecanismo de parto dos humanos. Além disso, você também viu:
+        </p>
+        <ul>
+          <li class="icon arrow">
+            O impacto atual da obesidade na contratilidade uterina e sua
+            relação com eventos adversos na gravidez e no parto.
+          </li>
+          <li class="icon arrow">
+            A evolução da assistência obstétrica do Brasil, destacando a
+            progressão da medicalização e a banalização da cesariana e suas
+            consequências mórbidas.
+          </li>
+          <li class="icon arrow">
+            Análises sobre a evolução da mortalidade materna e da morbidade
+            materna grave no mundo e no Brasil.
+          </li>
+          <li class="icon arrow">
+            Os aspectos atuais da assistência obstétrica.
+          </li>
+          <li class="icon arrow">O dilema vinculado à cesariana a pedido.</li>
+          <li class="icon arrow">
+            <p>
+              As principais iniciativas para qualificação da assistência
+              obstétrica vigentes no nosso país e no mundo.
+            </p>
+          </li>
+        </ul>
+
+        <div class="centro">
+          <p style="color: #793767">
+            <b>Você concluiu esta aula, continue se empenhando nos seus
+              estudos. Siga para a próxima aula!</b>
+          </p>
+        </div>
+
+        <!-- Modal 1 -->
+        <div class="modal fade" id="modal1" tabindex="-1" role="dialog" aria-labelledby="modal1" aria-hidden="true">
+          <div class="modal-dialog modal-dialog-centered" role="document">
+            <div class="modal-content">
+              <div class="modal-body">
+                <p>
+                  Atualmente, essas mudanças marcantes não se refletem em
+                  algumas populações, que ainda vivem em situações de
+                  isolamento, tais como os inuítes do ártico canadense, os
+                  aborígenes australianos, tribos africanas, indígenas
+                  sul-americanos (yanomamis), entre outras. Entre esses povos
+                  ainda há pouca miscigenação e baixa prevalência de obesidade
+                  e de partos obstruídos.
+                </p>
+                <p>
+                  Simultaneamente, a força da mudança no estilo de vida em
+                  direção ao sedentarismo e à assimilação da dieta
+                  norte-americana, com consequente associação a maus
+                  resultados obstétricos, pode ser exemplificada pelas taxas
+                  elevadas de cesárea entre os filipinos e vietnamitas,
+                  populações com a mesma herança genética asiática dos
+                  inuítes.
+                </p>
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-dismiss="modal">
+                  Fechar
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Modal 2 -->
+        <div class="modal fade" id="modal2" tabindex="-1" role="dialog" aria-labelledby="modal2" aria-hidden="true">
+          <div class="modal-dialog modal-dialog-centered" role="document">
+            <div class="modal-content">
+              <div class="modal-body">
+                <p>
+                  Em 2014 a OMS propôs o uso da Classificação Robson como um
+                  padrão global para avaliar, monitorar e comparar as taxas de
+                  cesarianas dentro das unidades de saúde ao longo do tempo e
+                  entre as instalações. O uso adequado da Classificação de
+                  Robson propicia às unidades de saúde a identificação e a
+                  análise dos grupos de mulheres que contribuem mais ou menos
+                  para as taxas globais de cesárea, permitindo comparar a
+                  assistência nesses grupos com outras unidades que tenham
+                  resultados mais desejáveis, assim como considerar mudanças
+                  nas práticas. Permite também a avaliação da eficácia de
+                  estratégias ou de intervenções destinadas a otimizar a
+                  utilização da cesárea e a avaliação da qualidade dos
+                  cuidados e das práticas, analisando os resultados por grupos
+                  de mulheres. Também permite avaliar a qualidade dos dados
+                  recolhidos e sensibilizar as equipes sobre a importância dos
+                  dados, sua interpretação e utilização.
+                </p>
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-dismiss="modal">
+                  Fechar
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Modal 3 -->
+        <div class="modal fade" id="modal3" tabindex="-1" role="dialog" aria-labelledby="modal3" aria-hidden="true">
+          <div class="modal-dialog modal-dialog-centered" role="document">
+            <div class="modal-content">
+              <div class="modal-body">
+                <p>Os grupos que compõem a Classificação de Robson são:</p>
+                <p>
+                  • Grupo 1 - Nulípara, feto único, cefálico, ≥ 37 semanas,
+                  trabalho de parto espontâneo. <br />
+                  • Grupo 2 - Nulípara, feto único, cefálico, ≥ 37 semanas,
+                  trabalho de parto induzido ou cesárea antes do trabalho de
+                  parto. <br />• Grupo 3 - Multípara sem cesárea anterior,
+                  feto único, cefálico, ≥ 37 semanas, trabalho de parto
+                  espontâneo. <br />
+                  • Grupo 4 - Multípara sem cesárea anterior, feto único,
+                  cefálico, ≥ 37 semanas, trabalho de parto induzido ou
+                  cesárea antes do trabalho de parto. <br />• Grupo 5 -
+                  Multípara com uma ou mais cesárea anterior, feto único,
+                  cefálico, ≥ 37 semanas. <br />• Grupo 6 - Todas nulíparas
+                  com apresentação pélvica. <br />• Grupo 7 - Todas multíparas
+                  com apresentação pélvica, inclusive com cesárea(s)
+                  anterior(es). <br />• Grupo 8 - Todas as gestações
+                  múltiplas, inclusive com cesárea(s) anterior(es). • Grupo 9
+                  - Todas as gestações com apresentações córmicas ou oblíquas,
+                  inclusive com cesárea(s) anterior(es). • Grupo 10 - Todas as
+                  gestações de feto único, cefálico, < 37 semanas, in-clusive com cesárea(s) anterior(es). </p>
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-dismiss="modal">
+                  Fechar
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Botões de navegação -->
+        <div class="row botao">
+          <a href="modulo1-aula1-introducao.html" class="btn btn-sm" id="botaoVoltar" role="button" alt="Voltar">
+            <strong><i class="fas fa-chevron-left"></i>Introdução Módulo 1 Aula
+              1</strong></a>
+          <a href="modulo1-aula2-introducao.html" class="btn btn-sm" id="botaoAvancar" role="button" alt="Avançar">
+            <strong>Introdução Módulo 1 Aula 2<i class="fas fa-chevron-right"></i></strong></a>
+        </div>
+
+        <img src="../assets/images/logos/floresAulas.png" alt="Decorative flowers" class="decorative-flowers" />
+      </div>
+
+      <!-- Rodapé -->
+      <footer id="rodape">
+        <div class="row-main">
+          <div class="col-md-12 centro">
+            <img class="img-fluid centro" src="../assets/images/rodape/logos.png" alt="Rodapé" />
+          </div>
+        </div>
+      </footer>
+    </div>
+  </div>
+
+  <!-- Modal Créditos -->
+  <div class="modal fade" id="modalCreditos" tabindex="-1" role="dialog" aria-labelledby="TituloModalCentralizado"
+    aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h1 class="modal-title" id="TituloModalCentralizado">Créditos</h1>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Fechar">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          <modal-creditos></modal-creditos>
+        </div>
+        <div class="modal-footer">
+          <button id="botaoComecar" type="button" class="btn btn-primary" data-dismiss="modal">
+            Fechar
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Arquivos JS -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
+  <script src="../assets/js/main.js"></script>
+  <script src="../assets/js/modalCreditos.js"></script>
+
+</body>
+
 </html>
