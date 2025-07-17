@@ -31,7 +31,7 @@ body {
 h1,
 h2,
 h3 {
-  font-family: "Prelo-Bold";
+  font-family: "Prelo Bold";
 }
 
 .header {
@@ -292,6 +292,7 @@ h3 {
 }
 
 @media (max-width: 600px) {
+
   .module,
   .icons {
     flex-direction: column;
