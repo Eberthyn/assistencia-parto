@@ -2066,3 +2066,15 @@ input[type="radio"] {
   background: #fff;
   color: #333;
 }
+
+#modalReferencias {
+  h1 {
+    font-size: 18px;
+  }
+}
+
+@media (max-width: 980px) {
+  .accordion {
+    padding: 0 !important;
+  }
+}
