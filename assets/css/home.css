@@ -235,6 +235,16 @@ h3 {
   background-color: #c04caf;
 }
 
+#modalCreditos {
+  #botaoComecar {
+    border: none;
+  }
+
+  #botaoComecar:hover {
+    background-color: #783566;
+  }
+}
+
 @media (max-width: 980px) {
   .accordion {
     padding: 0 !important;
@@ -298,7 +308,6 @@ h3 {
 }
 
 @media (max-width: 600px) {
-
   .module,
   .icons {
     flex-direction: column;

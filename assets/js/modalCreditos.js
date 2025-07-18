@@ -13,6 +13,7 @@ class ModalCreditos extends HTMLElement {
                 font-size: 15px !important;
                 margin-top: 30px !important;
                 text-transform: uppercase;
+                font-family: "Prelo Bold";
             }
         </style>
 
@@ -103,13 +104,29 @@ class ModalCreditos extends HTMLElement {
 
         <h2>Equipe ILMD/Fiocruz Amazônia</h2>
 
-        <p>Letícia Santos de Souza</p>
-        <p>Rosinete Lacerda Alves</p>
-        <p>Tatiane Figueiredo</p>
+        <p>Letícia Santos de Souza <br>
+        Rosinete Lacerda Alves <br>
+        Tatiane Figueiredo</p>
 
         <h2>Conteudista</h2>
         <p>Álvaro Luiz Lage Alves</p>
         <i>Hospital das Clínicas da Universidade Federal de Minas Gerais – Belo Horizonte / MG</i>
+
+        <h2>Tutores</h2>
+        <p>Juliana Augusta Dias</p>
+        <i>Universidade Federal dos Vales de Jequitinhonha e Mucuri – UFVJM</i>
+
+        <p>Alexandre Massao Nozaki</p>
+        <i>Universidade de São Paulo – USP</i>
+
+        <p>Lucas Barbosa da Silva</p>
+        <i>Hospital das Clínicas – UFMG</i>
+
+        <p>Paulo Roberto Mansoldo Alves</p>
+        <i>UNIMED – BH</i>
+
+        <p>Francisco Lázaro Pereira de Sousa</p>
+        <i>Centro Universitário Luzíadas – Santos - SP</i>
 
         <h2>Ilustração</h2>
         

@@ -91,6 +91,7 @@ footer {
     font-family: "Roboto";
     font-style: normal;
     padding: 0;
+    font-size: 20px !important;
   }
 }
 
@@ -134,11 +135,14 @@ footer {
   }
 }
 
-#botaoComecar {
-  background-color: #0545a6;
-  color: white;
-  padding: 8px;
-  min-width: 120px;
+#modalCreditos {
+  #botaoComecar {
+    border: none;
+  }
+
+  #botaoComecar:hover {
+    background-color: #783566;
+  }
 }
 
 .botaoExtras {
