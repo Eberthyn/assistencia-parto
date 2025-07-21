@@ -412,7 +412,103 @@ const accordions = [
 
           <p>PROLONGED third stage of labor: morbidity and risk factors. <b>Obstetrics & Gynecology.</b> 1991;77:863-5.</p>
 
-          <p></p>
+          <p>RABE, H.; DIAZ-ROSSELLO, J. L.; DULEY, L.; DOWSWELL, T. Effect of timing of umbilical cord clamping and other strategies to influence placental transfusion at preterm birth on maternal and infant outcomes. 
+          <b>Cochrane Database of Systematic Reviews.</b> 2012:CD003248.</p>
+
+          <p>SACCONE, G.; CAISSUTTI, C.; CIARDULLI, A.; ABDEL-ALEEM, H.; HOFMEYR, G. J.; BERGHELLA, V. Uterine massage as part of active management of the third stage of labour for preventing postpartum haemorrhage during vaginal delivery: a systematic review and meta-analysis of randomised trials. 
+          <b>BJOG: An International Journal of Obstetrics & Gynaecology.</b> 125 (2018), p. 778-781.</p>
+
+          <p>SANCHEZ-RAMOS, L.; CULLOUGH, D. M.; MITTA, M.; GONZALEZ, K.; KAUNITZ, A. M.; ROECKNER, J. Does umbilical cord milking increase the risk of severe intraventricular hemorrhage in extreme preterm neonates? A multitreatment comparison. 
+          <b>American Journal of Obstetrics & Gynecology.</b> 2020;223:590-92.</p>
+
+          <p>SEIDLER, A. L.; GYTE, G. M. L.; RABE, H. <i>et al.</i> Umbilical Cord Management for Newborns American College of Obstetricians and Gynecologists’ Committee on Obstetric Practice. 
+          Delayed Umbilical Cord Clamping After Birth: ACOG Committee Opinion, Number 814. <b>Obstetrics & Gynecology.</b> 2020;136:e100. Reaffirmed 2023. 
+
+          <p>SENTILHES, L.; GROMEZ, A.; CLAVIER, E.; RESCH, B.; DESCAMPS, P.; MARPEAU, L. Long-term psychological impact of severe postpartum hemorrhage. 
+          <b>Acta Obstetricia et Gynecologica Scandinavica.</b> 2011;90(6):615-20. DOI: 10.1111/j.1600-0412.2011.01119.x.</p>
+
+          <p>SENTILHES, L.; SÉNAT, M. V.; LE LOUS, M.; WINER, N; ROZENBERG, P.; KAYEM, G. <i>et al.</i> Tranexamic acid for the prevention of blood loss after cesarean delivery. 
+          <b>New England Journal of Medicine.</b> 2021;384(17):1623-34. DOI: 10.1056/NEJMoa2028788.</p>
+
+          <p>SOLTANI, H.; POULOSE, T. A.; HUTCHON, D. R. Placental cord drainage after vaginal delivery as part of the management of the third stage of labour. 
+          <b>Cochrane Database of Systematic Reviews.</b> 2011:CD004665.</p>
+
+          <p>SOSA, C. G.; ALTHABE, F.; BELIZÁN, J. M.; BUEKENS, P. Risk factors for postpartum hemorrhage in vaginal deliveries in a Latin-American population. 
+          <b>Obstetrics & Gynecology.</b> 2009;113(6):1313-9. DOI:10.1097/AOG.0b013e3181a66b05.</p>
+
+          <p>SPONG, C. Y.; BERGHELLA, V.; WENSTROM, K. D.; MERCER, B. M.; SAADE, G. R. Preventing the First Cesarean Delivery. 
+          <b>Obstetrics & Gynecology.</b> 2012;120:1181-93. DOI: http://10.1097/AOG.0b013e3182704880.</p>
+
+          <p>VOGEL, J. P.; WILLIAMS, M.; GALLOS, I.; ALTHABE, F.; OLADAPO, O. T. WHO recommendations on uterotonics for postpartum haemorrhage prevention: what works, and which one? 
+          <b>BMJ Global Health.</b> 2019;4(2):e001466. DOI: 10.1136/bmjgh-2019-001466.</p>
+
+          <p>WIDSTRÖM, A. M.; LILJA, G.; AALTOMAA-MICHALIAS, P.; DAHLLÖF, A.; LINTULA, M.; NISSEN, E. Newborn behaviour to locate the breast when skin-to-skin: a possible method for enabling early self-regulation. 
+          <b>Acta Paediatrica.</b> 2011;100:79-85.</p>
+
+          <p>WORLD HEALTH ORGANIZATION (WHO). Department of Reproductive Health and Research, Family and Community Health. <b>Pregnancy, Childbirth, Postpartum and Newborn Care:</b> A guide for essential practice. 2003, 179p.</p>
+
+          <p>WORLD HEALTH ORGANIZATION (WHO). <b>WHO labour care guide:</b> user’s manual. 2020.
+          Disponível em: <a href="https://www.who.int/publications/i/item/9789240017566">https://www.who.int/publications/i/item/9789240017566</a>. Acesso em: 28 out. 2024. </p>
+
+          <p>WORLD HEALTH ORGANIZATION (WHO). <b>WHO recommendations:</b> uterotonics for the prevention of postpartum haemorrhage. Genebra: WHO, 2018 [citado em: 12 out. 2020]. 
+          Disponível em: <a href="https://apps.who.int/iris/bitstream/handle/10665/277283/WHO-RHR-18.34-eng.pdf">https://apps.who.int/iris/bitstream/handle/10665/277283/WHO-RHR-18.34-eng.pdf</a>. Acesso em: 10 dez. 2024.</p>
+
+          <p>YAMADA, N. K.; SZYLD, E.; STRAND, M. L. <i>et al.</i> 2023 American Heart Association and American Academy of Pediatrics Focused Update on Neonatal Resuscitation: 
+          An Update to the American Heart Association Guidelines for Cardiopulmonary Resuscitation and Emergency Cardiovascular Care. <b>Pediatrics.</b> 2024; 153. </p>
+
+          <p>ZHANG, J.; TROENDLE, J. F.; YANCEY, M. K. Reassessing the labor curve in nulliparous women. <b>American Journal of Obstetrics & Gynecology.</b> 
+          2002;187(4):824-8. DOI: 10.1067/mob.2002.127142.</p>
+
+          <h1>Aula 4</h1>
+
+          <p>AASHEIM, V.; NILSEN, A. B. V.; REINAR, L. M.; LUKASSE, M. Perineal techniques during the second stage of labour for reducing perineal trauma (Review). 
+          <b>Cochrane Database of Systematic Reviews,</b> 2017. </p>
+
+          <p>AMERICAN COLLEGE OF OBSTETRICIANS AND GYNECOLOGISTS. ACOG Practice Bulletin. Episiotomy. <b>Clinical Management Guidelines for Obstetrician-Gynecologists.</b> 
+          April 2006:71.  </p>
+
+          <p>AMERICAN COLLEGE OF OBSTETRICIANS AND GYNECOLOGISTS. ACOG Practice Bulletin N. 154: operative vaginal delivery. <b>Obstetrics & Gynecology.</b> 
+          2015;126(5):e56-65. DOI: 10.1097/AOG.0000000000001147.</p>
+
+          <p>AMERICAN COLLEGE OF OBSTETRICIANS AND GYNECOLOGISTS (ACOG). Prevention and Management of Obstetric Lacerations at Vaginal Delivery. 
+          Practice Bulletin. n. 198. <b>Obstetrics & Gynecology.</b> 2018;132(3):e87-e102. </p>
+
+          <p>BECKMANN, M. M.; STOCK, O. M. Antenatal perineal massage for reducing perineal trauma. <b>Cochrane Database of Systematic Reviews.</b> 2013; :CD005123. </p>
+
+          <p>CANAVAN, T. <b>Lacerações Perineais de Terceiro e Quarto Graus.</b> ALSO Brasil. Advanced Life Support in Obstetrics. Manual e Programa de Estudos. 
+          São Paulo: Sarvier, 2016. p. 337-53.</p>
+
+          <p>CORMIER, J.; MIROUSE, L.; BARBOT, J.; GOFFINET, F.; RAY, C. L. Evolution of episiotomy incidence and Obstetric Anal Sphincter Injury over 10 Years: a mixed-methods study. <b>BJOG: An International Journal of Obstetrics & Gynaecology.</b> 
+          2024;0:1-10. DOI: https://doi.org/10.1111/1471-0528.17999.  </p>
+
+          <p>FRANCISCO, A. A.; OLIVEIRA, S. M. J. V.; STEEN, M.; NOBRE, M. R. C.; SOUZA, E. V. Ice pack induced perineal analgesia after spontaneous vaginal birth: randomized controlled trial. <b>Women Birth.</b> 2018;31:e334–e340. 
+          Disponível em: <a href="https://doi.org/10.1016/j.wombi.2017.12.011">https://doi.org/10.1016/j.wombi.2017.12.011</a>. Acesso em: 5 fev. 2025. </p>
+
+          <p>GRAHAM <i>et al.</i> Canadian Institute for Health Information. <b>Discharge Abstract Database.</b> 1989-1990 to 1997-1998. 1997. </p>
+
+          <p>JIANG, H.; QIAN, X.; CARROLI, G.; GARNER, P. Selective versus routine use of episiotomy for vaginal birth. <b>Cochrane Database of Systematic Reviews.</b>
+          2017, Issue 2. Art. N.: CD000081. DOI: 10.1002/14651858.CD000081.pub3. </p>
+
+          <p>LAINE, K.; SKJELDESTAD, F. E.; SANDVIK, L.; STAFF, A. C. Incidence of obstetric anal sphincter injuries after training to protect the perineum: cohort study. 
+          <b>BMJ Open.</b> 2012;2:e001649. DOI:10.1136/bmjopen-2012-001649.</p>
+
+          <p>MENDES, N. A.; MAZZAIA, M. C.; ZANETTI, M. R. D. Análise crítica sobre a utilização do Epi-No na gestação e parto. <b>ABCS Health Sciences.</b> 2018;43(2):117-23. 
+          DOI: http://dx.doi.org/10.7322/abcshs.v43i2.1091.</p>
+
+          <p>MURPHY, D. J.; STRACHAN, B. K.; BAHL, R. Royal College of Obstetricians and Gynaecologists. Assisted vaginal birth: Green-top guideline n. 26. <b>BJOG: An International Journal of Obstetrics & Gynaecology.</b> 
+          2020;127(9):e70-112. DOI: 10.1111/1471-0528.16092.</p>
+
+          <p>NATIONAL HEALTH SERVICES (NHS). <b>NHS Maternity Statistics.</b> England:1995-96 to 1997-98. Bulletin 2001/14, June 2001. </p>
+
+          <p>NORWIRTZ, E. R.; FUNAI, E. F. <b>Labor and delivery:</b> management of the normal third stage after vaginal birth. 
+          Official reprint from UpToDate www.uptodate.com © 2024 + UpToDate, Inc. and/or its affiliates. All Rights Reserved. Oct 2024.</p>
+
+          <p>ORGANIZACION MUNDIAL DE LA SALUD (OMS). Integrated Management of Pregnancy and Childbirth. 
+          <b>Manejo de las complicaciones del embarazo e el parto:</b> Guía para obstetrices y médicos. Genebra: OMS, 2002. 438 p.</p>
+
+          <p>SEDANO, L. M.; SEDANO, M. C.; SEDANO, M. R. Resena histórica e hitos de la Obstetricia. <b>Revista Médica Clínica las Condes.</b> 2014;25(6)866-73.</p>
+
+          <p>VAN DE GRAFF, K. M. Sistema genital feminino. 6 ed. <b>Anatomia humana.</b> Barueri: Manole, 2003. p. 725-53.</p>
 
       `,
     ],
@@ -421,7 +517,122 @@ const accordions = [
     id: "2",
     heading: "Módulo 2",
     body: [
-      "Em desenvolvimento",
+      `
+      <h1>Aula 1</h1>
+      <p>AMERICAN COLLEGE OF OBSTETRICIANS AND GYNECOLOGISTS (ACOG). 
+      <b>Committee Opinion n. 745:</b> mode of term singleton breech delivery.  2018;132(2):e60-3. DOI: 10.1097/AOG.0000000000002755 </p>
+
+      <p>BENZECRY, R. <b>Fórcipe passo a passo.</b> Rio de Janeiro: Revinter, 2006. </p>
+
+      <p>BOGNER, G.; STROBL, M.; SCHAUSBERGER, C.; FISCHER, T.; REISENBERGER, K.; JACOBS, V. R. Breech delivery in the all fours position: a prospective observational comparative study with classic assistance. 
+      <b>Journal of Perinatal Medicine.</b> 2015;43(6):707-13. DOI: 10.1515/jpm-2014-0048</p>
+
+      <p>CASTEELS, M.; PODEVYN, K.; VANOVERSCHELDE, H.; LOUWEN, F. Implementation of a breech program in a Belgian obstetric team. 
+      <b>International Journal of Gynecology & Obstetrics.</b> 2021;158(2):432-8. DOI: 10.1002/ijgo.14003</p>
+
+      <p>CRONK, M. Keep your hands off the breech. <b>AIMS - Alberta Infant Motor Scale.</b> 1998;10(3).</p>
+
+      <p>DE HUNDT, M.; VLEMMIX, F.; BAIS, J. M.; HUTTON, E. K.; DE GROOT, C. J.; MOL, B. W. <i>et al.</i> Risk factors for developmental dysplasia of the hip: a meta-analysis. 
+      <b>European Journal of Obstetrics, Gynecology and Reproductive Biology.</b> 2012;165(1):8-17. DOI: 10.1016/j.ejogrb.2012.06.030</p>
+
+      <p>FORD, J. B.; ROBERTS, C. L.; NASSAR, N.; GILES, W.; MORRIS, J. M. Recurrence of breech presentation in consecutive pregnancies. 
+      <b>BJOG.</b> 2010;117(7):830-6. DOI: 10.1111/j.1471-0528.2010.02576.x</p>
+
+      <p>GAILLARD, T.; GIRAULT, A.; ALEXANDER, S.; GOFFINET, F.; LE RAY, C. Is induction of labor a reasonable option for breech presentation?  
+      <b>Acta Obstetricia et Gynecologica Scandinavica.</b> 2019;98(7):885-93. DOI: 10.1111/aogs.13557</p>
+
+      <p>GIRAULT, A.; CARTEAU, M.; KEFELIAN, F.; MENARD, S.; GOFFINET, F.; LE RAY, C. Benefits of the «en caul» technique for extremely preterm breech vaginal delivery.  
+      <b>Journal of Gynecology Obstetrics and Human Reproduction.</b> 2022;51(2):102284. DOI: 10.1016/j.jogoh.2021.102284</p>
+
+      <p>GOFFINET, F.; CARAYOL, M.; FOIDART, J. M.; ALEXANDER, S.; UZAN, S.; SUBTIL, D. <i>et al.</i> Is planned vaginal delivery for breech presentation at term still an option? Results of an observational prospective survey in France and Belgium. 
+      <b>American Journal of Obstetrics & Gynecology.</b> 2006;194(4):1002-11. DOI: 10.1016/j.ajog.2005.10.817</p>
+
+      <p>GROSFELD, O.; KRETOWICZ, J.; BROKOWSKI, J. The temporomandibular joint in children after breech delivery. 
+      <b>Journal of Oral Rehabilitation.</b> 1980;7(1):65-72. DOI: 10.1111/j.1365-2842.1980.tb01464.x</p>
+
+      <p>HANNAH, M. E.; HANNAH, W. J.; HEWSON, S. A.; HODNETT, E. D.; SAIGAL, S.; WILLAN, A. R. Planned caesarean section versus planned vaginal birth for breech presentation at term: a randomised multicentre trial. 
+      Term Breech Trial Collaborative Group. <b>Lancet.</b> 2000;356(9239):1375-83. DOI: 10.1016/s0140-6736(00)02840-3</p>
+
+      <p>HEHIR, M. P. Trends in vaginal breech delivery. <b>Journal of Epidemiology Community Health.</b> 2015;69(12):1237-9. DOI: 10.1136/jech-2015-205592</p>
+
+      <p>HICKOK, D. E.; GORDON, D. C.; MILBERG JA, Williams MA, Daling JR. The frequency of breech presentation by gestacional age at birth: a large population-based study. 
+      <b>American Journal of Obstetrics & Gynecology.</b> 1992;166(3):851-2. DOI: 10.1016/0002-9378(92)91347-d</p>
+
+      <p>HOFMEYR, G. J.; KULIER, R.; WEST, H. M. External cephalic version for breech presentation at term. <b>Cochrane Database of Systematic Reviews.</b> 
+      2015;2015(4):CD000083.  DOI: 10.1002/14651858.CD000083.pub3</p>
+
+      <p>HOFMEYR, G. J.; HANNAH, M.; LAWRIE, T. A. Planned caesarean section for term breech delivery. <b>Cochrane Database of Systematic Reviews.</b> 
+      2015;2015(7):CD000166. DOI: 10.1002/14651858.CD000166.pub2</p>
+
+      <p>HOFMEYR, G. J. <b>Delivery of the singleton fetus in breech presentation.</b> 2023. 
+      Disponível em: <a href="https://www.uptodate.com/contents/delivery-of-the-singleton-fetus-in-breech-presentation">https://www.uptodate.com/contents/delivery-of-the-singleton-fetus-in-breech-presentation</a>. Acesso em: 10 jan. 2025.</p>
+
+      <p>JENNEWEIN, L.; ALLERT, R.; MÖLLMANN, C. J.; PAUL, B.; KIELLAND-KAISEN, U.; RAIMANN, F. J. <i>et al.</i> The influence of the fetal leg position on the outcome in vaginally intended deliveries out of breech presentation at term – A FRABAT prospective cohort study. 
+      <b>PLoS One.</b> 2019;14(12):e0225546. DOI: 10.1371/journal.pone.0225546</p>
+
+      <p>JETTESTAD, M. C.; SCHIØTZ, H. A.; YLI, B. M.; KESSLER, J. Fetal monitoring in term breech labor - a review. <b>European Journal of Obstetrics, Gynecology and Reproductive Biology.</b> 
+      2019;239:45-51. DOI: 10.1016/j.ejogrb.2019.05.009</p>
+
+      <p>JOTKOWITZ, M. W.; PICTON, F. C. An appraisal of an anatomically and physiologically correct method of breech delivery: the Bracht manoeuvre.  <b>Australian and New Zealand Journal of Obstetrics and Gynaecology.</b> 
+      1970;10(3):151-9. DOI: 10.1111/j.1479-828x.1970.tb00421.x</p>
+
+      <p>KIELLAND-KAISEN, U.; PAUL, B.; JENNEWEIN, L.; KLEMT, A.; MÖLLMANN, C. J.; BOCK, N. <i>et al.</i> Maternal and neonatal outcome after vaginal breech delivery of nulliparous versus multiparous women of singletons at term-a prospective evaluation of the Frankfurt breech at term cohort (FRABAT). 
+      <b>European Journal of Obstetrics, Gynecology and Reproductive Biology.</b> 2020;252:583-7. DOI: 10.1016/j.ejogrb.2020.04.029 </p>
+
+      <p>KOTASKA, A.; MENTICOGLOU, S.; GAGNON, R. Maternal Fetal Medicine Committee. Vaginal delivery of breech presentation. 
+      <b>Journal of Obstetrics and Gynaecology of Canada.</b> 2009;31(6):557-66. DOI: 10.1016/S1701-2163(16)34221-9</p>
+
+      <p>LOUWEN, F.; DAVISS, B. A.; JOHNSON, K. C.; REITTER, A. Does breech delivery in an upright position instead of on the back improve outcomes and avoid cesareans? 
+      <b>International Journal of Gynecology & Obstetrics.</b> 2017;136(2):151-61. DOI: 10.1002/ijgo.12033</p>
+
+      <p>NORDBORG, J. W.; SVANBERG, T.; STRANDELL, A.; CARLSSON, Y. Term breech presentation-intended cesarean section versus intended vaginal delivery-a systematic review and meta-analysis. 
+      <b>Acta Obstetricia et Gynecologica Scandinavica.</b> 2022;101(6):564-76. DOI: 10.1111/aogs.14333</p>
+
+      <p>OWADA, M.; SUZUKI, S. Outcomes of “one-day trial of vaginal breech delivery of singleton pregnancy” at 37-38 weeks' gestation at a Japanese perinatal center. 
+      <b>Journal of Maternal-Fetal & Neonatal Medicine.</b> 2021;34(21):3510-3. DOI: 10.1080/14767058.2019.1686471</p>
+
+      <p>PIPER, E. B.; BACHMAN, C. The prevention of fetal injuries in breech delivery. <b>Journal of the American Medical Association,</b> v. 92, p. 217-221, 1929. 
+      <b>American Journal of Obstetrics & Gynecology.</b> 1972;112(5):713. </p>
+
+      <p>REZENDE, J. <b>Obstetrícia.</b> 8. ed. Rio de Janeiro: Guanabara Koogan, 1998. Versão. Extração podal. p. 1269-89 (mesma paginação do capítulo da  referência 35).</p>
+
+      <p>SANDBERG, E. C. The Zavanelli maneuver: 12 years of recorded experience. <b>Obstetrics & Gynecology.</b> 1999;93(2):312-7. DOI: 10.1016/s0029-7844(98)00340-8</p>
+
+      <p>SENTILHES, L.; SCHMITZ, T.; AZRIA, E.; GALLOT, D.; DUCARME, G.; KORB, D. <i>et al.</i> Breech presentation: clinical practice guidelines from the French College of Gynaecologists and Obstetricians (CNGOF). 
+      <b>European Journal of Obstetrics, Gynecology and Reproductive Biology.</b> 2020;252:599-604. DOI: 10.1016/j.ejogrb.2020.03.033</p>
+
+      <p>TOIJONEN, A. E.; HEINONEN, S.T.; GISSLER, M.; MACHAREY, G. A comparison of risk factors for breech presentation in preterm and term labor: a nationwide, population-based case-control study. 
+      <b>Archives of Gynecology and Obstetrics.</b> 2020;301(2):393-403. DOI: 10.1007/s00404-019-05385-5</p>
+
+      <p>TOIJONEN, A.; HEINONEN, S. T.; GISSLER, M.; MACHAREY, G. Neonatal outcome in vaginal breech labor at 32 + 0-36 + 0 weeks of gestation: a nationwide, population-based record linkage study. 
+      <b>BMC Pregnancy Childbirth.</b> 2022;22(1):211. DOI: 10.1186/s12884-022-04547-9</p>
+
+      <p>VLEMMIX, F.; BERGENHENEGOUWEN, L.; SCHAAF, J. M.; ENSING, S.; ROSMAN, A. N.; RAVELLI, A. C. <i>et al.</i> Term breech deliveries in the Netherlands: did the increased cesarean rate affect neonatal outcome? A population-based cohort study. 
+      <b>Acta Obstetricia et Gynecologica Scandinavica.</b> 2014;93(9):888-96. DOI: 10.1111/aogs.12449</p>
+
+      <p>WELLE-STRAND, J. A.; TAPPERT, C.; EGGEBØ, T. M. Induction of labor in breech presentations - a retrospective cohort study.  <b>Acta Obstetricia et Gynecologica Scandinavica.</b> 
+      2021;100(7):1336-44. DOI: 10.1111/aogs.14083</p>
+
+      <p>WESTGREN, M.; EDVALL, H.; NORDSTRÖM, L.; SVALENIUS, E.; RANSTAM, J. Spontaneous cephalic version of breech presentation in the last trimester. <b>British Journal of Obstetrics Gynaecology.</b> 
+      1985;92(1):19-22. DOI: 10.1111/j.1471-0528.1985.tb01043.x</p>
+
+      <p>WESTGREN, M.; GRUNDSELL, H.; INGEMARSSON, I.; MÜHLOW, A.; SVENNINGSEN, N. W. Hyperextension of the fetal head in breech presentation. A study with long-term follow-up. 
+      <b>British Journal of Obstetrics and Gynaecology.</b> 1981;88(2):101-4. DOI: 10.1111/j.1471-0528.1981.tb00949.x</p>
+
+      <p>WESTGREN, L. M.; SONGSTER, G.; PAUL, R. H. Preterm breech delivery: another retrospective study.  <b>Obstetrics & Gynecology.</b> 1985;66(4):481-4.</p>
+
+      <p>WHYTE, H.; HANNAH, M. E.; SAIGAL, S.; HANNAH, W. J.; HEWSON, S.; AMANKWAH, K. <i>et al.</i> Outcomes of children at 2 years after planned cesarean birth versus planned vaginal birth for breech presentation at term: the International Randomized Term Breech Trial. 
+      <b>American Journal of Obstetrics & Gynecology.</b> 2004;191(3):864-71. DOI: 10.1016/j.ajog.2004.06.056</p>
+
+      <p>WIGAND, J. H.; NAEGELE, F. K. <b>Die Geburt des Menschen, in physiologisch-diätetischer und pathologisch-therapeutischer Beziehung.</b> Berlin: Nicolai; 1820. </p>
+
+      <p>WILSON, A.; TRUCHANOWICZ, E. G.; ELMOGHAZY, D.; MACARTHUR, C.; COOMARASAMY, A. Symphysiotomy for obstructed labour: a systematic review and meta-analysis. 
+      <b>BJOG.</b> 2016;123(9):1453-61. DOI: 10.1111/1471-0528.14040</p>
+
+
+
+
+      `,
     ],
   },
   // {
