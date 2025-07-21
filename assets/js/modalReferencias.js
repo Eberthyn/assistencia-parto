@@ -1,4 +1,4 @@
-a// Helper para criar elementos
+// Helper para criar elementos
 function el(tag, attrs = {}, ...children) {
   const e = document.createElement(tag);
   for (let [k, v] of Object.entries(attrs)) {
