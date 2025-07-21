@@ -1,4 +1,4 @@
-// Helper para criar elementos
+a// Helper para criar elementos
 function el(tag, attrs = {}, ...children) {
   const e = document.createElement(tag);
   for (let [k, v] of Object.entries(attrs)) {
@@ -628,6 +628,354 @@ const accordions = [
 
       <p>WILSON, A.; TRUCHANOWICZ, E. G.; ELMOGHAZY, D.; MACARTHUR, C.; COOMARASAMY, A. Symphysiotomy for obstructed labour: a systematic review and meta-analysis. 
       <b>BJOG.</b> 2016;123(9):1453-61. DOI: 10.1111/1471-0528.14040</p>
+
+      <h1>Aula 2</h1>
+      <p>AL-SUHEL, R.; GILL, S.; ROBSON, S.; SHADBOLT, B. Kjelland’s forceps in the new millennium. Maternal and neonatal outcomes of attempted rotational forceps delivery.  
+      <b>Australian and New Zealand Journal of Obstetrics and Gynaecology.</b> 2009;49(5):510-4. DOI: 10.1111/j.1479-828X.2009.01060.x</p>
+
+      <p>AMERICAN COLLEGE OF OBSTETRICIANS AND GYNECOLOGISTS (ACOG). Acog Practice Bulletin n. 154: operative vaginal delivery. 
+      <b>Obstetrics & Gynecology.</b>  2015;126(5):e56-65. DOI: 10.1097/AOG.0000000000001147</p>
+
+      <p>AMERICAN COLLEGE OF OBSTETRICIANS AND GYNECOLOGISTS (ACOG). American Academy of Pediatrics. Neonatal encephalopathy and neurologic outcome. 2nd ed. 
+      Washington (DC): <b>ACOG, </b> 2014. </p>
+
+      <p>BAHL, R.; MURPHY, D. J.; STRACHAN, B. Qualitative analysis by interviews and video recordings to establish the components of a skilled low-cavity non-rotational vacuum delivery. 
+      <b>BJOG.</b> 2009;116(2):319-26. DOI: 10.1111/j.1471-0528.2008.01967.x </p>
+
+      <p>BENZECRY, R. <b>Fórcipe passo a passo.</b> Rio de Janeiro: Revinter; 2006.</p>
+
+      <p>CHU BESANÇON. <b>Odon Device™:</b> vers une nouvelle expérience de l’accouchement instrumental, 2020. 
+      Disponível em: <a href="https://www.chu-besancon.fr/le-chu/actualites-du-chu/actualite/odon-devicetm-vers-une-nouvelle-experience-de-laccouchement-instrumental.html">https://www.chu-besancon.fr/le-chu/actualites-du-chu/actualite/odon-devicetm-vers-une-nouvelle-experience-de-laccouchement-instrumental.html</a>. Acesso em: 10 jan. 2025.</p>
+
+      <p>COMMITTEE ON PRACTICE BULLETINS-OBSTETRICS. Practice Bulletin n. 178: shoulder dystocia. 
+      <b>Obstetrics & Gynecology.</b> 2017;129(5):e123-33. DOI: 10.1097/AOG.0000000000002043</p>
+
+      <p>CRANE, A. K.; GELLER, E. J.; BANE, H.; JU, R.; MYERS, E.; MATTHEWS, C. A. Evaluation of pelvic floor symptoms and sexual function in primiparous women who underwent operative vaginal delivery versus cesarean delivery for second-stage arrest. 
+      <b>Female Pelvic Medicine & Reconstrutive Surgery.</b> 2013;19(1):13-6. DOI: 10.1097/SPV.0b013e31827bfd7b</p>
+
+      <p>DE LEEUW, J. W.; DE WIT, C.; KUIJKEN, J. P.; BRUINSE, H. W. Mediolateral episiotomy reduces the risk for anal sphincter injury during operative vaginal delivery. 
+      <b>BJOG.</b> 2008;115(1):104-8. DOI: 10.1111/j.1471-0528.2007.01554.x</p>
+
+      <p>DEMISSIE, K.; RHOADS, G. G.; SMULIAN, J. C.; BALASUBRAMANIAN, B. A.; GANDHI, K.; JOSEPH, K. S. <i>et al.</i> Operative vaginal delivery and neonatal and infant adverse outcomes: population based retrospective analysis. 
+      <b>BMJ.</b> 2004;329(7456):24-9. DOI: 10.1136/bmj.329.7456.24</p>
+
+      <p>FITZGERALD, M. P.; WEBER, A. M.; HOWDEN, N.; CUNDIFF, G. W.; BROWN, M. B. Risk factors for anal sphincter tear during vaginal delivery. 
+      <b>Obstetrics & Gynecology.</b> 2007;109(1):29-34. DOI: 10.1097/01.AOG.0000242616.56617.ff</p>
+
+      <p>GUROL-URGANCI, I.; CROMWELL, D. A.; EDOZIEN, L. C.; MAHMOOD, T. A.; ADAMS, E. J.; RICHMOND, D. H. <i>et al.</i> Third and fourth degree perineal tears among primiparous women in England between 2000 and 2012: time trends and risk factors. 
+      <b>BJOG.</b> 2013;120(12):1516-25. DOI: 10.1111/1471-0528.12363</p>
+
+      <p>HOTTON, E. J.; LENGUERRAND, E.; ALVAREZ, M.; O’BRIEN, S.; DRAYCOTT, T. J.; CROFTS, J. F. Outcomes of the novel Odon Device in indicated operative vaginal birth. 
+      <b>American Journal of Obstetrics & Gynecology.</b> 2021;224(6):607.e1-17. DOI: 10.1016/j.ajog.2020.12.017</p>
+
+      <p>JEVE, Y. B.; NAVTI, O. B.; KONJE, J. C. Comparison of techniques used to deliver a deeply impacted fetal head at full dilatation: a systematic review and meta-analysis. 
+      <b>BJOG.</b> 2016;123(3):337-45. DOI: 10.1111/1471-0528.13593</p>
+
+      <p>JOHANSON, R. B.; MENON, V. Soft versus rigid vacuum extractor cups for assisted vaginal delivery. 
+      <b>Cochrane Database of Systematic Reviews.</b> 2000;(2):CD000446. DOI: 10.1002/14651858.CD000446</p>
+
+      <p>JOHANSON, R. B.; MENON, B. K. Vacuum extraction versus forceps for assisted vaginal delivery. <b>Cochrane Database of Systematic Reviews.</b> 
+      2000;(2):CD000224. DOI: 10.1002/14651858.CD000224</p>
+
+      <p>KNIGHT, M.; CHIOCCHIA, V.; PARTLETT, C.; RIVERO-ARIAS, O.; HUA, X.; HINSHAW, K. <i>et al.</i> Prophylactic antibiotics in the prevention of infection after operative vaginal delivery (ANODE): a multicentre randomised controlled trial. 
+      <b>Lancet.</b> 2019;393(10189):2395-403. DOI: 10.1016/S0140-6736(19)30773-1</p>
+
+      <p>LATTUS, J. O.; PAREDES, A. V.; JUNEMANN, K. C.; MARTIC, A. V.; CONTRERAS, P. N.; BAEZA, N. P. <i>et al.</i> Espátulas de Thierry <i>versus</i> fórceps de Kjelland. <b>Revista Chilena de Obstetricia y Ginecología.</b> 
+      2003;68(6):477-86. DOI: 10.4067/S0717-75262003000600004</p>
+
+      <p>LAUFE, L. E.; BERKUS, M. D. <b>Assisted vaginal delivery:</b> obstetric fórceps and vacum extraction techniques. New York: McGraw-Hill; 1992. </p>
+
+      <p>LUND, N. S.; PERSSON, L. K.; JANGÖ, H.; GOMMESEN, D.; WESTERGAARD, H. B. Episiotomy in vacuum-assisted delivery affects the risk of obstetric anal sphincter injury: a systematic review and metaanalysis. <b>European Journal of Obstetrics, Gynecology and Reproductive Biology.</b> 
+      2016;207:193-9. DOI: 10.1016/j.ejogrb.2016.10.013</p>
+
+      <p>MAPPA, I.; TARTAGLIA, S.; MAQINA, P.; MAKATSARIYA, A.; GHI, T.; RIZZO, G. <i>et al.</i> Ultrasound versus routine care before instrumental vaginal delivery: a systematic review and meta-analysis.  
+      <b>Acta Obstetricia et Gynecologica Scandinavica.</b> 2021;100(11):1941-8. DOI: 10.1111/aogs.14236</p>
+
+      <p>MULDER, F. E.; SCHOFFELMEER, M. A.; HAKVOORT, R. A.; LIMPENS, J.; MOL, B. W.; VAN DER POST, J. A. <i>et al.</i> Risk factors for postpartum urinary retention: a systematic review and meta-analysis. 
+      <b>BJOG.</b> 2012;119(12):1440-6. DOI: 10.1111/j.1471-0528.2012.03459.x</p>
+
+      <p>MURPHY, D. J.; MACLEOD, M.; BAHL, R.; STRACHAN, B. A cohort study of maternal and neonatal morbidity in relation to use of sequential instruments at operative vaginal delivery.  
+      <b>European Journal of Obstetrics, Gynecology and Reproductive Biology.</b> 2011;156(1):41-5. DOI: 10.1016/j.ejogrb.2011.01.004</p>
+
+      <p>MURPHY, D. J.; STRACHAN, B. K.; BAHL, R. Royal College of Obstetricians and Gynaecologists. Assisted vaginal birth: Green-top guideline no. 26. 
+      <b>BJOG.</b> 2020;127(9):e70-112. DOI: 10.1111/1471-0528.16092</p>
+
+      <p>NIKPOOR, P.; BAIN, E. Analgesia for forceps delivery. <b>Cochrane Database of Systematic Reviews.</b> 2013;9:CD008878. DOI: 10.1002/14651858.CD008878.pub2</p>
+
+      <p>POUSADA, D. G. S.; SÁENZ, N. H. V. <b>Espátulas de Velasco y de Thierry.</b> Medicina (Guayaquil). 2009;14(2):179-83.</p>
+
+      <p>PRACTICE guidelines for obstetric anesthesia: an updated report by the American Society of Anesthesiologists Task Force on Obstetric Anesthesia and the Society for Obstetric Anesthesia and Perinatology. 
+      <b>Anesthesiology.</b> 2016;124(2):270-300. DOI: 10.1097/ALN.0000000000000935 </p>
+
+      <p>ROYAL AUSTRALIAN AND NEW ZEALAND COLLEGE OF OBSTETRICIANS AND GYNAECOLOGISTS. <b>Instrumental vaginal delivery:</b> C-Obs 16. Melbourne: RANZCOG, 2020. 
+      Disponível em: <a href="https://ranzcog.edu.au/wp-content/uploads/2022/05/Instrumental-vaginal-birth.pdf">https://ranzcog.edu.au/wp-content/uploads/2022/05/Instrumental-vaginal-birth.pdf</a>. Acesso em: 15 jan. 2025.</p>
+
+      <p>ROYAL COLLEGE OF OBSTETRICIANS AND GYNAECOLOGISTS. <b>Reducing the risk of venous thromboembolism during pregnancy and the puerperium.</b> London: RCOG, 2015.</p>
+
+      <p>SARTORE, A.; DE SETA, F.; MASO, G.; PREGAZZI, R.; GRIMALDI, E.; GUASCHINO, S. The effects of mediolateral episiotomy on pelvic floor function after vaginal delivery. 
+      <b>Obstetrics & Gynecology.</b> 2004;103(4):669-73. DOI: 10.1097/01.AOG.0000119223.04441.c9</p>
+
+      <p>SCHWARZMAN, P.; WALFISCH, A.; WAINSTOCK, T.; SEGAL, I.; LANDAU, D.; SHEINER, E. Vacuum extraction for the preterm newborn and the long-term neurological outcome. 
+      <b>American Journal of Obstetrics & Gynecology.</b> 2017;216(1):S549. DOI:<a href="https://doi.org/10.1016/j.ajog.2016.11.883">https://doi.org/10.1016/j.ajog.2016.11.883</a>. </p>
+
+      <p>SPENCER, C.; MURPHY, D.; BEWLEY, S. Caesarean section in the second stage of labour. <b>BMJ.</b> 2006;333(7569):613-4. DOI: 10.1136/bmj.38971.466979.DE</p>
+
+      <p>SILVESTRI, P.; Meccanico d’auto ha inventato Odón Device un dispositivo per facilitare il parto. <b>Virtualblognews,</b> 2013. 
+      Disponível em: <a href="https://virtualblognews.altervista.org/meccanico-dauto-ha-inventato-odon-device-un-dispositivo-per-facilitare-il-parto-video/25817512/">https://virtualblognews.altervista.org/meccanico-dauto-ha-inventato-odon-device-un-dispositivo-per-facilitare-il-parto-video/25817512/</a>. Acesso em: 20 dez. 2024.</p>
+
+      <p>SULTAN, A. H.; THAKAR, R.; ISMAIL, K. M.; KALIS, V.; LAINE, K.; RÄISÄNEN, S. H. <i>et al.</i> The role of mediolateral epiosiotomy during operative vaginal delivery.  
+      <b>European Journal of Obstetrics, Gynecology and Reproductive Biology.</b> 2019;240:192-6. DOI: 10.1016/j.ejogrb.2019.07.005</p>
+
+      <p>TOWNER, D.; CASTRO, M. A.; EBY-WILKENS, E.; GILBERT, W. M. Effect of mode of delivery in nulliparaous women on neonatal intracranial injury. 
+      <b>New England Journal of Medicine.</b> 1999;341(23):1709-14. DOI: 10.1056/NEJM199912023412301</p>
+
+      <p>VACCA, A. The trouble with vacuum extraction. <b>Current Obstetrics and Gynecology Reports.</b> 1999;9(1):41-5. DOI: 10.1016/S0957-5847(99)90072-0</p>
+
+      <p>WALSH, C.; ROBSON, M.; MCAULIFFE, F. 647: neonatal morbidity and mortality of operative vaginal delivery: a 10-year study of 82,000 infants. 
+      <b>American Journal of Obstetrics & Gynecology.</b> 2012;206(1 Suppl):S290.</p>
+
+      <p>WALSH, C. A.; ROBSON, M.; MCAULIFFE, F. M. Mode of delivery at term and adverse neonatal outcomes.  
+      <b>Obstetrics & Gynecology.</b> 2013;121(1):122-8. DOI: 10.1097/aog.0b013e3182749ac9</p>
+
+      <p>YEOMANS, E. R. Operative vaginal delivery. <b>Obstetrics & Gynecology.</b> 2010;115(3):645-53. DOI: 10.1097/AOG.0b013e3181cfbefd</p>
+
+      <h1>Aula 3</h1>
+      <p>ACADEMIA AMERICANA DE MÉDICOS DE FAMÍLIA. <b>Also Brasil – Suporte avançado de vida em obstetrícia - Manual e Programa de Estudos.</b> 
+      São Paulo: Sarvier Livros Médicos, 2016.</p>
+
+      <p>AMORIM, M. M. R.; DUARTE, A. C.; ANDREUCCI, C. B.; KNOBEL, R.; TAKEMOTO,  M. L. S. Distocia de ombro: proposta de um novo algoritmo para conduta em partos em posições não supinas. 
+      <b>Femina.</b> 2013;41(3):115-24.</p>
+
+      <p>ANSELL, L.; ANSELL, D. A.; MCARA-COUPER, J.; LARMER, P. J.; GARRETT, N K. G. Axillary traction: an effective method of resolving shoulder dystocia. 
+      <b>Australian and New Zealand Journal of Obstetrics and Gynaecology.</b> 2019;59:627-33.</p>
+
+      <p>BEALL, M. H.; SPONG, C.; MCKAY, J.; ROSS, M. G. Objetive definition of shoulder dystocia: a prospective evaluation. 
+      <b>American Journal of Obstetrics & Gynecology.</b> 1998;179(4):934-7.</p>
+
+      <p>BJÖRKLUND, K. Minimally invasive surgery for obstructed labour: a review of symphysiotomy during the twentieth century (including 5000 cases). 
+      <b>BJOG.</b> 2002;109(3):236-48.</p>
+
+      <p>BRUNER, J. P.; DRUMMOND, S. B.; MEENAN, A. L.; GASKIN, I. M. All-four maneuver for reducing shoulder dystocia during labor. 
+      <b>Journal of Reproductive Medicine.</b> 1998;43(5):439-43.</p>
+
+      <p>CAMPBELL, M. K.; OSTBYE, T.; IRGENS, L. M. Post-term birth: risk factors and outcomes in a 10-year cohort of Norwegian births. 
+      <b>Obstetrics & Gynecology.</b> 1997:89(4):543-8.</p>
+
+      <p>CLUVER, C. A.; HOFMEYR, G. J. Posterior axilla sling traction for shoulder dystocia: case review and a new method of shoulder rotation with the sling. 
+      <b>American Journal of Obstetrics & Gynecology.</b> 2015;212(6):784.e1-7.</p>
+
+      <p>COMMITTE ON PRACTICE BULLETINS - OBSTETRICS. Practice Bulletin n. 178: Shoulder Dystocia.  
+      <b>Obstetrics & Gynecology.</b> 2017;129(5):e123-33. Reaffirmed 2019. </p>
+
+      <p>COMMITTEE ON PRACTICE BULLETINS - OBSTETRICS. Practice Bulletin No 216: Macrosomia.  <b>Obstetrics & Gynecology.</b> 2020;135(1):e18-35.</p>
+
+      <p>DALL’ASTA, A.; GHI, T.; PEDRAZZI, G.; FRUSCA, T. Does vacuum delivery carry a higher risk of shoulder dystocia? Review and meta-analysis of the literature.  
+      <b>European Journal of Obstetrics, Gynecology and Reproductive Biology.</b> 2016;204:62-8.</p>
+
+      <p>FOAD, S. L.; MEHLMAN, C. T.; YING, J. The epidemiology of neonatal brachial plexus palsy in the United States. 
+      <b>Journal of Bone & Joint Surgery.</b> 2008;90(6):1258-64.</p>
+
+      <p>GACHON, B.; DESSEAUVE, D.; FRITEL, X.; PIERRE, F. Is fetal manipulation during shoulder dystocia management associated with severe maternal and neonatal morbidities? 
+      <b>Archives of Gynecologyand Obstetrics.</b> 2016;294:505-9.</p>
+
+      <p>GHERMAN, R. B. Shoulder dystocia: na evidence-based evaluation of the obstetric nightmare. 
+      <b>Clinical Obstetrics and Gynecology.</b> 2002;45(2):345-62.</p>
+
+      <p>GÜLMEZOGLU, A. M.; CROWTHER, C. A.; MIDDLETON, P.; HEATLEY, E. Induction of labour for improving birth outcomes for women at or beyond term. 
+      <b>Cochrane Database of Systematic Reviews.</b> 2012;6(6):CD004945. </p>
+
+      <p>HARDER, U. Sofortmaßnahmen bei Schulterdystokie. <b>Hebamme.</b> 2005;18(3):138-45. </p>
+
+      <p>HARTLING, L.; DRYDEN, D. M.; GUTHRIE, A.; MUISE, M.; VANDERMEER, B.; DONOVAN, L. Benefits and harms of treating gestational diabetes mellitus: a systematic review and meta-analysis for the U.S. 
+      Preventive Services Task Force and the National Institutes of Health Office of Medical Applications of Research. <b>Annals of Internal Medicine.</b> 2013;159(2):123-9.</p>
+
+      <p>HOFFMAN, M. K.; BAILIT, J. L.; BRANCH, D. W.; BURKMAN, R. T.; VELDHUSIEN, P. V.; LU, L. <i>et al.</i> A comparison of obstetric maneuvers for the acute management of shoulder dystocia. 
+      <b>Obstetrics & Gynecology.</b> 2011;117(6):1272-8.</p>
+
+      <p>JOHNSON, G. J.; DENNING, S.; CLARK, S. L.; DAVIDSON, C. Pathophysiologic origins of brachial plexus injury. <b>Obstetrics & Gynecology.</b> 2020;136(4):725-30.</p>
+
+      <p>KLEITMAN, V.; FELDMAN, R.; WALFISCH, A.; TOLEDANO, R.; SHEINER, E. Recurrent shoulder dystocia: is it predictable? 
+      <b>Archives of Gynecology and Obstetrics.</b> 2016;294:1161-6.</p>
+
+      <p>LAUGHON, S. K.; BERGHELLA, V.; REDDY, U. M.; SUNDARAM, R.; LU, Z; HOFFMAN, M. K. Neonatal and maternal outcomes with prolonged second stage of labor.  
+      <b>Obstetrics & Gynecology.</b> 2014;124(1):57-67.</p>
+
+      <p>LEUNG, T. Y.; STUART, O.; SUEN, S. S.; SAHOTA, D. S.; LAU, T. K.; LAO, T. T. Comparison of perinatal outcomes of shoulder dystocia alleviated by different type and sequence of manoeuvres: a retrospective review. 
+      <b>BJOG.</b> 2011;118(8):985-90.</p>
+
+      <p>LEUNG, T. Y.; STUART, O.; SAHOTA, D. S.; SUEN, S. S. H.; LAU, T. K.; LAO, T. T. Head-to-body delivery interval and risk of fetal acidosis and hypoxic ischaemic encephalopathy in shoulder dystocia: a retrospective review. 
+      <b>BJOG.</b> 2011;118(4):474-9. </p>
+
+      <p>MACKENZIE, I. Z.; SHAH, M.; LEAN, K.; DUTON, S.; NEWDICK, H.; TUCKER, D. E. Management of shoulder dystocia: trends in incidence and maternal and neonatal morbidity. 
+      <b>Obstetrics & Gynecology.</b> 2007;110(5):1059-68.</p>
+
+      <p>MCFARLAND, M. B.; TRYLOVICH, C. G.; LANGER, O. Anthropometric differences in macrosomic infants of diabetic and nondiabetic mothers. 
+      <b>Journal of Maternal-Fetal & Neonatal Medicine.</b> 1998;7(6):292-5. </p>
+
+      <p>MENTICOGLOU, S. M. A modified technique to deliver the posterior arm in severe shoulder dystocia.  <b>Obstetrics & Gynecology.</b> 2006;108:755-7.</p>
+
+      <p>O’LEARY, J. A.; CUVA, A. Abdominal rescue after failed cephalic replacement.  <b>Obstetrics & Gynecology.</b> 1992;80:514-6. </p>
+
+      <p>OLSON, D. N.; LOGAN, L.; GIBSON, K. S. Evaluation of multidisciplinary shoulder dystocia simulation training on knowledge, performance, and documentation.  
+      <b>American Journal of Obstetrics & Gynecology MFM.</b> 2021 Sep 1;3(5):100401. DOI:10.1016/j.ajogmf.2021.100401.</p>
+
+      <p>ØVERLAND, E. A.; VATTEN, L. J.; ESKILD, A. Pregnancy week at delivery and the risk of shoulder dystocia: a population study of 2.014.956 deliveries. 
+      <b>BJOG.</b> 2014;121(1):34-41.</p>
+
+      <p>ROBINSON, R.; WALKER, K. F.; WHITE, V. A.; BUGG, G. J.; SNELL, K. I. E.; JONES, N. W. The test accuracy of antenatal ultrasound definitions of fetal macrosomia to predict birth injury: a systematic review. 
+      <b>European Journal of Obstetrics, Gynecology and Reproductive Biology.</b> 2020;246:79-85.</p>
+
+      <p>RODIS, J. F.; LOCKWOOD, C. J.; BARSS, V. A. Shoulder dystocia: risk factors and planning delivery of high-risk pregnancies. <b>Uptodate</b> 2022A.</p>
+
+      <p>RODIS, J. F.; LOCKWOOD, C. J.; BARSS, V. A. Shoulder dystocia: intrapartum diagnosis, management, and outcome. <b>Uptodate</b> 2022B.</p>
+
+      <p>SANCETTA, R.; KHANZADA, H.; LEANTE, R. Shoulder Shrug maneuver to facilite delivery during shoulder dystocia. <b>Obstetrics & Gynecology.</b> 2019;133(6):1178-81.</p>
+
+      <p>SANDBERG, E. C. The Zavanelli maneuver: 12 years of recorded experience.  <b>Obstetrics & Gynecology.</b> 1999;93(2):312-7. </p>
+
+      <p>TULLY, G. FlipFLOP: four steps to remember. <b>Midwifery Today International Midwife.</b> 2012;(103):9-11.</p>
+
+      <p>VIDARSDOTTIR, H.; GEIRSSON, R. T.; HARDARDOTTIR, H.; VALDIMARSDOTTIR, U.; DAGBJARTSSON, A. Obstetric and neonatal risks among extremely macrosomic babies and their mothers. 
+      <b>American Journal of Obstetrics & Gynecology.</b> 2011;204(5):423.e1-e6</p>
+
+      <p>WITKOP, C. T.; NEALE, D.; WILSON, L. M.; BASS, E. B.; NICHOLSON, W. K. Active compared with expectant delivery management in women with gestational diabetes: a systematic review.  
+      <b>Obstetrics & Gynecology.</b> 2009;113(1):206-17.</p>
+
+      <p>WOODS, C. E.; WESTBURY, N. Y. A principle of physics as applicable to shoulder delivery. <b>American Journal of Obstetrics & Gynecology.</b> 1943;45:796-804.</p>
+
+      <p>ZHANG, C.; WU, Y.; LI, S.; ZHANG, D. Maternal prepregnancy obesity and the risk of shoulder dystocia: a meta-analysis. <b>BJOG.</b> 2018;125(4):407-13.</p>
+
+      <p>ZUCKERWISE, L. C.; HUSTEDT, M. M.; LIPKIND, H. S.; FUNAI, E. F.; RAAB, C. A.; PETTKER, C. M. Effect of implementing a standardized shoulder dystocia documentation form on quality of delivery notes. 
+      <b>Journal of Patient Safety.</b> 2020;16(4)259-63.</p>
+
+      <h1>Aula 4</h1>
+      <p>AMMITZBØLL, I. L.; ANDERSEN, B. R.; LANGE, K. H.; CLAUSEN, T.; LØKKEGAARD, E. C. Risk factors for and consequences of difficult fetal extraction in emergency caesarean section. A retrospective registry-based cohort study. 
+      <b>European Journal of Obstetrics, Gynecology and Reproductive Biology.</b> 2023;283:74-80. DOI: 10.1016/j.ejogrb.2023.02.012</p>
+
+      <p>ARAD, I.; LINDER, N.; BERCOVICI, B. Vacuum extraction at cesarean section – neonatal outcome. 
+      <b>Journal of Perinatal Medicine.</b> 1986;14(2):137-40. DOI: 10.1515/jpme.1986.14.2.137</p>
+
+      <p>BARBIERI, R. L. The fetal pillow: a new option for delivering the deeply impacted fetal head. <b>OBG Management.</b> 2020;32(7):8-11. DOI: 10.12788/obgm.0015</p>
+
+      <p>BERHAN, Y.; BERHAN, A. A meta-analysis of reverse breech extraction to deliver a deeply impacted head during cesarean delivery. 
+      <b>International Journal of Gynecology & Obstetrics.</b> 2014;124(2):99-105. DOI: 10.1016/j.ijgo.2013.08.014</p>
+
+      <p>BLICKSTEIN, I. Difficult delivery of the impacted fetal head during cesarean section: intraoperative disengagement dystocia. 
+      <b>Journal of Perinatal Medicine.</b> 2004;32(6):465-9. DOI: 10.1515/JPM.2004.152</p>
+
+      <p>CHEN, C. L.; GUO, H. X.; LIU, P.; HUANG, R.; YANG, Z. B.; TANG, L. et al. Three-dimensional reconstruction of the uterine vascular supply through vascular casting and thin slice computed tomography scanning. 
+      <b>Minimally invasive therapy and allied technologies.</b> 2009;18(2):98-102. DOI: 10.1080/13645700902720324</p>
+
+      <p>CORNTHWAITE, K. R.; BAHL, R.; LATTEY, K.; DRAYCOTT, T. Management of impacted fetal head at cesarean delivery.  
+      <b>American Journal of Obstetrics & Gynecology.</b> 2023 Aug 5. DOI: 10.1016/j.ajog.2022.10.037. </p>
+
+      <p>CORNTHWAITE, K.; DRAYCOTT, T.; BAHL, R.; HOTTON, E.; WINTER, C.; LENGUERRAND, E. Impacted fetal head: a retrospective cohort study of emergency caesarean section. 
+      <b>European Journal of Obstetrics, Gynecology and Reproductive Biology.</b> 2021;261:85-91. DOI: 10.1016/j.ejogrb.2021.04.021</p>
+
+      <p>DI GIROLAMO, R.; GALLIANI, C.; BUCA, D.; LIBERATI, M.; D'ANTONIO, F. Outcomes of second stage cesarean section following the use of a fetal head elevation device: a systematic review and meta-analysis. 
+      <b>European Journal of Obstetrics, Gynecology and Reproductive Biology.</b> 2021;262:1-6. DOI: 10.1016/j.ejogrb.2021.04.043</p>
+
+      <p>DUFOUR, P.; VINATIER, D.; PUECH, F. The use of intravenous nitroglycerin for cervico-uterine relaxation: a review of the literature. 
+      <b>Archives of Gynecology and Obstetrics.</b> 1997;261(1):1-7. DOI: 10.1007/s004040050189</p>
+
+      <p>EL-AGWANY, A. S. Considerable observations in cesarean section surgical technique and proposed steps. 
+      <b>Archives of Gynecology and Obstetrics.</b> 2018;297(5):1075-7. DOI: 10.1007/s00404-018-4672-1</p>
+
+      <p>ELSHWAIKH, S. L.; ELSOKARY, A. A.; ABUHAMAMA, A. M. Internal podalic version for delivery of high floating head during cesarean section and neonatal outcome. 
+      <b>Journal of Obstetrics and Gynaecology Research.</b> 2019;45(7):1328-33. DOI: 10.1111/jog.13979</p>
+
+      <p>FONG, Y. F.; ARULKUMARAN, S. Breech extraction--an alternative method of delivering a deeply engaged head at cesarean section. 
+      <b>International Journal of Gynecology & Obstetrics.</b> 1997;56(2):183-4. DOI: 10.1016/s0020-7292(96)02817-2</p>
+
+      <p>GQ PEAK, A.; BARWISE, E.; WALKER, K. F. Techniques for managing an impacted fetal head at caesarean section: a systematic review. 
+      <b>European Journal of Obstetrics, Gynecology and Reproductive Biology.</b> 2023;281:12-22. DOI: 10.1016/j.ejogrb.2022.12.017</p>
+
+      <p>JEVE, Y. B.; NAVTI, O. B.; KONJE, J. C. Comparison of techniques used to deliver a deeply impacted fetal head at full dilation: a systematic review and meta-analysis. 
+      <b>BJOG.</b> 2016;123(3):337-45. DOI: 10.1111/1471-0528.13593</p>
+
+      <p>LANDESMAN, R.; GRABER, E. A. Abdominovaginal delivery: modification of the cesarean section operation to facilitate delivery of the impacted head. 
+      <b>American Journal of Obstetrics & Gynecology.</b> 148(6):707-10. DOI: 10.1016/0002-9378(84)90551-9</p>
+
+      <p>LEVY, R.; CHERNOMORETZ, T.; APPELMAN, Z.; LEVIN, D.; OR, Y.; HAGAY, Z. J. Head pushing versus reverse breech extraction in cases of impacted fetal head during cesarean section. 
+      <b>European Journal of Obstetrics, Gynecology and Reproductive Biology.</b> 2005;121(1):24-6. DOI: 10.1016/j.ejogrb.2004.09.014</p>
+
+      <p>LIPPERT, T. H. Abdominovaginal delivery in case of impacted head in cesarean section operation. 
+      <b>American Journal of Obstetrics & Gynecology.</b> 1985;151(5):703. DOI: 10.1016/0002-9378(85)90172-3</p>
+
+      <p>LIPPERT, T. H. Bimanual delivery of the fetal head at cesarean section with the fetal head in midcavity. 
+      <b>Archives of Gynecology and Obstetrics.</b> 1983;234(1):59-60. DOI: 10.1007/BF02114726</p>
+
+      <p>MUKHOPADHYAY, P.; NASKAR, T.; DELUI, R.; HAZRA, S.; BHATTACHARYA, D. Evaluation of Patwardhan’s technic - a four-year study in a rural teaching hospital. 
+      <b>Journal of Obstetrics and Gynecology of India.</b> 2005;55(3):244-6. </p>
+
+      <p>NATIONAL INSTITUTE FOR HEALTH AND CARE EXCELLENCE (NICE). Insertion of a balloon device to disimpact an engaged fetal head before an emergency caesarean section. <b>Interventional procedures guidance</b> [IPG515]. 2015. 
+      Disponível em: <a href="https://www.nice.org.uk/guidance/ipg515/chapter/1-Recommendations">https://www.nice.org.uk/guidance/ipg515/chapter/1-Recommendations</a>. Acesso em: 5 dez. 2024.</p>
+
+      <p>PALACIOS-JARAQUEMADA, J. M. How to reduce the incidence of placenta accreta spectrum independently of the number of cesarean? 
+      <b>Maternal-Fetal Medicine.</b> 2019;1(2):69-9. DOI: 10.1097/FM9.0000000000000020</p>
+
+      <p>PATWARDHAN, B. D.; MOTASHAW, N. D. Caesarean section. <b>Journal of Obstetrics and Gynecology of India.</b> 1957;8(1):1-15. </p>
+
+      <p>PERGIALIOTIS, V.; MITSOPOULOU, D.; BILIOU, E.; BELLOS, I.; KARAGIANNIS, V.; PAPAPANAGIOTOU, A. <i>et al.</i> Cephalad-caudad versus transverse blunt expansion of the low transverse hysterotomy during cesarean delivery decreases maternal morbidity: a meta-analysis. 
+      <b>American Journal of Obstetrics & Gynecology.</b> 2021;225(2):128.e1-13. DOI: 10.1016/j.ajog.2021.04.231</p>
+
+      <p>PURISCH, S. E.; <b>Gyamfi-Bannerman,</b> C. Epidemiology of preterm birth. <b>Seminars in Perinatology.</b> 2017;41(7):387-91. DOI: 10.1053/j.semperi.2017.07.009</p>
+
+      <p>SCHWARZMAN, P.; WALFISCH, A.; WAINSTOCK, T.; SEGAL, I.; LANDAU, D.; SHEINER, E. Vacuum extraction for the preterm newborn and the long-term neurological outcome. 
+      <b>American Journal of Obstetrics & Gynecology.</b> 2017;216(1S):S549. DOI: 10.1016/j.ajog.2016.11.883</p>
+
+      <p>SHAO, Y.; PRADHAN, M. Higher incision at upper part of lower segment caesarean section. 
+      <b>JNMA - Journal of Nepal Medical Association.</b> 2014;52(194):764-70. DOI: 10.31729/jnma.2727</p>
+
+      <p>SPENCER, C.; MURPHY, D.; BEWLEY, S. Caesarean delivery in the second stage of labour. <b>BMJ.</b> 2006;333(7569):613-4. DOI: 10.1136/bmj.38971.466979.DE</p>
+
+      <p>STEER, P. J. Is a fractured skull discovered in the neonate after caesarean section delivery always evidence of negligence? 
+      <b>BJOG.</b> 2016;123(3):336. DOI: 10.1111/1471-0528.13613</p>
+
+      <p>SUNG, J. F.; DANIELS, K. I.; BRODZINSKY, L. EL-SAYED, Y. Y.; CAUGHEY, A. B.; LYELL, D. J. Cesarean delivery outcomes after a prolonged second stage of labor. 
+      <b>American Journal of Obstetrics & Gynecology.</b> 2007;197(3):306.e1-5. DOI: 10.1016/j.ajog.2007.07.005</p>
+
+      <p>TAN, E. K. Difficult caesarean delivery of an impacted head and neonatal skull fracture: can the morbidity be avoided? 
+      <b>Journal of Obstetrics and Gynaecology.</b>  2007;27(4):427-8. DOI: 10.1080/01443610701325861</p>
+
+      <p>WATERFALL, H.; GRIVELL, R. M.; DODD, J. M. Techniques for assisting difficult delivery at caesarean section. 
+      <b>Cochrane Database of Systematic Reviews.</b> 2016;2016(1):CD004944. DOI: 10.1002/14651858.CD004944.pub3</p>
+
+      <p>VIKHAREVA, O. O.; VALENTIN, L. Risk factors for incomplete healing of the uterine incision after caesarean section. 
+      <b>BJOG.</b> 2010;117(9):1119-26. DOI: 10.1111/j.1471-0528.2010.02631.x</p>
+
+      <p>WYN JONES, N.; MITCHELL, E. J.; WAKEFIELD, N.; KNIGHT, M.; DORLING, J.; THORNTON, J. G. et al. Impacted fetal head during second stage caesarean birth: a prospective observational study. 
+      <b>European Journal of Obstetrics, Gynecology and Reproductive Biology.</b> 2022;272:77-81. DOI: 10.1016/j.ejogrb.2022.03.00</p>
+
+      <p>YOO, K. Y.; LEE, J. C.; YOON, M. H.; SHIN, M. H.; KIM, S. J.; KIM, Y. H. <i>et al.</i> The effects of volatile anesthetics on spontaneous contractility of isolated human pregnant uterine muscle: a comparison among sevoflurane, desflurane, isoflurane, and halothane. 
+      <b>Anesthesia & Analgesia.</b> 2006;103(2):443-7. DOI: 10.1213/01.ane.0000236785.17606.58</p>
+
+      
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
