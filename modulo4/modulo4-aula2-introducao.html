@@ -1,403 +1,274 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-  <head>
-    <meta charset="utf-8" />
-    <title>Assistência ao Parto</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <link rel="icon" type="image/x-icon" href="../assets/images/favicon.ico" />
 
-    <link href="../assets/css/normalize.css" rel="stylesheet" />
-    <link
-      rel="stylesheet"
-      href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
-    />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display=swap"
-      rel="stylesheet"
-    />
-    <link
-      rel="stylesheet"
-      href="https://use.fontawesome.com/releases/v5.15.1/css/all.css"
-    />
-    <link href="../assets/css/styles.css" rel="stylesheet" />
-    <style>
-      .conteudo h2 {
-        margin-bottom: 0;
-      }
-    </style>
-  </head>
+<head>
+  <meta charset="utf-8" />
+  <title>Assistência ao Parto</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link rel="icon" type="image/x-icon" href="../assets/images/favicon.ico" />
 
-  <body>
-    <!-- Toolbar -->
-    <div class="row header">
-      <img
-        src="../assets/images/home/top-wave-left.png"
-        alt="Decorative shape left"
-        class="header-shape-left"
-      />
-      <div class="header-text">
-        <h1>
-          Assistência <br />
-          ao parto:
-        </h1>
-        <h2>
-          ênfase nas distocias e <br />principais causas de
-          <br />morbimortalidade materna
-        </h2>
-      </div>
-      <img
-        class="img-fluid"
-        src="../assets/images/logos/header.png"
-        alt="Capa das páginas do curso"
-      />
-      <img
-        src="../assets/images/logos/campuVirtual.png"
-        alt="Campus Virtual"
-        class="img-fluid campusVirtual"
-      />
-      <div class="col-md-12 descricaoModulo">
-        <h2>Módulo 4 | Infecções no ciclo grávido puerperal</h2>
-      </div>
+  <link href="../assets/css/normalize.css" rel="stylesheet" />
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.1/css/all.css" />
+  <link href="../assets/css/styles.css" rel="stylesheet" />
+  <style>
+    .conteudo h2 {
+      margin-bottom: 0;
+    }
+  </style>
+</head>
+
+<body>
+  <!-- Toolbar -->
+  <div class="row header">
+    <img src="../assets/images/home/top-wave-left.png" alt="Decorative shape left" class="header-shape-left" />
+    <div class="header-text">
+      <h1>
+        Assistência <br />
+        ao parto:
+      </h1>
+      <h2>
+        ênfase nas distocias e <br />principais causas de
+        <br />morbimortalidade materna
+      </h2>
     </div>
+    <img class="img-fluid" src="../assets/images/logos/header.png" alt="Capa das páginas do curso" />
+    <img src="../assets/images/logos/campuVirtual.png" alt="Campus Virtual" class="img-fluid campusVirtual" />
+    <div class="col-md-12 descricaoModulo">
+      <h2>Módulo 4 | Infecções no ciclo grávido puerperal</h2>
+    </div>
+  </div>
 
-    <div class="row" id="row-main">
-      <!-- Sidebar -->
-      <div class="col-md-2" id="sidebar">
-        <!-- Botão p/ Recolher Sidebar-->
-        <span class="toggle-sidebar" id="sidebarButton"
-          ><i class="fas fa-chevron-left"></i
-        ></span>
+  <div class="row" id="row-main">
+    <!-- Sidebar -->
+    <div class="col-md-2" id="sidebar">
+      <!-- Botão p/ Recolher Sidebar-->
+      <span class="toggle-sidebar" id="sidebarButton"><i class="fas fa-chevron-left"></i></span>
 
-        <!-- Botão Secundário p/ Recolher Sidebar -->
-        <span class="toggle-sidebar" id="sidebarButton2"
-          ><i class="fas fa-bars"></i
-        ></span>
+      <!-- Botão Secundário p/ Recolher Sidebar -->
+      <span class="toggle-sidebar" id="sidebarButton2"><i class="fas fa-bars"></i></span>
 
-        <nav id="menuLateral">
-          <ul class="listaMenu">
-            <li>
-              <div class="row">
-                <div class="sectionTitle">
-                  <a
-                    href="../index.html"
-                    class="tituloLista"
-                    style="padding-top: 0 !important"
-                    ><i class="fas fa-home"></i>Página Inicial</a
-                  >
-                </div>
+      <nav id="menuLateral">
+        <ul class="listaMenu">
+          <li>
+            <div class="row">
+              <div class="sectionTitle">
+                <a href="../index.html" class="tituloLista" style="padding-top: 0 !important"><i
+                    class="fas fa-home"></i>Página Inicial</a>
               </div>
-            </li>
+            </div>
+          </li>
 
-            <div class="accordionMenu" id="headingModulo1">
-              <div class="row">
-                <div class="sectionTitle">
-                  <span
-                    class="tituloLista collapsed"
-                    data-toggle="collapse"
-                    data-target="#collapseModulo1"
-                    aria-expanded="false"
-                    aria-controls="collapseModulo1"
-                    >Módulo 1<i class="fas fa-caret-up caretDown"></i
-                  ></span>
-                </div>
-              </div>
-
-              <div
-                id="collapseModulo1"
-                class="collapse"
-                aria-labelledby="headingModulo1"
-              >
-                <li>
-                  <div class="row">
-                    <div class="barraStepper active">
-                      <div class="item active"></div>
-                    </div>
-                    <div class="sectionTitle">
-                      <span class="tituloItem"
-                        ><a href="../modulo1/modulo1-aula1-introducao.html"
-                          >Aula 1</a
-                        ></span
-                      >
-                    </div>
-                  </div>
-                </li>
-                <li>
-                  <div class="row">
-                    <div class="barraStepper active">
-                      <div class="item active"></div>
-                    </div>
-                    <div class="sectionTitle">
-                      <span class="tituloItem"
-                        ><a href="../modulo1/modulo1-aula2-introducao.html"
-                          >Aula 2</a
-                        ></span
-                      >
-                    </div>
-                  </div>
-                </li>
-                <li>
-                  <div class="row">
-                    <div class="barraStepper active">
-                      <div class="item active"></div>
-                    </div>
-                    <div class="sectionTitle">
-                      <span class="tituloItem"
-                        ><a href="../modulo1/modulo1-aula3-introducao.html"
-                          >Aula 3</a
-                        ></span
-                      >
-                    </div>
-                  </div>
-                </li>
-                <li>
-                  <div class="row">
-                    <div class="barraStepper active">
-                      <div class="item active"></div>
-                    </div>
-                    <div class="sectionTitle">
-                      <span class="tituloItem"
-                        ><a href="../modulo1/modulo1-aula4-introducao.html"
-                          >Aula 4</a
-                        ></span
-                      >
-                    </div>
-                  </div>
-                </li>
-                <li>
-                  <div class="row">
-                    <div class="barraStepper" style="background-color: #aa1c95">
-                      <div class="item active"></div>
-                    </div>
-                    <div class="sectionTitle">
-                      <span class="tituloItem"
-                        ><a href="../modulo1/modulo1-atividade.html"
-                          >Atividade</a
-                        ></span
-                      >
-                    </div>
-                  </div>
-                </li>
+          <div class="accordionMenu" id="headingModulo1">
+            <div class="row">
+              <div class="sectionTitle">
+                <span class="tituloLista collapsed" data-toggle="collapse" data-target="#collapseModulo1"
+                  aria-expanded="false" aria-controls="collapseModulo1">Módulo 1<i
+                    class="fas fa-caret-up caretDown"></i></span>
               </div>
             </div>
 
-            <div class="accordionMenu" id="headingModulo2">
-              <div class="row">
-                <div class="sectionTitle">
-                  <span
-                    class="tituloLista collapsed"
-                    data-toggle="collapse"
-                    data-target="#collapseModulo2"
-                    aria-expanded="false"
-                    aria-controls="collapseModulo2"
-                    >Módulo 2<i class="fas fa-caret-up caretDown"></i
-                  ></span>
+            <div id="collapseModulo1" class="collapse" aria-labelledby="headingModulo1">
+              <li>
+                <div class="row">
+                  <div class="barraStepper active">
+                    <div class="item active"></div>
+                  </div>
+                  <div class="sectionTitle">
+                    <span class="tituloItem"><a href="../modulo1/modulo1-aula1-introducao.html">Aula 1</a></span>
+                  </div>
                 </div>
-              </div>
-              <div
-                id="collapseModulo2"
-                class="collapse"
-                aria-labelledby="headingModulo2"
-              >
-                <li>
-                  <div class="row">
-                    <div class="barraStepper active">
-                      <div class="item active"></div>
-                    </div>
-                    <div class="sectionTitle">
-                      <span class="tituloItem"
-                        ><a href="../modulo2/modulo2-aula1-introducao.html"
-                          >Aula 1</a
-                        ></span
-                      >
-                    </div>
+              </li>
+              <li>
+                <div class="row">
+                  <div class="barraStepper active">
+                    <div class="item active"></div>
                   </div>
-                </li>
-                <li>
-                  <div class="row">
-                    <div class="barraStepper active">
-                      <div class="item active"></div>
-                    </div>
-                    <div class="sectionTitle">
-                      <span class="tituloItem"
-                        ><a href="../modulo2/modulo2-aula2-introducao.html"
-                          >Aula 2</a
-                        ></span
-                      >
-                    </div>
+                  <div class="sectionTitle">
+                    <span class="tituloItem"><a href="../modulo1/modulo1-aula2-introducao.html">Aula 2</a></span>
                   </div>
-                </li>
-                <li>
-                  <div class="row">
-                    <div class="barraStepper active">
-                      <div class="item active"></div>
-                    </div>
-                    <div class="sectionTitle">
-                      <span class="tituloItem"
-                        ><a href="../modulo2/modulo2-aula3-introducao.html"
-                          >Aula 3</a
-                        ></span
-                      >
-                    </div>
+                </div>
+              </li>
+              <li>
+                <div class="row">
+                  <div class="barraStepper active">
+                    <div class="item active"></div>
                   </div>
-                </li>
-                <li>
-                  <div class="row">
-                    <div class="barraStepper active">
-                      <div class="item active"></div>
-                    </div>
-                    <div class="sectionTitle">
-                      <span class="tituloItem"
-                        ><a href="../modulo2/modulo2-aula4-introducao.html"
-                          >Aula 4</a
-                        ></span
-                      >
-                    </div>
+                  <div class="sectionTitle">
+                    <span class="tituloItem"><a href="../modulo1/modulo1-aula3-introducao.html">Aula 3</a></span>
                   </div>
-                </li>
-                <li>
-                  <div class="row">
-                    <div class="barraStepper" style="background-color: #aa1c95">
-                      <div class="item active"></div>
-                    </div>
-                    <div class="sectionTitle">
-                      <span class="tituloItem"
-                        ><a href="../modulo2/modulo2-atividade.html"
-                          >Atividade</a
-                        ></span
-                      >
-                    </div>
+                </div>
+              </li>
+              <li>
+                <div class="row">
+                  <div class="barraStepper active">
+                    <div class="item active"></div>
                   </div>
-                </li>
+                  <div class="sectionTitle">
+                    <span class="tituloItem"><a href="../modulo1/modulo1-aula4-introducao.html">Aula 4</a></span>
+                  </div>
+                </div>
+              </li>
+              <li>
+                <div class="row">
+                  <div class="barraStepper" style="background-color: #aa1c95">
+                    <div class="item active"></div>
+                  </div>
+                  <div class="sectionTitle">
+                    <span class="tituloItem"><a href="../modulo1/modulo1-atividade.html">Atividade</a></span>
+                  </div>
+                </div>
+              </li>
+            </div>
+          </div>
+
+          <div class="accordionMenu" id="headingModulo2">
+            <div class="row">
+              <div class="sectionTitle">
+                <span class="tituloLista collapsed" data-toggle="collapse" data-target="#collapseModulo2"
+                  aria-expanded="false" aria-controls="collapseModulo2">Módulo 2<i
+                    class="fas fa-caret-up caretDown"></i></span>
               </div>
             </div>
-
-            <div class="accordionMenu" id="headingModulo3">
-              <div class="row">
-                <div class="sectionTitle">
-                  <span
-                    class="tituloLista collapsed"
-                    data-toggle="collapse"
-                    data-target="#collapseModulo3"
-                    aria-expanded="false"
-                    aria-controls="collapseModulo3"
-                    >Módulo 3<i class="fas fa-caret-up caretDown"></i
-                  ></span>
+            <div id="collapseModulo2" class="collapse" aria-labelledby="headingModulo2">
+              <li>
+                <div class="row">
+                  <div class="barraStepper active">
+                    <div class="item active"></div>
+                  </div>
+                  <div class="sectionTitle">
+                    <span class="tituloItem"><a href="../modulo2/modulo2-aula1-introducao.html">Aula 1</a></span>
+                  </div>
                 </div>
-              </div>
-              <div
-                id="collapseModulo3"
-                class="collapse"
-                aria-labelledby="headingModulo3"
-              >
-                <li>
-                  <div class="row">
-                    <div class="barraStepper active">
-                      <div class="item active"></div>
-                    </div>
-                    <div class="sectionTitle">
-                      <span class="tituloItem"
-                        ><a href="../modulo3/modulo3-aula1-introducao.html"
-                          >Aula 1</a
-                        ></span
-                      >
-                    </div>
+              </li>
+              <li>
+                <div class="row">
+                  <div class="barraStepper active">
+                    <div class="item active"></div>
                   </div>
-                </li>
-                <li>
-                  <div class="row">
-                    <div class="barraStepper active">
-                      <div class="item active"></div>
-                    </div>
-                    <div class="sectionTitle">
-                      <span class="tituloItem"
-                        ><a href="../modulo3/modulo3-aula2-introducao.html"
-                          >Aula 2</a
-                        ></span
-                      >
-                    </div>
+                  <div class="sectionTitle">
+                    <span class="tituloItem"><a href="../modulo2/modulo2-aula2-introducao.html">Aula 2</a></span>
                   </div>
-                </li>
-                <li>
-                  <div class="row">
-                    <div class="barraStepper" style="background-color: #aa1c95">
-                      <div class="item active"></div>
-                    </div>
-                    <div class="sectionTitle">
-                      <span class="tituloItem"
-                        ><a href="../modulo3/modulo3-atividade.html"
-                          >Atividade</a
-                        ></span
-                      >
-                    </div>
+                </div>
+              </li>
+              <li>
+                <div class="row">
+                  <div class="barraStepper active">
+                    <div class="item active"></div>
                   </div>
-                </li>
+                  <div class="sectionTitle">
+                    <span class="tituloItem"><a href="../modulo2/modulo2-aula3-introducao.html">Aula 3</a></span>
+                  </div>
+                </div>
+              </li>
+              <li>
+                <div class="row">
+                  <div class="barraStepper active">
+                    <div class="item active"></div>
+                  </div>
+                  <div class="sectionTitle">
+                    <span class="tituloItem"><a href="../modulo2/modulo2-aula4-introducao.html">Aula 4</a></span>
+                  </div>
+                </div>
+              </li>
+              <li>
+                <div class="row">
+                  <div class="barraStepper" style="background-color: #aa1c95">
+                    <div class="item active"></div>
+                  </div>
+                  <div class="sectionTitle">
+                    <span class="tituloItem"><a href="../modulo2/modulo2-atividade.html">Atividade</a></span>
+                  </div>
+                </div>
+              </li>
+            </div>
+          </div>
+
+          <div class="accordionMenu" id="headingModulo3">
+            <div class="row">
+              <div class="sectionTitle">
+                <span class="tituloLista collapsed" data-toggle="collapse" data-target="#collapseModulo3"
+                  aria-expanded="false" aria-controls="collapseModulo3">Módulo 3<i
+                    class="fas fa-caret-up caretDown"></i></span>
               </div>
             </div>
-
-            <div class="accordionMenu" id="headingModulo4">
-              <div class="row">
-                <div class="sectionTitle">
-                  <span
-                    class="tituloLista"
-                    data-toggle="collapse"
-                    data-target="#collapseModulo4"
-                    aria-expanded="false"
-                    aria-controls="collapseModulo4"
-                    >Módulo 4<i class="fas fa-caret-up caretDown"></i
-                  ></span>
+            <div id="collapseModulo3" class="collapse" aria-labelledby="headingModulo3">
+              <li>
+                <div class="row">
+                  <div class="barraStepper active">
+                    <div class="item active"></div>
+                  </div>
+                  <div class="sectionTitle">
+                    <span class="tituloItem"><a href="../modulo3/modulo3-aula1-introducao.html">Aula 1</a></span>
+                  </div>
                 </div>
-              </div>
-              <div
-                id="collapseModulo4"
-                class="collapse show"
-                aria-labelledby="headingModulo4"
-              >
-                <li>
-                  <div class="row">
-                    <div class="barraStepper active">
-                      <div class="item active"></div>
-                    </div>
-                    <div class="sectionTitle">
-                      <span class="tituloItem"
-                        ><a href="../modulo4/modulo4-aula1-introducao.html"
-                          >Aula 1</a
-                        ></span
-                      >
-                    </div>
+              </li>
+              <li>
+                <div class="row">
+                  <div class="barraStepper active">
+                    <div class="item active"></div>
                   </div>
-                </li>
-                <li>
-                  <div class="row">
-                    <div class="barraStepper">
-                      <div class="item active"></div>
-                    </div>
-                    <div class="sectionTitle">
-                      <span class="tituloItem"
-                        ><a href="../modulo4/modulo4-aula2-introducao.html"
-                          >Aula 2</a
-                        ></span
-                      >
-                    </div>
+                  <div class="sectionTitle">
+                    <span class="tituloItem"><a href="../modulo3/modulo3-aula2-introducao.html">Aula 2</a></span>
                   </div>
-                </li>
-                <li>
-                  <div class="row">
-                    <div class="barraStepper" style="background-color: #aa1c95">
-                      <div class="item"></div>
-                    </div>
-                    <div class="sectionTitle">
-                      <span class="tituloItem"
-                        ><a href="../modulo4/modulo4-atividade.html"
-                          >Atividade</a
-                        ></span
-                      >
-                    </div>
+                </div>
+              </li>
+              <li>
+                <div class="row">
+                  <div class="barraStepper" style="background-color: #aa1c95">
+                    <div class="item active"></div>
                   </div>
-                </li>
+                  <div class="sectionTitle">
+                    <span class="tituloItem"><a href="../modulo3/modulo3-atividade.html">Atividade</a></span>
+                  </div>
+                </div>
+              </li>
+            </div>
+          </div>
+
+          <div class="accordionMenu" id="headingModulo4">
+            <div class="row">
+              <div class="sectionTitle">
+                <span class="tituloLista" data-toggle="collapse" data-target="#collapseModulo4" aria-expanded="false"
+                  aria-controls="collapseModulo4">Módulo 4<i class="fas fa-caret-up caretDown"></i></span>
               </div>
             </div>
+            <div id="collapseModulo4" class="collapse show" aria-labelledby="headingModulo4">
+              <li>
+                <div class="row">
+                  <div class="barraStepper active">
+                    <div class="item active"></div>
+                  </div>
+                  <div class="sectionTitle">
+                    <span class="tituloItem"><a href="../modulo4/modulo4-aula1-introducao.html">Aula 1</a></span>
+                  </div>
+                </div>
+              </li>
+              <li>
+                <div class="row">
+                  <div class="barraStepper">
+                    <div class="item active"></div>
+                  </div>
+                  <div class="sectionTitle">
+                    <span class="tituloItem"><a href="../modulo4/modulo4-aula2-introducao.html">Aula 2</a></span>
+                  </div>
+                </div>
+              </li>
+              <li>
+                <div class="row">
+                  <div class="barraStepper" style="background-color: #aa1c95">
+                    <div class="item"></div>
+                  </div>
+                  <div class="sectionTitle">
+                    <span class="tituloItem"><a href="../modulo4/modulo4-atividade.html">Atividade</a></span>
+                  </div>
+                </div>
+              </li>
+            </div>
+          </div>
 
-            <div class="accordionMenu" id="headingModulo5">
+          <!-- <div class="accordionMenu" id="headingModulo5">
               <div class="row">
                 <div class="sectionTitle">
                   <span
@@ -500,9 +371,9 @@
                   </div>
                 </li>
               </div>
-            </div>
+            </div> -->
 
-            <li>
+          <!-- <li>
               <div class="row">
                 <div class="sectionTitle">
                   <a
@@ -513,162 +384,112 @@
                   >
                 </div>
               </div>
-            </li>
-            <li>
-              <div class="row">
-                <div class="sectionTitle">
-                  <a
-                    class="tituloLista"
-                    role="button"
-                    alt="Créditos"
-                    data-toggle="modal"
-                    data-target="#modalCreditos"
-                    ><i class="fas fa-list"></i>Créditos</a
-                  >
-                </div>
+            </li> -->
+          <li>
+            <div class="row">
+              <div class="sectionTitle">
+                <a class="tituloLista" role="button" alt="Créditos" data-toggle="modal" data-target="#modalCreditos"><i
+                    class="fas fa-list"></i>Créditos</a>
               </div>
-            </li>
-          </ul>
-        </nav>
-      </div>
-
-      <!-- Conteúdo principal -->
-      <div class="col-md-10" id="content">
-        <div class="conteudo">
-          <img
-            src="../assets/images/logos/floresAulas.png"
-            alt="Decorative flowers"
-            class="decorative-flowers"
-          />
-
-          <div class="tituloAula">
-            <h2>Aula 2</h2>
-
-            <h1>Malária na gestação: epidemiologia, diagnóstico e manejo</h1>
-          </div>
-
-          <h2>Sobre esta aula:</h2>
-          <p>
-            Seja bem-vindo e bem-vinda! A seguir veja algumas informações
-            importantes sobre esta aula.
-          </p>
-
-          <h2>Objetivos de aprendizagem:</h2>
-          <p>Ao final dessa aula você será capaz de:</p>
-
-          <ul>
-            <li class="icon arrow">
-              Compreender como ocorre a transmissão e o quadro clínico da
-              malária.
-            </li>
-            <li class="icon arrow">
-              Entender a epidemiologia, o diagnóstico e o tratamento da malária
-              na gestação
-            </li>
-          </ul>
-
-          <h2>Carga horária:</h2>
-          <p>3 horas</p>
-
-          <h2>Autoria:</h2>
-          <p>
-            <b><i>Álvaro Luiz Lage Alves </i></b><br />
-            Médico ginecologista e obstetra. <br />
-            Hospital das Clínicas da Universidade Federal de Minas Gerais – Belo
-            Horizonte (MG).
-          </p>
-
-          <!-- Botões de navegação -->
-          <div class="row botao">
-            <a
-              href="../modulo4/modulo4-aula1.html"
-              class="btn btn-sm"
-              id="botaoVoltar"
-              role="button"
-              alt="Voltar"
-            >
-              <strong
-                ><i class="fas fa-chevron-left"></i>Módulo 4 Aula 1</strong
-              ></a
-            >
-            <a
-              href="../modulo4/modulo4-aula2.html"
-              class="btn btn-sm"
-              id="botaoAvancar"
-              role="button"
-              alt="Avançar"
-            >
-              <strong
-                >Módulo 4 Aula 2<i class="fas fa-chevron-right"></i></strong
-            ></a>
-          </div>
-        </div>
-
-        <!-- Rodapé -->
-        <footer id="rodape">
-          <div class="row-main">
-            <div class="col-md-12 centro">
-              <img
-                class="img-fluid centro"
-                src="../assets/images/rodape/logos.png"
-                alt="Rodapé"
-              />
             </div>
-          </div>
-        </footer>
-      </div>
+          </li>
+        </ul>
+      </nav>
     </div>
 
-    <!-- Modal Créditos -->
-    <div
-      class="modal fade"
-      id="modalCreditos"
-      tabindex="-1"
-      role="dialog"
-      aria-labelledby="TituloModalCentralizado"
-      aria-hidden="true"
-    >
-      <div class="modal-dialog modal-dialog-centered" role="document">
-        <div class="modal-content">
-          <div class="modal-header">
-            <h1
-              class="modal-title"
-              id="TituloModalCentralizado"
-              style="color: #c04caf; margin-top: 0 !important"
-            >
-              Créditos
-            </h1>
-            <button
-              type="button"
-              class="close"
-              data-dismiss="modal"
-              aria-label="Fechar"
-            >
-              <span aria-hidden="true">&times;</span>
-            </button>
+    <!-- Conteúdo principal -->
+    <div class="col-md-10" id="content">
+      <div class="conteudo">
+        <img src="../assets/images/logos/floresAulas.png" alt="Decorative flowers" class="decorative-flowers" />
+
+        <div class="tituloAula">
+          <h2>Aula 2</h2>
+
+          <h1>Malária na gestação: epidemiologia, diagnóstico e manejo</h1>
+        </div>
+
+        <h2>Sobre esta aula:</h2>
+        <p>
+          Seja bem-vindo e bem-vinda! A seguir veja algumas informações
+          importantes sobre esta aula.
+        </p>
+
+        <h2>Objetivos de aprendizagem:</h2>
+        <p>Ao final dessa aula você será capaz de:</p>
+
+        <ul>
+          <li class="icon arrow">
+            Compreender como ocorre a transmissão e o quadro clínico da
+            malária.
+          </li>
+          <li class="icon arrow">
+            Entender a epidemiologia, o diagnóstico e o tratamento da malária
+            na gestação
+          </li>
+        </ul>
+
+        <h2>Carga horária:</h2>
+        <p>3 horas</p>
+
+        <h2>Autoria:</h2>
+        <p>
+          <b><i>Álvaro Luiz Lage Alves </i></b><br />
+          Médico ginecologista e obstetra. <br />
+          Hospital das Clínicas da Universidade Federal de Minas Gerais – Belo
+          Horizonte (MG).
+        </p>
+
+        <!-- Botões de navegação -->
+        <div class="row botao">
+          <a href="../modulo4/modulo4-aula1.html" class="btn btn-sm" id="botaoVoltar" role="button" alt="Voltar">
+            <strong><i class="fas fa-chevron-left"></i>Módulo 4 Aula 1</strong></a>
+          <a href="../modulo4/modulo4-aula2.html" class="btn btn-sm" id="botaoAvancar" role="button" alt="Avançar">
+            <strong>Módulo 4 Aula 2<i class="fas fa-chevron-right"></i></strong></a>
+        </div>
+      </div>
+
+      <!-- Rodapé -->
+      <footer id="rodape">
+        <div class="row-main">
+          <div class="col-md-12 centro">
+            <img class="img-fluid centro" src="../assets/images/rodape/logos.png" alt="Rodapé" />
           </div>
-          <div class="modal-body">
-            <modal-creditos></modal-creditos>
-          </div>
-          <div class="modal-footer">
-            <button
-              id="botaoComecar"
-              type="button"
-              class="btn btn-primary"
-              data-dismiss="modal"
-            >
-              Fechar
-            </button>
-          </div>
+        </div>
+      </footer>
+    </div>
+  </div>
+
+  <!-- Modal Créditos -->
+  <div class="modal fade" id="modalCreditos" tabindex="-1" role="dialog" aria-labelledby="TituloModalCentralizado"
+    aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h1 class="modal-title" id="TituloModalCentralizado" style="color: #c04caf; margin-top: 0 !important">
+            Créditos
+          </h1>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Fechar">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          <modal-creditos></modal-creditos>
+        </div>
+        <div class="modal-footer">
+          <button id="botaoComecar" type="button" class="btn btn-primary" data-dismiss="modal">
+            Fechar
+          </button>
         </div>
       </div>
     </div>
+  </div>
 
-    <!-- Arquivos JS -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
-    <script src="../assets/js/main.js"></script>
-    <script src="../assets/js/modalCreditos.js"></script>
-  </body>
+  <!-- Arquivos JS -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
+  <script src="../assets/js/main.js"></script>
+  <script src="../assets/js/modalCreditos.js"></script>
+</body>
+
 </html>
