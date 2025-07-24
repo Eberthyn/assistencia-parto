@@ -15,7 +15,7 @@ $("input[name=questao1]").on("click", function () {
       $("#feedback1").addClass("resposta-incorreta");
       $("#feedback1").removeClass("resposta-correta");
       $("input[name=questao1]").css({ "background-color": "", border: "" });
-      $(this).css({ "background-color": "#F8062C" });
+      $(this).css({ "background-color": "#F8062C", "border": "5px double white" });
     } else {
       $("#feedback1").removeClass("resposta-incorreta");
       $("#feedback1").addClass("resposta-correta");
