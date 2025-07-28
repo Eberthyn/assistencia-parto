@@ -44,7 +44,6 @@ h3 {
   align-items: center;
   min-height: 500px;
   overflow: hidden;
-  background: linear-gradient(#3c1b33, #783566);
 }
 
 .header-shape-left {
@@ -88,7 +87,6 @@ h3 {
 .content {
   padding: 40px 18%;
   text-align: center;
-  background: linear-gradient(#783566, #3c1b33);
 }
 
 .menu-list {
@@ -110,11 +108,7 @@ h3 {
 }
 
 .course-structure {
-  padding: 0px 18%;
-  background: linear-gradient(#3c1b33, #8d3a76);
-  position: relative;
-  overflow: hidden;
-  text-align: center;
+  padding-top: 40px;
 }
 
 .icons {
@@ -436,4 +430,22 @@ a.tituloLista {
 
 .modal.show .modal-content {
   opacity: 1;
+}
+
+.folder {
+  /* Gradiente mais claro para o topo */
+  background: linear-gradient(to bottom,
+      #3c1b33 0%,
+      #3c1b33 30%,
+      #783566 100%);
+  color: #fff;
+}
+
+.apresentacao {
+  /* Gradiente mais escuro a partir daqui */
+  background: linear-gradient(to bottom,
+      #3c1b33 0%,
+      #3c1b33 10%,
+      #783566 100%);
+  color: #fff;
 }
