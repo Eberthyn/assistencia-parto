@@ -2111,3 +2111,22 @@ input[type="radio"] {
     padding: 0 !important;
   }
 }
+
+/* 1) mantém só o fade, tira o translate slide */
+.modal.fade .modal-dialog {
+  /* elimina o deslocamento vertical */
+  transform: none !important;
+  /* opcional: controla velocidade do fade no dialog */
+  transition: opacity 0.3s ease-out !important;
+}
+
+/* 2) o próprio .modal (backdrop + container) já faz o fade de opacidade,
+   mas se quiser afinar a haste do conteúdo: */
+.modal.fade .modal-content {
+  opacity: 0;
+  transition: opacity 0.3s ease-out;
+}
+
+.modal.show .modal-content {
+  opacity: 1;
+}
