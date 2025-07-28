@@ -1249,13 +1249,21 @@ input[type="radio"] {
 }
 
 .input-radio input {
-  min-height: 20px !important;
-  min-width: 20px !important;
+  min-height: 20px;
+  min-width: 20px;
   border-radius: 100px;
   border: 1px solid;
   margin-right: 1rem;
   margin-top: 2px;
   cursor: pointer;
+}
+
+/* no seu CSS */
+.questao-selecionada {
+  background-color: #F8062C !important;
+  border: 5px double white !important;
+  min-width: 25px !important;
+  min-height: 25px !important;
 }
 
 /* .input-radio input:focus {

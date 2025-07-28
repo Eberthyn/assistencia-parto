@@ -14,8 +14,10 @@ $("input[name=questao1]").on("click", function () {
     if (value !== "B1") {
       $("#feedback1").addClass("resposta-incorreta");
       $("#feedback1").removeClass("resposta-correta");
-      $("input[name=questao1]").css({ "background-color": "", border: "" });
-      $(this).css({ "background-color": "#F8062C", "border": "5px double white" });
+      $("input[name=questao1]").removeClass("questao-selecionada");
+      // $("input[name=questao1]").css({ "background-color": "", border: "" });
+      $(this).addClass("questao-selecionada");
+      // $(this).css({ "background-color": "#F8062C", "border": "5px double white" });
     } else {
       $("#feedback1").removeClass("resposta-incorreta");
       $("#feedback1").addClass("resposta-correta");
