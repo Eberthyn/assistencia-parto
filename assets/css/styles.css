@@ -1244,31 +1244,45 @@ a.tituloItem {
   font-weight: 300;
 }
 
-input[type="radio"] {
-  appearance: none;
-}
-
 .input-radio input {
   min-height: 20px;
   min-width: 20px;
-  border-radius: 100px;
-  border: 1px solid;
+}
+
+input[type="radio"] {
+  /* 1) Remove todo o estilo nativo */
+  -webkit-appearance: none;
+  -moz-appearance:    none;
+  appearance:         none;
+  margin: 0;
+  padding: 0;
+  cursor: pointer;
+  transition: none;
+
+  /* 2) Recria a “bolinha” externa igual ao nativo */
+  width: 20px;            
+  height: 20px;
+  border: 2px solid #777; 
+  border-radius: 50%;
+  background-clip: content-box;
+  background-color: #fff;
+  position: relative;
   margin-right: 1rem;
   margin-top: 2px;
-  cursor: pointer;
 }
 
-/* no seu CSS */
-.questao-selecionada {
-  background-color: #F8062C !important;
-  border: 5px double white !important;
-  min-width: 25px !important;
-  min-height: 25px !important;
+/* 3) Cria o “ponto” interno quando marcado */
+input[type="radio"]:checked::before {
+  content: "";
+  display: block;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
-
-/* .input-radio input:focus {
-  box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
-} */
 
 .input-radio {
   display: flex;
@@ -1297,6 +1311,14 @@ input[type="radio"] {
 
 .resposta-incorreta {
   color: #F8062C !important;
+}
+
+/* cores para cada estado */
+input[type="radio"].input-erro:checked::before {
+  background-color: #F8062C;
+}
+input[type="radio"].input-certo:checked::before {
+  background-color: #0ABC3A;
 }
 
 .alternativas {
@@ -1420,10 +1442,10 @@ input[type="radio"] {
   padding: 1rem 3rem;
 }
 
-.modal-header .close {
+/* .modal-header .close {
   padding: 1rem;
   margin: -2rem -4rem -1rem auto;
-}
+} */
 
 .modal-footer button {
   background-color: #c04caf;
@@ -1762,6 +1784,10 @@ input[type="radio"] {
 
   .accordion {
     padding: 0;
+  }
+
+  .modal-content {
+    padding: 0.5rem !important;
   }
 }
 

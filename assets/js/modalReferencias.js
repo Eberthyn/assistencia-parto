@@ -949,58 +949,359 @@ const accordions = [
 
       <p>YOO, K. Y.; LEE, J. C.; YOON, M. H.; SHIN, M. H.; KIM, S. J.; KIM, Y. H. <i>et al.</i> The effects of volatile anesthetics on spontaneous contractility of isolated human pregnant uterine muscle: a comparison among sevoflurane, desflurane, isoflurane, and halothane. 
       <b>Anesthesia & Analgesia.</b> 2006;103(2):443-7. DOI: 10.1213/01.ane.0000236785.17606.58</p>
+    `,
+    ],
+  },
+  {
+    id: "3",
+    heading: "Módulo 3",
+    body: [
+      `
+      <h1>Aula 1</h1>
+      <p>ABU-ZAID, A.; BARADWAN, S.; ALSHAHRANE, M. S.; BAKHSH, H.; BADGHISH, E.; KHADAWARDI, K. <i>et al.</i> Prophylactic tranexamic acid among women undergoing vaginal delivery to reduce postpartum blood loss and related morbidities: a systematic review and meta-analysis of 17 randomized controlled trials. 
+      <b>Journal of Gynecology Obstetrics and Human Reproduction.</b> 2022;51(6):102378. DOI:10.10</p>
 
+      <p>AGENCY FOR HEALTHCARE RESEARCH AND QUALITY. <b>TeamSTEPPS 2.0:</b> Module 11. Implementation planning. 2016 [cited 2020 Oct 12). 
+      Disponível em: <a href="https://www.ahrq.gov/sites/default/files/wysiwyg/professionals/education/curriculum-tools/teamstepps/instructor/fundamentals/module11/igimplement.pdf">https://www.ahrq.gov/sites/default/files/wysiwyg/professionals/education/curriculum-tools/teamstepps/instructor/fundamentals/module11/igimplement.pdf</a>. Acesso em: 5 jun. 2025.</p>
+
+      <p>AL KADRI, H. M.; AL ANAZI, B. K.; TAMIM, H. M. Visual estimation versus gravimetric measurement of postpartum blood loss: a prospective cohort study. 
+      <b>Archives of Gynecology and Obstetrics.</b> 2011;283(6):1207-13. DOI: 10.1007/s00404-010-1522-1</p>
+
+      <p>ANDERSON, J. M.; ETCHES, D. Prevention and management of postpartum hemorrhage. <b>American Family Physician.</b> 2007;75(6):875-82</p>
+
+      <p>BAKRI, Y. N.; RAMIN, S. M.; BARSS, V. A. Uso de balões intrauterinos em pacientes com hemorragia pós-parto (Use of intrauterine balloon catheters for control of uterine hemorrhage). <b>Femina.</b> jul./ago. V. 42, n. 4. 
+      Disponível em: <a href="https://somepomed.org/articulos/contents/mobipreview.htm">https://somepomed.org/articulos/contents/mobipreview.htm </a>. Acesso em: 23 out. 2024.</p>
+
+      <p>BOSE, P.; REGAN, F.; PATERSON-BROWN, S. Improving the accuracy of estimated blood loss at obstetric haemorrhage using clinical reconstructions. 
+      <b>BJOG.</b> 2006;113(8):919-24. DOI:10.1111/j.1471-0528.2006.01018.x</p>
+
+      <p>CANNON, C. M.; BRAXTON, C. C.; KLING-SMITH, M.; MAHNKEN, J. D.; CARLTON, E.; MONCURE, M. Utility of the shock index in predicting mortality in traumatically injured patients. 
+      <b>Journal of Trauma.</b> 2009 Dec;67(6):1426-30. DOI: 10.1097/TA.0b013e3181bbf728</p>
+
+      <p>CEBEKHULU, S. N.; ABDUL, H.; BATTING, J.; CHAUKE, L.; DLAKAVUS, F.; FAWCUS, S. <i>et al.</i> “Suction tube uterine tamponade” for treatment of refractory postpartum hemorrhage: internal feasibility and acceptability pilot of a randomized clinical trial. 
+      <b>International Journal of Gynecology & Obstetrics.</b> 2022;158(1):79-85.DOI: 10.1002/ijgo.13963</p>
+
+      <p>CHANTRAPITAK, W.; ANANSAKALWAT, W.; SUWIKROM, S.; WATTANALUANGARUN, R.; PUANGSA-ART, S. Postpartum hemorrhage outcome in lower uterine segment compression maneuver: a 20-year experience in Charoenkrung Pracharak Hospital. 
+      <b>Journal of the Medical Association of Thailand.</b> 2018;101(4):495-500.</p>
+
+      <p>CHO, Y.; RIZVI, C.; UPPAL, T.; CONDOUS, G. Ultrasonographic visualization of balloon placement for uterine tamponade in massive primary postpartum hemorrhage. 
+      <b>Ultrasound in Obstetrics & Gynecology.</b> 2008;32(5):711-13. DOI: 10.1002/uog.5408</p>
+
+      <p>COMMITTEE ON PRACTICE BULLETINS-OBSTETRICS. <b>Practice Bulletin</b> n. 183: postpartum hemorrhage. Obstet Gynecol. 2017;130(4):e168-86. DOI: 10.1097/AOG.0000000000002351</p>
+
+      <p>CONDOUS, G. C.; ARULKUMARAN, S.; SYMONDS, I.; CHAPMAN, R.; SINHA, A.; RAZVI, K. The “tamponade test” in the management of massive postpartum hemorrhage. 
+      <b>Obstetrics & Gynecology.</b> 2003;101(4):767-72. DOI: 10.1016/s0029-7844(03)00046-2</p>
+
+      <p>D’ALTON, M. E. D.; ROOD, K. M.; SMID, M. C.; SIMHAN, H. N.; SKUPSKI, D. W.; SUBRAMANIAM, A. <i>et al.</i> Intrauterine vacuum-induced hemorrhage-control device for rapid treatment of postpartum hemorrhage. 
+      <b>Obstetrics & Gynecology.</b> 2020;136(5):882-91. DOI: 10.1097/AOG.0000000000004138</p>
+
+      <p>DILDY, G. A. 3rd; PAINE, A. R.; GEORGE, N. C.; VELASCO, C. Estimating blood loss: can teaching significantly improve visual estimation? 
+      <b>Obstetrics & Gynecology.</b> 2004;104(3):601-6. DOI: 10.1097/01. AOG.0000137873.07820.34</p>
+
+      <p>EINERSON, B. D.; SON, M.; SCHNEIDER, P.; FIELDS, I.; MILLER, E. S. The association between intrauterine balloon tamponade duration and postpartum hemorrhage outcomes. 
+      <b>American Journal of Obstetrics & Gynecology.</b> 2017;216(3):300.e1-e5. DOI: 10.1016/j.ajog.2016.10.040</p>
+
+      <p>ESCOBAR, M. F.; NASSAR, A. H.; THERON, G.; BARNEA, E. R.; NICHOLSON, W.; RAMASAUSKAITE D. <i>et al.</i> FIGO recommendations on the management of postpartum hemorrhage 2022. 
+      <b>International Journal of Gynecology & Obstetrics.</b> 2022;157 Suppl 1:3-50. DOI: 10.1002/ijgo.14116</p>
+
+      <p>GEORGIOU, C. Balloon tamponade in the management of postpartum hemorrhage: a review. <b>BJOG.</b> 2009;116(6):748-57. DOI: 10.1111/j.1471-0528.2009.02113.x</p>
+
+      <p>GOFFMAN, D.; ROOD, K. M.; BIANCO, A.; BIGGIO, J. R.; DIETZ, P.; DRAKE, K. <i>et al.</i> Real-word utilization of an intrauterine, vacuum-induced, hemorrhage-control device. 
+      <b>Obstetrics & Gynecology.</b> 2023;142(5):1006-16. DOI: 10.1097/AOG.0000000000005366</p>
+
+      <p>HASLINGER, C.; WEBER, K.; ZIMMERMANN, R. Vacuum-induced tamponade for treatment of postpartum hemorrhage. 
+      <b>Obstetrics & Gynecology.</b> 2021;138(3):361-5. DOI: 10.1097/AOG.0000000000004510</p>
+
+      <p>HENRIQUE, M. C.; ALVES, A. L.; LOPES, A. V. Balões de tamponamento intrauterino na hemorragia pós-parto: atualizações. 
+      <b>Femina.</b> 2022;50(12):711-7.</p>
+
+      <p>LALONDE, A.; DAVISS, B. A.; ACOSTA, A.; HERSCHDERFER, K. Postpartum hemorrhage today: ICM/FIGO initiative 2004-2006. 
+      <b>International Journal of Gynecology & Obstetrics.</b> 2006;94(3):243-53. DOI: 10.1016/j.ijgo.2006.04.016</p>
+
+      <p>LERTBUNNAPHONG, T.; LAPTHANAPAT, N.; LEETHEERAGUL, J.; HAKULARB, P.; OWNON, A. Postpartum blood loss: visual estimation versus objective quantification with a novel birthing drape. 
+      <b>Singapore Medical Journal.</b> 2016;57(6):325-8. DOI: 10.11622/smedj.2016107</p>
+
+      <p>LILLEY, G.; BURKETT-ST-LAURENT, D.; PRECIOUS, E.; BRUYNSEELS, D.; KAYE, A.; SANDERS, J. <i>et al.</i> Measurement of blood loss during postpartum haemorrhage. 
+      <b>International Journal of Obstetric Anesthesia.</b> 2015;24(1):8-14. DOI:10.1016/j.ijoa.2014.07.009</p>
+
+      <p>LIU, Y.; SHEN, Y.; ZHU, W.; QIU, J. B.; HUANG, Q.; YE, W. Q. Clinical assessment indicators of postpartum hemorrhage: a systematic review. 
+      <b>Chinese Nursing Research.</b> 2017;4(4):170-7. DOI: 10.1016/j.cnre.2017.10.003</p>
+
+      <p>MILLER, S.; MARTIN, H. B.; MORRIS, J. L. Anti-shock garment in postpartum haemorrhage. <b>Best Practice and Research Clinical Obstetrics and Gynaecology.</b> 
+      2008;22(6):1057-74. DOI: 10.1016/j.bpobgyn.2008.08.008</p>
+
+      <p>MORI, H.; SHIBATA, E.; KUWAZURU, T.; UCHIMURA, T.; KONDO, E.; YOSHINO, K. The utility of shock index and heart rate in the management of postpartum blood loss in pregnant women complicated with hypertensive disorders in pregnancy. 
+      <b>Journal of Obstetrics and Gynaecology Research.</b> 2021;47(9):3179-85. DOI:10.1111/jog.14896</p>
+
+      <p>MOTA, C. R.; MOTA, P. R.; LACERDA, J. B.; ALVES, A. L.; LOPES, A. V. Especificidades técnicas no tamponamento uterino com balões e algumas dificuldades técnicas. 
+      <b>Femina.</b> 2023;51(8):486-90.</p>
+
+      <p>NATHAN, H. L.; EL AYADI, A.; HEZELGRAVE, N. L.; SEED, P.; BUTRICK, E.; MILLER, S. <i>et al.</i> Shock index: an effective predictor of outcome in postpartum haemorrhage? 
+      <b>BJOG.</b> 2015;122(2):268-75. DOI:10.1111/1471-0528.13206</p>
+
+      <p>ORGANIZAÇÃO PAN-AMERICANA DA SAÚDE. <b>Recomendações assistenciais para prevenção, diagnóstico e tratamento da hemorragia obstétrica.</b> Brasília, DF: OPAS; 2018.</p>
+
+      <p>OSANAN, G. C.; PADILLA, H.; REIS, M. I.; TAVARES, A. B. Strategy for zero maternal deaths by hemorrhage in Brazil: a multidisciplinary initiative to combat maternal morbimortality (Estratégia zero morte materna por hemorragia no Brasil: uma iniciativa multidisciplinar de combate à morbimortalidade maternal). 
+      <b>Revista Brasileira de Ginecologia e  Obstetrícia.</b> 2018;40(3):103-5. DOI: 10.1055/s-0038-1639587</p>
+
+      <p>PACHECO, L. D.; CLIFTON, R. G.; SAADE, G. R.; WEINER, S. J.; PARRY, S.; THORP, J. M. <i>et al.</i> Tranexamic acid to prevent obstetrical hemorrhage after cesarean delivery. 
+      <b>New England Journal of Medicine.</b> 2023;388(15):1365-75. DOI: 10.1056/NEJMoa2207419</p>
+
+      <p>PARK, J. E.; PARK, J. K.; JO, H. C.; CHO, I. A.; BAEK, J. C. The association between intrauterine balloon tamponade volume and postpartum hemorrhage outcomes. 
+      <b>International Journal of Gynecology & Obstetrics.</b> 2020 Mar;148(3):325-330.  doi: 10.1002/ijgo.13069. Epub 2019 Dec 12.</p>
+
+      <p>PREVENTION and management of postpartum haemorrhage: Green-top Guideline n. 52. <b>BJOG.</b> 2016;124(5):e106-49. DOI: 10.1111/1471-0528.14178</p>
+
+      <p>SENTILHES, L.; GROMEZ, A.; CLAVIER, E.; RESCH, B.; DESCAMPS, P.; MARPEAU, L. Long-term psychological impact of severe postpartum hemorrhage. 
+      <b>Acta Obstetricia et Gynecologica Scandinavica.</b> 2011;90(6):615-20. DOI: 10.1111/j.1600-0412.2011.01119.x</p>
+
+      <p>SENTILHES, L.; SÉNAT, M. V.; LE LOUS, M.; WINER, N.; ROZENBERG, P.; KAYEM, G. <i>et al.</i> Tranexamic acid for the prevention of blood loss after cesarean delivery. 
+      <b>New England Journal of Medicine.</b> 2021;384(17):1623-34. DOI: 10.1056/NEJMoa2028788</p>
+
+      <p>SOSA, C. G.; ALTHABE, F.; BELIZÁN, J. M.; BUEKENS, P. Risk factors for postpartum hemorrhage in vaginal deliveries in a Latin-American population. 
+      <b>Obstetrics & Gynecology.</b> 2009;113(6):1313-9. DOI:10.1097/AOG.0b013e3181a66b05 </p>
+
+      <p>SUAREZ, S.; CONDE-AGUDELO, A.; BOROVAC-PINHEIRO, A.; SUAREZ-REBLING, D.; ECKARDT, M.; THERON, G. <i>et al.</i> Uterine balloon tamponade for the treatment of postpartum hemorrhage: a systematic review and meta-analysis. 
+      <b>American Journal of Obstetrics & Gynecology.</b> 2020;222(4):293.e1-e52. DOI: 10.1016/j.ajog.2019.11.1287</p>
+
+      <p>VOGEL, J. P.; WILLIAMS, M.; GALLOS, I.; ALTHABE, F.; OLADAPO, O. T. WHO recommendations on uterotonics for postpartum haemorrhage prevention: what works, and which one? <b>BMJ Global Health.</b> 2019;4(2):e001466. 
+      DOI: 10.1136/bmjgh-2019-001466</p>
+
+      <p>WILKES, J. Reducing obstetric hemorrhage: recommendations from the National Partnership for Maternal Safety. <b>American Family Physician.</b> 2015;92(7):643.</p>
+
+      <p>WOMAN TRIAL COLLABORATORS. An international, randomised, double-blind, placebo-controlled trial. <b>Lancet.</b> 2017;389(10084):2105-16. DOI: 10.1016/S0140-6736(17)30638-4</p>
+
+      <p>WOMAN TRIAL COLLABORATORS. Effect of early tranexamic acid administration on mortality, hysterectomy, and other morbidities in women with post-partum haemorrhage. 
+      <b>Lancet.</b> 2017 May 27;389(10084):2105-2116. DOI: 10.1016/S0140-6736(17)30638-4. Epub 2017 Apr 26.</p>
+
+      <p>WONG, M. S.; DELLAPIANA, G.; GREENE, N.; GREGORY, K. D. Antibiotics during intrauterine balloon tamponade is associated with a reduction in endometritis. 
+      <b>American Journal of Perinatology.</b> 2019;36(12):1211-5. DOI: 10.1055/s-0039-1683888</p>
+
+      <p>WORLD HEALTH ORGANIZATION. <b>WHO recommendations:</b> uterotonics for the prevention of postpartum haemorrhage. Geneva: WHO; 2018 [cited 2020 Oct 12]. 
+      Disponível em: <a href="https://apps.who.int/iris/bitstream/handle/10665/277283/WHO-RHR-18.34-eng.pdf">https://apps.who.int/iris/bitstream/handle/10665/277283/WHO-RHR-18.34-eng.pdf </a>. Acesso em: 16 ago. 2024. </p>
+
+      <p>ZAIDI, A.; KOHLI, R.; DARU, J.; ESTCOURT, L.; KHAN, K. S.; THANGARATINAM, S. <i>et al.</i> Early use of fibrinogen replacement therapy in postpartum hemorrhage. A systematic review. 
+      <b>Transfusion Medicine Reviews.</b> 2020;34(2):101-7. DOI: 10.1016/j.tmrv.2019.12.002</p>
       
+      <h1>Aula 2</h1>
+      <p>ABOULFALAH, A.; FAKHIR, B.; KADDOUR, Y. A. B.; ASMOUKI, H.; SOUMMANI, A. A new removable uterine compression by a brace suture in the management of severe postpartum hemorrhage. 
+      <b>Frontiers in Surgery.</b> 2014;1:43. DOI: 10.3389/fsurg.2014.00043</p>
+      
+      <p>ALVES, A. L. L.; SENRA, J. C.; SÃO JOSÉ, C. N.; RIBEIRO, B. R.; FURTADO, R. S.; SILVA, L. B. <i>et al.</i> Uterine devascularization associated with compressive uterine suture (UD-CUS) in surgical treatment of postpartum hemorrhage. 
+      <b>International Journal of Gynecology & Obstetrics.</b> 2020;149(1):111-2. DOI: 10.1002/ijgo.13081</p>
+
+      <p>AMERICAN COLLEGE OF OBSTETRICIANS AND GYNECOLOGISTS. Committee on Practice Bulletins-Obstetrics. Practice Bulletin No 183: postpartum hemorrhage. 
+      <b>Obstetrics & Gynecology.</b> 2017;130(4):e168-86. DOI: 10.1097/AOG.0000000000002351</p>
+
+      <p>BARKER, D. E.; KAUFMAN, H. J.; SMITH, L. A.; CIRAULO, D. L.; RICHART, C. L.; BURNS, R. P. Vacuum pack technique of temporary abdominal closure: a 7-year experience with 112 patients. 
+      <b>Journal of trauma.</b> 2000;48(2):201-7. DOI: 10.1097/00005373-200002000-00001</p>
+
+      <p>BODELON, C.; BERNABE-ORTIZ, A.; SCHIFF, M. A.; REED, S. D. Factors associated with peripartum hysterectomy. 
+      <b>Obstetrics & Gynecology.</b> 2009;114(1):115-23. DOI: 10.1097/AOG.0b013e3181a81cdd</p>
+
+      <p>CARVAJAL, J. A.; RAMOS, I.; KUSANOVIC, J. P.; ESCOBAR, M. F. Damage-control resuscitation in obstetrics. 
+      <b>Journal of Maternal-Fetal and Neonatal Medicine.</b> 2020 Feb 26. DOI: 10.1080/14767058.2020.1730800. [ahead of print]</p>
+
+      <p>CHANDRAHARAN, E.; ARULKUMARAN, S. Surgical aspects of postpartum haemorrhage. <b>Best Practice and Research Clinical Obstetrics and Gynaecology.</b> 
+      2008;22(6):1089-102. DOI: 10.1016/j.bpobgyn.2008.08.001</p>
+
+      <p>CHAROENKWAN, K. Effective use of the Bakri postpartum balloon for posthysterectomy pelvic floor hemorrhage. 
+      <b>American Journal of Obstetrics & Gynecology.</b> 2014;210(6):586.e1-e3. DOI: 10.1016/j.ajog.2014.03.068</p>
+
+      <p>CLARK, S. L.; HANKINS, G. D. V. Preventing maternal death: 10 clinical diamonds. <b>Obstetrics & Gynecology.</b> 
+      2012;119(2 Pt 1):360-4. DOI: 10.1097/AOG.0b013e3182411907</p>
+
+      <p>DOUMOUCHTSIS, S. K.; PAPAGEORGHIOU, A. T.; ARULKUMARAN, S. Systematic review of conservative management of postpartum haemorrhage: what to do when medical treatment fails. 
+      <b>Obstetrical & Gynecological Survey.</b> 2007;62(8):540-7. DOI: 10.1097/01.ogx.0000271137.81361.93</p>
+
+      <p>GHAEM-MAGHAMI, S.; BROCKBANK, E.; BRIDGES, J. Survey of surgical experience during training in obstetrics and gynaecology in the UK. 
+      <b>Journal of Obstetrics and Gynaecology.</b> 2006;26(4):297-301. DOI: 10.1080/01443610600594740</p>
+
+      <p>KAYA, B.; DAMARER, Z.; DAGLAR, K.; UNAL, O.; SOLIMAN, A.; GURALP, O. Is there yet a role for internal iliac artery ligation in obstetric hemorrhage with the current gain in popularity of other uterus sparing techniques? 
+      <b>Journal of Maternal-Fetal & Neonatal Medicine.</b> 2017;30(11):1325-32. DOI: 10.1080/14767058.2016.1212333</p>
+
+      <p>KAYA, B.; TUTEN, A.; DAGLAR, K.; ONKUN, M.; SUCU, S.; DOGAN, A. <i>et al.</i> B-Lynch uterine compression sutures in the conservative surgical management of uterine atony. 
+      <b>Archives of Gynecology and Obstetrics.</b> 2015;291(5):1005-14. DOI: 10.1007/s00404-014-3511-2</p>
+
+      <p>MALLAPPA SAROJA, C. S.; NANKANI, A.; EL-HAMAMY, E. Uterine compression sutures, an update: review of efficacy, safety and complications of B-Lynch suture and other uterine compression techniques for postpartum haemorrhage. 
+      <b>Archives of Gynecology and Obstetrics.</b> 2010;281(4):581-8. DOI: 10.1007/s00404-009-1249-z</p>
+
+      <p>MOISE JUNIOR, K. J.; BELFORT, M. A. Damage control for the obstetric patient. <b>Surgical Clinics of North America.</b> 
+      1997;77(4):835-52. DOI: 10.1016/s0039-6109(05)70588-0</p>
+
+      <p>MOREL, O.; MALARTIC, C.; MUHLSTEIN, J.; GAYAT, E.; JUDLIN, P.; SOYER, P. <i>et al.</i> Pelvic arterial ligations for severe post-partum hemorraghe. 
+      Indications and techniques. <b>Journal of Visceral Surgery.</b> 2011;148(2):e95-102. DOI: 10.1016/j.jviscsurg.2011.02.002</p>
+
+      <p>PALACIOS-JARAQUEMADA, J. M. Caesarean section in cases of placenta praevia and accreta.  <b>Best Practice and Research Clinical Obstetrics and Gynaecology.</b> 
+      2013;27(2):221-32. DOI: 10.1016/j.bpobgyn.2012.10.003</p>
+
+      <p>PALACIOS-JARAQUEMADA, J. M. Efficacy of surgical techniques to control obstetric hemorrhage: analysis of 539 cases. 
+      <b>Acta Obstetricia et Gynecologica Scandinavica.</b> 2011;90(9):1036-42. DOI: 10.1111/j.1600-0412.2011.01176.x</p>
+
+      <p>PALACIOS-JARAQUEMADA, J. M. Surgical anatomy. <i>In:</i> PALACIOS-JARAQUEMADA, J. M. <b>Placental Adhesive Disorders.</b> Berlin: De Gruyter; 2012. p. 43-78.</p>
+
+      <p>PELOSI, M. A. Modified cesarean hysterectomy for placenta previa percreta with bladder invasion: retrovesical lower uterine segment bypass. 
+      <b>Obstetrics & Gynecology.</b> 1999;93(5 Pt 2):830-3. DOI: 10.1016/s0029-7844(98)00426-8</p>
+
+      <p>POSADAS-NAVA, A.; MORENO-SANTILLÁN, A. A.; CELIS-GONZÁLEZ, C.; CRUZ-MARTÍNEZ, E. Control efectivo de la hemorragia obstétrica posparto mediante desarterialización selectiva uterina. 
+      Descripción de la técnica Posadas. <b>Ginecología y Obstetricia de México.</b> 2016;84(12):808-13.</p>
+
+      <p>REZENDE-NETO, J. B.; CUNHA-MELO, J. R.; ANDRADE, M. V. Cobertura temporária da cavidade abdominal com curativo a vácuo. <b>Revista do Colégio Brasileiro de Cirurgiões.</b> 
+      2007;34(5):336-9. DOI: 10.1590/S0100-69912007000500011</p>
+
+      <p>SOLTAN, M. H.; FARAGALLAH, M. F.; MOSABAH, M. H.; AL-ADAWY, A. R. External aortic compression device: the first aid for postpartum hemorrhage control. 
+      <b>Journal of Obstetrics and Gynaecology Research.</b> 2009;35(3):453-8. DOI: 10.1111/j.1447-0756.2008.00975.x</p>
+
+      <p>SZILLER, I.; HUPUCZI, P.; PAPP, Z. Hypogastric artery ligation for severe hemorrhage in obstetric patients. 
+      <b>Journal of Perinatal Medicine.</b> 2007;35(3):187-92. DOI: 10.1515/JPM.2007.049</p>
+
+      <p>WAKS, A.; TABSH, K.; TABSH, K.; AFSHAR, Y. Balloon uterine tamponade device after peripartum histerectomy for morbidly adherent placenta. 
+      <b>Obstetrics & Gynecology.</b> 2018;132(3):643-6. DOI: 10.1097/AOG. 0000000000002792</p>
+
+      <p>YOONG, W.; RIDOUT, A.; MEMTSA, M.; STAVROULIS, A.; AREF-ADIB, M.; RAMSAY-MARCELLE, Z. <i>et al.</i> Application of uterine compression suture in association with intrauterine balloon tamponade (‘uterine sandwich’) for postpartum hemorrhage. 
+      <b>Acta Obstetricia et Gynecologica Scandinavica.</b> 2012;91(1):147-51. DOI: 10.1111/j.1600-0412.2011.01153.x</p>
+
+      <p>ZHANG, Z. W.; LIU, C. Y.; YU, N.; GUO, W. Removable uterine compression sutures for postpartum hemorrhage. <b>BJOG.</b> 2015;122(3):429-33. DOI: 10.1111/1471-0528.13025</p>
 
 
+      `,
+    ],
+  },
+  {
+    id: "4",
+    heading: "Módulo 4",
+    body: [
+      `
+      <h1>Aula 1</h1>
+      <p>NATIONAL CENTER FOR HEALTH STATISTICS (U.S.). <i>Maternal mortality rates in the United States, 2021.</i> 2023. 
+      Disponível em: <a href="https://stacks.cdc.gov/view/cdc/124678/cdc_124678_DS1.pdf">https://stacks.cdc.gov/view/cdc/124678/cdc_124678_DS1.pdf</a>. Acesso em: 18 jul. 2025.</p>
 
+      <p>HENSLEY, M. K. et al. Incidence of maternal sepsis and sepsis-related maternal deaths in the United States. <i>JAMA,</i> v. 322, p. 890-892, 2019.</p>
 
+      <p>WORLD HEALTH ORGANIZATION. <i>Statement on maternal sepsis.</i> 2023.</p>
 
+      <p>BAUER, M. E. et al. Alliance for innovation on maternal health: consensus bundle on sepsis in obstetric care. <i>Obstetrics & Gynecology,</i> v. 142, p. 481-492, 2023.</p>
 
+      <p>SINGER, M. et al. The Third International Consensus definitions for sepsis and septic shock (sepsis-3). <i>JAMA,</i> v. 315, p. 801-810, 2016.</p>
 
+      <p>ARINA, P.; SINGER, M. Pathophysiology of sepsis. <i>Current Opinion in Anaesthesiology,</i> v. 34, p. 77-84, 2021.</p>
 
+      <p>VINCENT, J. L. et al. The SOFA score to describe organ dysfunction/failure. <i>Intensive Care Medicine,</i> v. 22, p. 707-710, 1996.</p>
 
+      <p>SHIELDS, A. D. et al. Society for Maternal-Fetal Medicine Consult Series #67: Maternal sepsis. <i>American Journal of Obstetrics and Gynecology,</i> v. 229, p. B2-B19, 2023</p>
 
+      <p>BOWYER, L. et al. SOMANZ guidelines for the investigation and management of sepsis in pregnancy. <i>Aust NZ J Obstet Gynaecol,</i> 2017, p. 1–12.</p>
 
+      <p>EDWARDS, S. E. et al. Modified obstetric early warning scoring systems (MEOWS): validating the diagnostic performance. <i>Am J Obstet Gynecol,</i> v. 212, p. 536.e1-8, 2015.</p>
 
+      <p>SINGH, S. et al. A validation study of the CEMACH MEOWS. <i>Anaesthesia,</i> v. 67, p. 12-18, 2012.</p>
 
+      <p>EVANS, L. et al. Executive summary: surviving sepsis campaign. <i>Crit Care Med,</i> v. 49, p. 1974-1982, 2021.</p>
 
+      <p>KUMAR, A. et al. Duration of hypotension and antimicrobial therapy. <i>Crit Care Med,</i> v. 34, p. 1589-1596, 2006.</p>
 
+      <p>ALEJANDRIA, M. M. et al. Intravenous immunoglobulin for sepsis. <i>Cochrane Database Syst Rev,</i> 2013: Cd001090.</p>
 
+      <p>ZHOU, F. et al. Fluid resuscitation in a rat model. <i>Crit Care Med,</i> v. 42, p. e270-e278, 2014.</p>
 
+      <p>LEVIN, M. et al. Evidence from re-analysis of the FEAST trial. <i>Lancet Respir Med,</i> v. 7, p. 581-593, 2019.</p>
 
+      <p>HAMMOND, D. A. et al. Balanced crystalloids vs saline. <i>Ann Pharmacother,</i> v. 54, p. 5-13, 2020.</p>
 
+      <p>PAN, J. et al. Early lactate clearance-guided therapy. <i>Medicine (Baltimore),</i> v. 98, e14453, 2019.</p>
 
+      <p>GOYAL, P. et al. Serial serum lactic acid in pregnancy-associated sepsis. <i>J Obstet Gynaecol India,</i> v. 70, p. 342-348, 2020.</p>
 
+      <p>LANDESBERG, G. et al. Troponin elevation in severe sepsis. <i>Crit Care Med,</i> v. 42, p. 790-800, 2014.</p>
 
+      <p>L'HEUREUX, M. et al. Sepsis-induced cardiomyopathy. <i>Curr Cardiol Rep,</i> v. 22, p. 35, 2020.</p>
 
+      <p>PRONOVOST, P. et al. Catheter-related bloodstream infections. <i>N Engl J Med,</i> v. 355, p. 2725-2732, 2006.</p>
 
+      <p>SEPPANEN, P. et al. Health-related quality of life before and after ICU. <i>Aust Crit Care,</i> v. 32, p. 116-121, 2019.</p>
 
+      <p>VLAKE, J. H. et al. Psychological impairments after critical illness. <i>J Intensive Care,</i> v. 8, p. 6, 2020.</p>
 
+      <p>RAWAL, G.; YADAV, S.; KUMAR, R. Post-intensive care syndrome. <i>J Transl Int Med,</i> v. 5, p. 90-92, 2017.</p>
+
+      <p>RAMLAKHAN, K. P. et al. Long-term quality of life after ICU. <i>BJOG,</i> v. 130, p. 813-822, 2023.</p>
+
+      <p>KNOWLES, S. J. et al. Maternal sepsis incidence. <i>BJOG,</i> v. 122, p. 663-671, 2015.</p>
+
+      <p>CHENG, M. P. et al. Blood culture before and after antibiotics. <i>Ann Intern Med,</i> v. 171, p. 547-554, 2019.</p>
+
+      <p>SHIELDS, A.; DE ASSIS, V.; HALSCOTT, T. Maternal sepsis: top 10 pearls. <i>Obstet Gynecol,</i> v. 138, p. 289-304, 2021.</p>
+
+      <p>INTERIM UK GUIDELINES. Management of close community contacts. <i>Commun Dis Public Health,</i> v. 7, p. 354-361, 2004.</p>
+
+      <p>LIN, G. L. et al. Viral sepsis: epidemiology and immune pathogenesis. <i>Front Immunol,</i> v. 9, p. 2147, 2018.</p>
+
+      <p>DELAHOY, M. J. et al. COVID-19 outcomes in pregnant women. <i>MMWR Morb Mortal Wkly Rep,</i> v. 69, p. 1347-1354, 2020.</p>
+
+      <p>GAFFNEY, A. et al. Projected health outcomes: Supreme Court. <i>JAMA Netw Open,</i> v. 6, e2315578, 2023.</p>
+
+      <p>ESCHENBACH, D. A. Treating septic abortions. <i>Obstet Gynecol,</i> v. 125, p. 1042-1048, 2015.</p>
+
+      <p>ZIMBELMAN, J. et al. Clindamycin vs beta-lactam. <i>Pediatr Infect Dis J,</i> v. 18, p. 1096-1100, 1999.</p>
+
+      <p>ARONOFF, D. M.; MARRAZZO, J. M. Clostridium infections after unsafe abortion. <i>Lancet Infect Dis,</i> v. 23, p. e48-e55, 2023.</p>
+
+      <p>WOODD, S. L. et al. Incidence of maternal peripartum infection. <i>PLoS Med,</i> v. 16, e1002984, 2019.</p>
+
+      <p>JUNG, E. et al. Clinical chorioamnionitis at term. <i>Am J Obstet Gynecol,</i> mar. 2024, p. S807-S840.</p>
+
+      <p>AMERICAN COLLEGE OF OBSTETRICIANS AND GYNECOLOGISTS. Committee Opinion No. 712. <i>Obstet Gynecol,</i> v. 130, p. e95-e101, 2017.</p>
+
+      <p>MACKEEN, A. D. et al. Antibiotic regimens for postpartum endometritis. <i>Cochrane Database Syst Rev,</i> 2015: Cd001067.</p>
+
+      <p>GONZALO-CARBALLES, M. et al. Postpartum complications: pictorial review. <i>Radiographics,</i> v. 40, p. 2117-2141, 2020.</p>
+
+      <p>GIRALDO-ISAZA, M. A.; JASPAN, D.; COHEN, A. W. Postpartum endometritis by herpes. <i>Obstet Gynecol,</i> v. 117, n. 2 Pt 2, p. 466-467, 2011.</p>
+
+      <p>HAMILTON, S. M. et al. Group A streptococcal infections: pregnancy-related. <i>Clin Infect Dis,</i> v. 57, p. 870-876, 2013.</p>
+
+      <p>RIMAWI, B. H.; SOPER, D. E.; ESCHENBACH, D. A. Streptococcal infections in obstetrics. <i>Clin Obstet Gynecol,</i> v. 55, p. 864-874, 2012.</p>
+
+      <p>SMITH, L. A. et al. Risk factors for perineal trauma. <i>BMC Pregnancy Childbirth,</i> v. 13, p. 59, 2013.</p>
+
+      <p>DUGGAL, N. et al. Antibiotic prophylaxis for perineal wound. <i>Obstet Gynecol,</i> v. 111, p. 1268-1273, 2008.</p>
+
+      <p>WALDMAN, R. ACOG Practice Bulletin No. 198. <i>Obstet Gynecol,</i> v. 133, p. 185, 2019.</p>
+
+      <p>OKEAHIALAM, N. A. et al. Obstetric anal sphincter injury. <i>Am J Obstet Gynecol,</i> v. 227, p. 182-191, 2022.</p>
+
+      <p>GALLUP, D. G. et al. Necrotizing fasciitis in OB-GYN patients. <i>Am J Obstet Gynecol,</i> v. 187, p. 305-310, 2002.</p>
+
+      <p>TIAN, C.; NING, P. Staphylococcal shock in lactating woman. <i>Int J Surg Case Rep,</i> v. 91, 106739, 2022.</p>
+
+      <p>PANDIT, K. et al. Toxic shock syndrome in lactation. <i>Ann Med Surg (Lond),</i> v. 57, p. 133-136, 2020.</p>
+
+      <p>ABOU-DAKN, M. et al. Inflammatory breast diseases during lactation. <i>Breast Care (Basel),</i> v. 5, p. 33-37, 2010.</p>
+
+      <h1>Aula 2</h1>
+      <p>WORLD HEALTH ORGANIZATION. <i>World Malaria Report 2023.</i> Geneva: WHO, 2023.</p>
+
+      <p>BRASIL. Ministério da Saúde. <i>Dia da Malária nas Américas - Um panorama da malária no Brasil em 2022 e no primeiro semestre de 2023.</i> 
+      Brasília: Ministério da Saúde, 2023.</p>
+
+      <p>DOMBROWSKI, J. G. et al. Mapping and characterizing areas with high levels of malaria in pregnancy in Brazil. 
+      <i>Lancet Regional Health – Americas,</i> v. 27, n. 12, p. 100285, 2022. DOI: 10.1016/j.lana.2022.100285.</p>
+
+      <p>BRASIL. Ministério da Saúde. <i>Guia de Tratamento da Malária no Brasil.</i> 2. ed. Brasília: Ministério da Saúde, 2021.</p>
+
+      <p>BRASIL. Ministério da Saúde. <i>Malária.</i> Disponível em: <a href="https://www.gov.br/saude/pt-br/assuntos/saude-de-a-a-z/m/malaria">https://www.gov.br/saude/pt-br/assuntos/saude-de-a-a-z/m/malaria</a>. Acesso em: 18 jul. 2025.</p>
+
+      <p>FERRAMENTAS laboratoriais para diagnóstico da malária. <i>UpToDate,</i> 2024. 37 p.</p>
+
+      <p>FEBRASGO. <i>Malária na gravidez.</i> São Paulo: Federação Brasileira das Associações de Ginecologia e Obstetrícia, 2021.</p>
+
+      <p>MALÁRIA na gravidez: prevenção e tratamento. <i>UpToDate,</i> 2024. 35 p.</p>
 
 
 
       `,
     ],
   },
-  // {
-  //   id: "3",
-  //   heading: "Módulo 3",
-  //   body: [
-  //     "A evolução até a atualidade (10 mil anos) foi marcada pelo desenvolvimento da agricultura, aumento das densidades populacionais, maior miscigenação racial e aumento da ocorrência do sedentarismo. Além disso, a globalização da dieta hipercalórica norte-americana vem contribuindo para a progressão da obesidade no mundo, aumentando as taxas de distocia e a incidência de cesarianas.",
-  //     "De acordo com o Ministério da Saúde (MS), em 2019 a prevalência de sobrepeso entre as mulheres brasileiras já alcançava 53,9%, enquanto a de obesidade já era de 20,7%.",
-  //     "A projeção da Organização Mundial de Saúde (OMS) para o ano de 2025 é de que aproximadamente 2,3 bilhões de adultos estarão com sobrepeso e 700 milhões de pessoas com obesidade viverão no mundo.",
-  //   ],
-  // },
-  // {
-  //   id: "4",
-  //   heading: "Módulo 4",
-  //   body: [
-  //     "A evolução até a atualidade (10 mil anos) foi marcada pelo desenvolvimento da agricultura, aumento das densidades populacionais, maior miscigenação racial e aumento da ocorrência do sedentarismo. Além disso, a globalização da dieta hipercalórica norte-americana vem contribuindo para a progressão da obesidade no mundo, aumentando as taxas de distocia e a incidência de cesarianas.",
-  //     "De acordo com o Ministério da Saúde (MS), em 2019 a prevalência de sobrepeso entre as mulheres brasileiras já alcançava 53,9%, enquanto a de obesidade já era de 20,7%.",
-  //     "A projeção da Organização Mundial de Saúde (OMS) para o ano de 2025 é de que aproximadamente 2,3 bilhões de adultos estarão com sobrepeso e 700 milhões de pessoas com obesidade viverão no mundo.",
-  //   ],
-  // },
   // {
   //   id: "5",
   //   heading: "Módulo 5",
@@ -1067,6 +1368,7 @@ function buildAccordionDom(data) {
 }
 
 function criarModalReferencias() {
+  // 1) Cria o container principal da modal
   const modal = el("div", {
     class: "modal fade",
     id: "modalReferencias",
@@ -1076,21 +1378,33 @@ function criarModalReferencias() {
     "aria-hidden": "true",
   });
 
+  // 2) Diálogo (note que agora uso modal-dialog-centered + modal-lg + scrollable)
   const dialog = el("div", {
-    class: "modal-dialog modal-lg modal-dialog-scrollable",
+    class: "modal-dialog modal-dialog-centered modal-lg modal-dialog-scrollable",
     role: "document",
   });
+
+  // 3) content
   const content = el("div", { class: "modal-content" });
 
-  // Modal header (fechar)
+  // 4) header (cópia da modalCreditos, trocando apenas texto e id do título)
   const header = el(
     "div",
-    { class: "modal-header border-bottom-0" },
+    { class: "modal-header" },
+    el(
+      "h1",
+      {
+        class: "modal-title",
+        id: "modalReferenciasLabel",
+        style: "color: #c04caf; margin-top: 0 !important;",
+      },
+      "Referências Bibliográficas"
+    ),
     el(
       "button",
       {
         type: "button",
-        class: "close ml-auto",
+        class: "close",
         "data-dismiss": "modal",
         "aria-label": "Fechar",
       },
@@ -1098,25 +1412,33 @@ function criarModalReferencias() {
     )
   );
 
-  // Body: Título + accordion
-  const body = el("div", { class: "modal-body" });
-  body.appendChild(
+  // 5) body: aqui você pode injetar o seu accordion
+  const body = el(
+    "div",
+    { class: "modal-body" },
+    buildAccordionDom(accordions)
+  );
+
+  // 6) footer: mesmo botão “Fechar” da modalCreditos
+  const footer = el(
+    "div",
+    { class: "modal-footer" },
     el(
-      "div",
-      { class: "text-center mb-4" },
-      el(
-        "h5",
-        { id: "modalReferenciasLabel", class: "d-inline-block ml-2" },
-        "Referências Bibliográficas"
-      )
+      "button",
+      {
+        id: "botaoComecar",
+        type: "button",
+        class: "btn btn-primary",
+        "data-dismiss": "modal",
+      },
+      "Fechar"
     )
   );
-  body.appendChild(buildAccordionDom(accordions));
 
-  content.append(header, body);
+  // monta tudo
+  content.append(header, body, footer);
   dialog.appendChild(content);
   modal.appendChild(dialog);
-
   document.body.appendChild(modal);
 }
 

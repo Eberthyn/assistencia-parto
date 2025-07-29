@@ -221,16 +221,16 @@ h3 {
   color: black;
 }
 
-.modal-header .close {
+/* .modal-header .close {
   padding: 1rem;
   margin: -2rem -4rem -1rem auto;
-}
+} */
 
 .modal-footer button {
   background-color: #c04caf;
 }
 
-#modalCreditos {
+#modalCreditos, #modalReferencias {
   #botaoComecar {
     border: none;
   }
@@ -403,12 +403,8 @@ a.tituloLista {
 }
 
 #modalReferencias {
-  h1 {
+  .card-body h1 {
     font-size: 18px;
-  }
-
-  .modal-content {
-    padding: 0 !important;
   }
 }
 
@@ -448,4 +444,10 @@ a.tituloLista {
       #3c1b33 10%,
       #783566 100%);
   color: #fff;
+}
+
+@media (max-width: 600px) {
+  .modal-content {
+    padding: 0.5rem !important;
+  }
 }
