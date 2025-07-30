@@ -1815,7 +1815,7 @@ input[type="radio"].input-certo:checked::before {
   margin-bottom: 30px;
   box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);
   border-radius: 12px;
-  background-color: #783566;
+  background-color: #AA1C95;
   display: flex;
   justify-content: center;
   align-items: center;
