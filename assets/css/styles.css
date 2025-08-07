@@ -790,6 +790,7 @@ a:hover {
 /*Rodapé*/
 footer {
   box-shadow: rgba(0, 0, 0, 0.5) 0px 3px 6px;
+  padding: 20px;
 }
 
 .fixaRodape {
