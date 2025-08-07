@@ -93,6 +93,10 @@ h3 {
   padding: 0 !important;
 }
 
+.menuSuperior {
+  padding: 30px 0 10px 0 !important;
+}
+
 .video-placeholder {
   background: #ddd;
   width: 80%;
@@ -221,6 +225,16 @@ h3 {
   color: black;
 }
 
+.modal-content a {
+  color: black;
+  text-decoration: underline;
+}
+
+.module a {
+  color: white;
+  text-decoration: underline;
+}
+
 /* .modal-header .close {
   padding: 1rem;
   margin: -2rem -4rem -1rem auto;
@@ -230,7 +244,8 @@ h3 {
   background-color: #c04caf;
 }
 
-#modalCreditos, #modalReferencias {
+#modalCreditos,
+#modalReferencias {
   #botaoComecar {
     border: none;
   }
@@ -309,7 +324,6 @@ h3 {
 }
 
 @media (max-width: 600px) {
-
   .module,
   .icons {
     flex-direction: column;
@@ -408,7 +422,6 @@ a.tituloLista {
   }
 }
 
-
 /* 1) mantém só o fade, tira o translate slide */
 .modal.fade .modal-dialog {
   /* elimina o deslocamento vertical */
@@ -430,19 +443,13 @@ a.tituloLista {
 
 .folder {
   /* Gradiente mais claro para o topo */
-  background: linear-gradient(to bottom,
-      #3c1b33 0%,
-      #3c1b33 30%,
-      #783566 100%);
+  background: linear-gradient(to bottom, #3c1b33 0%, #3c1b33 30%, #783566 100%);
   color: #fff;
 }
 
 .apresentacao {
   /* Gradiente mais escuro a partir daqui */
-  background: linear-gradient(to bottom,
-      #3c1b33 0%,
-      #3c1b33 10%,
-      #783566 100%);
+  background: linear-gradient(to bottom, #3c1b33 0%, #3c1b33 10%, #783566 100%);
   color: #fff;
 }
 
