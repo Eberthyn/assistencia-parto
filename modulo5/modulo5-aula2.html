@@ -1,1196 +1,876 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-  <head>
-    <meta charset="utf-8" />
-    <title>Assistência ao Parto</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <link rel="icon" type="image/x-icon" href="../assets/images/favicon.ico" />
 
-    <link href="../assets/css/normalize.css" rel="stylesheet" />
-    <link
-      rel="stylesheet"
-      href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
-    />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display=swap"
-      rel="stylesheet"
-    />
-    <link
-      rel="stylesheet"
-      href="https://use.fontawesome.com/releases/v5.15.1/css/all.css"
-    />
-    <link href="../assets/css/styles.css" rel="stylesheet" />
-  </head>
+<head>
+  <meta charset="utf-8" />
+  <title>Assistência ao Parto</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link rel="icon" type="image/x-icon" href="../assets/images/favicon.ico" />
 
-  <body>
-    <!-- Toolbar -->
-    <div class="row header">
-      <img
-        src="../assets/images/home/top-wave-left.png"
-        alt="Decorative shape left"
-        class="header-shape-left"
-      />
-      <div class="header-text">
-        <h1>
-          Assistência <br />
-          ao parto:
-        </h1>
-        <h2>
-          ênfase nas distocias e <br />principais causas de
-          <br />morbimortalidade materna
-        </h2>
-      </div>
-      <img
-        class="img-fluid"
-        src="../assets/images/logos/header.png"
-        alt="Capa das páginas do curso"
-      />
-      <img
-        src="../assets/images/logos/campuVirtual.png"
-        alt="Campus Virtual"
-        class="img-fluid campusVirtual"
-      />
-      <div class="col-md-12 descricaoModulo">
-        <h2>Módulo 5 | Síndromes Hipertensivas na gestação</h2>
-      </div>
+  <link href="../assets/css/normalize.css" rel="stylesheet" />
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.1/css/all.css" />
+  <link href="../assets/css/styles.css" rel="stylesheet" />
+</head>
+
+<body>
+  <!-- Toolbar -->
+  <div class="row header">
+    <img src="../assets/images/home/top-wave-left.png" alt="Decorative shape left" class="header-shape-left" />
+    <div class="header-text">
+      <h1>
+        Assistência <br />
+        ao parto:
+      </h1>
+      <h2>
+        ênfase nas distocias e <br />principais causas de
+        <br />morbimortalidade materna
+      </h2>
+    </div>
+    <img class="img-fluid" src="../assets/images/logos/header.png" alt="Capa das páginas do curso" />
+    <img src="../assets/images/logos/campuVirtual.png" alt="Campus Virtual" class="img-fluid campusVirtual" />
+    <div class="col-md-12 descricaoModulo">
+      <h2>Módulo 5 | Síndromes Hipertensivas na gestação</h2>
+    </div>
+  </div>
+
+  <div class="row" id="row-main">
+    <!-- Sidebar -->
+    <div class="col-md-2" id="sidebar">
+      <!-- Botão p/ Recolher Sidebar-->
+      <span class="toggle-sidebar" id="sidebarButton"><i class="fas fa-chevron-left"></i></span>
+
+      <!-- Botão Secundário p/ Recolher Sidebar -->
+      <span class="toggle-sidebar" id="sidebarButton2"><i class="fas fa-bars"></i></span>
+
+      <nav id="menuLateral">
+        <ul class="listaMenu">
+          <li>
+            <div class="row">
+              <div class="sectionTitle">
+                <a href="../index.html" class="tituloLista" style="padding-top: 0 !important"><i
+                    class="fas fa-home"></i>Página Inicial</a>
+              </div>
+            </div>
+          </li>
+
+          <div class="accordionMenu" id="headingModulo1">
+            <div class="row">
+              <div class="sectionTitle">
+                <span class="tituloLista collapsed" data-toggle="collapse" data-target="#collapseModulo1"
+                  aria-expanded="false" aria-controls="collapseModulo1">Módulo 1<i
+                    class="fas fa-caret-up caretDown"></i></span>
+              </div>
+            </div>
+
+            <div id="collapseModulo1" class="collapse" aria-labelledby="headingModulo1">
+              <li>
+                <div class="row">
+                  <div class="barraStepper active">
+                    <div class="item active"></div>
+                  </div>
+                  <div class="sectionTitle">
+                    <span class="tituloItem"><a href="../modulo1/modulo1-aula1-introducao.html">Aula 1</a></span>
+                  </div>
+                </div>
+              </li>
+              <li>
+                <div class="row">
+                  <div class="barraStepper active">
+                    <div class="item active"></div>
+                  </div>
+                  <div class="sectionTitle">
+                    <span class="tituloItem"><a href="../modulo1/modulo1-aula2-introducao.html">Aula 2</a></span>
+                  </div>
+                </div>
+              </li>
+              <li>
+                <div class="row">
+                  <div class="barraStepper active">
+                    <div class="item active"></div>
+                  </div>
+                  <div class="sectionTitle">
+                    <span class="tituloItem"><a href="../modulo1/modulo1-aula3-introducao.html">Aula 3</a></span>
+                  </div>
+                </div>
+              </li>
+              <li>
+                <div class="row">
+                  <div class="barraStepper active">
+                    <div class="item active"></div>
+                  </div>
+                  <div class="sectionTitle">
+                    <span class="tituloItem"><a href="../modulo1/modulo1-aula4-introducao.html">Aula 4</a></span>
+                  </div>
+                </div>
+              </li>
+              <li>
+                <div class="row">
+                  <div class="barraStepper" style="background-color: #aa1c95">
+                    <div class="item active"></div>
+                  </div>
+                  <div class="sectionTitle">
+                    <span class="tituloItem"><a href="../modulo1/modulo1-atividade.html">Atividade</a></span>
+                  </div>
+                </div>
+              </li>
+            </div>
+          </div>
+
+          <div class="accordionMenu" id="headingModulo2">
+            <div class="row">
+              <div class="sectionTitle">
+                <span class="tituloLista collapsed" data-toggle="collapse" data-target="#collapseModulo2"
+                  aria-expanded="false" aria-controls="collapseModulo2">Módulo 2<i
+                    class="fas fa-caret-up caretDown"></i></span>
+              </div>
+            </div>
+            <div id="collapseModulo2" class="collapse" aria-labelledby="headingModulo2">
+              <li>
+                <div class="row">
+                  <div class="barraStepper active">
+                    <div class="item active"></div>
+                  </div>
+                  <div class="sectionTitle">
+                    <span class="tituloItem"><a href="../modulo2/modulo2-aula1-introducao.html">Aula 1</a></span>
+                  </div>
+                </div>
+              </li>
+              <li>
+                <div class="row">
+                  <div class="barraStepper active">
+                    <div class="item active"></div>
+                  </div>
+                  <div class="sectionTitle">
+                    <span class="tituloItem"><a href="../modulo2/modulo2-aula2-introducao.html">Aula 2</a></span>
+                  </div>
+                </div>
+              </li>
+              <li>
+                <div class="row">
+                  <div class="barraStepper active">
+                    <div class="item active"></div>
+                  </div>
+                  <div class="sectionTitle">
+                    <span class="tituloItem"><a href="../modulo2/modulo2-aula3-introducao.html">Aula 3</a></span>
+                  </div>
+                </div>
+              </li>
+              <li>
+                <div class="row">
+                  <div class="barraStepper active">
+                    <div class="item active"></div>
+                  </div>
+                  <div class="sectionTitle">
+                    <span class="tituloItem"><a href="../modulo2/modulo2-aula4-introducao.html">Aula 4</a></span>
+                  </div>
+                </div>
+              </li>
+              <li>
+                <div class="row">
+                  <div class="barraStepper" style="background-color: #aa1c95">
+                    <div class="item active"></div>
+                  </div>
+                  <div class="sectionTitle">
+                    <span class="tituloItem"><a href="../modulo2/modulo2-atividade.html">Atividade</a></span>
+                  </div>
+                </div>
+              </li>
+            </div>
+          </div>
+
+          <div class="accordionMenu" id="headingModulo3">
+            <div class="row">
+              <div class="sectionTitle">
+                <span class="tituloLista collapsed" data-toggle="collapse" data-target="#collapseModulo3"
+                  aria-expanded="false" aria-controls="collapseModulo3">Módulo 3<i
+                    class="fas fa-caret-up caretDown"></i></span>
+              </div>
+            </div>
+            <div id="collapseModulo3" class="collapse" aria-labelledby="headingModulo3">
+              <li>
+                <div class="row">
+                  <div class="barraStepper active">
+                    <div class="item active"></div>
+                  </div>
+                  <div class="sectionTitle">
+                    <span class="tituloItem"><a href="../modulo3/modulo3-aula1-introducao.html">Aula 1</a></span>
+                  </div>
+                </div>
+              </li>
+              <li>
+                <div class="row">
+                  <div class="barraStepper active">
+                    <div class="item active"></div>
+                  </div>
+                  <div class="sectionTitle">
+                    <span class="tituloItem"><a href="../modulo3/modulo3-aula2-introducao.html">Aula 2</a></span>
+                  </div>
+                </div>
+              </li>
+              <li>
+                <div class="row">
+                  <div class="barraStepper" style="background-color: #aa1c95">
+                    <div class="item active"></div>
+                  </div>
+                  <div class="sectionTitle">
+                    <span class="tituloItem"><a href="../modulo3/modulo3-atividade.html">Atividade</a></span>
+                  </div>
+                </div>
+              </li>
+            </div>
+          </div>
+
+          <div class="accordionMenu" id="headingModulo4">
+            <div class="row">
+              <div class="sectionTitle">
+                <span class="tituloLista collapsed" data-toggle="collapse" data-target="#collapseModulo4"
+                  aria-expanded="false" aria-controls="collapseModulo4">Módulo 4<i
+                    class="fas fa-caret-up caretDown"></i></span>
+              </div>
+            </div>
+            <div id="collapseModulo4" class="collapse" aria-labelledby="headingModulo4">
+              <li>
+                <div class="row">
+                  <div class="barraStepper active">
+                    <div class="item active"></div>
+                  </div>
+                  <div class="sectionTitle">
+                    <span class="tituloItem"><a href="../modulo4/modulo4-aula1-introducao.html">Aula 1</a></span>
+                  </div>
+                </div>
+              </li>
+              <li>
+                <div class="row">
+                  <div class="barraStepper active">
+                    <div class="item active"></div>
+                  </div>
+                  <div class="sectionTitle">
+                    <span class="tituloItem"><a href="../modulo4/modulo4-aula2-introducao.html">Aula 2</a></span>
+                  </div>
+                </div>
+              </li>
+              <li>
+                <div class="row">
+                  <div class="barraStepper" style="background-color: #aa1c95">
+                    <div class="item active"></div>
+                  </div>
+                  <div class="sectionTitle">
+                    <span class="tituloItem"><a href="../modulo4/modulo4-atividade.html">Atividade</a></span>
+                  </div>
+                </div>
+              </li>
+            </div>
+          </div>
+
+          <div class="accordionMenu" id="headingModulo5">
+            <div class="row">
+              <div class="sectionTitle">
+                <span class="tituloLista" data-toggle="collapse" data-target="#collapseModulo5" aria-expanded="false"
+                  aria-controls="collapseModulo5">Módulo 5<i class="fas fa-caret-up caretDown"></i></span>
+              </div>
+            </div>
+            <div id="collapseModulo5" class="collapse show" aria-labelledby="headingModulo5">
+              <li>
+                <div class="row">
+                  <div class="barraStepper active">
+                    <div class="item active"></div>
+                  </div>
+                  <div class="sectionTitle">
+                    <span class="tituloItem"><a href="../modulo5/modulo5-aula1-introducao.html">Aula 1</a></span>
+                  </div>
+                </div>
+              </li>
+              <li>
+                <div class="row">
+                  <div class="barraStepper">
+                    <div class="item active"></div>
+                  </div>
+                  <div class="sectionTitle">
+                    <span class="tituloItem"><a href="../modulo5/modulo5-aula2-introducao.html">Aula 2</a></span>
+                  </div>
+                </div>
+              </li>
+              <li>
+                <div class="row">
+                  <div class="barraStepper">
+                    <div class="item"></div>
+                  </div>
+                  <div class="sectionTitle">
+                    <span class="tituloItem"><a href="../modulo5/modulo5-aula3-introducao.html">Aula 3</a></span>
+                  </div>
+                </div>
+              </li>
+              <li>
+                <div class="row">
+                  <div class="barraStepper">
+                    <div class="item"></div>
+                  </div>
+                  <div class="sectionTitle">
+                    <span class="tituloItem"><a href="../modulo5/modulo5-aula4-introducao.html">Aula 4</a></span>
+                  </div>
+                </div>
+              </li>
+              <li>
+                <div class="row">
+                  <div class="barraStepper">
+                    <div class="item"></div>
+                  </div>
+                  <div class="sectionTitle">
+                    <span class="tituloItem"><a href="../modulo5/modulo5-aula5-introducao.html">Aula 5</a></span>
+                  </div>
+                </div>
+              </li>
+              <li>
+                <div class="row">
+                  <div class="barraStepper" style="background-color: #aa1c95">
+                    <div class="item"></div>
+                  </div>
+                  <div class="sectionTitle">
+                    <span class="tituloItem"><a href="../modulo5/modulo5-atividade.html">Atividade</a></span>
+                  </div>
+                </div>
+              </li>
+            </div>
+          </div>
+
+          <li>
+            <div class="row">
+              <div class="sectionTitle">
+                <a class="tituloLista" role="button" alt="Créditos" data-toggle="modal"
+                  data-target="#modalReferencias"><i class="fas fa-list"></i>Referências</a>
+              </div>
+            </div>
+          </li>
+          <li>
+            <div class="row">
+              <div class="sectionTitle">
+                <a class="tituloLista" role="button" alt="Créditos" data-toggle="modal" data-target="#modalCreditos"><i
+                    class="fas fa-list"></i>Créditos</a>
+              </div>
+            </div>
+          </li>
+        </ul>
+      </nav>
     </div>
 
-    <div class="row" id="row-main">
-      <!-- Sidebar -->
-      <div class="col-md-2" id="sidebar">
-        <!-- Botão p/ Recolher Sidebar-->
-        <span class="toggle-sidebar" id="sidebarButton"
-          ><i class="fas fa-chevron-left"></i
-        ></span>
+    <!-- Conteúdo principal -->
+    <div class="col-md-10" id="content">
+      <div class="conteudo">
+        <img src="../assets/images/logos/floresAulas.png" alt="Decorative flowers" class="decorative-flowers" />
 
-        <!-- Botão Secundário p/ Recolher Sidebar -->
-        <span class="toggle-sidebar" id="sidebarButton2"
-          ><i class="fas fa-bars"></i
-        ></span>
+        <div class="tituloAula">
+          <h2>Aula 2 <br />Pré-eclâmpsia precoce e tardia</h2>
 
-        <nav id="menuLateral">
-          <ul class="listaMenu">
-            <li>
-              <div class="row">
-                <div class="sectionTitle">
-                  <a
-                    href="../index.html"
-                    class="tituloLista"
-                    style="padding-top: 0 !important"
-                    ><i class="fas fa-home"></i>Página Inicial</a
-                  >
-                </div>
-              </div>
-            </li>
+          <h1>Introdução</h1>
+        </div>
 
-            <div class="accordionMenu" id="headingModulo1">
-              <div class="row">
-                <div class="sectionTitle">
-                  <span
-                    class="tituloLista collapsed"
-                    data-toggle="collapse"
-                    data-target="#collapseModulo1"
-                    aria-expanded="false"
-                    aria-controls="collapseModulo1"
-                    >Módulo 1<i class="fas fa-caret-up caretDown"></i
-                  ></span>
-                </div>
-              </div>
-
-              <div
-                id="collapseModulo1"
-                class="collapse"
-                aria-labelledby="headingModulo1"
-              >
-                <li>
-                  <div class="row">
-                    <div class="barraStepper active">
-                      <div class="item active"></div>
-                    </div>
-                    <div class="sectionTitle">
-                      <span class="tituloItem"
-                        ><a href="../modulo1/modulo1-aula1-introducao.html"
-                          >Aula 1</a
-                        ></span
-                      >
-                    </div>
-                  </div>
-                </li>
-                <li>
-                  <div class="row">
-                    <div class="barraStepper active">
-                      <div class="item active"></div>
-                    </div>
-                    <div class="sectionTitle">
-                      <span class="tituloItem"
-                        ><a href="../modulo1/modulo1-aula2-introducao.html"
-                          >Aula 2</a
-                        ></span
-                      >
-                    </div>
-                  </div>
-                </li>
-                <li>
-                  <div class="row">
-                    <div class="barraStepper active">
-                      <div class="item active"></div>
-                    </div>
-                    <div class="sectionTitle">
-                      <span class="tituloItem"
-                        ><a href="../modulo1/modulo1-aula3-introducao.html"
-                          >Aula 3</a
-                        ></span
-                      >
-                    </div>
-                  </div>
-                </li>
-                <li>
-                  <div class="row">
-                    <div class="barraStepper active">
-                      <div class="item active"></div>
-                    </div>
-                    <div class="sectionTitle">
-                      <span class="tituloItem"
-                        ><a href="../modulo1/modulo1-aula4-introducao.html"
-                          >Aula 4</a
-                        ></span
-                      >
-                    </div>
-                  </div>
-                </li>
-                <li>
-                  <div class="row">
-                    <div class="barraStepper" style="background-color: #aa1c95">
-                      <div class="item active"></div>
-                    </div>
-                    <div class="sectionTitle">
-                      <span class="tituloItem"
-                        ><a href="../modulo1/modulo1-atividade.html"
-                          >Atividade</a
-                        ></span
-                      >
-                    </div>
-                  </div>
-                </li>
-              </div>
-            </div>
-
-            <div class="accordionMenu" id="headingModulo2">
-              <div class="row">
-                <div class="sectionTitle">
-                  <span
-                    class="tituloLista collapsed"
-                    data-toggle="collapse"
-                    data-target="#collapseModulo2"
-                    aria-expanded="false"
-                    aria-controls="collapseModulo2"
-                    >Módulo 2<i class="fas fa-caret-up caretDown"></i
-                  ></span>
-                </div>
-              </div>
-              <div
-                id="collapseModulo2"
-                class="collapse"
-                aria-labelledby="headingModulo2"
-              >
-                <li>
-                  <div class="row">
-                    <div class="barraStepper active">
-                      <div class="item active"></div>
-                    </div>
-                    <div class="sectionTitle">
-                      <span class="tituloItem"
-                        ><a href="../modulo2/modulo2-aula1-introducao.html"
-                          >Aula 1</a
-                        ></span
-                      >
-                    </div>
-                  </div>
-                </li>
-                <li>
-                  <div class="row">
-                    <div class="barraStepper active">
-                      <div class="item active"></div>
-                    </div>
-                    <div class="sectionTitle">
-                      <span class="tituloItem"
-                        ><a href="../modulo2/modulo2-aula2-introducao.html"
-                          >Aula 2</a
-                        ></span
-                      >
-                    </div>
-                  </div>
-                </li>
-                <li>
-                  <div class="row">
-                    <div class="barraStepper active">
-                      <div class="item active"></div>
-                    </div>
-                    <div class="sectionTitle">
-                      <span class="tituloItem"
-                        ><a href="../modulo2/modulo2-aula3-introducao.html"
-                          >Aula 3</a
-                        ></span
-                      >
-                    </div>
-                  </div>
-                </li>
-                <li>
-                  <div class="row">
-                    <div class="barraStepper active">
-                      <div class="item active"></div>
-                    </div>
-                    <div class="sectionTitle">
-                      <span class="tituloItem"
-                        ><a href="../modulo2/modulo2-aula4-introducao.html"
-                          >Aula 4</a
-                        ></span
-                      >
-                    </div>
-                  </div>
-                </li>
-                <li>
-                  <div class="row">
-                    <div class="barraStepper" style="background-color: #aa1c95">
-                      <div class="item active"></div>
-                    </div>
-                    <div class="sectionTitle">
-                      <span class="tituloItem"
-                        ><a href="../modulo2/modulo2-atividade.html"
-                          >Atividade</a
-                        ></span
-                      >
-                    </div>
-                  </div>
-                </li>
-              </div>
-            </div>
-
-            <div class="accordionMenu" id="headingModulo3">
-              <div class="row">
-                <div class="sectionTitle">
-                  <span
-                    class="tituloLista collapsed"
-                    data-toggle="collapse"
-                    data-target="#collapseModulo3"
-                    aria-expanded="false"
-                    aria-controls="collapseModulo3"
-                    >Módulo 3<i class="fas fa-caret-up caretDown"></i
-                  ></span>
-                </div>
-              </div>
-              <div
-                id="collapseModulo3"
-                class="collapse"
-                aria-labelledby="headingModulo3"
-              >
-                <li>
-                  <div class="row">
-                    <div class="barraStepper active">
-                      <div class="item active"></div>
-                    </div>
-                    <div class="sectionTitle">
-                      <span class="tituloItem"
-                        ><a href="../modulo3/modulo3-aula1-introducao.html"
-                          >Aula 1</a
-                        ></span
-                      >
-                    </div>
-                  </div>
-                </li>
-                <li>
-                  <div class="row">
-                    <div class="barraStepper active">
-                      <div class="item active"></div>
-                    </div>
-                    <div class="sectionTitle">
-                      <span class="tituloItem"
-                        ><a href="../modulo3/modulo3-aula2-introducao.html"
-                          >Aula 2</a
-                        ></span
-                      >
-                    </div>
-                  </div>
-                </li>
-                <li>
-                  <div class="row">
-                    <div class="barraStepper" style="background-color: #aa1c95">
-                      <div class="item active"></div>
-                    </div>
-                    <div class="sectionTitle">
-                      <span class="tituloItem"
-                        ><a href="../modulo3/modulo3-atividade.html"
-                          >Atividade</a
-                        ></span
-                      >
-                    </div>
-                  </div>
-                </li>
-              </div>
-            </div>
-
-            <div class="accordionMenu" id="headingModulo4">
-              <div class="row">
-                <div class="sectionTitle">
-                  <span
-                    class="tituloLista collapsed"
-                    data-toggle="collapse"
-                    data-target="#collapseModulo4"
-                    aria-expanded="false"
-                    aria-controls="collapseModulo4"
-                    >Módulo 4<i class="fas fa-caret-up caretDown"></i
-                  ></span>
-                </div>
-              </div>
-              <div
-                id="collapseModulo4"
-                class="collapse"
-                aria-labelledby="headingModulo4"
-              >
-                <li>
-                  <div class="row">
-                    <div class="barraStepper active">
-                      <div class="item active"></div>
-                    </div>
-                    <div class="sectionTitle">
-                      <span class="tituloItem"
-                        ><a href="../modulo4/modulo4-aula1-introducao.html"
-                          >Aula 1</a
-                        ></span
-                      >
-                    </div>
-                  </div>
-                </li>
-                <li>
-                  <div class="row">
-                    <div class="barraStepper active">
-                      <div class="item active"></div>
-                    </div>
-                    <div class="sectionTitle">
-                      <span class="tituloItem"
-                        ><a href="../modulo4/modulo4-aula2-introducao.html"
-                          >Aula 2</a
-                        ></span
-                      >
-                    </div>
-                  </div>
-                </li>
-                <li>
-                  <div class="row">
-                    <div class="barraStepper" style="background-color: #aa1c95">
-                      <div class="item active"></div>
-                    </div>
-                    <div class="sectionTitle">
-                      <span class="tituloItem"
-                        ><a href="../modulo4/modulo4-atividade.html"
-                          >Atividade</a
-                        ></span
-                      >
-                    </div>
-                  </div>
-                </li>
-              </div>
-            </div>
-
-            <div class="accordionMenu" id="headingModulo5">
-              <div class="row">
-                <div class="sectionTitle">
-                  <span
-                    class="tituloLista"
-                    data-toggle="collapse"
-                    data-target="#collapseModulo5"
-                    aria-expanded="false"
-                    aria-controls="collapseModulo5"
-                    >Módulo 5<i class="fas fa-caret-up caretDown"></i
-                  ></span>
-                </div>
-              </div>
-              <div
-                id="collapseModulo5"
-                class="collapse show"
-                aria-labelledby="headingModulo5"
-              >
-                <li>
-                  <div class="row">
-                    <div class="barraStepper active">
-                      <div class="item active"></div>
-                    </div>
-                    <div class="sectionTitle">
-                      <span class="tituloItem"
-                        ><a href="../modulo5/modulo5-aula1-introducao.html"
-                          >Aula 1</a
-                        ></span
-                      >
-                    </div>
-                  </div>
-                </li>
-                <li>
-                  <div class="row">
-                    <div class="barraStepper">
-                      <div class="item active"></div>
-                    </div>
-                    <div class="sectionTitle">
-                      <span class="tituloItem"
-                        ><a href="../modulo5/modulo5-aula2-introducao.html"
-                          >Aula 2</a
-                        ></span
-                      >
-                    </div>
-                  </div>
-                </li>
-                <li>
-                  <div class="row">
-                    <div class="barraStepper">
-                      <div class="item"></div>
-                    </div>
-                    <div class="sectionTitle">
-                      <span class="tituloItem"
-                        ><a href="../modulo5/modulo5-aula3-introducao.html"
-                          >Aula 3</a
-                        ></span
-                      >
-                    </div>
-                  </div>
-                </li>
-                <li>
-                  <div class="row">
-                    <div class="barraStepper">
-                      <div class="item"></div>
-                    </div>
-                    <div class="sectionTitle">
-                      <span class="tituloItem"
-                        ><a href="../modulo5/modulo5-aula4-introducao.html"
-                          >Aula 4</a
-                        ></span
-                      >
-                    </div>
-                  </div>
-                </li>
-                <li>
-                  <div class="row">
-                    <div class="barraStepper">
-                      <div class="item"></div>
-                    </div>
-                    <div class="sectionTitle">
-                      <span class="tituloItem"
-                        ><a href="../modulo5/modulo5-aula5-introducao.html"
-                          >Aula 5</a
-                        ></span
-                      >
-                    </div>
-                  </div>
-                </li>
-                <li>
-                  <div class="row">
-                    <div class="barraStepper" style="background-color: #aa1c95">
-                      <div class="item"></div>
-                    </div>
-                    <div class="sectionTitle">
-                      <span class="tituloItem"
-                        ><a href="../modulo5/modulo5-atividade.html"
-                          >Atividade</a
-                        ></span
-                      >
-                    </div>
-                  </div>
-                </li>
-              </div>
-            </div>
-
-            <li>
-              <div class="row">
-                <div class="sectionTitle">
-                  <a
-                    class="tituloLista"
-                    role="button"
-                    alt="Créditos"
-                    data-toggle="modal"
-                    data-target="#modalReferencias"
-                    ><i class="fas fa-list"></i>Referências</a
-                  >
-                </div>
-              </div>
-            </li>
-            <li>
-              <div class="row">
-                <div class="sectionTitle">
-                  <a
-                    class="tituloLista"
-                    role="button"
-                    alt="Créditos"
-                    data-toggle="modal"
-                    data-target="#modalCreditos"
-                    ><i class="fas fa-list"></i>Créditos</a
-                  >
-                </div>
-              </div>
-            </li>
-          </ul>
-        </nav>
+        <p>
+          Considerando que a pré-eclâmpsia é a condição clínica associada à
+          maior causa de morte materna no Brasil (hipertensão), é importante
+          que ocorra um detalhamento de sua apresentação, que é relacionada à
+          sua época de instalação.
+        </p>
       </div>
 
-      <!-- Conteúdo principal -->
-      <div class="col-md-10" id="content">
-        <div class="conteudo">
-          <img
-            src="../assets/images/logos/floresAulas.png"
-            alt="Decorative flowers"
-            class="decorative-flowers"
-          />
-
-          <div class="tituloAula">
-            <h2>Aula 2 <br />Pré-eclâmpsia precoce e tardia</h2>
-
-            <h1>Introdução</h1>
-          </div>
-
+      <!-- Bloco Texto -->
+      <div class="row blocoTexto" style="margin-bottom: 40px !important">
+        <div class="col-md-10">
           <p>
-            Considerando que a pré-eclâmpsia é a condição clínica associada à
-            maior causa de morte materna no Brasil (hipertensão), é importante
-            que ocorra um detalhamento de sua apresentação, que é relacionada à
-            sua época de instalação.
+            Diante do diagnóstico de pré-eclâmpsia, é fundamental que a equipe
+            multiprofissional vá além do controle da pressão arterial. A
+            pré-eclâmpsia é uma condição multissistêmica, com fisiopatologia
+            ampla e progressiva, que só se resolve com o parto. Mantenha um
+            olhar atento para os diversos sistemas afetados e acompanhe a
+            evolução clínica com atenção.
           </p>
         </div>
+      </div>
 
-        <!-- Bloco Texto -->
-        <div class="row blocoTexto" style="margin-bottom: 40px !important">
-          <div class="col-md-10">
+      <div class="conteudo">
+        <p>
+          Apesar de na pré-eclâmpsia a hipertensão geralmente surgir apenas
+          após a vigésima semana, essa condição se inicia muito cedo, desde a
+          <a data-toggle="modal" data-target="#modal1" style="cursor: pointer; color: #aa1c95">
+            <b>invasão trofoblástica</b></a>, que foi deficiente. Essa situação interfere nos resultados do
+          parto e do puerpério e, como é sabido, apresenta repercussões de
+          longo prazo na vida da mulher, o que impõe a necessidade da
+          compreensão de que essa é uma doença que tem expressão clínica
+          crônica, heterogênea e sistêmica.
+        </p>
+
+        <h3>> Complexidade clínica e desafios do diagnóstico</h3>
+
+        <p>
+          Devido ao caráter dinâmico da pré-eclâmpsia, sua expressão realmente
+          é um desafio para a prática clínica, sendo por vezes realmente
+          difícil “enquadrar” a expressão clínica em um modelo único e
+          realmente prevermos com exatidão a evolução do quadro.
+        </p>
+
+        <!-- Imagem 1 -->
+        <div class="row centro">
+          <div class="col-md-8 imagem">
+            <img src="../assets/images/modulo5/aula2/img1.png" alt="Aferindo pressão" class="img-fluid" />
+            <div class="imagemLegenda">
+              <small>Fonte: Freepik (2025)</small>
+            </div>
+          </div>
+        </div>
+
+        <p>
+          A pré-eclâmpsia pode se manifestar de formas diferentes, e uma das
+          classificações importantes considera a
+          <b>idade gestacional no momento do diagnóstico</b>:
+        </p>
+
+        <ul>
+          <li class="icon arrow">
+            <span>Quando ocorre <b>antes das 34ª semanas</b>, é chamada de
+              <b>pré-eclâmpsia precoce</b>.</span>
+          </li>
+          <li class="icon arrow">
             <p>
-              Diante do diagnóstico de pré-eclâmpsia, é fundamental que a equipe
-              multiprofissional vá além do controle da pressão arterial. A
-              pré-eclâmpsia é uma condição multissistêmica, com fisiopatologia
-              ampla e progressiva, que só se resolve com o parto. Mantenha um
-              olhar atento para os diversos sistemas afetados e acompanhe a
-              evolução clínica com atenção.
+              Quando ocorre <b>a partir da 34ª semana</b>, recebe o nome de
+              <b>pré-eclâmpsia tardia</b>.
             </p>
+          </li>
+        </ul>
+
+        <p>
+          Essa distinção é relevante porque a forma precoce costuma estar
+          associada a maior gravidade e riscos materno-fetais.
+        </p>
+
+        <p>
+          O percurso inicial na literatura foi a partir de uma publicação do
+          professor Dekker, que categorizou achados clínicos e laboratoriais
+          diferentes associados à <b>idade gestacional</b>, como maior
+          ocorrência de trombose vascular, coagulopatia e hipercoagulabilidade
+          nas mulheres que desenvolveram pré-eclâmpsia antes de 34ª semana.
+          Ele foi o primeiro a apoiar o termo “pré-eclâmpsia precoce” e
+          propôs, desde essa época, um aconselhamento específico para essas
+          mulheres.
+        </p>
+
+        <h1>Impactos clínicos da pré-eclâmpsia precoce</h1>
+
+        <p>
+          Compreendida dessa maneira (precoce e tardia), reconhece-se que a
+          expressão da pré-eclâmpsia que acontece mais precocemente acomete de
+          maneira mais intensa o produto da concepção, provocando:
+        </p>
+
+        <!-- Cards lado a lado -->
+        <div class="row centro">
+          <div class="card-container">
+            <div class="col-sm-3 card-content text-center">
+              <div>
+                <img src="../assets/images/modulo5/aula2/cardImg1.png" alt="Feto" />
+              </div>
+              <br />
+              <p>Restrição de crescimento fetal</p>
+            </div>
+            <div class="col-sm-3 card-content text-center">
+              <div>
+                <img src="../assets/images/modulo5/aula2/cardImg2.png" alt="" />
+              </div>
+              <br />
+              <p>Maior morbimortalidade perinatal</p>
+            </div>
+            <div class="col-sm-3 card-content text-center">
+              <div>
+                <img src="../assets/images/modulo5/aula2/cardImg3.png" alt="Gota de Sangue" />
+              </div>
+              <br />
+              <p>Acidemia</p>
+            </div>
           </div>
         </div>
 
-        <div class="conteudo">
-          <p>
-            Apesar de na pré-eclâmpsia a hipertensão geralmente surgir apenas
-            após a vigésima semana, essa condição se inicia muito cedo, desde a
-            <a
-              data-toggle="modal"
-              data-target="#modal1"
-              style="cursor: pointer; color: #aa1c95"
-            >
-              <b>invasão trofoblástica</b></a
-            >, que foi deficiente. Essa situação interfere nos resultados do
-            parto e do puerpério e, como é sabido, apresenta repercussões de
-            longo prazo na vida da mulher, o que impõe a necessidade da
-            compreensão de que essa é uma doença que tem expressão clínica
-            crônica, heterogênea e sistêmica.
-          </p>
+        <p>
+          Embora ambas tenham vias finais comuns, existe redução de fluxo
+          uteroplacentário, sendo comuns disfunção endotelial, hemólise,
+          aumento de mediadores inflamatórios e ativação de neutrófilos.
+          Lembrando a preocupação inicial de recomendar às equipes que não se
+          atenham apenas à condição de hipertensão induzida pela gravidez, mas
+          que existe uma expressão clínica mais ampla relacionada à
+          pré-eclâmpsia.
+        </p>
 
-          <h3>> Complexidade clínica e desafios do diagnóstico</h3>
+        <p>
+          É de conhecimento que não existem duas causas placentárias para a
+          pré-eclâmpsia, mas existe um predomínio de situação da patogênese em
+          cada uma delas, podendo ser encontrada a perfusão placentária normal
+          e um estresse oxidativo da interface placentária no
+          sinciciotrofoblasto. Perceba as diferenças de cada situação da
+          patogênese:
+        </p>
 
-          <p>
-            Devido ao caráter dinâmico da pré-eclâmpsia, sua expressão realmente
-            é um desafio para a prática clínica, sendo por vezes realmente
-            difícil “enquadrar” a expressão clínica em um modelo único e
-            realmente prevermos com exatidão a evolução do quadro.
-          </p>
+        <!-- ACCORDION -->
+        <!-- Accordion 1 -->
+        <div class="accordion">
+          <!-- Accordion card 1-->
+          <div class="card">
+            <!-- Card header -->
+            <div class="card-header" id="headingOne1">
+              <a class="collapsed" data-toggle="collapse" data-target="#collapseOne1" aria-expanded="false"
+                aria-controls="collapseOne1">
+                <p>
+                  <b>Pré-eclâmpsia precoce</b><i class="fas fa-window-minimize"></i>
+                </p>
+              </a>
+            </div>
 
-          <!-- Imagem 1 -->
-          <div class="row centro">
-            <div class="col-md-8 imagem">
-              <img
-                src="../assets/images/modulo5/aula2/img1.png"
-                alt="Aferindo pressão"
-                class="img-fluid"
-              />
-              <div class="imagemLegenda">
-                <small>Fonte: Freepik (2025)</small>
+            <!-- Card body -->
+            <div id="collapseOne1" class="collapse" aria-labelledby="headingOne1">
+              <div class="card-body">
+                <p>
+                  Predomina má placentação, provavelmente uma condição
+                  extrínseca a toda fisiopatologia.
+                </p>
               </div>
             </div>
           </div>
 
-          <p>
-            A pré-eclâmpsia pode se manifestar de formas diferentes, e uma das
-            classificações importantes considera a
-            <b>idade gestacional no momento do diagnóstico</b>:
-          </p>
+          <!-- Accordion card 2 -->
+          <div class="card">
+            <!-- Card header -->
+            <div class="card-header" id="headingTwo2">
+              <a class="collapsed" data-toggle="collapse" data-target="#collapseTwo2" aria-expanded="false"
+                aria-controls="collapseTwo2">
+                <p>
+                  <b>Pré-eclâmpsia tardia</b><i class="fas fa-window-minimize"></i>
+                </p>
+              </a>
+            </div>
 
-          <ul>
-            <li class="icon arrow">
-              <span
-                >Quando ocorre <b>antes das 34ª semanas</b>, é chamada de
-                <b>pré-eclâmpsia precoce</b>.</span
-              >
-            </li>
-            <li class="icon arrow">
-              <p>
-                Quando ocorre <b>a partir da 34ª semana</b>, recebe o nome de
-                <b>pré-eclâmpsia tardia</b>.
-              </p>
-            </li>
-          </ul>
-
-          <p>
-            Essa distinção é relevante porque a forma precoce costuma estar
-            associada a maior gravidade e riscos materno-fetais.
-          </p>
-
-          <p>
-            O percurso inicial na literatura foi a partir de uma publicação do
-            professor Dekker, que categorizou achados clínicos e laboratoriais
-            diferentes associados à <b>idade gestacional</b>, como maior
-            ocorrência de trombose vascular, coagulopatia e hipercoagulabilidade
-            nas mulheres que desenvolveram pré-eclâmpsia antes de 34ª semana.
-            Ele foi o primeiro a apoiar o termo “pré-eclâmpsia precoce” e
-            propôs, desde essa época, um aconselhamento específico para essas
-            mulheres.
-          </p>
-
-          <h1>Impactos clínicos da pré-eclâmpsia precoce</h1>
-
-          <p>
-            Compreendida dessa maneira (precoce e tardia), reconhece-se que a
-            expressão da pré-eclâmpsia que acontece mais precocemente acomete de
-            maneira mais intensa o produto da concepção, provocando:
-          </p>
-
-          <!-- Cards lado a lado -->
-          <div class="row centro">
-            <div class="card-container">
-              <div class="col-sm-3 card-content text-center">
-                <div>
-                  <img
-                    src="../assets/images/modulo5/aula2/cardImg1.png"
-                    alt="Feto"
-                  />
-                </div>
-                <br />
-                <p>Restrição de crescimento fetal</p>
-              </div>
-              <div class="col-sm-3 card-content text-center">
-                <div>
-                  <img
-                    src="../assets/images/modulo5/aula2/cardImg2.png"
-                    alt=""
-                  />
-                </div>
-                <br />
-                <p>Maior morbimortalidade perinatal</p>
-              </div>
-              <div class="col-sm-3 card-content text-center">
-                <div>
-                  <img
-                    src="../assets/images/modulo5/aula2/cardImg3.png"
-                    alt="Gota de Sangue"
-                  />
-                </div>
-                <br />
-                <p>Acidemia</p>
+            <!-- Card body -->
+            <div id="collapseTwo2" class="collapse" aria-labelledby="headingTwo2">
+              <div class="card-body">
+                <p>
+                  Ocorre “superlotação” das microvilosidades, fazendo com que
+                  atinjam limites funcionais. Para essa situação é muito
+                  importante a condição prévia da gestante, como o antecedente
+                  de pressão arterial crônica. Supostamente, todas as
+                  gestantes irão progredir para pré-eclâmpsia a partir dessa
+                  condição de “superlotação” das microvilosidades, mas o parto
+                  frequentemente intercepta essa evolução.
+                </p>
               </div>
             </div>
           </div>
+        </div>
+        <!-- Fim Accordion 1 -->
 
+        <p>
+          A pré-eclâmpsia precoce é menos frequente, porém mais grave para a
+          mãe e o feto. A principal mensagem para a prática clínica é que
+          mulheres com pré-eclâmpsia abaixo da 34ª semana provavelmente
+          apresentam desfechos mais desfavoráveis, principalmente se abaixo de
+          24ª semanas. Essas situações cursam com elevada mortalidade materna
+          e perinatal, aumento da ocorrência futura de hipertensão arterial
+          crônica, assim como predição positiva para cardiopatia isquêmica.
+        </p>
+      </div>
+
+      <!-- Bloco Texto -->
+      <div class="row blocoTexto" style="margin-bottom: 40px !important">
+        <div class="col-md-10">
           <p>
-            Embora ambas tenham vias finais comuns, existe redução de fluxo
-            uteroplacentário, sendo comuns disfunção endotelial, hemólise,
-            aumento de mediadores inflamatórios e ativação de neutrófilos.
-            Lembrando a preocupação inicial de recomendar às equipes que não se
-            atenham apenas à condição de hipertensão induzida pela gravidez, mas
-            que existe uma expressão clínica mais ampla relacionada à
+            Coorte americana envolvendo 670.120 partos ocorridos entre os anos
+            2000 e 2008 revelou uma taxa geral de pré-eclâmpsia de cerca de 3%
+            e o impacto na morbimortalidade relacionado ao diagnóstico de
+            pré-eclâmpsia precoce e tardia, comparado a mulheres sem
             pré-eclâmpsia.
           </p>
-
-          <p>
-            É de conhecimento que não existem duas causas placentárias para a
-            pré-eclâmpsia, mas existe um predomínio de situação da patogênese em
-            cada uma delas, podendo ser encontrada a perfusão placentária normal
-            e um estresse oxidativo da interface placentária no
-            sinciciotrofoblasto. Perceba as diferenças de cada situação da
-            patogênese:
-          </p>
-
-          <!-- ACCORDION -->
-          <!-- Accordion 1 -->
-          <div class="accordion">
-            <!-- Accordion card 1-->
-            <div class="card">
-              <!-- Card header -->
-              <div class="card-header" id="headingOne1">
-                <a
-                  class="collapsed"
-                  data-toggle="collapse"
-                  data-target="#collapseOne1"
-                  aria-expanded="false"
-                  aria-controls="collapseOne1"
-                >
-                  <p>
-                    <b>Pré-eclâmpsia precoce</b
-                    ><i class="fas fa-window-minimize"></i>
-                  </p>
-                </a>
-              </div>
-
-              <!-- Card body -->
-              <div
-                id="collapseOne1"
-                class="collapse"
-                aria-labelledby="headingOne1"
-              >
-                <div class="card-body">
-                  <p>
-                    Predomina má placentação, provavelmente uma condição
-                    extrínseca a toda fisiopatologia.
-                  </p>
-                </div>
-              </div>
-            </div>
-
-            <!-- Accordion card 2 -->
-            <div class="card">
-              <!-- Card header -->
-              <div class="card-header" id="headingTwo2">
-                <a
-                  class="collapsed"
-                  data-toggle="collapse"
-                  data-target="#collapseTwo2"
-                  aria-expanded="false"
-                  aria-controls="collapseTwo2"
-                >
-                  <p>
-                    <b>Pré-eclâmpsia tardia</b
-                    ><i class="fas fa-window-minimize"></i>
-                  </p>
-                </a>
-              </div>
-
-              <!-- Card body -->
-              <div
-                id="collapseTwo2"
-                class="collapse"
-                aria-labelledby="headingTwo2"
-              >
-                <div class="card-body">
-                  <p>
-                    Ocorre “superlotação” das microvilosidades, fazendo com que
-                    atinjam limites funcionais. Para essa situação é muito
-                    importante a condição prévia da gestante, como o antecedente
-                    de pressão arterial crônica. Supostamente, todas as
-                    gestantes irão progredir para pré-eclâmpsia a partir dessa
-                    condição de “superlotação” das microvilosidades, mas o parto
-                    frequentemente intercepta essa evolução.
-                  </p>
-                </div>
-              </div>
-            </div>
-          </div>
-          <!-- Fim Accordion 1 -->
-
-          <p>
-            A pré-eclâmpsia precoce é menos frequente, porém mais grave para a
-            mãe e o feto. A principal mensagem para a prática clínica é que
-            mulheres com pré-eclâmpsia abaixo da 34ª semana provavelmente
-            apresentam desfechos mais desfavoráveis, principalmente se abaixo de
-            24ª semanas. Essas situações cursam com elevada mortalidade materna
-            e perinatal, aumento da ocorrência futura de hipertensão arterial
-            crônica, assim como predição positiva para cardiopatia isquêmica.
-          </p>
         </div>
+      </div>
 
-        <!-- Bloco Texto -->
-        <div class="row blocoTexto" style="margin-bottom: 40px !important">
-          <div class="col-md-10">
+      <div class="conteudo">
+        <!-- Card Pontilhado -->
+        <div class="centro">
+          <div class="col-md-8 saibaMais">
             <p>
-              Coorte americana envolvendo 670.120 partos ocorridos entre os anos
-              2000 e 2008 revelou uma taxa geral de pré-eclâmpsia de cerca de 3%
-              e o impacto na morbimortalidade relacionado ao diagnóstico de
-              pré-eclâmpsia precoce e tardia, comparado a mulheres sem
-              pré-eclâmpsia.
+              <a target="_blank" href="https://www.youtube.com/watch?v=WYkg2eo7qws"
+                style="cursor: pointer; color: #783566">
+                <u>Clique aqui</u></a>
+              para assistir ao vídeo do Encontro com os Especialistas do
+              projeto “Todas as Mães Importam”(TMI), que aborda o uso dos
+              <i>Bundles</i> (pacotes de cuidados) ambulatoriais e
+              hospitalares para prevenção e tratamento da pré-eclâmpsia grave
+              e eclampsia.
             </p>
           </div>
         </div>
 
-        <div class="conteudo">
-          <!-- Card Pontilhado -->
-          <div class="centro">
-            <div class="col-md-8 saibaMais">
+        <h1>Diferenças hemodinâmicas e placentárias</h1>
+
+        <p>
+          O perfil hemodinâmico das pré-eclâmpsias precoce e tardia também é
+          diferente. A precoce se caracteriza por baixo débito cardíaco e alta
+          resistência vascular periférica, enquanto na tardia o débito
+          cardíaco pode estar aumentado e a resistência vascular periférica é
+          variável.
+        </p>
+
+        <p>
+          Além do momento do diagnóstico, a pré-eclâmpsia precoce e a tardia
+          apresentam perfis hemodinâmicos distintos:
+        </p>
+
+        <!-- FLIP CARDS 1 -->
+        <!-- Flip Card 1 -->
+        <div class="row rowFlipCards">
+          <div class="card flipCard col-md-3" onclick="flip()" style="height: 440px !important">
+            <div class="front text-center">
+              <div>
+                <img src="../assets/images/modulo5/aula2/heartDown.png" alt="Coração com seta para baixo" />
+              </div>
               <p>
-                <a
-                  target="_blank"
-                  href="https://www.youtube.com/watch?v=WYkg2eo7qws"
-                  style="cursor: pointer; color: #783566"
-                >
-                  <u>Clique aqui</u></a
-                >
-                para assistir ao vídeo do Encontro com os Especialistas do
-                projeto “Todas as Mães Importam”(TMI), que aborda o uso dos
-                <i>Bundles</i> (pacotes de cuidados) ambulatoriais e
-                hospitalares para prevenção e tratamento da pré-eclâmpsia grave
-                e eclampsia.
+                <b><u>Pré-eclâmpsia <br />
+                    precoce</u></b>
+              </p>
+            </div>
+            <div class="back text-center">
+              <p>
+                <b>É marcada por baixo débito cardíaco e alta resistência
+                  vascular periférica.</b>
               </p>
             </div>
           </div>
-
-          <h1>Diferenças hemodinâmicas e placentárias</h1>
-
-          <p>
-            O perfil hemodinâmico das pré-eclâmpsias precoce e tardia também é
-            diferente. A precoce se caracteriza por baixo débito cardíaco e alta
-            resistência vascular periférica, enquanto na tardia o débito
-            cardíaco pode estar aumentado e a resistência vascular periférica é
-            variável.
-          </p>
-
-          <p>
-            Além do momento do diagnóstico, a pré-eclâmpsia precoce e a tardia
-            apresentam perfis hemodinâmicos distintos:
-          </p>
-
-          <!-- FLIP CARDS 1 -->
-          <!-- Flip Card 1 -->
-          <div class="row rowFlipCards">
-            <div
-              class="card flipCard col-md-3"
-              onclick="flip()"
-              style="height: 440px !important"
-            >
-              <div class="front text-center">
-                <div>
-                  <img
-                    src="../assets/images/modulo5/aula2/heartDown.png"
-                    alt="Coração com seta para baixo"
-                  />
-                </div>
-                <p>
-                  <b
-                    ><u
-                      >Pré-eclâmpsia <br />
-                      precoce</u
-                    ></b
-                  >
-                </p>
+          <!-- Flip Card 2 -->
+          <div class="card flipCard col-md-3" onclick="flip()" style="height: 440px !important">
+            <div class="front text-center">
+              <div>
+                <img src="../assets/images/modulo5/aula2/heartUp.png" alt="Coração com seta para cima" />
               </div>
-              <div class="back text-center">
-                <p>
-                  <b
-                    >É marcada por baixo débito cardíaco e alta resistência
-                    vascular periférica.</b
-                  >
-                </p>
-              </div>
-            </div>
-            <!-- Flip Card 2 -->
-            <div
-              class="card flipCard col-md-3"
-              onclick="flip()"
-              style="height: 440px !important"
-            >
-              <div class="front text-center">
-                <div>
-                  <img
-                    src="../assets/images/modulo5/aula2/heartUp.png"
-                    alt="Coração com seta para cima"
-                  />
-                </div>
-                <p>
-                  <b
-                    ><u
-                      >Pré-eclâmpsia <br />
-                      tardia</u
-                    ></b
-                  >
-                </p>
-              </div>
-              <div class="back text-center">
-                <p>
-                  <b
-                    >Pode apresentar débito cardíaco aumentado e resistência
-                    vascular periférica variável.</b
-                  >
-                </p>
-              </div>
-            </div>
-          </div>
-          <!-- Fim Flip Cards 1 -->
-
-          <p>
-            Essas diferenças refletem mecanismos fisiopatológicos distintos e
-            podem influenciar a abordagem clínica.
-          </p>
-
-          <p>
-            Está bem caracterizado o dano placentário da pré-eclâmpsia precoce,
-            que, em comparação à pré-eclâmpsia tardia, apresenta diminuição do
-            tamanho da placenta, presença de mais infartos, bem como maturação
-            inapropriada.
-          </p>
-
-          <p>
-            Os biomarcadores que identificam angiogênese e antiangiogênese em
-            mulheres portadoras de pré-eclâmpsia apresentam desequilíbrio maior,
-            mais importante em quadros de pré-eclâmpsia precoce.
-          </p>
-
-          <p>
-            A literatura atual recomenda que a pré-eclâmpsia seja compreendida
-            como um conjunto de subtipos e não como uma única condição com causa
-            comum.
-          </p>
-
-          <p>Por exemplo:</p>
-
-          <ul>
-            <li class="icon arrow">
-              A pré-eclâmpsia a termo, mesmo sem restrição de crescimento fetal,
-              aumenta em pelo menos duas vezes o risco cardiovascular futuro.
-            </li>
-            <li class="icon arrow">
               <p>
-                Já a pré-eclâmpsia precoce está associada a um aumento de pelo
-                menos dez vezes nesse risco.
+                <b><u>Pré-eclâmpsia <br />
+                    tardia</u></b>
               </p>
-            </li>
-          </ul>
-
-          <p>
-            Podemos utilizar como exemplo e estímulo para essa filosofia a
-            adoção da classificação do diabetes em diabetes tipo I e tipo II.
-            Essa classificação foi útil para o delineamento de estratégias
-            específicas de melhor atendimento ao paciente com diabetes. Sendo
-            assim, isso também é atualmente sugerido para a melhor prática
-            assistencial na pré-eclâmpsia.
-          </p>
-
-          <p>
-            Publicações que classificam e distinguem os subtipos de
-            pré-eclâmpsia em <b>precoce</b> e <b>tardia</b> apontam diferenças
-            importantes em suas origens e consequências:
-          </p>
-
-          <!-- Slider -->
-          <div class="row centro">
-            <div class="col-md-6">
-              <div class="carousel-wrapper">
-                <div
-                  id="carouselExampleIndicators"
-                  class="carousel slide"
-                  data-ride="carousel"
-                  data-interval="0"
-                >
-                  <div class="carousel-indicators-container">
-                    <ol class="carousel-indicators">
-                      <li
-                        data-target="#carouselExampleIndicators"
-                        data-slide-to="0"
-                        class="active"
-                      ></li>
-                      <li
-                        data-target="#carouselExampleIndicators"
-                        data-slide-to="1"
-                      ></li>
-                    </ol>
-                  </div>
-                  <div class="carousel-inner">
-                    <!-- Item 1 -->
-                    <div class="carousel-item active">
-                      <div class="slide-content">
-                        <p>
-                          A <b>pré-eclâmpsia precoce</b> está mais relacionada
-                          ao <b>dano à circulação placentária</b>, sendo comum a
-                          <b>restrição de crescimento fetal</b> e
-                          <b>desfechos maternos e perinatais mais graves</b>.
-                        </p>
-                      </div>
-                    </div>
-                    <!-- Item 2 -->
-                    <div class="carousel-item">
-                      <div class="slide-content">
-                        <p>
-                          Já a <b>pré-eclâmpsia tardia</b> está frequentemente
-                          associada a síndromes metabólicas, inflamação e
-                          comprometimento endotelial crônico, assim como
-                          obesidade e hipertensão arterial crônica.
-                        </p>
-                      </div>
-                    </div>
-                  </div>
-                  <!-- Botões movidos para fora do carousel e com classes personalizadas -->
-                  <a
-                    class="custom-carousel-control custom-prev"
-                    data-target="#carouselExampleIndicators"
-                    role="button"
-                    data-slide="prev"
-                  >
-                    <span class="sr-only">Previous</span>
-                  </a>
-                  <a
-                    class="custom-carousel-control custom-next"
-                    data-target="#carouselExampleIndicators"
-                    role="button"
-                    data-slide="next"
-                  >
-                    <span class="sr-only">Next</span>
-                  </a>
-                </div>
-              </div>
+            </div>
+            <div class="back text-center">
+              <p>
+                <b>Pode apresentar débito cardíaco aumentado e resistência
+                  vascular periférica variável.</b>
+              </p>
             </div>
           </div>
-          <!-- Fim Slider -->
+        </div>
+        <!-- Fim Flip Cards 1 -->
 
-          <p>
-            Essas distinções ajudam a compreender os diferentes perfis de risco
-            e a planejar um cuidado mais adequado.
-          </p>
+        <p>
+          Essas diferenças refletem mecanismos fisiopatológicos distintos e
+          podem influenciar a abordagem clínica.
+        </p>
 
-          <p>
-            Concluindo, é extremamente importante que as equipes estejam
-            classificando a síndrome hipertensiva, principalmente a
-            pré-eclâmpsia em suas formas precoce e tardia, visando
-            individualizar o cuidado diagnóstico e a profilaxia. Além disso,
-            durante o atendimento de mulheres hipertensas, devemos sempre nos
-            atentar para o diagnóstico de pré-eclâmpsia, incluindo de seus
-            subtipos.
-          </p>
+        <p>
+          Está bem caracterizado o dano placentário da pré-eclâmpsia precoce,
+          que, em comparação à pré-eclâmpsia tardia, apresenta diminuição do
+          tamanho da placenta, presença de mais infartos, bem como maturação
+          inapropriada.
+        </p>
 
-          <div class="centro">
-            <p style="color: #793767; margin-top: 20px">
-              <b
-                >Você concluiu esta aula, continue se empenhando nos seus
-                estudos. Siga para a próxima aula!</b
-              >
+        <p>
+          Os biomarcadores que identificam angiogênese e antiangiogênese em
+          mulheres portadoras de pré-eclâmpsia apresentam desequilíbrio maior,
+          mais importante em quadros de pré-eclâmpsia precoce.
+        </p>
+
+        <p>
+          A literatura atual recomenda que a pré-eclâmpsia seja compreendida
+          como um conjunto de subtipos e não como uma única condição com causa
+          comum.
+        </p>
+
+        <p>Por exemplo:</p>
+
+        <ul>
+          <li class="icon arrow">
+            A pré-eclâmpsia a termo, mesmo sem restrição de crescimento fetal,
+            aumenta em pelo menos duas vezes o risco cardiovascular futuro.
+          </li>
+          <li class="icon arrow">
+            <p>
+              Já a pré-eclâmpsia precoce está associada a um aumento de pelo
+              menos dez vezes nesse risco.
             </p>
-          </div>
+          </li>
+        </ul>
 
-          <!-- Botões de navegação -->
-          <div class="row botao">
-            <a
-              href="../modulo5/modulo5-aula2-introducao.html"
-              class="btn btn-sm"
-              id="botaoVoltar"
-              role="button"
-              alt="Voltar"
-            >
-              <strong
-                ><i class="fas fa-chevron-left"></i>Introdução Módulo 5 Aula
-                2</strong
-              ></a
-            >
-            <a
-              href="../modulo5/modulo5-aula3-introducao.html"
-              class="btn btn-sm"
-              id="botaoAvancar"
-              role="button"
-              alt="Avançar"
-            >
-              <strong
-                >Introdução Módulo 5 Aula 3<i
-                  class="fas fa-chevron-right"
-                ></i></strong
-            ></a>
-          </div>
+        <p>
+          Podemos utilizar como exemplo e estímulo para essa filosofia a
+          adoção da classificação do diabetes em diabetes tipo I e tipo II.
+          Essa classificação foi útil para o delineamento de estratégias
+          específicas de melhor atendimento ao paciente com diabetes. Sendo
+          assim, isso também é atualmente sugerido para a melhor prática
+          assistencial na pré-eclâmpsia.
+        </p>
 
-          <img
-            src="../assets/images/logos/floresAulas.png"
-            alt="Decorative flowers"
-            class="decorative-flowers"
-          />
+        <p>
+          Publicações que classificam e distinguem os subtipos de
+          pré-eclâmpsia em <b>precoce</b> e <b>tardia</b> apontam diferenças
+          importantes em suas origens e consequências:
+        </p>
+
+        <!-- Slider -->
+        <div class="row centro">
+          <div class="col-md-6">
+            <div class="carousel-wrapper">
+              <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel" data-interval="0">
+                <div class="carousel-indicators-container">
+                  <ol class="carousel-indicators">
+                    <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                    <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                  </ol>
+                </div>
+                <div class="carousel-inner">
+                  <!-- Item 1 -->
+                  <div class="carousel-item active">
+                    <div class="slide-content">
+                      <p>
+                        A <b>pré-eclâmpsia precoce</b> está mais relacionada
+                        ao <b>dano à circulação placentária</b>, sendo comum a
+                        <b>restrição de crescimento fetal</b> e
+                        <b>desfechos maternos e perinatais mais graves</b>.
+                      </p>
+                    </div>
+                  </div>
+                  <!-- Item 2 -->
+                  <div class="carousel-item">
+                    <div class="slide-content">
+                      <p>
+                        Já a <b>pré-eclâmpsia tardia</b> está frequentemente
+                        associada a síndromes metabólicas, inflamação e
+                        comprometimento endotelial crônico, assim como
+                        obesidade e hipertensão arterial crônica.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+                <!-- Botões movidos para fora do carousel e com classes personalizadas -->
+                <a class="custom-carousel-control custom-prev" data-target="#carouselExampleIndicators" role="button"
+                  data-slide="prev">
+                  <span class="sr-only">Previous</span>
+                </a>
+                <a class="custom-carousel-control custom-next" data-target="#carouselExampleIndicators" role="button"
+                  data-slide="next">
+                  <span class="sr-only">Next</span>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- Fim Slider -->
+
+        <p>
+          Essas distinções ajudam a compreender os diferentes perfis de risco
+          e a planejar um cuidado mais adequado.
+        </p>
+
+        <p>
+          Concluindo, é extremamente importante que as equipes estejam
+          classificando a síndrome hipertensiva, principalmente a
+          pré-eclâmpsia em suas formas precoce e tardia, visando
+          individualizar o cuidado diagnóstico e a profilaxia. Além disso,
+          durante o atendimento de mulheres hipertensas, devemos sempre nos
+          atentar para o diagnóstico de pré-eclâmpsia, incluindo de seus
+          subtipos.
+        </p>
+
+        <div class="centro">
+          <p style="color: #793767; margin-top: 20px">
+            <b>Você concluiu esta aula, continue se empenhando nos seus
+              estudos. Siga para a próxima aula!</b>
+          </p>
         </div>
 
-        <!-- Rodapé -->
-        <footer id="rodape">
-          <div class="row-main">
-            <div class="col-md-12 centro">
-              <img
-                class="img-fluid centro"
-                src="../assets/images/rodape/logos.png"
-                alt="Rodapé"
-              />
-            </div>
-          </div>
-        </footer>
+        <!-- Botões de navegação -->
+        <div class="row botao">
+          <a href="../modulo5/modulo5-aula2-introducao.html" class="btn btn-sm" id="botaoVoltar" role="button"
+            alt="Voltar">
+            <strong><i class="fas fa-chevron-left"></i>Introdução Módulo 5 Aula
+              2</strong></a>
+          <a href="../modulo5/modulo5-aula3-introducao.html" class="btn btn-sm" id="botaoAvancar" role="button"
+            alt="Avançar">
+            <strong>Introdução Módulo 5 Aula 3<i class="fas fa-chevron-right"></i></strong></a>
+        </div>
 
-        <!-- Modal 1 -->
-        <div
-          class="modal fade"
-          id="modal1"
-          tabindex="-1"
-          role="dialog"
-          aria-labelledby="modal1"
-          aria-hidden="true"
-        >
-          <div class="modal-dialog modal-dialog-centered" role="document">
-            <div class="modal-content">
-              <div class="modal-body">
-                <p>
-                  Processo por meio do qual as células do trofoblasto, que
-                  formam a camada mais externa da placenta, invadem o útero da
-                  mãe durante a gravidez
-                </p>
-              </div>
-              <div class="modal-footer">
-                <button
-                  type="button"
-                  class="btn btn-secondary"
-                  data-dismiss="modal"
-                >
-                  Fechar
-                </button>
-              </div>
+        <img src="../assets/images/logos/floresAulas.png" alt="Decorative flowers" class="decorative-flowers" />
+      </div>
+
+      <!-- Rodapé -->
+      <footer id="rodape">
+        <div class="row-main">
+          <div class="col-md-12 text-center">
+            <img class="img-fluid" src="../assets/images/rodape/logo_poderosas.png" alt="Logo Poderosas" />
+            <img class="img-fluid" src="../assets/images/rodape/logo_UNFPA.png" alt="UNFPA" />
+            <img class="img-fluid" src="../assets/images/rodape/logo_ILMD.png" alt="ILMD" />
+            <img class="img-fluid" src="../assets/images/rodape/campus_virtual.png" alt="Campus Virtual Fiocruz" />
+            <img class="img-fluid" src="../assets/images/rodape/fiocruz.png" alt="Fiocruz" />
+            <img class="img-fluid" src="../assets/images/rodape/logos.png" alt="Government logos" />
+          </div>
+        </div>
+      </footer>
+
+      <!-- Modal 1 -->
+      <div class="modal fade" id="modal1" tabindex="-1" role="dialog" aria-labelledby="modal1" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered" role="document">
+          <div class="modal-content">
+            <div class="modal-body">
+              <p>
+                Processo por meio do qual as células do trofoblasto, que
+                formam a camada mais externa da placenta, invadem o útero da
+                mãe durante a gravidez
+              </p>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-secondary" data-dismiss="modal">
+                Fechar
+              </button>
             </div>
           </div>
         </div>
       </div>
     </div>
+  </div>
 
-    <!-- Modal Créditos -->
-    <div
-      class="modal fade"
-      id="modalCreditos"
-      tabindex="-1"
-      role="dialog"
-      aria-labelledby="TituloModalCentralizado"
-      aria-hidden="true"
-    >
-      <div class="modal-dialog modal-dialog-centered" role="document">
-        <div class="modal-content">
-          <div class="modal-header">
-            <h1
-              class="modal-title"
-              id="TituloModalCentralizado"
-              style="color: #c04caf; margin-top: 0 !important"
-            >
-              Créditos
-            </h1>
-            <button
-              type="button"
-              class="close"
-              data-dismiss="modal"
-              aria-label="Fechar"
-            >
-              <span aria-hidden="true">&times;</span>
-            </button>
-          </div>
-          <div class="modal-body">
-            <modal-creditos></modal-creditos>
-          </div>
-          <div class="modal-footer">
-            <button
-              id="botaoComecar"
-              type="button"
-              class="btn btn-primary"
-              data-dismiss="modal"
-            >
-              Fechar
-            </button>
-          </div>
+  <!-- Modal Créditos -->
+  <div class="modal fade" id="modalCreditos" tabindex="-1" role="dialog" aria-labelledby="TituloModalCentralizado"
+    aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h1 class="modal-title" id="TituloModalCentralizado" style="color: #c04caf; margin-top: 0 !important">
+            Créditos
+          </h1>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Fechar">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          <modal-creditos></modal-creditos>
+        </div>
+        <div class="modal-footer">
+          <button id="botaoComecar" type="button" class="btn btn-primary" data-dismiss="modal">
+            Fechar
+          </button>
         </div>
       </div>
     </div>
+  </div>
 
-    <!-- Arquivos JS -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
-    <script src="../assets/js/modalCreditos.js"></script>
-    <script src="../assets/js/modalReferencias.js"></script>
-    <script src="../assets/js/imageMapResizer.js"></script>
-    <script src="../assets/js/wz_tooltip.js"></script>
-    <script src="../assets/js/main.js"></script>
-  </body>
+  <!-- Arquivos JS -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
+  <script src="../assets/js/modalCreditos.js"></script>
+  <script src="../assets/js/modalReferencias.js"></script>
+  <script src="../assets/js/imageMapResizer.js"></script>
+  <script src="../assets/js/wz_tooltip.js"></script>
+  <script src="../assets/js/main.js"></script>
+</body>
+
 </html>
