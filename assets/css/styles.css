@@ -1436,8 +1436,10 @@ input[type="radio"].input-certo:checked::before {
 }
 
 .tabela td,
-.tabela tr {
+.tabela tr,
+.tabela th {
   border: 1px solid #707070;
+  
 }
 
 .modal-content {
@@ -2164,4 +2166,19 @@ input[type="radio"].input-certo:checked::before {
 
 .modal.show .modal-content {
   opacity: 1;
+}
+
+sup {
+  display: inline-flex;
+  width: 2.2em;
+  height: 2.2em;
+  line-height: 1.2em;
+  text-align: center;
+  border: 1px solid white;
+  border-radius: 50%;
+  font-size: 0.75em;
+  vertical-align: middle;
+  color: white;
+  align-items: center;
+  justify-content: center;
 }
