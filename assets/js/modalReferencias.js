@@ -1302,15 +1302,25 @@ const accordions = [
       `,
     ],
   },
-  // {
-  //   id: "5",
-  //   heading: "Módulo 5",
-  //   body: [
-  //     "A evolução até a atualidade (10 mil anos) foi marcada pelo desenvolvimento da agricultura, aumento das densidades populacionais, maior miscigenação racial e aumento da ocorrência do sedentarismo. Além disso, a globalização da dieta hipercalórica norte-americana vem contribuindo para a progressão da obesidade no mundo, aumentando as taxas de distocia e a incidência de cesarianas.",
-  //     "De acordo com o Ministério da Saúde (MS), em 2019 a prevalência de sobrepeso entre as mulheres brasileiras já alcançava 53,9%, enquanto a de obesidade já era de 20,7%.",
-  //     "A projeção da Organização Mundial de Saúde (OMS) para o ano de 2025 é de que aproximadamente 2,3 bilhões de adultos estarão com sobrepeso e 700 milhões de pessoas com obesidade viverão no mundo.",
-  //   ],
-  // },
+  {
+    id: "5",
+    heading: "Módulo 5",
+    body: [
+      `
+      <h1>Aula 1</h1>
+
+      <p>AMERICAN COLLEGE OF OBSTETRICIANS AND GYNECOLOGISTS. Gestational Hypertension and Preeclampsia: ACOG Practice Bulletin, Number 222. <i>Obstetrics</i> & <i>Gynecology</i>, v. 135, n. 6, p. e237-e260, jun. 2020.</p>
+
+      <p>BISSON, C. <i>et al</i>. Preeclampsia pathophysiology and adverse outcomes during pregnancy and postpartum. <i>Frontiers in Medicine (Lausanne)</i>, v. 10, p. 1144170, 2023.</p>
+      
+      <p>ELECSYS® PlGF package insert. Basel: Roche Diagnostics Documentation, nov. 2014.</p>
+
+      <p>GOMES, A. S.; CHAVES, A. F. L.; SILVA, R. B. et al. Análise dos níveis pressóricos em gestantes no diagnóstico precoce da síndrome hipertensiva gestacional. <i>Revista Eletrônica de Enfermagem</i>, v. 15, n. 4, p. 923-931, 2013. Disponível em: <a href="http://dx.doi.org/10.5216/ree.v15i4.19766" target="_blank">http://dx.doi.org/10.5216/ree.v15i4.19766</a>. Acesso em: 10 jun. 2025.</p>
+      
+      
+      `,
+    ],
+  },
 ];
 
 function buildAccordionDom(data) {
