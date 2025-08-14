@@ -1426,6 +1426,11 @@ input[type="radio"].input-certo:checked::before {
   overflow: auto;
 }
 
+.tabela-igual table th.semBorda {
+  border-left: none !important;
+  border-right: none !important;
+}
+
 .tabela th {
   background-color: #aa1c95;
   color: white;
@@ -1440,7 +1445,7 @@ input[type="radio"].input-certo:checked::before {
 .tabela tr,
 .tabela th {
   border: 1px solid #707070;
-  
+  padding: 12px;
 }
 
 .modal-content {
