@@ -1317,7 +1317,397 @@ const accordions = [
 
       <p>GOMES, A. S.; CHAVES, A. F. L.; SILVA, R. B. et al. Análise dos níveis pressóricos em gestantes no diagnóstico precoce da síndrome hipertensiva gestacional. <i>Revista Eletrônica de Enfermagem</i>, v. 15, n. 4, p. 923-931, 2013. Disponível em: <a href="http://dx.doi.org/10.5216/ree.v15i4.19766" target="_blank">http://dx.doi.org/10.5216/ree.v15i4.19766</a>. Acesso em: 10 jun. 2025.</p>
       
+      <p>GORBER, S. C.; TREMBLAY, M.; CAMPBELL, N.; HARDT, J. The accuracy of self-reported hypertension: a systematic review and meta-analysis. <i>Current Hypertension Review</i>, v. 4, p. 36–62, 2008.</p>
       
+      <p>HUND, M.; ALLEGRANZA, D.; SCHOEDL, M. et al. Multicenter prospective clinical study to evaluate the prediction of short-term outcome in pregnant women with suspected preeclampsia (PROGNOSIS): study protocol. <i>BMC Pregnancy and Childbirth</i>, v. 14, p. 324, 2014.</p>
+
+      <p>HUPPERTZ, B. Placental origins of preeclampsia: challenging the current hypothesis. <i>Hypertension</i>, v. 51, n. 4, p. 970-975, 2008.</p>
+
+      <p>HURRELL, A.; WEBSTER, L.; CHAPPELL, L. C.; SHENNAN, A. H. The assessment of blood pressure in pregnant women: pitfalls and novel approaches. <i>American Journal of Obstetrics & Gynecology</i>, v. 226, n. 2S, p. S804-S818, 2022.</p>
+
+      <p>HYPERTENSION in pregnancy. Report of the American College of Obstetricians and Gynecologists’ Task Force on Hypertension in Pregnancy. <i>Obstetrics & Gynecology</i>, v. 122, n. 5, p. 1122-1131, 2013.</p>
+
+      <p>LAJOS, G. J.; HADDAD, S. M.; TEDESCO, R. P. et al. Brazilian Multicenter Study on Preterm Birth study group. Intracluster correlation coefficients for the Brazilian Multicenter Study on Preterm Birth (EMIP): methodological and practical implications. <i>BMC Medical Research Methodology</i>, v. 14, p. 54, 2014.</p>
+
+      <p>MAXWELL, M. H. et al. Error in blood-pressure measurement due to incorrect cuff size in obese patients. <i>Lancet</i>, v. 2, n. 8288, p. 33-36, 1982.</p>
+      
+      <p>MCEVOY, J. W. et al. 2024 ESC Guidelines for the management of elevated blood pressure and hypertension. <i>European Heart Journal</i>, v. 45, n. 38, p. 3912-4018, 2024.</p>
+
+      <p>MELO, P. F. M. V. de; ROEVER, L.; MENDONÇA, T. M. S. et al. Ophthalmic artery Doppler in the complementary diagnosis of preeclampsia: a systematic review and meta-analysis. <i>BMC Pregnancy and Childbirth</i>, v. 23, n. 1, p. 343, 2023.</p>
+
+      <p>MYERS, M. C.; BRANDT, D. S.; PRUNTY, A. et al. Effect of positioning on blood pressure measurement in pregnancy. <i>Pregnancy Hypertension</i>, v. 27, p. 110-114, 2022.</p>
+
+      <p>NATIONAL HIGH BLOOD PRESSURE EDUCATION PROGRAM. Report of the National High Blood Pressure Education Program Working Group on High Blood Pressure in Pregnancy. <i>American Journal of Obstetrics & Gynecology</i>, v. 183, n. 1, p. S1-S22, 2000.</p>
+
+      <p>OLIVEIRA, L. G.; KARUMANCHI, A.; SASS, N. Pré-eclâmpsia: estresse oxidativo, inflamação e disfunção endotelial. <i>Revista Brasileira de Ginecologia e Obstetrícia</i>, v. 32, n. 12, p. 609-616, 2010.</p>
+
+      <p>PERAÇOLI, J. C.; COSTA, M. L.; CAVALLI, R. C. et al. Pré-eclâmpsia - Protocolo 2023. Rede Brasileira de Estudos sobre Hipertensão na Gravidez (RBEHG), 2023.</p>
+      
+      <p>PERAÇOLI, J. C.; RAMOS, J. G. L.; SASS, N. et al. Pré-eclâmpsia/eclâmpsia – Protocolo nº 01. Rede Brasileira de Estudos sobre Hipertensão e Gravidez (RBEHG), 2020.</p>
+
+      <p>REDMAN, C. W.; SARGENT, I. L. Circulating microparticles in normal pregnancy and preeclampsia. <i>Placenta</i>, v. 29, supl. A, p. S73-S77, 2008.</p>
+
+      <p>SOCIEDADE BRASILEIRA DE CARDIOLOGIA; SOCIEDADE BRASILEIRA DE HIPERTENSÃO; SOCIEDADE BRASILEIRA DE NEFROLOGIA. IV Diretrizes Brasileiras de Hipertensão Arterial: epidemiologia. <i>Revista Brasileira de Hipertensão</i>, v. 9, n. 4, p. 359-408, 2002.</p>
+
+      <p>SOCIEDADE BRASILEIRA DE CARDIOLOGIA; SOCIEDADE BRASILEIRA DE HIPERTENSÃO; SOCIEDADE BRASILEIRA DE NEFROLOGIA. VI Diretrizes Brasileiras de Hipertensão. <i>Arquivos Brasileiros de Cardiologia</i>, v. 95, n. 1, supl. 1, p. 1-51, 2010.</p>
+
+      <p>TRANQUILLI, A. L.; DEKKER, G.; MAGEE, L. et al. The classification, diagnosis and management of the hypertensive disorders of pregnancy: a revised statement from the ISSHP. <i>Pregnancy Hypertension</i>, v. 4, n. 2, p. 97-104, 2014.</p>
+
+      <p>VERLOHREN, S.; GALINDO, A.; SCHLEMBACH, D. et al. An automated method for the determination of the sFlt-1/PlGF ratio in the assessment of preeclampsia. <i>American Journal of Obstetrics & Gynecology</i>, v. 202, n. 2, p. 161.e1-161.e11, 2010.</p>
+
+      <p>VERLOHREN, S.; HERRAIZ, I.; LAPAIRE, O. et al. New gestational phase-specific cutoff values for the use of the soluble fms-like tyrosine kinase-1/placental growth factor ratio as a diagnostic test for preeclampsia. <i>Hypertension</i>, v. 63, n. 2, p. 346-352, 2014.</p>
+
+      <p>VON DADELSZEN, P.; MAGEE, L. A.; ROBERTS, J. M. Subclassification of preeclampsia. <i>Hypertension in Pregnancy</i>, v. 22, n. 2, p. 143-148, 2003.</p>
+
+      <p>WORLD HEALTH ORGANIZATION. Managing eclampsia. In: EDUCATION material for teachers of midwifery: midwifery education modules. 2. ed. Geneva: WHO, 2008.</p>
+
+      <p>ZANETTE, E.; PARPINELLI, M. A.; SURITA, F. G. et al. Brazilian Network for Surveillance of Severe Maternal Morbidity Group. Maternal near miss and death among women with severe hypertensive disorders: a Brazilian multicenter surveillance study. <i>Reproductive Health</i>, v. 11, n. 1, p. 4, 2014</p>
+
+      <h1>Aula 2</h1>
+
+      <p>COWANS, N. J.; STAMATOPOULOU, A.; MATWEJEW, E.; VON KAISENBERG, C. S.; SPENCER, K. First-trimester placental growth factor as a marker for hypertensive disorders and SGA. <i>Prenatal Diagnosis</i>, v. 30, n. 6, p. 565-570, 2010.</p>
+
+      <p>DEKKER, G. A.; DE VRIES, J. I.; DOELITZSCH, P. M. et al. Underlying disorders associated with severe early-onset preeclampsia. <i>American Journal of Obstetrics & Gynecology</i>, v. 173, n. 4, p. 1042-1048, 1995.</p>
+
+      <p>FENAKEL, K.; FENAKEL, G.; APPELMAN, Z. et al. Nifedipine in the treatment of severe preeclampsia. <i>Obstetrics & Gynecology</i>, v. 77, n. 3, p. 331-337, 1991.</p>
+
+      <p>HUPPERTZ, B. Placental origins of preeclampsia: challenging the current hypothesis. <i>Hypertension</i>, v. 51, n. 4, p. 970-975, 2008.</p>
+
+      <p>JIM, B.; SHARMA, S.; KEBEDE, T.; ACHARYA, A. Hypertension in pregnancy: a comprehensive update. <i>Cardiology in Review</i>, v. 18, n. 4, p. 178-189, 2010.</p>
+
+      <p>KHONG, T. Y.; DE WOLF, F.; ROBERTSON, W. B.; BROSENS, I. Inadequate maternal vascular response to placentation in pregnancies complicated by preeclampsia and by small-for-gestational age infants. <i>British Journal of Obstetrics & Gynaecology</i>, v. 93, p. 1049-1059, 1986.</p>
+
+      <p>LAMBERT-MESSERLIAN, G. M.; PALOMAKI, G. E.; NEVEUX, L. M.; CHIEN, E.; FRIEDMAN, A.; ROSENE-MONTELLA, K. et al. Early onset preeclampsia and second trimester serum markers. <i>Prenatal Diagnosis</i>, v. 29, n. 12, p. 1109-1117, 2009.</p>
+
+      <p>LISONKOVA, S.; SABR, Y.; MAYER, C. et al. Maternal morbidity associated with early-onset and late-onset preeclampsia. <i>Obstetrics & Gynecology</i>, v. 124, n. 4, p. 771-781, 2014.</p>
+
+      <p>MACKAY, A. P.; BERG, C. J.; ATRASH, H. K. Pregnancy-related mortality from preeclampsia and eclampsia. <i>Obstetrics & Gynecology</i>, v. 97, n. 4, p. 533-538, 2001.</p>
+
+      <p>MAGEE, L. A.; NICOLAIDES, K. H.; VON DADELSZEN, P. Preeclampsia. <i>New England Journal of Medicine</i>, v. 386, n. 19, p. 1817-1832, 2022.</p>
+
+      <p>MONGRAW-CHAFFIN, M. L.; CIRILLO, P. M.; COHN, B. A. Preeclampsia and cardiovascular disease death: prospective evidence from the child health and development studies cohort. <i>Hypertension</i>, v. 56, p. 166-171, 2010.</p>
+
+      <p>MURPHY, D. J.; STIRRAT, G. M. Mortality and morbidity associated with early-onset preeclampsia. <i>Hypertension in Pregnancy</i>, v. 19, n. 2, p. 221-231, 2000.</p>
+
+      <p>NESS, R. B.; SIBAI, B. M. Shared and disparate components of the pathophysiologies of fetal growth restriction and preeclampsia. <i>American Journal of Obstetrics & Gynecology</i>, v. 195, n. 1, p. 40-49, 2006.</p>
+
+      <p>PLOUIN, P. F.; CHATELLIER, G.; BREART, G. et al. Frequency and perinatal consequences of hypertensive disease of pregnancy. <i>Advances in Nephrology from the Necker Hospital</i>, v. 15, p. 57-69, 1986.</p>
+
+      <p>REDMAN, C. W.; SACKS, G. P.; SARGENT, I. L. Preeclampsia: an excessive maternal inflammatory response to pregnancy. <i>American Journal of Obstetrics & Gynecology</i>, v. 180, p. 499-506, 1999.</p>
+
+      <p>REDMAN, C. W.; SARGENT, I. L.; STAFF, A. C. IFPA Senior Award Lecture: making sense of preeclampsia – two placental causes of preeclampsia? <i>Placenta</i>, v. 35, supl., p. S20-S25, 2014.</p>
+
+      <p>REIS, Z. S. N.; LAGE, E. M.; TEIXEIRA, P. G. et al. Pré-eclâmpsia precoce e tardia: uma classificação mais adequada para o prognóstico materno e perinatal? <i>Revista Brasileira de Ginecologia e Obstetrícia</i>, v. 32, n. 12, p. 584-590, 2010.</p>
+
+      <p>RIISE, H. K. R.; SULO, G.; TELL, G. S. et al. Association between gestational hypertension and risk of cardiovascular disease among 617 589 Norwegian women. <i>Journal of the American Heart Association</i>, v. 7, p. 13, 2018.</p>
+
+      <p>ROBERTS, J. M.; TAYLOR, R. N.; MUSCI, T. J. et al. Preeclampsia: an endothelial cell disorder. <i>American Journal of Obstetrics & Gynecology</i>, v. 161, p. 1200-1204, 1989.</p>
+
+      <p>ROBERTS, J. M.; RICH-EDWARDS, J. W.; MCELRATH, T. F.; GARMIRE, L.; MYATT, L.; GLOBAL PREGNANCY COLLABORATION. Subtypes of preeclampsia: recognition and determining clinical usefulness. <i>Hypertension</i>, v. 77, p. 1430-1441, 2021.</p>
+
+      <p>SIBAI, B. M. Maternal and uteroplacental hemodynamics for the classification and prediction of preeclampsia. <i>Hypertension</i>, v. 52, n. 5, p. 805-806, 2008.</p>
+
+      <p>SIBAI, B.; DEKKER, G.; KUPFERMINC, M. Preeclampsia. <i>Lancet</i>, v. 365, n. 9461, p. 785-799, 2005.</p>
+
+      <p>VAN DER MERWE, J. L.; HALL, D. R.; WRIGHT, C.; SCHUBERT, P.; GROVÉ, D. Are early and late preeclampsia distinct subclasses of the disease – what does the placenta reveal? <i>Hypertension in Pregnancy</i>, v. 29, n. 4, p. 457-467, 2010.</p>
+
+      <p>VINCE, G. S.; STARKEY, P. M.; AUSTGULEN, R. et al. Interleukin-6, tumour necrosis factor and soluble tumour necrosis factor receptors in women with preeclampsia. <i>British Journal of Obstetrics & Gynaecology</i>, v. 102, n. 1, p. 20-25, 1995.</p>
+
+      <p>VON DADELSZEN, P.; WATSON, R. W.; NOORWALI, F. et al. Maternal neutrophil apoptosis in normal pregnancy, preeclampsia, and normotensive intrauterine growth restriction. <i>American Journal of Obstetrics & Gynecology</i>, v. 181, p. 408-414, 1999.</p>
+
+      <p>VON DADELSZEN, P.; WILKINS, T.; REDMAN, C. W. Maternal peripheral blood leukocytes in normal and preeclamptic pregnancies. <i>British Journal of Obstetrics & Gynaecology</i>, v. 106, p. 576-581, 1999.</p>
+
+      <p>VON DADELSZEN, P.; MAGEE, L. A.; ROBERTS, J. M. Subclassification of preeclampsia. <i>Hypertension in Pregnancy</i>, v. 22, n. 2, p. 143-148, 2003.</p>
+
+      <h1> Aula 3</h1>
+
+      <p>AAGAARD-TILLERY, K. M.; BELFORT, M. A. Eclampsia: morbidity, mortality, and management. Clinical Obstetrics and Gynecology. 2005;48(1):12-23.</p>
+
+      <p>ABBADE, J. F. Esquema de Zuspan versus esquema alternativo com sulfato de magnésio na prevenção e tratamento da eclâmpsia – Comparação da concentração sérica de magnésio. 2005. Tese (Doutorado em Ginecologia, Obstetrícia e Mastologia). Botucatu, Universidade Estadual Paulista, 2005.</p>
+
+      <p>ABRAMOVICI, D.; FRIEDMAN, S. A.; MERCER, B. M. et al. Neonatal outcome in severe preeclampsia at 24 to 36 weeks' gestation: does the HELLP (hemolysis, elevated liver enzymes, and low platelet count) syndrome matter? American Journal of Obstetrics & Gynecology. 1999; 180:221.</p>
+
+      <p>ABRAMOVICI, D; MATAR, F.; SIBAI, B. M. Hypertensive disorders in pregnancy. In: RANSON, S. B. Practical strategies in obstetrics and gynecology. Philadelphia: W.B. Saunders Company, 2000. p. 37-380-9.</p>
+
+      <p>ACOG Practice Bulletin n. 202: Gestational Hypertension and Preeclampsia. Obstetrics & Gynecology. 2019; 133:el.</p>
+
+      <p>ALEXANDER, J. M.; BLOOM, S. L.; MCINTIRE, D. D.; LEVENO, K. J. Severe preeclampsia and the very low birth weight infant: Is induction of labor harmful? Obstetrics & Gynecology. 1999;93(4 SUPPL.):485-488.</p>
+
+      <p>ALSULYMAN, O. M.; CASTRO, M. A.; ZUCKERMAN, E. et al. Preeclampsia and liver infarction in early pregnancy associated with the antiphospholipid syndrome. Obstetrics & Gynecology. 1996; 88:644.</p>
+
+      <p>AMORIM, M. M. R.; SANTOS, L. C.; PORTO, A. M. F.; MARTINS, L. K. D.; VIEIRA, V. Recorrência da Crise Convulsiva após Terapia Anticonvulsivante com Sulfato de Magnésio em Pacientes com Eclâmpsia. Revista Brasileira de Ginecologia e Obstetrícia. v. 22, n. 3, 2000. p. 159-165.</p>
+
+      <p>ANDERSON, P.; SCHIERHOUT, G.; ROBERTS, I.; BUNN, F. Colloids versus crystaloids for fluid resuscitation in critically ill patients (Cochrane Review). In: The Cochrane Lybrary, Issue 3. Chichestes, UK: John Wiley & Sons, 2004.</p>
+
+      <p>AUDIBERT, F.; FRIEDMAN, S. A.; FRANGIEH, A. Y.; SIBAI, B. M. Clinical utility of strict diagnostic criteria for the HELLP (hemolysis, elevated liver enzymes, and low platelets) syndrome. American Journal of Obstetrics & Gynecology. 1996; 175:460.</p>
+
+      <p>BARTAL M, F.; SIBAI, B. M. Eclampsia in the 21st century. American Journal of Obstetrics and Gynecology. 2022;226(2S):S1237-S1253.</p>
+
+      <p>BARTON, J. R.; SIBAI, B. M. Cerebral pathology in eclampsia. Clinics in Perinatology. 1991; 18:891-910. </p>
+
+      <p>BAYLISS, H.; BEEVERS, D. G.; CHURCHILL, D. A study of puerperal blood pressure in hypertensive and normotensive pregnancies. Hypertension in Pregnancy 2002;21(Suppl 1):33.</p>
+
+      <p>BROWN, M. A.; MAGEE, L. A.; KENNY, L. C. et al. International Society for the Study of Hypertension in Pregnancy (ISSHP). The hypertensive disorders of pregnancy: ISSHP classification, diagnosis & management recommendations for international practice. Pregnancy Hypertension. 2018;13:291-310.</p>
+
+      <p>CHOU, M. M.; CHEN, Y. F.; KUNG, H. F. et al. Extensive hepatic infarction in severe preeclampsia as part of the HELLP syndrome (hemolysis, elevated liver enzymes, and low platelets): evolution of CT findings and successful treatment with plasma exchange therapy. Taiwanese Journal of Obstetrics and Gynecology. 2012; 51:418.</p>
+
+      <p>CINCOTTA, R.; ROSS, A. A review of eclampsia in Melbourne: 1978-1992. Australian and New Zealand Journal of Obstetrics and Gynaecology. 1996; 36:264-7.</p>
+
+      <p>DANTAS, E. M.; PEREIRA, F. V.; QUEIROZ, J. W. et al. Preeclampsia is associated with increased maternal body weight in a northeastern Brazilian population. BMC Pregnancy and Childbirth. 2013;13:159.</p>
+
+      <p>DE SOUZA, F. L. P.; SASS, N. Sindrome HELLP. In: KORKES, H. A.; MARQUES, E. M.; ANDRE, M. G.; PADOVANI, T. R. (eds.). Atualizações em Obstetrícia. 2. ed. São Paulo: EDUC -PUC/SP, 2022. p. 187-97.</p>
+
+      <p>DICARLO, A. LAMASSA, M.; CONSOLI, D.; INZITARI, D. et al. Sex differences in presentation, severity, and management of stroke in a population based study. Neurology. 2010;75:670-1.</p>
+
+      <p>DILDY III, G. A. Complications of preeclampsia. In: DILDY III, G. A.; BELFORT, M. A.; SAADE, G. R.; PHELAN, J. P.; HANKINS, G. D. V.; CLARK, S. L. (eds.). Critical Care Obstetrics. 4th ed. Malden, Massachussetts: Blackwell Science; 2004.</p>
+
+      <p>DOUGLAS, K. A.; REDMAN, C. W. G. Eclampsia in the United Kingdom. Br Med Journal. 1994; 390:1395-400.</p>
+
+      <p>DUARTE, N. M. N.; RIFFEL, M. J.; MATTOS, L. Assistência de enfermagem na aplicação do sulfato de magnésio em pacientes portadoras de pré-eclâmpsia no Hospital de Clínicas de Porto Alegre - HCPA. Revista Gaúcha de Enfermagem. v. 8, n. 1, 1987. p. 1-16.</p>
+
+      <p>DULEY, L. The global impact of pre-eclampsia and eclampsia. Seminars in Perinatology. 2009;33(3):130-137. </p>
+
+      <p>DULEY, L.; MEHER, S.; JONES. L. Drugs for treatment of very high blood pressure during pregnancy. Cochrane Database of Systematic Reviews. 2013;(7):CD001449.</p>
+
+      <p>DULEY, L.; WILLIAMS, J.; HENDERSON-SMART, D. J. Plasma volume expansion for treatment of women with pre-eclampsia. Cochrane Database of Systematic Reviews. 2000;(2):CD001805.</p>
+
+      <p>DULEY, L.; WILLIAMS, J.; HENDERSON-SMART, D. J. Plasma volume expansion for treatment of pre-eclampsia (Cochrane Review). In: The Cochrane Lybrary, Issue I. Oxford: Update Software, 2005.</p>
+
+      <p>FEDERAÇÃO BRASILEIRA DAS ASSOCIAÇÕES DE GINECOLOGIA E OBSTETRÍCIA (FEBRASGO). Síndrome HELLP. São Paulo: FEBRASGO, 2024.</p>
+
+      <p>GAIO, D. S.; SCHMIDT, M. I.; DUNCAN, B. B. et al. Hypertensive disorders in pregnancy: frequency and associated factors in a cohort of Brazilian women. Hypertension in Pregnancy. 2001;20(03):269-281.</p>
+
+      <p>GESTATIONAL Hypertension and Preeclampsia: ACOG Practice Bulletin, n. 222. Obstetrics & Gynecology. 2020;135(6):e237-e260.</p>
+
+      <p>GOODLIN, R. C. Hemolysis, elevated liver enzymes, and low platelets syndrome. Obstetrics & Gynecology. 1984;64(3):449-50.</p>
+
+      <p>GUIDA, J. P. S.; ANDRADE, B. G.; PISSINATTI, L. G. F. et al. Prevalence of Preeclampsia in Brazil: An Integrative Review. Revista Brasileira de Ginecologia e Obstetrícia. v. 44, n. 7, 2022. p. 686-691.</p>
+
+      <p>HERROEDER, S.; SCHÖNHERR, M. E.; DE HERT, S. G.; HOLLMANN, M. W. Magnesium-essentials for anesthesiologists. Anesthesiology. 2011;114(4):971-93.</p>
+
+      <p>HURWITZ, A. S.; BRICE, J. H.; OVERBY, B. A.; EVENSON, K. R. Directed use of the Cincinnati prehospital stroke scale by laypersons. Prehospital Emergency Care. 2005;9:292-6.</p>
+
+      <p>HYPERTENSION in pregnancy. Report of the American College of Obstetricians and Gynecologists’ Task Force on Hypertension in Pregnancy. Obstetrics & Gynecology. 2013;122(5):1122-1131.</p>
+
+      <p>ILBERY, M.; JONES, A. R.; SAMPSON, J. Lupus anticoagulant and HELLP syndrome complicated by placental abruption, hepatic, dermal and adrenal infarction. Australian and New Zealand Journal of Obstetrics and Gynaecology. 1995; 35:215.</p>
+
+      <p>KAHHALE S.; ZUGAIB, M. Síndromes hipertensivas na gravidez. Rio de Janeiro: Atheneu, 1995. p. 115-40.</p>
+
+      <p>KARUMANCHI, A. S.; LINDHEIMER, M. D. Advances in the understanding of eclampsia. Current Hypertension Reports. 2008; 10(1):305-12.</p>
+
+      <p>KOTHARI, R. U.; PANCHIOLI, A.; LIU, T.; BROTT, T.; BRODERICK, J. Cincinnati prehospital stroke scale: reproducibility and validity. Annals of Emergency Medicine. 1999;33:373-8.</p>
+
+      <p>MAGANN, E. F.; MARTIN JR, J. N. Twelve steps to optimal management of HELLP syndrome. Clinical Obstetrics & Gynecology. 1999;42(3):532-50.</p>
+
+      <p>MARTIN JR., J. N.; BLAKE, P. G.; LOWRY, S. L.; PERRY JR., K. G.; FILES, J. C.; MORRISSON, J. C. Pregnancy Complicated by preeclampsia with the syndrome of hemolysis, elevated liver enzymes, and low platelet count. How rapid is postpartum recovery? Obstetrics & Gynecology. 1990;76 (5 Pt1 ):737-41.</p>
+
+      <p>MARTINS-COSTA, S. H.; RAMOS, J. G. L. Eclampsia. In: FREITAS, F.; MARTINS-COSTA, S. H.; RAMOS, J. G. L.; MAGALHÃES, J. A. Rotinas em obstetrícia. 5. ed. Porto Alegre: ArtMed, 2006. p. 414-23.</p>
+
+      <p>MENEGAZZO, A. B. B. R. Determinação do valor da heptoglobina sérica para diagnóstico de hemólise na síndrome HELLP. Dissertação (Mestrado em Obstetrícia) – Universidade Estadual Paulista, São Paulo, 2014.</p>
+
+      <p>NORWITZ, E. R.; HSU, C.; REPKE, J. T. Acute complications of preeclampsia. Clinical Obstetrics & Gynecology. 2002;45:308-29.</p>
+
+      <p>O’BRIEN, J. M.; BARTON, J. R. Controversies with the diagnosis nad management of HELLP Syndrome. Clinical Obstetrics & Gynecology. 2005; 48 (2):460-77.</p>
+
+      <p>PAUZNER, R.; DULITZKY, M.; CARP, H. et al. Hepatic infarctions during pregnancy are associated with the antiphospholipid syndrome and in addition with complete or incomplete HELLP syndrome. Journal of Thrombosis and Haemostasias. 2003; 1:1758.</p>
+
+      <p>PRITCHARD, J. A.; CUNNINGHAM, F. G.; PRITCHARD, S. A. The Parkland Memorial Hospital protocol for treatment of eclampsia: evaluation of 245 cases. American Journal of Obstetrics & Gynecology. 1984;148:951-63.</p>
+
+      <p>RAMOS FILHO, F. L.; ANTUNES, C. M. F. Hypertensive disorders: prevalence, perinatal outcomes and cesarean section rates in pregnant women hospitalized for delivery. Revista Brasileira de Ginecologia e Obstetrícia. v. 42, n. 11, 2022. p. 690-696.</p>
+
+      <p>RAMOS, J. G. L.; MARTINS-COSTA, S. H.; SASS, N. Eclampsia in Brazil in the 21st Century. Revista Brasileira de Ginecologia e Obstetrícia. v. 44, n. 7, 2022. p. 637-639.</p>
+
+      <p>RAMOS, J. G.; MARTINS-COSTA, S. H.; VALÉRIO, E. G. Síndrome de HELLP. In: FREITAS, F.; MARTINS-COSTA, S. H.; RAMOS, J. G. L.; MAGALHÃES, J. A. Rotinas em Obstetrícia. 5. ed. Porto Alegre: Artmed, 2006. p. 409-413.</p>
+
+      <p>ROBERTS, W. E.; PERRY JR., K. G.; WOODS, J. B.; FILES, J. C.; BLAKE, P. G.; MARTIN JR., J. N. The intrapartum platelet count in patients with HELLP (hemolysis, elevated liver enzymes, and low platelets) syndrome: is it predictive of later hemorrhagic complications? American Journal of Obstetrics & Gynecology. 1994;171(3):799-804.</p>
+
+      <p>SAPHIER, C. J.; REPKE, J. T. Hemolysis, elevated liver enymes and low platelets (HELLP) syndrome: a review of diagnosis and management. Seminars in Perinatology. 1998;22(2):118-33.</p>
+
+      <p>SAPWELL, J. A Seventeenth-century case of eclampsia. American Journal of Obstetrics and Gynecology. 1979;214:232.</p>
+
+      <p>SEIGE, M.; SCHWEIGART, U.; MOESSMER, G. et al. Extensive hepatic infarction caused by thrombosis of right portal vein branches and arterial vasospasm in HELLP syndrome associated with homozygous factor V Leiden. American Journal of Gastroenterology. 1998; 93:473.</p> 
+      
+      <p>SIBAI, B. M. Eclampsia. VI. Maternal-perinatal outcome in 254 consecutive cases. American Journal of Obstetrics and Gynecology. 1990;163:1049-54.</p>
+
+      <p>SIBAI, B. M. Hypertension. In: GABBE, S. G.; NIEBYL, J. R.; SIMPSON, J. L. (eds). Obstetrics - Normal and Problem Pregnancies. 5. ed. Philadelphia: Elsevier Churchill Livingstone, 2007. Chap 33.</p>
+
+      <p>SIBAI, B. M.; ABDELLA, T. N.; SPINNATO, J. A.; ANDERSON, G. D. Eclampsia. V. The incidence of nonpreventable eclampsia. American Journal of Obstetrics & Gynecology. 1986; 154:581-6.</p>
+
+      <p>SIBAI, B. M.; DEKKER, G.; KUPFERMINC, M. Pre-eclampsia. Lancet. 2005; 365:785-99.</p>
+
+      <p>SIBAI, B. M. Diagnosis, controversies, and management of the syndrome of hemolysis, elevated liver enzymes, and low platelet count. Obstetrics & Gynecology. 2004;103:981-91.</p>
+
+      <p>SIBAI, B. M.; GORDON, T.; THOM, E.; CARITIS, S. N.; KLEBANOFF, M.; MCNELLIS, D. et al. Risk factors for preeclampsia in healthy nulliparous women: a prospective multicenter study. American Journal of Obstetrics & Gynecology. 1995; 172:642-8.</p>
+
+      <p>SIBAI, B. M. HELLP syndrome. (online). Disponível em: <a href="https://www.uptodate.com/contents/hellp-syndrome">https://www.uptodate.com/contents/hellp-syndrome</a>. Acesso em: 23 ago. 2018.</p>
+      
+      <p>SIBAI, B. M. HELLP syndrome (hemolysis, elevated liver enzymes, and low platelets). In: LOCKWOOD, C. J.; LINDOR, K. D.; BARSS, V. A. (ed.). Up-to-Date [online]. Waltham (MA): UpToDate, 2020. Disponível em: <a href="https://www.uptodate.com/contents/hellp-syndrome-hemolysis-elevated-liver-enzymes-and-low-platelets">https://www.uptodate.com/contents/hellp-syndrome-hemolysis-elevated-liver-enzymes-and-low-platelets</a>. Acesso em: 10 jun. 2025.</p> 
+
+      <p>SIBAI, B. M.; TASLIMI, M. M.; EL-NAZER, A.; AMON, E.; MABIE, B. C.; RYAN, G. M. Maternal-perinatal outcome associated with the syndrome of hemolysis, elevated liver enzymes, and low platelets in severe preeclampsia-eclampsia. American Journal of Obstetrics & Gynecology. 1986;155(3):501-9.</p>
+
+      <p>SIBAI, B. M. The HELLP syndrome (hemolysis, elevated liver enzymes, and low platelets): much ado about nothing? American Journal of Obstetrics & Gynecology. 1990;162(2):311-6.</p>
+
+      <p>SIBAI, B. M.; RAMADAN, M. K.; USTA, I.; SALAMA, M.; MERCER, B. M.; FRIEDMAN, S. A. Maternal morbidity and mortality in 442 pregnancies with hemolysis, elevated liver enzymes, and low platelets (HELLP syndrome). American Journal of Obstetrics & Gynecology. 1993;169:1000-6.</p>
+
+      <p>SIBAI, B. M.; SPINNATO, J. A.; WATSON, D. L. et al. Pregnancy outcome in 303 cases with severe preeclampsia. Obstetrics & Gynecology. 1984; 64:319.</p>
+
+      <p>SOUZA, A. S.; AMORIM, M. M.; COUTINHO, I. C. et al. Effect of the loading dose of magnesium sulfate (MgSO4) on the parameters of Doppler flow velocity in the uterine, umbilical and middle cerebral arteries in severe preeclampsia. Hypertension in Pregnancy. 2010;29(2):123-34.</p>
+
+      <p>SULLIVAN, C. A.; MAGANN, E. F.; PERRY JR., K. G.; ROBERTS, W. E.; BLAKE, P. G.; MARTIN JR., J. N. The recurrence risk of the syndrome of hemolysis, elevated liver enzymes, and low platelets (HELLP) in subsequent gestations. American Journal of Obstetrics & Gynecology. 1994;171(4):940-3.</p>
+
+      <p>TOMSEN, T. R. HELLP syndrome (hemolysis, elevated liver enzymes, and low platelets) presenting as generalized malaise. American Journal of Obstetrics & Gynecology. 1995;172(6):1876-8; discussion 1878-80.</p>
+
+      <p>WALKER, J. J. Sever preeclampsia and eclampsia. Balliere’s Best Practice Research Clinical Obstetrics & Gynecology. 2000;14:57-71.</p>
+
+      <p>WALTERS, B. N. J.; THOMPSON, M. E.; LEE, A.; DE SWIET, M. Blood pressure in the puerperium. Clinical Science. 1986;71:589-94.</p>
+
+      <p>WATSON, D. L.; SIBAI, B. M.; SHAVER, D. C.; DACUS, J. V.; ANDERSON, G. D. Late postpartum eclampsia: an update. Southern Medical Journal. 1983;76(12):1487-9.</p>
+
+      <p>WEINSTEIN, L. Syndrome of hemolysis, elevated liver enzymes, and low platelet count: a severe consequence of hypertension in pregnancy. American Journal of Obstetrics & Gynecology. 1982;142(2):159-67.</p>
+
+      <p>WORLD HEALTH ORGANIZATION. WHO Recommendations for Prevention and Treatment of Pre-Eclampsia and Eclampsia. Geneva: World Health Organization, 2011.</p>
+
+      <p>ZEEMAN, M. D.; ROBERTS, J. M.; CUNNINGHAM, F. G. Cerebrovascular (patho) physiology in preeclampsia/eclampsia. In: LINDHEIMER et al. Chesley’s hypertensive disorders in pregnancy. 3. ed. San Diego: Academic Press, 2009. p. 227.</p>
+
+      <h1>Aula 4</h1>
+
+      <p>AMERICAN COLLEGE OF OBSTETRICIANS AND GYNECOLOGISTS. ACOG Practice Bulletin n. 202: Gestational Hypertension and Preeclampsia. Obstetrics & Gynecology. 2019;133(1):1.</p>
+
+      <p>AMERICAN COLLEGE OF OBSTETRICIANS AND GYNECOLOGISTS. ACOG Practice Bulletin n. 203 Summary: Chronic Hypertension in Pregnancy. Obstetrics & Gynecology. 2019;133(1):215-219.</p>
+
+      <p>AMERICAN COLLEGE OF OBSTETRICIANS AND GYNECOLOGISTS. Committee on Practice Bulletins – Obstetrics. ACOG Practice Bulletin n. 203: Chronic Hypertension in Pregnancy. Obstetrics & Gynecology. 2019;133(1):e26-e50.</p>
+
+      <p>AMERICAN COLLEGE OF OBSTETRICIANS AND GYNECOLOGISTS. Task Force on Hypertension in Pregnancy. Hypertension in pregnancy. Report of the American College of Obstetricians and Gynecologists’ Task Force on Hypertension in Pregnancy. Obstetrics & Gynecology. 2013;122(5):1122–31.</p>
+
+      <p>BATEMAN, B. T.; BANSIL, P.; HERNANDEZ-DIAZ, S. et al. Prevalence, trends, and outcomes of chronic hypertension: a nationwide sample of delivery admissions. American Journal of Obstetrics & Gynecology. 2012;206:134.e1-8.</p>
+
+      <p>BERKS, D.; STEEGERS, E. A.; MOLAS, M.; VISSER, W. Resolution of hypertension and proteinuria after preeclampsia. Obstetrics & Gynecology. 2009;114:1307–14.</p>
+
+      <p>BRAMHAM, K.; PARNELL, B.; NELSON-PIERCY, C. et al. Chronic hypertension and pregnancy outcomes: systematic review and meta-analysis. BMJ. 2014;348:g2301.</p>
+
+      <p>BROWN, M. A.;MAGEE, L. A.; KENNY, L. C. et al. International Society for the Study of Hypertension in Pregnancy (ISSHP). The hypertensive disorders of pregnancy: ISSHP classification, diagnosis & management recommendations for international practice. Pregnancy Hypertension. 2018;13:291-310.</p>
+
+      <p>CAMARGO, E. B.; MORAES, L. F.; SOUZA, C. M. et al. Survey of calcium supplementation to prevent preeclampsia: the gap between evidence and practice in Brazil. BMC Pregnancy Childbirth. 2013;13:206.</p>
+
+      <p>DE MATTIA, N. C.; BARBIN, R. L.; BORGES, V. T. et al. Doppler echocardiographic assessment of pregnant women with chronic arterial hypertension. ABC Cardiol. 2002;79(6):579-84, 573-8.</p>
+
+      <p>DE SOUZA, E. A.; MOMENTTI, A. C.; ASSIS NEVES, R. de. et al. Calcium intake in high-risk pregnant women assisted in a high-complexity hospital. Molecular Biology Reports. 2019;46(3):2851-2856.</p>
+
+      <p>DE SOUSA, F. L. 0. P.; CUNHA FILHO, E. V.; KORKES, H. A. et al. Hipertensão Arterial Crônica – Protocolo n. 01/2023. Rede Brasileira de Estudos sobre Hipertensão na Gravidez (RBEHG), 2023.</p>
+
+      <p>Elecsys® sFlt-1 package insert (Nov 2014). Roche Diagnostics Documentation, Basel.</p>
+
+      <p>GILBERT, W. M.; YOUNG, A. L.; DANIELSEN, B. Pregnancy outcomes in women with chronic hypertension: a population-based study. Journal of Reproductive Medicine. 2007;52:1046–51.</p>
+
+      <p>GOMES, C.B.; MALTA, M. B.; CORRENTE, J. E. et al. Alta prevalência de inadequação da ingestão dietética de cálcio e vitamina D em duas coortes de gestantes. Cadernos de Saúde Pública, v. 32, n. 12, 2016.</p>
+
+      <p>GORBER, S. C.; TREMBLAY, M.; CAMPBELL, N.; HARDT, J. The accuracy of self-reported hypertension: a systematic review and meta-analysis. Current Hypertension Reviews. 2008;4:36-62.</P>
+
+      <p>GREENE, M. F.; WILLIAMS, W. W. Treating Hypertension in Pregnancy. New England Journal of Medicine. 2022. Doi: 10.1056/NEJMe2203388.</p>
+
+      <p>HUND, M.; ALLEGRANZA, D.; SCHOEDL, M. et al. Multicenter prospective clinical study to evaluate the prediction of short-term outcome in pregnant women with suspected preeclampsia (PROGNOSIS): study protocol. BMC Pregnancy Childbirth. 2014;14:324.</p>
+
+      <p>MAGEE, L. A.; NICOLAIDES, K. H.; VON DADELSZEN, P. Preeclampsia. New England Journal of Medicine. 2022;386(19):1817-1832.</p>
+
+      <p>MARTIN, J. A.; HAMILTON, B. E.; VENTURA, S. J. et al. Births: final data for 2009. National Vital Statistics Reports. 2011;60:1–70.</p>
+
+      <p>MAXWELL, M. H. et al. Error in blood-pressure measurement due to incorrect cuff size in obese patients. Lancet. 1982;2(8288):33-36.</p>
+
+      <p>MESQUITA, M. R. S.; SASS, N.; STAVALLE, J. N.; CAMANO, L. O leito placentário no descolamento prematuro da placenta. Revista Brasileira de Ginecologia & Obstetrícia, v. 25, n. 8, p. 585-91, 2003.</p>
+
+      <p>NATIONAL HIGH BLOOD PRESSURE EDUCATION PROGRAM. Report of the National High Blood Pressure Education Program Working Group on High Blood Pressure in Pregnancy. American Journal of Obstetrics & Gynecology. 2000; 183(1):S1-S22.</p>
+
+      <p>NATIONAL INSTITUTE FOR HEALTH AND CARE EXCELLENCE. Hypertension in adults: diagnosis and management. London: NICE; 2023.</p>
+
+      <p>NILSON, T. V.; AMATO, A. A.; RESENDE, C. N. et al. Unplanned pregnancy in Brazil: national study in eight university hospitals. Revista de Saúde Pública. v. 57, n. 35, 2023.</p>
+
+      <p>PANAITESCU, A. M.; BASCHAT, A. A.; AKOLEKAR, R. et al. Association of chronic hypertension with birth of small-for-gestational-age neonate. Ultrasound in Obstetrics & Gynecology. 2017;50:361–6.</p>
+
+      <p>PÓVOA, R. M. S. Hipertensão Arterial Secundária. Revista Brasileira de Hipertensão, v. 26, n. 2, p. 52-62, 2019.</p>
+
+      <p>RAMOS, J. G.; MARTINS-COSTA, S.; EDELWEISS, M. I.; COSTA, C. A. Placental bed lesions and infant birth weight in hypertensive pregnant women. Brazilian Journal of  Medical and Biological Research. 1995;28(4):447-55.</p>
+
+      <p>ROCHE DIAGNOSTICS. Elecsys® sFlt-1 package insert. Basel: Roche Diagnostics Documentation, nov. 2014.</p>
+
+      <p>SIBAI, B. M. Chronic hypertension in pregnancy. Obstetrics & Gynecology. 2002; 100: 369-77.</p>
+
+      <p>SIBAI, B. M.; LINDHEIMER, M.; HAUTH, J. et al. Risk factors for preeclampsia, abruptio placentae, and adverse neonatal outcomes among women with chronic hypertension. National Institute of Child Health and Human Development Network of Maternal–Fetal Medicine Units. New England Journal of Medicine. 1998;339:667–71.</p>
+
+      <p>SILVA, C. A.; ATALLAH, A. N. et al. Evaluation of calcium and folic acid supplementation in prenatal care in São Paulo. Sao Paulo Medical Journal. 2010;128(6):324-7.</p>
+
+      <p>SOCIEDADE BRASILEIRA DE CARDIOLOGIA. 7ª Diretriz Brasileira de Hipertensão Arterial. Arquivos Brasileiros de Cardiologia, v. 107, n. 3, Supl.3, p. 1-83, 2016.</p>
+
+      <p>SOUSA, F. L. P. A Morfologia Vascular do Leito Placentário na Hipertensão Arterial Crônica Segundo a sua Expressão Clínica. Revista da Associação Médica Brasileira. V. 54, n. 6, dez. 2008.</p>
+
+      <p>SOUSA, F. L. P.; SASS, N.; CAMANO, L. et al. Estudo da Morfologia Vascular do Leito Placentário na Hipertensão Arterial Crônica. Revista da Associação Médica Brasileira, v. 54, n. 6, p. 537-42, 2008.</p>
+
+      <p>TAYLOR, R. N.; ROBERTS, J. M.; CUNNINGHAM, F. G.; LINDHEIMER, M. D. (eds.) Chesley’s hypertensive disorders in pregnancy. 4th ed. San Diego (CA): Academic Press; 2015.</p>
+
+      <p>VAN SCHELTINGA, J. A. T.; KRABBENDAM, I.; SPAANDERMAN, M. E. Differentiating between gestational and chronic hypertension; an explorative study. Acta Obstetricia et Gynecologica Scandinavica. 2013;92:312–7.</p>
+
+      <p>VERLOHREN, S.; GALINDO, A.; SCHLEMBACH, D. et al. An automated method for the determination of the sFlt-1/PIGF ratio in the assessment of preeclampsia. American Journal of Obstetrics & Gynecology. 2010;202(2):161.e1-161.e11.</p>
+
+      <p>VERLOHREN, S.; HERRAIZ, I.; LAPAIRE, O. et al. New gestational phase-specific cutoff values for the use of the soluble fms-like tyrosine kinase-1/placental growth factor ratio as a diagnostic test for preeclampsia. Hypertension. 2014;63(2):346-52.</p>
+
+      <h1>Aula 5</h1>
+
+      <p>AMERICAN COLLEGE OF OBSTETRICIANS AND GYNECOLOGISTS. Committee Opinion No. 767: Emergent therapy for acute-onset, severe hypertension during pregnancy and the postpartum period. <i>Obstetrics & Gynecology</i>, v. 133, n. 2, p. e174-e180, 2019.</p>
+
+      <p>BAYLISS, H.; BEEVERS, D. G.; CHURCHILL, D. A study of puerperal blood pressure in hypertensive and normotensive pregnancies. <i>Hypertension in Pregnancy</i>, v. 21, supl. 1, p. 33, 2002.</p>
+
+      <p>BELFORT, M.; ALLRED, J.; DILDY, G. Magnesium sulfate decreases cerebral perfusion pressure in preeclampsia. <i>Hypertension in Pregnancy</i>, v. 27, n. 4, p. 315-327, 2008.</p>
+
+      <p>BELFORT, M. A.; VARNER, M. W.; DIZON-TOWNSON, D. S. <i>et al</i>. Cerebral perfusion pressure, and not cerebral blood flow, may be the critical determinant of intracranial injury in preeclampsia: a new hypothesis. <i>American Journal of Obstetrics and Gynecology</i>, v. 187, n. 3, p. 626-634, 2002.</p>
+
+      <p>BROWN, M. A.; MAGEE, L. A.; KENNY, L. C. <i>et al</i>. International Society for the Study of Hypertension in Pregnancy (ISSHP). Hypertensive disorders of pregnancy: ISSHP classification, diagnosis, and management recommendations for international practice. <i>Hypertension</i>, v. 72, p. 24-43, 2018.</p>
+
+      <p>BUCHBINDER, A.; SIBAI, B. M.; CARITIS, S. <i>et al</i>. Adverse perinatal outcomes are significantly higher in severe gestational hypertension than in mild preeclampsia. <i>American Journal of Obstetrics and Gynecology</i>, v. 186, p. 66-71, 2002.</p>
+
+      <p>DULEY, L.; MEHER, S.; JONES, L. Drugs for treatment of very high blood pressure during pregnancy. <i>Cochrane Database of Systematic Reviews</i>, n. 7, CD001449, 2013.</p>
+
+      <p>ECLAMPSIA TRIAL COLLABORATIVE GROUP. Which anticonvulsant for women with eclampsia? Evidence from the collaborative eclampsia trial. <i>Lancet</i>, v. 345, p. 1455-1463, 1995.</p>
+
+      <p>HAUTH, J. C.; EWELL, M. G.; LEVINE, R. J. <i>et al</i>. Pregnancy outcomes in healthy nulliparas who developed hypertension. Calcium for Preeclampsia Prevention Study Group. <i>Obstetrics & Gynecology</i>, v. 95, p. 24-28, 2000.</p>
+
+      <p>HURWITZ, A. S.; BRICE, J. H.; OVERBY, B. A.; EVENSON, K. R. Directed use of the Cincinnati prehospital stroke scale by laypersons. <i>Prehospital Emergency Care</i>, v. 9, p. 292-296, 2005.</p>
+
+      <p>KORKES HA, Ramos JGL, de Oliveira LG, Sass N, Peraçoli JC, Cavalli RC, Martins-Costa SH, de Sousa FLP, Cunha Filho EV, Mesquita MRS, Corrêa Jr MD, Araujo ACPF, Zaconeta ACM, Freire CHE, Rocha Filho EAP, Costa ML. Pré-eclâmpsia – Protocolo 2025. Rede Brasileira de Estudos sobre Hipertensão na Gravidez (RBEHG), 2025.</p>
+
+      <p>KOTHARI, R. U.; PANCHIOLI, A.; LIU, T.; BROTT, T.; BRODERICK, J. Cincinnati prehospital stroke scale: reproducibility and validity. <i>Annals of Emergency Medicine</i>, v. 33, p. 373-378, 1999.</p>
+
+      <p>LEWIS, G. (ed.). <i>Saving mothers’ lives: reviewing maternal deaths to make motherhood safer – 2003–2005</i>. London: Confidential Enquiry into Maternal and Child Health, 2007.</p>
+
+      <p>LIAO, A. W. <i>et al</i>. Doença hipertensiva específica da gestação. In: ZUGAIB, M. <i>Zugaib obstetrícia</i>. 3. ed. Barueri: Manole, 2016. cap. 34.</p>
+
+      <p>MAGEE, L. A.; VON DADELSZEN, P.; SINGER, J. <i>et al</i>. The CHIPS randomized controlled trial (Control of Hypertension in Pregnancy Study): is severe hypertension just an elevated blood pressure? <i>Hypertension</i>, v. 68, p. 1153-1159, 2016.</p>
+
+      <p>MARTIN, J. N.; THIGPEN, B. D.; MOORE, R. C. <i>et al</i>. Stroke and severe preeclampsia and eclampsia: a paradigm shift focusing on systolic blood pressure. <i>Obstetrics & Gynecology</i>, v. 105, p. 246-254, 2005.</p>
+
+      <p>MYERS, M. C.; BRANDT, D. S.; PRUNTY, A. <i>et al</i>. Effect of positioning on blood pressure measurement in pregnancy. <i>Pregnancy Hypertension</i>, v. 27, p. 110-114, 2022.</p>
+
+      <p>NARUSE, K.; SHIGEMI, D.; HASHIGUCHI, M. <i>et al</i>. Placental abruption in each hypertensive disorders of pregnancy phenotype: a retrospective cohort study using a national inpatient database in Japan. <i>Hypertension Research</i>, v. 44, n. 2, p. 232-238, 2021.</p>
+
+      <p>NATIONAL INSTITUTE FOR HEALTH AND CARE EXCELLENCE. <i>Hypertension in pregnancy: diagnosis and management: NICE guideline</i> [NG133]. London: NICE, 2019.</p>
+
+      <p>NOBRE, F. VI Diretrizes Brasileiras de Hipertensão. <i>Arquivos Brasileiros de Cardiologia</i>, v. 95, p. 1-51, 2010.</p>
+
+      <p>OHNO, Y. Prevention and treatment of stroke and eclampsia. In: SAITO, S. <i>Preeclampsia: basic, genomic, and clinical</i>. Singapore: Springer, 2018. p. 253-270.</p>
+
+      <p>RAMOS, J. G. L.; SASS, N.; MARTINS COSTA, S. H. Preeclampsia. <i>Revista Brasileira de Ginecologia e Obstetrícia</i>, v. 39, p. 496-512, 2017.</p>
+
+      <p>SASS, N.; ITAMOTO, C. H.; SILVA, M. P.; TORLONI, M. R.; ATALLAH, A. N. Does sodium nitroprusside kill babies? A systematic review. <i>São Paulo Medical Journal</i>, v. 125, n. 2, p. 108-111, 2007.</p>
+
+      <p>SASS, N.; NAGAHAMA, G.; KORKES, H. A. Placental abruption in each phenotype of hypertensive disorders of pregnancy: a retrospective cohort study using a national inpatient database in Japan. <i>Hypertension Research</i>, v. 44, n. 2, p. 250-252, 2021.</p>
+
+      <p>SOCIEDADE BRASILEIRA DE CARDIOLOGIA. 7ª Diretriz Brasileira de Hipertensão Arterial. <i>Arquivos Brasileiros de Cardiologia</i>, v. 107, n. 3, supl. 3, p. 1-83, 2016.</p>
+
+      <p>SOUZA, A. S.; AMORIM, M. M.; COUTINHO, I. C. <i>et al</i>. Effect of the loading dose of magnesium sulfate (MgSO₄) on the parameters of Doppler flow velocity in the uterine, umbilical and middle cerebral arteries in severe preeclampsia. <i>Hypertension in Pregnancy</i>, v. 29, n. 2, p. 123-134, 2010.</p>
+
+      <p>STRANDGAARD, S. Autoregulation of cerebral circulation in hypertension. <i>Acta Neurologica Scandinavica Supplementum</i>, v. 66, p. 1-82, 1978.</p>
+
+      <p>WALTERS, B. N. J.; THOMPSON, M. E.; LEE, A.; DE SWIET, M. Blood pressure in the puerperium. <i>Clinical Science</i>, v. 71, p. 589-594, 1986.</p>
+
+      <p>WILES, K.; DAMODARAM, M.; FRISE, C. Severe hypertension in pregnancy. <i>Clinical Medicine</i>, v. 21, n. 5, p. e451-e456, 2021. DOI: 10.7861/clinmed.2021-0508</p>
       `,
     ],
   },
